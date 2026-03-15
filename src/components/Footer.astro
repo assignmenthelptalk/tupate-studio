@@ -1,0 +1,157 @@
+---
+import { SITE } from '../config';
+
+const year = new Date().getFullYear();
+---
+
+<footer style="background: var(--dark2);">
+  <div class="container footer-inner section-sm">
+    <div class="footer-brand">
+      <a href="/" class="footer-logo">{SITE.name}</a>
+      <p class="footer-tagline">{SITE.tagline}</p>
+      <div class="footer-social">
+        {SITE.social.instagram && (
+          <a href={SITE.social.instagram} target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        )}
+        {SITE.social.linkedin && (
+          <a href={SITE.social.linkedin} target="_blank" rel="noopener" aria-label="LinkedIn">LI</a>
+        )}
+        {SITE.social.twitter && (
+          <a href={SITE.social.twitter} target="_blank" rel="noopener" aria-label="Twitter/X">X</a>
+        )}
+      </div>
+    </div>
+
+    <nav class="footer-nav">
+      <p class="footer-nav-title">Services</p>
+      {SITE.services.map((s) => (
+        <a href="#services">{s.title}</a>
+      ))}
+    </nav>
+
+    <nav class="footer-nav">
+      <p class="footer-nav-title">Company</p>
+      <a href="#contact">Contact</a>
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+      <a href={`tel:${SITE.phone}`}>{SITE.phone}</a>
+    </nav>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© {year} Tupate Limited. All rights reserved.</p>
+      <p>
+        <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        &nbsp;·&nbsp;
+        {SITE.address}
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  .footer-logo {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white);
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .footer-tagline {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.6;
+    max-width: 260px;
+    margin-bottom: 20px;
+  }
+
+  .footer-social {
+    display: flex;
+    gap: 12px;
+  }
+
+  .footer-social a {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 0.05em;
+    transition: color var(--transition);
+  }
+
+  .footer-social a:hover {
+    color: var(--accent);
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-nav-title {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 4px;
+  }
+
+  .footer-nav a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    transition: color var(--transition);
+  }
+
+  .footer-nav a:hover {
+    color: var(--white);
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 20px 0;
+  }
+
+  .footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .footer-bottom p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .footer-bottom a {
+    color: rgba(255, 255, 255, 0.35);
+    transition: color var(--transition);
+  }
+
+  .footer-bottom a:hover {
+    color: var(--white);
+  }
+
+  @media (max-width: 768px) {
+    .footer-inner {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+
+    .footer-bottom .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>

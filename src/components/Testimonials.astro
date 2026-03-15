@@ -1,0 +1,89 @@
+---
+import { SITE } from '../config';
+---
+
+<section class="section" id="testimonials" style="background: var(--light);">
+  <div class="container">
+    <p class="section-label">Client stories</p>
+    <h2 class="section-title">Kenyan businesses, real results</h2>
+
+    <div class="testimonials-grid">
+      {SITE.testimonials.map((t) => (
+        <div class="testimonial-card">
+          <p class="quote">"{t.quote}"</p>
+          <div class="author">
+            <div class="avatar">{t.name.charAt(0)}</div>
+            <div class="author-info">
+              <p class="author-name">{t.name}</p>
+              <p class="author-role">{t.role}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 48px;
+  }
+
+  .testimonial-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .quote {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--mid);
+    flex: 1;
+  }
+
+  .author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--white);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .author-name {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--dark);
+  }
+
+  .author-role {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  @media (max-width: 768px) {
+    .testimonials-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd.exe /c \"cd /d C:\\\\Users\\\\jobmu\\\\myproject\\\\tupate.studio && npm install 2>&1\")"
+    ]
+  }
+}
