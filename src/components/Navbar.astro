@@ -92,9 +92,14 @@ import { SITE } from '../config';
     font-family: var(--font-display);
     font-size: 20px;
     font-weight: 700;
-    color: var(--white);
+    color: var(--dark);
     letter-spacing: -0.02em;
     flex-shrink: 0;
+    transition: color var(--transition);
+  }
+
+  .navbar.scrolled .logo {
+    color: var(--white);
   }
 
   .nav-links {
@@ -107,11 +112,19 @@ import { SITE } from '../config';
   .nav-links a {
     font-size: 14px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(0, 0, 0, 0.6);
     transition: color var(--transition);
   }
 
   .nav-links a:hover {
+    color: var(--dark);
+  }
+
+  .navbar.scrolled .nav-links a {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .navbar.scrolled .nav-links a:hover {
     color: var(--white);
   }
 
@@ -147,8 +160,12 @@ import { SITE } from '../config';
     display: block;
     width: 22px;
     height: 2px;
+    background: var(--dark);
+    transition: transform var(--transition), opacity var(--transition), background var(--transition);
+  }
+
+  .navbar.scrolled .mobile-toggle span {
     background: var(--white);
-    transition: transform var(--transition), opacity var(--transition);
   }
 
   .mobile-toggle.open span:nth-child(1) {

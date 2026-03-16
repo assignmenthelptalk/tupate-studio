@@ -19,6 +19,8 @@ export const SITE = {
       title: "SEO",
       description: "Local SEO that gets your business found by customers searching in Kenya.",
       price: "Ksh 8,000 / mo",
+      feature: "Google Maps Ranking included",
+      featureSub: "Show up when customers nearby search on Google — not your competitor.",
     },
     {
       icon: "📣",

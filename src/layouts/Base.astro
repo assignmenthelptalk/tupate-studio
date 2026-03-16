@@ -54,14 +54,15 @@ const {
 
 <style is:global>
   :root {
-    --accent:       #E8521A;
-    --accent-dark:  #C4401A;
-    --dark:         #0F0E0D;
-    --dark2:        #1C1A18;
-    --mid:          #3A3733;
-    --muted:        #8A8680;
-    --light:        #F5F3F0;
-    --white:        #FFFFFF;
+    --accent:       #e8590c;
+    --accent-dark:  #c44a0a;
+    --dark:         #111111;
+    --dark2:        #1a1a1a;
+    --mid:          #111111;
+    --muted:        #666666;
+    --light:        #f7f7f5;
+    --white:        #ffffff;
+    --border:       #e5e5e5;
     --font-display: 'Syne', sans-serif;
     --font-body:    'DM Sans', sans-serif;
     --radius:       4px;
@@ -139,12 +140,12 @@ const {
 
   .btn-outline {
     background: transparent;
-    color: var(--white);
-    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    color: var(--dark);
+    border: 1.5px solid var(--border);
   }
 
   .btn-outline:hover {
-    border-color: var(--white);
+    border-color: var(--dark);
   }
 
   /* Typography helpers */

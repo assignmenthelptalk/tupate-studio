@@ -68,14 +68,15 @@ import { SITE } from '../config';
   .portfolio-card {
     border-radius: var(--radius-lg);
     overflow: hidden;
-    border: 1.5px solid var(--light);
+    border: 1px solid var(--border);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 4px 16px rgba(0,0,0,0.05);
     transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   }
 
   .portfolio-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.04), 0 20px 48px rgba(0,0,0,0.10);
-    border-color: rgba(232, 82, 26, 0.2);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.06), 0 20px 48px rgba(0,0,0,0.12);
+    border-color: rgba(232, 89, 12, 0.35);
   }
 
   /* ── Placeholder screenshot ── */
