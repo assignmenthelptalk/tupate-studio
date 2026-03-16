@@ -23,6 +23,8 @@ import { SITE } from '../config';
         not someone else.
       </p>
 
+      <p class="hero-trust">No templates. No AI garbage. Just hand-coded sites that bring in real visitors.</p>
+
       <div class="hero-buttons">
         <a
           href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(SITE.ctaWhatsappMessage)}`}
@@ -35,7 +37,6 @@ import { SITE } from '../config';
         <a href="#services" class="btn btn-secondary">See our services</a>
       </div>
 
-      <p class="hero-trust">No templates. No AI garbage. Just hand-coded sites that rank.</p>
 
     </div>
 
@@ -161,10 +162,10 @@ import { SITE } from '../config';
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
-    margin-top: 36px;
+    margin-top: 28px;
     opacity: 0;
     transform: translateY(12px);
-    animation: fadeUp 0.55s ease forwards 0.44s;
+    animation: fadeUp 0.55s ease forwards 0.56s;
   }
 
   .btn {
@@ -210,13 +211,14 @@ import { SITE } from '../config';
   /* Trust line */
   .hero-trust {
     font-family: 'Caveat', cursive;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     color: #888888;
-    margin-top: 16px;
+    margin-top: 24px;
+    margin-bottom: 0;
     opacity: 0;
     transform: translateY(8px);
-    animation: fadeUp 0.5s ease forwards 0.56s;
+    animation: fadeUp 0.5s ease forwards 0.44s;
   }
 
   .hero-trust::before {
@@ -411,7 +413,7 @@ import { SITE } from '../config';
     }
 
     .hero-trust {
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 
