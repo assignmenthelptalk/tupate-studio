@@ -43,7 +43,7 @@ const {
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=IBM+Plex+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -63,8 +63,8 @@ const {
     --light:        #f7f7f5;
     --white:        #ffffff;
     --border:       #e5e5e5;
-    --font-display: 'Syne', sans-serif;
-    --font-body:    'DM Sans', sans-serif;
+    --font-display: 'IBM Plex Sans', Arial, sans-serif;
+    --font-body:    'IBM Plex Sans', Arial, sans-serif;
     --radius:       4px;
     --radius-lg:    10px;
     --transition:   0.2s ease;
@@ -82,10 +82,30 @@ const {
 
   body {
     font-family: var(--font-body);
-    color: var(--mid);
+    color: var(--muted);
     background: var(--white);
-    line-height: 1.6;
+    font-weight: 400;
+    line-height: 1.7;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3,
+  .section-title, .hero-title, .service-name,
+  .step-title, .t-heading, .services-heading,
+  .portfolio-name, .faq-q {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: #111111;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    text-rendering: optimizeLegibility;
+    font-synthesis-weight: none;
+  }
+
+  h3, .service-name, .step-title, .portfolio-name {
+    font-weight: 700;
   }
 
   img {
@@ -162,10 +182,11 @@ const {
 
   .section-title {
     font-family: var(--font-display);
-    font-size: clamp(28px, 4vw, 40px);
-    font-weight: 700;
-    color: var(--dark);
-    line-height: 1.15;
+    font-size: clamp(28px, 4vw, 48px);
+    font-weight: 800;
+    color: #111111;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
     margin-bottom: 16px;
   }
 

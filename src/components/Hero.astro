@@ -7,30 +7,30 @@ import { SITE } from '../config';
 
     <!-- LEFT -->
     <div class="hero-left">
-      <p class="eyebrow">Nairobi Web Design Agency</p>
+
+      <div class="hero-badge">KENYAN-OWNED &nbsp;·&nbsp; Serving businesses across Kenya &nbsp;→</div>
 
       <h1 class="hero-title">
-        Web design &amp; digital marketing for <mark class="highlight">Kenyan</mark> businesses
+        Your competitors are on Google.<br>
+        We'll make sure you outrank them.
       </h1>
 
       <p class="hero-sub">
-        We build fast, hand-coded websites and run digital marketing for Kenyan
-        SMEs. No templates. No page builders. Just clean code that ranks and converts.
+        Your customers are searching right now.
+        Make sure they find you, not someone else.
       </p>
 
-      <div class="hero-actions">
-        <a
-          href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(SITE.ctaWhatsappMessage)}`}
-          class="btn btn-primary"
-          target="_blank"
-          rel="noopener"
-        >
-          {SITE.ctaText} →
-        </a>
-        <a href="#services" class="btn btn-outline">See our services</a>
-      </div>
+      <a
+        href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(SITE.ctaWhatsappMessage)}`}
+        class="hero-cta"
+        target="_blank"
+        rel="noopener"
+      >
+        Get a free quote →
+      </a>
 
-      <p class="hero-note">From Ksh 25,000 &nbsp;·&nbsp; Delivered in 2 weeks &nbsp;·&nbsp; No monthly surprises</p>
+      <p class="hero-trust">← No templates. No AI garbage. Just hand-coded sites that rank.</p>
+
     </div>
 
     <!-- RIGHT -->
@@ -71,70 +71,64 @@ import { SITE } from '../config';
   }
 
   /* ── LEFT ── */
-  .eyebrow {
-    font-family: var(--font-body);
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    background: #111111;
+    color: #ffffff;
+    border-radius: 999px;
     font-size: 12px;
     font-weight: 600;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin-bottom: 20px;
+    padding: 6px 16px;
+    margin-bottom: 24px;
+    letter-spacing: 0.02em;
   }
 
   .hero-title {
     font-family: var(--font-display);
-    font-size: clamp(36px, 4.5vw, 56px);
+    font-size: clamp(40px, 6vw, 64px);
     font-weight: 800;
     color: #111111;
     line-height: 1.05;
-    letter-spacing: -0.025em;
-    margin-bottom: 24px;
-  }
-
-  .highlight {
-    background: none;
-    color: inherit;
-    position: relative;
-    white-space: nowrap;
-  }
-
-  .highlight::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    width: 100%;
-    height: 3px;
-    background: var(--accent);
-    border-radius: 2px;
-    transform-origin: left center;
-    transform: scaleX(0);
-    animation: underline-in 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.5s forwards;
-  }
-
-  @keyframes underline-in {
-    to { transform: scaleX(1); }
+    letter-spacing: -0.02em;
   }
 
   .hero-sub {
     font-size: 18px;
     color: #666666;
-    line-height: 1.7;
-    max-width: 480px;
-    margin-bottom: 40px;
+    line-height: 1.6;
+    max-width: 460px;
+    margin-top: 20px;
   }
 
-  .hero-actions {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin-bottom: 28px;
+  .hero-cta {
+    display: inline-flex;
+    align-items: center;
+    background: #e8590c;
+    color: #ffffff;
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 6px;
+    margin-top: 32px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
   }
 
-  .hero-note {
-    font-size: 13px;
+  .hero-cta:hover {
+    background: #cf4e0a;
+    transform: translateY(-2px);
+  }
+
+  .hero-trust {
+    font-family: 'Caveat', cursive;
+    font-size: 16px;
+    font-weight: 600;
     color: #888888;
-    letter-spacing: 0.01em;
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 12px;
   }
 
   /* ── RIGHT ── */
@@ -214,12 +208,17 @@ import { SITE } from '../config';
     }
 
     .hero-title {
-      font-size: 36px;
+      font-size: clamp(32px, 9vw, 40px);
     }
 
     .hero-sub {
       font-size: 16px;
       max-width: 100%;
+    }
+
+    .hero-cta {
+      font-size: 15px;
+      padding: 14px 28px;
     }
 
     .hero-right {
@@ -240,9 +239,9 @@ import { SITE } from '../config';
       left: 16px;
     }
 
-    .hero-note {
-      font-size: 12px;
-      line-height: 1.8;
+    .hero-trust {
+      font-size: 15px;
+      margin-left: 4px;
     }
   }
 </style>
