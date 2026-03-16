@@ -2,7 +2,7 @@
 import { SITE } from '../config';
 ---
 
-<section class="stats-section section" style="background: var(--dark);">
+<section class="stats-section" id="stats">
   <div class="container">
     <div class="stats-grid">
       {SITE.stats.map((stat) => (
@@ -12,8 +12,10 @@ import { SITE } from '../config';
         </div>
       ))}
     </div>
+  </div>
 
-    <div class="brands-row">
+  <div class="brands-bar">
+    <div class="container brands-inner">
       <p class="brands-label">Industries we serve</p>
       <div class="brands-pills">
         {SITE.brands.map((brand) => (
@@ -25,44 +27,58 @@ import { SITE } from '../config';
 </section>
 
 <style>
+  .stats-section {
+    background: #111111;
+    padding: 56px 0 0;
+  }
+
+  /* ── Stats row ── */
   .stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 40px;
-    margin-bottom: 64px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
   }
 
   .stat-item {
     text-align: center;
+    padding: 0 24px 56px;
+    border-right: 1px solid #2a2a2a;
+  }
+
+  .stat-item:last-child {
+    border-right: none;
   }
 
   .stat-value {
     font-family: var(--font-display);
-    font-size: clamp(36px, 5vw, 52px);
+    font-size: 52px;
     font-weight: 800;
-    color: var(--white);
+    color: #ffffff;
     letter-spacing: -0.02em;
     line-height: 1;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
   .stat-label {
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.45);
+    font-weight: 500;
+    color: #888888;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
   }
 
-  @media (max-width: 600px) {
-    .stats-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 32px 24px;
-    }
+  /* ── Brands bar ── */
+  .brands-bar {
+    border-top: 1px solid #2a2a2a;
+    padding: 28px 0;
   }
 
-  .brands-row {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    padding-top: 40px;
+  .brands-inner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
   }
 
   .brands-label {
@@ -70,24 +86,51 @@ import { SITE } from '../config';
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: rgba(255, 255, 255, 0.3);
-    margin-bottom: 16px;
+    color: #444444;
+    flex-shrink: 0;
   }
 
   .brands-pills {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
   }
 
   .brand-pill {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #2a2a2a;
+    color: #666666;
     border-radius: 999px;
-    padding: 6px 16px;
-    font-size: 13px;
+    padding: 5px 14px;
+    font-size: 12px;
     font-weight: 500;
+  }
+
+  /* ── Mobile: 2×2 grid ── */
+  @media (max-width: 600px) {
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat-item {
+      padding: 0 16px 40px;
+      border-right: none;
+    }
+
+    /* right border on left-column items only */
+    .stat-item:nth-child(odd) {
+      border-right: 1px solid #2a2a2a;
+    }
+
+    .stat-value {
+      font-size: 40px;
+    }
+
+    .brands-inner {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
   }
 </style>
 
@@ -130,7 +173,7 @@ import { SITE } from '../config';
           observer.disconnect();
         }
       },
-      { threshold: 0.35 }
+      { threshold: 0.3 }
     );
     observer.observe(section);
   }
