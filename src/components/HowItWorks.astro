@@ -1,0 +1,118 @@
+---
+---
+
+<section class="section hiw" id="how-it-works">
+  <div class="container">
+    <p class="section-label" style="color: rgba(255,255,255,0.4);">The process</p>
+    <h2 class="section-title" style="color: var(--white);">From first call to live site</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-icon">📞</div>
+        <div class="step-num">01</div>
+        <h3 class="step-title">Brief call</h3>
+        <p class="step-desc">30 minutes. We learn your business, goals, and deadline — then send a fixed quote the same day. No vague estimates.</p>
+      </div>
+
+      <div class="step-divider" aria-hidden="true">→</div>
+
+      <div class="step">
+        <div class="step-icon">⚙️</div>
+        <div class="step-num">02</div>
+        <h3 class="step-title">We build</h3>
+        <p class="step-desc">Hand-coded, no page builders. You get a staging link within a week and one round of revisions before we finalise.</p>
+      </div>
+
+      <div class="step-divider" aria-hidden="true">→</div>
+
+      <div class="step">
+        <div class="step-icon">🚀</div>
+        <div class="step-num">03</div>
+        <h3 class="step-title">You go live</h3>
+        <p class="step-desc">We handle hosting, DNS, and launch. Your site is fast, indexed on Google Kenya, and ready to convert visitors from day one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hiw {
+    background: var(--dark);
+  }
+
+  .hiw .section-title {
+    color: var(--white);
+    margin-bottom: 56px;
+  }
+
+  .steps {
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .step {
+    flex: 1;
+    padding: 0 32px;
+  }
+
+  .step:first-child {
+    padding-left: 0;
+  }
+
+  .step:last-child {
+    padding-right: 0;
+  }
+
+  .step-icon {
+    font-size: 32px;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .step-num {
+    font-family: var(--font-display);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+
+  .step-title {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 12px;
+  }
+
+  .step-desc {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.7;
+  }
+
+  .step-divider {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.15);
+    padding-top: 28px;
+    flex-shrink: 0;
+    align-self: flex-start;
+  }
+
+  @media (max-width: 768px) {
+    .steps {
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .step {
+      padding: 0;
+    }
+
+    .step-divider {
+      display: none;
+    }
+  }
+</style>

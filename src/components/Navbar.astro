@@ -2,6 +2,7 @@
 import { SITE } from '../config';
 ---
 
+<div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
 <header class="navbar" id="navbar">
   <div class="container navbar-inner">
     <a href="/" class="logo">{SITE.name}</a>
@@ -31,28 +32,37 @@ import { SITE } from '../config';
 </header>
 
 <script>
-  const navbar = document.getElementById('navbar');
-  const toggle = document.getElementById('mobile-toggle');
+  const navbar  = document.getElementById('navbar');
+  const toggle  = document.getElementById('mobile-toggle');
   const navLinks = document.getElementById('nav-links');
+  const overlay = document.getElementById('nav-overlay');
+
+  function openMenu() {
+    navLinks?.classList.add('open');
+    toggle?.classList.add('open');
+    overlay?.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    navLinks?.classList.remove('open');
+    toggle?.classList.remove('open');
+    overlay?.classList.remove('open');
+    document.body.style.overflow = '';
+  }
 
   window.addEventListener('scroll', () => {
-    if (window.scrollY > 40) {
-      navbar?.classList.add('scrolled');
-    } else {
-      navbar?.classList.remove('scrolled');
-    }
+    navbar?.classList.toggle('scrolled', window.scrollY > 40);
   });
 
   toggle?.addEventListener('click', () => {
-    navLinks?.classList.toggle('open');
-    toggle.classList.toggle('open');
+    navLinks?.classList.contains('open') ? closeMenu() : openMenu();
   });
 
+  overlay?.addEventListener('click', closeMenu);
+
   navLinks?.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      navLinks.classList.remove('open');
-      toggle?.classList.remove('open');
-    });
+    link.addEventListener('click', closeMenu);
   });
 </script>
 
@@ -122,6 +132,17 @@ import { SITE } from '../config';
     margin-left: auto;
   }
 
+  .nav-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 98;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
   .mobile-toggle span {
     display: block;
     width: 22px;
@@ -143,36 +164,60 @@ import { SITE } from '../config';
   }
 
   @media (max-width: 768px) {
+    .navbar-inner {
+      gap: 16px;
+    }
+
     .mobile-toggle {
       display: flex;
+      margin-left: auto;
+      order: 3;
     }
 
     .nav-cta {
-      display: none;
+      order: 2;
+      font-size: 13px;
+      padding: 9px 16px;
+      flex-shrink: 0;
     }
 
     .nav-links {
-      display: none;
-      position: absolute;
-      top: 72px;
-      left: 0;
+      position: fixed;
+      top: 0;
       right: 0;
+      bottom: 0;
+      width: min(280px, 80vw);
       flex-direction: column;
       align-items: flex-start;
       gap: 0;
-      background: var(--dark);
-      padding: 16px 0;
+      background: var(--dark2);
+      padding: 88px 0 32px;
       margin: 0;
+      transform: translateX(100%);
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: -8px 0 32px rgba(0, 0, 0, 0.4);
+      z-index: 99;
     }
 
     .nav-links.open {
       display: flex;
+      transform: translateX(0);
     }
 
     .nav-links a {
       width: 100%;
-      padding: 14px 24px;
-      font-size: 16px;
+      padding: 16px 28px;
+      font-size: 17px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .nav-overlay {
+      display: block;
+    }
+
+    .nav-overlay.open {
+      opacity: 1;
+      pointer-events: auto;
     }
   }
 </style>

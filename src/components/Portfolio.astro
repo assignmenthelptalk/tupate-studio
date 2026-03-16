@@ -1,0 +1,215 @@
+---
+import { SITE } from '../config';
+---
+
+<section class="section" id="work">
+  <div class="container">
+    <p class="section-label">Our work</p>
+    <h2 class="section-title">Recent projects</h2>
+    <p class="section-sub">A sample of sites we've built for Kenyan businesses.</p>
+
+    <div class="portfolio-grid">
+      {SITE.portfolio.map((project) => (
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <div class="thumb-inner">
+              <div class="mock-browser">
+                <div class="mock-bar">
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                  <span class="mock-dot"></span>
+                </div>
+                <div class="mock-screen">
+                  <div class="mock-hero-block"></div>
+                  <div class="mock-lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="mock-grid">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-body">
+            <div class="portfolio-meta">
+              <span class="industry-tag">{project.industry}</span>
+            </div>
+            <h3 class="portfolio-name">{project.name}</h3>
+            <a
+              href={project.url}
+              class="btn-view"
+              target="_blank"
+              rel="noopener"
+              aria-label={`View ${project.name}`}
+            >
+              View site →
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    margin-top: 48px;
+  }
+
+  .portfolio-card {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1.5px solid var(--light);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+
+  .portfolio-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.04), 0 20px 48px rgba(0,0,0,0.10);
+    border-color: rgba(232, 82, 26, 0.2);
+  }
+
+  /* ── Placeholder screenshot ── */
+  .portfolio-thumb {
+    background: var(--dark2);
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    padding: 20px 20px 0;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .thumb-inner {
+    width: 100%;
+  }
+
+  .mock-browser {
+    background: var(--dark);
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .mock-bar {
+    background: rgba(255,255,255,0.04);
+    padding: 8px 12px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .mock-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.12);
+    display: block;
+  }
+
+  .mock-screen {
+    padding: 14px 12px 0;
+  }
+
+  .mock-hero-block {
+    height: 36px;
+    background: rgba(232, 82, 26, 0.18);
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+  .mock-lines {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 12px;
+  }
+
+  .mock-lines span {
+    display: block;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.08);
+  }
+
+  .mock-lines span:nth-child(2) { width: 75%; }
+  .mock-lines span:nth-child(3) { width: 50%; }
+
+  .mock-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+  .mock-grid span {
+    display: block;
+    height: 28px;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.06);
+  }
+
+  /* ── Card body ── */
+  .portfolio-body {
+    padding: 20px 24px 24px;
+    background: var(--white);
+  }
+
+  .portfolio-meta {
+    margin-bottom: 8px;
+  }
+
+  .industry-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: rgba(232, 82, 26, 0.08);
+    padding: 3px 10px;
+    border-radius: 999px;
+  }
+
+  .portfolio-name {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 14px;
+  }
+
+  .btn-view {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--dark);
+    border: 1.5px solid rgba(0,0,0,0.15);
+    padding: 7px 16px;
+    border-radius: var(--radius);
+    transition: border-color 0.2s ease, color 0.2s ease;
+  }
+
+  .btn-view:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  @media (max-width: 768px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .portfolio-thumb {
+      padding: 14px 14px 0;
+    }
+  }
+</style>

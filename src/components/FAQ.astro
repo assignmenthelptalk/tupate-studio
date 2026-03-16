@@ -1,0 +1,95 @@
+---
+const faqs = [
+  {
+    q: "How long does a website take?",
+    a: "Two weeks from brief to launch for a standard site. Larger projects with custom features are scoped individually — we'll tell you upfront, not halfway through.",
+  },
+  {
+    q: "Do I own my website?",
+    a: "Completely. You get the source code, the domain, and the hosting credentials. If you ever leave, you take everything with you. No lock-in.",
+  },
+  {
+    q: "What if I need changes after launch?",
+    a: "Our maintenance plan covers ongoing edits, security updates, and performance monitoring for a flat monthly fee. One-off changes are also available — just ask.",
+  },
+  {
+    q: "Do you work with businesses outside Nairobi?",
+    a: "Yes. We work with Kenyan businesses anywhere in the country. Everything runs over WhatsApp and email, so location has never been a blocker.",
+  },
+];
+---
+
+<section class="section faq" id="faq">
+  <div class="container faq-inner">
+    <p class="section-label">FAQ</p>
+    <h2 class="section-title">Common questions</h2>
+
+    <div class="faq-list">
+      {faqs.map((item, i) => (
+        <details class="faq-item" name="faq">
+          <summary class="faq-q">
+            <span>{item.q}</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <p class="faq-a">{item.a}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .faq-inner {
+    max-width: 720px;
+  }
+
+  .faq-list {
+    margin-top: 48px;
+    border-top: 1px solid var(--light);
+  }
+
+  .faq-item {
+    border-bottom: 1px solid var(--light);
+  }
+
+  .faq-item[open] .faq-icon::before { content: '−'; }
+  .faq-icon::before { content: '+'; }
+
+  .faq-q {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 22px 0;
+    cursor: pointer;
+    list-style: none;
+    font-family: var(--font-display);
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--dark);
+    user-select: none;
+  }
+
+  .faq-q::-webkit-details-marker { display: none; }
+
+  .faq-icon {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--accent);
+    flex-shrink: 0;
+    line-height: 1;
+    transition: transform 0.2s ease;
+  }
+
+  .faq-item[open] .faq-icon {
+    transform: rotate(180deg);
+  }
+
+  .faq-a {
+    font-size: 15px;
+    color: var(--muted);
+    line-height: 1.7;
+    padding-bottom: 22px;
+    max-width: 620px;
+  }
+</style>

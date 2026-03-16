@@ -45,6 +45,27 @@ export const SITE = {
     "Industrial", "Medical", "Legal", "Real Estate", "Hospitality", "Education",
   ],
 
+  portfolio: [
+    {
+      name: "Gosstech Engineering",
+      industry: "Industrial",
+      url: "#",
+      placeholder: true,
+    },
+    {
+      name: "Vida Family Clinic",
+      industry: "Medical",
+      url: "#",
+      placeholder: true,
+    },
+    {
+      name: "Kamau & Associates",
+      industry: "Legal",
+      url: "#",
+      placeholder: true,
+    },
+  ],
+
   testimonials: [
     {
       quote: "Tupate delivered our website in 10 days. It looks professional, loads fast, and we already rank on Google for our main keywords.",

@@ -7,7 +7,7 @@ import { SITE } from '../config';
     <div class="stats-grid">
       {SITE.stats.map((stat) => (
         <div class="stat-item">
-          <p class="stat-value">{stat.value}</p>
+          <p class="stat-value" data-count={stat.value}>{stat.value}</p>
           <p class="stat-label">{stat.label}</p>
         </div>
       ))}
@@ -53,6 +53,13 @@ import { SITE } from '../config';
     letter-spacing: 0.08em;
   }
 
+  @media (max-width: 600px) {
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px 24px;
+    }
+  }
+
   .brands-row {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     padding-top: 40px;
@@ -83,3 +90,48 @@ import { SITE } from '../config';
     font-weight: 500;
   }
 </style>
+
+<script>
+  function parseCount(raw: string): { num: number; suffix: string } | null {
+    const match = raw.match(/^(\d+)(.*)/);
+    if (!match) return null;
+    return { num: parseInt(match[1], 10), suffix: match[2] };
+  }
+
+  function easeOutCubic(t: number): number {
+    return 1 - Math.pow(1 - t, 3);
+  }
+
+  function animateStat(el: HTMLElement): void {
+    const raw = el.dataset.count ?? '';
+    const parsed = parseCount(raw);
+    if (!parsed) return;
+    const { num, suffix } = parsed;
+    const duration = 1600;
+    const startTime = performance.now();
+
+    function tick(now: number): void {
+      const progress = Math.min((now - startTime) / duration, 1);
+      el.textContent = Math.round(easeOutCubic(progress) * num) + suffix;
+      if (progress < 1) requestAnimationFrame(tick);
+    }
+
+    requestAnimationFrame(tick);
+  }
+
+  const statEls = document.querySelectorAll<HTMLElement>('.stat-value[data-count]');
+  const section = document.querySelector('.stats-section');
+
+  if (section && statEls.length) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          statEls.forEach(animateStat);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.35 }
+    );
+    observer.observe(section);
+  }
+</script>
