@@ -44,11 +44,81 @@ import { SITE } from '../config';
     <div class="hero-right">
       <div class="photo-wrap">
 
-        <img
-          src="/businessman-nairobi.png"
-          alt="Nairobi business owner — Tupate Studio web design client"
-          class="hero-photo"
-        />
+        <!-- Carousel -->
+        <div class="hero-carousel" id="heroCarousel" aria-label="Client success stories">
+          <div class="carousel-track">
+
+            <div class="carousel-slide active">
+              <img
+                src="https://placehold.co/600x720/0f172a/ffffff?text=Page+1+on+Google%0A%0AYour+business+found%0Aby+local+customers"
+                alt="Business ranking on page 1 of Google"
+                class="hero-photo"
+              />
+              <div class="slide-caption">
+                <span class="slide-tag">SEO Result</span>
+                <p>Ranked #1 for "plumber Nairobi" in 3 months</p>
+              </div>
+            </div>
+
+            <div class="carousel-slide">
+              <img
+                src="https://placehold.co/600x720/1e3a5f/ffffff?text=+42+New+Leads%0AThis+Month%0A%0AFrom+Google+Search"
+                alt="Business owner receiving 42 new leads from Google"
+                class="hero-photo"
+              />
+              <div class="slide-caption">
+                <span class="slide-tag">Lead Growth</span>
+                <p>42 qualified leads per month — all organic</p>
+              </div>
+            </div>
+
+            <div class="carousel-slide">
+              <img
+                src="https://placehold.co/600x720/14532d/ffffff?text=Google+Maps%0A%0A%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85%0A%22Found+them+online%22"
+                alt="5-star Google Maps listing driving foot traffic"
+                class="hero-photo"
+              />
+              <div class="slide-caption">
+                <span class="slide-tag">Local Search</span>
+                <p>Google Maps #1 — 3x more walk-ins weekly</p>
+              </div>
+            </div>
+
+            <div class="carousel-slide">
+              <img
+                src="https://placehold.co/600x720/3b1f6b/ffffff?text=Website+Traffic%0A%0A%E2%86%91+280%25%0Ain+6+months"
+                alt="Website traffic growing 280% in 6 months"
+                class="hero-photo"
+              />
+              <div class="slide-caption">
+                <span class="slide-tag">Traffic Growth</span>
+                <p>280% more visitors — without spending on ads</p>
+              </div>
+            </div>
+
+            <div class="carousel-slide">
+              <img
+                src="https://placehold.co/600x720/7c1d1d/ffffff?text=Phone+Ringing%0A%0A%22Saw+you+on%0AGoogle%22"
+                alt="Business phone ringing from Google search customers"
+                class="hero-photo"
+              />
+              <div class="slide-caption">
+                <span class="slide-tag">Client Calls</span>
+                <p>15+ inbound calls a week — zero ad spend</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Dot navigation -->
+          <div class="carousel-dots" aria-hidden="true">
+            <button class="dot active" data-index="0"></button>
+            <button class="dot" data-index="1"></button>
+            <button class="dot" data-index="2"></button>
+            <button class="dot" data-index="3"></button>
+            <button class="dot" data-index="4"></button>
+          </div>
+        </div>
 
         <!-- Social proof badge — bottom left -->
         <div class="float-badge-1">
@@ -248,6 +318,92 @@ import { SITE } from '../config';
     display: block;
   }
 
+  /* ── Carousel ── */
+  .hero-carousel {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .carousel-track {
+    position: relative;
+  }
+
+  .carousel-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+    pointer-events: none;
+  }
+
+  .carousel-slide.active {
+    position: relative;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .carousel-slide .hero-photo {
+    border-radius: 0;
+  }
+
+  .slide-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 24px 20px 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, transparent 100%);
+    color: #fff;
+  }
+
+  .slide-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: #e8590c;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+  }
+
+  .slide-caption p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .carousel-dots {
+    position: absolute;
+    bottom: 64px;
+    right: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 10;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.45);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+
+  .dot.active {
+    background: #ffffff;
+    transform: scale(1.4);
+  }
+
   /* Floating badge 1 — bottom left */
   .float-badge-1 {
     position: absolute;
@@ -403,3 +559,32 @@ import { SITE } from '../config';
     }
   }
 </style>
+
+<script>
+  const slides = document.querySelectorAll<HTMLElement>('#heroCarousel .carousel-slide');
+  const dots = document.querySelectorAll<HTMLElement>('#heroCarousel .dot');
+  let current = 0;
+  let timer: ReturnType<typeof setInterval>;
+
+  function goTo(index: number) {
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+    current = index;
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+  }
+
+  function next() {
+    goTo((current + 1) % slides.length);
+  }
+
+  dots.forEach((dot, i) => {
+    dot.addEventListener('click', () => {
+      clearInterval(timer);
+      goTo(i);
+      timer = setInterval(next, 3800);
+    });
+  });
+
+  timer = setInterval(next, 3800);
+</script>
