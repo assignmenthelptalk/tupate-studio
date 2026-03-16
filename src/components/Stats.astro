@@ -28,21 +28,26 @@ import { SITE } from '../config';
 
 <style>
   .stats-section {
-    background: #111111;
-    padding: 56px 0 0;
+    background: #ffffff;
+    padding: 0 0 64px;
   }
 
-  /* ── Stats row ── */
+  /* ── Stats card ── */
   .stats-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 0;
+    background: #ffffff;
+    border: 1px solid #e8ecf4;
+    border-radius: 16px;
+    box-shadow: 0 2px 24px rgba(0,0,0,0.06);
+    overflow: hidden;
   }
 
   .stat-item {
-    text-align: center;
-    padding: 0 24px 56px;
-    border-right: 1px solid #2a2a2a;
+    text-align: left;
+    padding: 36px 40px;
+    border-right: 1px solid #e8ecf4;
   }
 
   .stat-item:last-child {
@@ -51,17 +56,17 @@ import { SITE } from '../config';
 
   .stat-value {
     font-family: var(--font-display);
-    font-size: 52px;
+    font-size: 48px;
     font-weight: 800;
-    color: #ffffff;
+    color: #3d5af1;
     letter-spacing: -0.02em;
     line-height: 1;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .stat-label {
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 600;
     color: #888888;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -70,8 +75,8 @@ import { SITE } from '../config';
 
   /* ── Brands bar ── */
   .brands-bar {
-    border-top: 1px solid #2a2a2a;
-    padding: 28px 0;
+    border-top: 1px solid #ebebeb;
+    padding: 28px 0 0;
   }
 
   .brands-inner {
@@ -86,7 +91,7 @@ import { SITE } from '../config';
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: #444444;
+    color: #aaaaaa;
     flex-shrink: 0;
   }
 
@@ -97,8 +102,8 @@ import { SITE } from '../config';
   }
 
   .brand-pill {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid #2a2a2a;
+    background: #f5f6fa;
+    border: 1px solid #e8ecf4;
     color: #666666;
     border-radius: 999px;
     padding: 5px 14px;
@@ -106,20 +111,20 @@ import { SITE } from '../config';
     font-weight: 500;
   }
 
-  /* ── Mobile: 2×2 grid ── */
+  /* ── Mobile ── */
   @media (max-width: 600px) {
     .stats-grid {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr;
     }
 
     .stat-item {
-      padding: 0 16px 40px;
+      padding: 28px 28px;
       border-right: none;
+      border-bottom: 1px solid #e8ecf4;
     }
 
-    /* right border on left-column items only */
-    .stat-item:nth-child(odd) {
-      border-right: 1px solid #2a2a2a;
+    .stat-item:last-child {
+      border-bottom: none;
     }
 
     .stat-value {

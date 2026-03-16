@@ -35,10 +35,9 @@ export const SITE = {
   ],
 
   stats: [
-    { value: "50+", label: "Websites delivered" },
-    { value: "2 wks", label: "Average delivery time" },
-    { value: "90+", label: "Lighthouse score" },
-    { value: "100%", label: "Kenyan-owned" },
+    { value: "500+", label: "Clients served" },
+    { value: "9yrs", label: "Ranking websites" },
+    { value: "2wks", label: "Average delivery" },
   ],
 
   brands: [
