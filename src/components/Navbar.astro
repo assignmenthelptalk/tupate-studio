@@ -5,7 +5,10 @@ import { SITE } from '../config';
 <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
 <header class="navbar" id="navbar">
   <div class="container navbar-inner">
-    <a href="/" class="logo">{SITE.name}</a>
+    <a href="/" class="logo">
+      <span class="logo-icon" aria-hidden="true">T</span>
+      {SITE.name}
+    </a>
 
     <nav class="nav-links" id="nav-links">
       <a href="#services">Services</a>
@@ -73,52 +76,70 @@ import { SITE } from '../config';
     left: 0;
     right: 0;
     z-index: 100;
-    transition: background 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-    border-bottom: 1px solid transparent;
-  }
-
-  .navbar.scrolled {
     background: #ffffff;
-    border-bottom-color: #e5e5e5;
-    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+    border-bottom: 1px solid #ebebeb;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
   }
 
   .navbar-inner {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 0;
     height: 72px;
   }
 
+  /* Logo */
   .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-family: var(--font-display);
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
-    color: var(--dark);
-    letter-spacing: -0.02em;
+    color: #111111;
+    letter-spacing: -0.01em;
     flex-shrink: 0;
-    transition: color var(--transition);
+    margin-right: 40px;
   }
 
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+    background: #2563eb;
+    color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    flex-shrink: 0;
+  }
+
+  /* Nav links — left-aligned after logo */
   .nav-links {
     display: flex;
     align-items: center;
-    gap: 32px;
-    margin-left: auto;
+    gap: 8px;
   }
 
   .nav-links a {
     font-size: 14px;
     font-weight: 500;
-    color: rgba(0, 0, 0, 0.6);
-    transition: color var(--transition);
+    color: #444444;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: color 0.15s ease, background 0.15s ease;
   }
 
   .nav-links a:hover {
-    color: var(--dark);
+    color: #111111;
+    background: #f4f4f5;
   }
 
+  /* CTA pushed to the far right */
   .nav-cta {
+    margin-left: auto;
     padding: 10px 20px;
     font-size: 14px;
     flex-shrink: 0;
@@ -193,7 +214,7 @@ import { SITE } from '../config';
       flex-direction: column;
       align-items: flex-start;
       gap: 0;
-      background: var(--dark2);
+      background: #ffffff;
       padding: 88px 0 32px;
       margin: 0;
       transform: translateX(100%);
@@ -211,7 +232,9 @@ import { SITE } from '../config';
       width: 100%;
       padding: 16px 28px;
       font-size: 17px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 0;
+      border-bottom: 1px solid #f0f0f0;
+      color: #111111;
     }
 
     .nav-overlay {
