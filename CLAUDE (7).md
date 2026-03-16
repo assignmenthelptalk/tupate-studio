@@ -88,14 +88,15 @@ All design tokens are CSS variables defined in `src/layouts/Base.astro`.
 
 ```css
 :root {
-  --accent:       #E8521A;   /* Tupate orange — primary CTA colour */
-  --accent-dark:  #C4401A;   /* Hover state for accent */
-  --dark:         #0F0E0D;   /* Hero backgrounds, navbar */
-  --dark2:        #1C1A18;   /* Footer, secondary dark surfaces */
-  --mid:          #3A3733;   /* Body text */
-  --muted:        #8A8680;   /* Secondary text, labels */
-  --light:        #F5F3F0;   /* Light section backgrounds */
-  --white:        #FFFFFF;
+  --accent:       #2563eb;   /* Primary blue — CTA buttons, highlights */
+  --accent-dark:  #1d4ed8;   /* Hover state for accent */
+  --dark:         #111111;   /* Dark section backgrounds, headings */
+  --dark2:        #1a1a1a;   /* Footer, secondary dark surfaces */
+  --mid:          #111111;   /* Body text */
+  --muted:        #666666;   /* Secondary text, labels */
+  --light:        #f7f7f5;   /* Light section backgrounds */
+  --white:        #ffffff;
+  --border:       #e5e5e5;   /* Card and divider borders */
   --font-display: 'Syne', sans-serif;
   --font-body:    'DM Sans', sans-serif;
   --radius:       4px;
@@ -106,7 +107,8 @@ All design tokens are CSS variables defined in `src/layouts/Base.astro`.
 
 **Rules:**
 - Never use hardcoded hex values in components. Always use CSS variables.
-- `--accent` is Tupate orange. Use it for CTAs, links, and highlights only.
+- `--accent` is the primary brand blue. Use it for CTAs, links, and highlights only.
+- Active/pressed state: `#1e40af`.
 - Dark sections use `--dark` as background. Light sections use `--light`.
 - Two fonts only: Syne for headings/display, DM Sans for body text.
 - No Tailwind. No CSS frameworks. Plain CSS only.
@@ -131,9 +133,9 @@ All design tokens are CSS variables defined in `src/layouts/Base.astro`.
 .section         — 80px top/bottom padding
 .section-sm      — 48px top/bottom padding
 .btn             — base button styles
-.btn-primary     — orange filled button
-.btn-outline     — white outline button (for dark backgrounds)
-.section-label   — orange uppercase eyebrow text (11px, tracked)
+.btn-primary     — blue filled button (#2563eb, hover #1d4ed8, active #1e40af)
+.btn-outline     — outline button with dark border (for light backgrounds)
+.section-label   — blue uppercase eyebrow text (12px, tracked)
 .section-title   — main section heading (clamp 28px–40px)
 .section-sub     — section subtitle (17px, muted, max 560px)
 ```

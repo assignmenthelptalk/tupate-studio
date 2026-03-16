@@ -16,23 +16,21 @@ export const SITE = {
     },
     {
       icon: "📈",
-      title: "SEO",
-      description: "Local SEO that gets your business found by customers searching in Kenya.",
+      title: "SEO + Google Maps Ranking",
+      description: "Local SEO that gets your business found. Includes Google Maps ranking and social media management.",
       price: "Ksh 8,000 / mo",
-      feature: "Google Maps Ranking included",
-      featureSub: "Show up when customers nearby search on Google — not your competitor.",
     },
     {
       icon: "📣",
       title: "Google Ads",
       description: "Targeted ad campaigns managed for you. Only pay for results.",
-      price: "15% of spend",
+      price: "15% of ad spend",
     },
     {
       icon: "🔧",
       title: "Monthly Maintenance",
       description: "Updates, backups, security checks, and priority support every month.",
-      price: "Ksh 5,000 / mo",
+      price: "Ksh 3,000 / mo",
     },
   ],
 
@@ -72,12 +70,12 @@ export const SITE = {
     {
       quote: "Tupate delivered our website in 10 days. It looks professional, loads fast, and we already rank on Google for our main keywords.",
       name: "James Mwangi",
-      role: "Director, Gosstech Engineering",
+      role: "Director, GossTech Engineering",
     },
     {
-      quote: "The team understood what our clinic needed without a long brief. Clean design, WhatsApp contact form — patients love it.",
-      name: "Dr. Aisha Omondi",
-      role: "Founder, Vida Family Clinic",
+      quote: "The team understood what our clinic needed without a long brief. Clean design, easy contact form — patients love it.",
+      name: "Dr. Aisha Omendi",
+      role: "Founder, Vita Family Clinic",
     },
     {
       quote: "Best investment I made for my law firm. The site brought in three new clients in the first month.",
