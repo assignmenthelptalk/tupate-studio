@@ -4,46 +4,78 @@ import { SITE } from '../config';
 
 <section class="hero">
   <div class="container hero-inner">
-    <p class="eyebrow">Nairobi Web Design Agency</p>
-    <h1 class="hero-title">
-      Web design &amp; digital marketing for <mark class="highlight">Kenyan</mark> businesses
-    </h1>
-    <p class="hero-sub">
-      Hand-coded, no page builders. Live in 2 weeks and ranking on Google Kenya.
-    </p>
-    <div class="hero-actions">
-      <a
-        href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(SITE.ctaWhatsappMessage)}`}
-        class="btn btn-primary"
-        target="_blank"
-        rel="noopener"
-      >
-        {SITE.ctaText} →
-      </a>
-      <a href="#services" class="btn btn-outline">See our services</a>
+
+    <!-- LEFT -->
+    <div class="hero-left">
+      <p class="eyebrow">Nairobi Web Design Agency</p>
+
+      <h1 class="hero-title">
+        Web design &amp; digital marketing for <mark class="highlight">Kenyan</mark> businesses
+      </h1>
+
+      <p class="hero-sub">
+        We build fast, hand-coded websites and run digital marketing for Kenyan
+        SMEs. No templates. No page builders. Just clean code that ranks and converts.
+      </p>
+
+      <div class="hero-actions">
+        <a
+          href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(SITE.ctaWhatsappMessage)}`}
+          class="btn btn-primary"
+          target="_blank"
+          rel="noopener"
+        >
+          {SITE.ctaText} →
+        </a>
+        <a href="#services" class="btn btn-outline">See our services</a>
+      </div>
+
+      <p class="hero-note">From Ksh 25,000 &nbsp;·&nbsp; Delivered in 2 weeks &nbsp;·&nbsp; No monthly surprises</p>
     </div>
-    <p class="hero-note">From Ksh 25,000 &nbsp;·&nbsp; Delivered in 2 weeks &nbsp;·&nbsp; No monthly surprises</p>
+
+    <!-- RIGHT -->
+    <div class="hero-right">
+      <div class="photo-wrap">
+        <div class="photo-placeholder">
+          <span class="photo-label">Your photo here</span>
+        </div>
+
+        <div class="badge">
+          <svg class="badge-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <circle cx="10" cy="10" r="10" fill="#e8590c" fill-opacity="0.12"/>
+            <path d="M5.5 10.5l3 3 6-6" stroke="#e8590c" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <div>
+            <p class="badge-number">50+</p>
+            <p class="badge-text">Websites Delivered</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
 <style>
   .hero {
-    background: var(--white);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 120px 0 80px;
+    background: #ffffff;
+    padding: 140px 0 96px;
   }
 
   .hero-inner {
-    max-width: 720px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 64px;
+    align-items: center;
   }
 
+  /* ── LEFT ── */
   .eyebrow {
     font-family: var(--font-body);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--accent);
     margin-bottom: 20px;
@@ -51,11 +83,11 @@ import { SITE } from '../config';
 
   .hero-title {
     font-family: var(--font-display);
-    font-size: clamp(42px, 7vw, 80px);
+    font-size: clamp(36px, 4.5vw, 56px);
     font-weight: 800;
-    color: var(--dark);
-    line-height: 1.0;
-    letter-spacing: -0.03em;
+    color: #111111;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
     margin-bottom: 24px;
   }
 
@@ -70,7 +102,7 @@ import { SITE } from '../config';
     content: '';
     position: absolute;
     left: 0;
-    bottom: -4px;
+    bottom: -3px;
     width: 100%;
     height: 3px;
     background: var(--accent);
@@ -86,9 +118,9 @@ import { SITE } from '../config';
 
   .hero-sub {
     font-size: 18px;
-    color: var(--muted);
+    color: #666666;
     line-height: 1.7;
-    max-width: 540px;
+    max-width: 480px;
     margin-bottom: 40px;
   }
 
@@ -96,27 +128,116 @@ import { SITE } from '../config';
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
 
   .hero-note {
     font-size: 13px;
-    color: rgba(0, 0, 0, 0.35);
+    color: #888888;
     letter-spacing: 0.01em;
   }
 
+  /* ── RIGHT ── */
+  .hero-right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .photo-placeholder {
+    width: 100%;
+    aspect-ratio: 480 / 520;
+    background: #f0f0f0;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .photo-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #aaaaaa;
+    letter-spacing: 0.02em;
+  }
+
+  /* floating badge */
+  .badge {
+    position: absolute;
+    bottom: -16px;
+    left: -20px;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    white-space: nowrap;
+  }
+
+  .badge-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+
+  .badge-number {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 800;
+    color: #111111;
+    line-height: 1;
+  }
+
+  .badge-text {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 2px;
+  }
+
+  /* ── MOBILE ── */
   @media (max-width: 768px) {
     .hero {
-      padding: 100px 0 64px;
+      padding: 104px 0 72px;
+    }
+
+    .hero-inner {
+      grid-template-columns: 1fr;
+      gap: 48px;
     }
 
     .hero-title {
-      font-size: clamp(36px, 10vw, 52px);
-      line-height: 1.05;
+      font-size: 36px;
     }
 
     .hero-sub {
       font-size: 16px;
+      max-width: 100%;
+    }
+
+    .hero-right {
+      order: 2;
+    }
+
+    .photo-wrap {
+      max-width: 100%;
+    }
+
+    .photo-placeholder {
+      aspect-ratio: unset;
+      height: 320px;
+    }
+
+    .badge {
+      bottom: -14px;
+      left: 16px;
     }
 
     .hero-note {

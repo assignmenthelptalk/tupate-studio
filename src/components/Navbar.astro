@@ -52,7 +52,7 @@ import { SITE } from '../config';
   }
 
   window.addEventListener('scroll', () => {
-    navbar?.classList.toggle('scrolled', window.scrollY > 40);
+    navbar?.classList.toggle('scrolled', window.scrollY > 60);
   });
 
   toggle?.addEventListener('click', () => {
@@ -73,12 +73,14 @@ import { SITE } from '../config';
     left: 0;
     right: 0;
     z-index: 100;
-    transition: background var(--transition), box-shadow var(--transition);
+    transition: background 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    border-bottom: 1px solid transparent;
   }
 
   .navbar.scrolled {
-    background: var(--dark);
-    box-shadow: 0 2px 24px rgba(0, 0, 0, 0.3);
+    background: #ffffff;
+    border-bottom-color: #e5e5e5;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
   }
 
   .navbar-inner {
@@ -98,10 +100,6 @@ import { SITE } from '../config';
     transition: color var(--transition);
   }
 
-  .navbar.scrolled .logo {
-    color: var(--white);
-  }
-
   .nav-links {
     display: flex;
     align-items: center;
@@ -118,14 +116,6 @@ import { SITE } from '../config';
 
   .nav-links a:hover {
     color: var(--dark);
-  }
-
-  .navbar.scrolled .nav-links a {
-    color: rgba(255, 255, 255, 0.75);
-  }
-
-  .navbar.scrolled .nav-links a:hover {
-    color: var(--white);
   }
 
   .nav-cta {
@@ -162,10 +152,6 @@ import { SITE } from '../config';
     height: 2px;
     background: var(--dark);
     transition: transform var(--transition), opacity var(--transition), background var(--transition);
-  }
-
-  .navbar.scrolled .mobile-toggle span {
-    background: var(--white);
   }
 
   .mobile-toggle.open span:nth-child(1) {
