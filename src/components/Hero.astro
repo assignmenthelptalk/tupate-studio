@@ -44,12 +44,11 @@ import { SITE } from '../config';
     <div class="hero-right">
       <div class="photo-wrap">
 
-        <div class="photo-placeholder">
-          <div class="photo-inner">
-            <div class="photo-icon" aria-hidden="true">📸</div>
-            <span>Your photo here</span>
-          </div>
-        </div>
+        <img
+          src="/founder.jpeg"
+          alt="Tupate Studio founder — Nairobi web design"
+          class="founder-photo"
+        />
 
         <!-- Floating badge 1 — bottom left -->
         <div class="float-badge-1">
@@ -238,37 +237,13 @@ import { SITE } from '../config';
     width: 100%;
   }
 
-  .photo-placeholder {
+  .founder-photo {
     width: 100%;
     aspect-ratio: 4 / 4.8;
-    background: #f7f7f5;
+    object-fit: cover;
+    object-position: center top;
     border-radius: 12px;
-    border: 1px solid #e5e5e5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-  }
-
-  .photo-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    color: #888888;
-    font-size: 14px;
-    font-weight: 500;
-  }
-
-  .photo-icon {
-    width: 48px;
-    height: 48px;
-    background: #e5e5e5;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
+    display: block;
   }
 
   /* Floating badge 1 — bottom left */
@@ -379,7 +354,7 @@ import { SITE } from '../config';
       order: -1;
     }
 
-    .photo-placeholder {
+    .founder-photo {
       aspect-ratio: 4 / 3;
     }
 
