@@ -50,16 +50,17 @@ import { SITE } from '../config';
           class="hero-photo"
         />
 
-        <!-- Floating badge 1 — bottom left -->
+        <!-- Social proof badge — bottom left -->
         <div class="float-badge-1">
-          <div class="float-icon">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-            </svg>
+          <div class="avatars" aria-hidden="true">
+            <span class="avatar" style="background:#fde68a;color:#92400e;">JM</span>
+            <span class="avatar" style="background:#bbf7d0;color:#065f46;">AO</span>
+            <span class="avatar" style="background:#bfdbfe;color:#1e40af;">SK</span>
+            <span class="avatar" style="background:#fecaca;color:#991b1b;">DW</span>
           </div>
           <div class="float-text">
-            <strong>50+ Websites</strong>
-            <span>Delivered across Kenya</span>
+            <strong>50+ businesses</strong>
+            <span>trust us across Kenya</span>
           </div>
         </div>
 
@@ -264,21 +265,27 @@ import { SITE } from '../config';
     white-space: nowrap;
   }
 
-  .float-icon {
-    width: 36px;
-    height: 36px;
-    background: #e8590c;
-    border-radius: 8px;
+  .avatars {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-shrink: 0;
   }
 
-  .float-icon svg {
-    width: 18px;
-    height: 18px;
-    fill: #ffffff;
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: -8px;
+    flex-shrink: 0;
+  }
+
+  .avatar:first-child {
+    margin-left: 0;
   }
 
   .float-text strong {
