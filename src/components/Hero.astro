@@ -80,12 +80,13 @@ import { SITE } from '../config';
     background-color: #eef1fb;
     background-image:
       linear-gradient(135deg, #f5f7ff 0%, #e8eeff 60%, #dde4fc 100%);
-    padding: 140px 0 100px;
-    min-height: 100vh;
+    padding: 0;
+    height: 100vh;
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
+    box-sizing: border-box;
   }
 
   /* Grid texture — top-right quadrant */
@@ -277,7 +278,8 @@ import { SITE } from '../config';
   /* ── Hero photo ── */
   .hero-photo {
     width: 100%;
-    aspect-ratio: 4 / 4.8;
+    aspect-ratio: 4 / 4.5;
+    max-height: 70vh;
     object-fit: cover;
     object-position: center top;
     border-radius: 12px;
@@ -379,8 +381,9 @@ import { SITE } from '../config';
   /* ── MOBILE ── */
   @media (max-width: 768px) {
     .hero {
-      padding: 104px 0 80px;
-      min-height: auto;
+      height: auto;
+      min-height: 100vh;
+      padding: 100px 0 80px;
       align-items: flex-start;
     }
 
