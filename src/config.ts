@@ -37,7 +37,7 @@ export const SITE = {
   stats: [
     { value: "500+", label: "Clients served" },
     { value: "9yrs", label: "Ranking websites" },
-    { value: "2wks", label: "Average delivery" },
+    { value: "1,000+", label: "Kenyan keywords ranking #1 on Google" },
   ],
 
   brands: [
