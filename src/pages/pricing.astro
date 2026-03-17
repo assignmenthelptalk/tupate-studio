@@ -1,0 +1,662 @@
+---
+import Base from '../layouts/Base.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { SITE } from '../config';
+
+const waBase = `https://wa.me/${SITE.whatsapp}?text=`;
+const quoteCta = waBase + encodeURIComponent(SITE.ctaWhatsappMessage);
+const pricingCta = (pkg: string) =>
+  waBase + encodeURIComponent(`Hi Tupate Studio, I'm interested in the ${pkg} package. Can I get a quote?`);
+---
+
+<Base
+  title="Web Design Prices Kenya | Tupate Studio Pricing"
+  description="See exactly what you pay for a website, SEO, or Google Ads in Kenya. Flat prices, no surprises. Built for Kenyan businesses by Tupate Studio."
+>
+  <Navbar />
+
+  <!-- ── 1. HERO ── -->
+  <section class="pricing-hero">
+    <div class="container">
+      <span class="section-label">Pricing</span>
+      <h1 class="pricing-h1">Simple, Transparent Pricing —<br>No Hidden Costs</h1>
+      <p class="pricing-sub">
+        Every price shown is the full price. No setup fees, no hidden extras,
+        no surprises on your invoice. Built for Kenyan businesses.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── 2. PRICING CARDS ── -->
+  <section class="cards-section">
+    <div class="container">
+      <div class="cards-grid">
+
+        <!-- Card 1 — Business Website (featured) -->
+        <div class="pricing-card pricing-card--featured">
+          <div class="card-badge">Most popular</div>
+          <p class="card-name">Business Website</p>
+          <div class="card-price-row">
+            <span class="card-price">Ksh 25,000</span>
+          </div>
+          <p class="card-subtext">One-time payment</p>
+
+          <ul class="card-features">
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Up to 5 pages (Home, About, Services, Contact + 1 custom)
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Hand-coded — no WordPress, no templates
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Mobile-first design
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Google Maps embed + contact form
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              WhatsApp chat button
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Basic on-page SEO included
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Delivered in 10–14 days
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              30-day free support after launch
+            </li>
+          </ul>
+
+          <a href={pricingCta('Business Website')} class="card-cta card-cta--featured" target="_blank" rel="noopener">
+            Get a free quote →
+          </a>
+        </div>
+
+        <!-- Card 2 — SEO -->
+        <div class="pricing-card">
+          <p class="card-name">SEO & Google Ranking</p>
+          <div class="card-price-row">
+            <span class="card-price">Ksh 8,000</span>
+          </div>
+          <p class="card-subtext">Per month, no lock-in contract</p>
+
+          <ul class="card-features">
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Keyword research (10 target keywords/month)
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              On-page SEO updates
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Google Business Profile management
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Monthly ranking report
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Google Maps ranking optimisation
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              1 SEO article per month
+            </li>
+          </ul>
+
+          <a href={pricingCta('SEO & Google Ranking')} class="card-cta" target="_blank" rel="noopener">
+            Get a free quote →
+          </a>
+        </div>
+
+        <!-- Card 3 — Maintenance -->
+        <div class="pricing-card">
+          <p class="card-name">Website Maintenance</p>
+          <div class="card-price-row">
+            <span class="card-price">Ksh 5,000</span>
+          </div>
+          <p class="card-subtext">Per month, cancel anytime</p>
+
+          <ul class="card-features">
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Unlimited text and image updates
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Monthly speed check
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Security monitoring
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Uptime monitoring
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Priority WhatsApp support
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">✓</span>
+              Monthly performance report
+            </li>
+          </ul>
+
+          <a href={pricingCta('Website Maintenance')} class="card-cta" target="_blank" rel="noopener">
+            Get a free quote →
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 3. ADD-ONS ── -->
+  <section class="addons-section">
+    <div class="container">
+      <div class="addons-header">
+        <h2 class="addons-heading">Optional add-ons</h2>
+        <p class="addons-sub">Add these to any package</p>
+      </div>
+
+      <div class="addons-grid">
+        <div class="addon-row">
+          <div class="addon-left">
+            <p class="addon-name">Google Ads setup + first month management</p>
+            <p class="addon-desc">Full campaign setup, ad copy, and landing page optimisation.</p>
+          </div>
+          <span class="addon-price">Ksh 15,000 <span class="addon-freq">one-time</span></span>
+        </div>
+
+        <div class="addon-row">
+          <div class="addon-left">
+            <p class="addon-name">Extra website pages</p>
+            <p class="addon-desc">Additional pages beyond the 5 included in the standard build.</p>
+          </div>
+          <span class="addon-price">Ksh 3,000 <span class="addon-freq">per page</span></span>
+        </div>
+
+        <div class="addon-row">
+          <div class="addon-left">
+            <p class="addon-name">Logo design</p>
+            <p class="addon-desc">A custom logo delivered in PNG, SVG, and PDF formats.</p>
+          </div>
+          <span class="addon-price">Ksh 8,000 <span class="addon-freq">one-time</span></span>
+        </div>
+
+        <div class="addon-row">
+          <div class="addon-left">
+            <p class="addon-name">Ongoing Google Ads management</p>
+            <p class="addon-desc">We manage your campaigns, bids, and copy every month.</p>
+          </div>
+          <span class="addon-price">15% <span class="addon-freq">of monthly ad spend</span></span>
+        </div>
+
+        <div class="addon-row">
+          <div class="addon-left">
+            <p class="addon-name">M-Pesa payment integration</p>
+            <p class="addon-desc">Daraja API integration so customers can pay directly on your site.</p>
+          </div>
+          <span class="addon-price">Ksh 12,000 <span class="addon-freq">one-time</span></span>
+        </div>
+
+        <div class="addon-row">
+          <div class="addon-left">
+            <p class="addon-name">E-commerce / online store</p>
+            <p class="addon-desc">Product pages, cart, checkout, and payment gateway setup.</p>
+          </div>
+          <span class="addon-price">From Ksh 45,000 <span class="addon-freq">one-time</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 4. TRUST STRIP ── -->
+  <section class="trust-section">
+    <div class="container trust-grid">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <div>
+          <p class="trust-title">No hidden fees</p>
+          <p class="trust-desc">The price you see is the price you pay. We quote in full before any work starts.</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        <div>
+          <p class="trust-title">Delivered in 10–14 days</p>
+          <p class="trust-desc">Most websites go live within two weeks of the first call. We don't keep you waiting.</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        <div>
+          <p class="trust-title">Decide on WhatsApp</p>
+          <p class="trust-desc">No lengthy contracts or video calls needed. We talk, we quote, we build.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 5. FINAL CTA ── -->
+  <section class="final-cta-section">
+    <div class="container final-cta-inner">
+      <h2 class="final-cta-heading">Not sure which package is right for you?</h2>
+      <p class="final-cta-sub">
+        Message us on WhatsApp and we'll tell you exactly what your business needs — no sales pitch, just honest advice.
+      </p>
+      <a href={quoteCta} class="final-cta-btn" target="_blank" rel="noopener">
+        Chat with us on WhatsApp →
+      </a>
+    </div>
+  </section>
+
+  <Footer />
+</Base>
+
+<style>
+  /* ── HERO ── */
+  .pricing-hero {
+    background-color: #0f172a;
+    background-image: linear-gradient(135deg, #0f172a 0%, #1e2d5a 100%);
+    padding: 140px 0 96px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .pricing-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(99,120,230,0.08) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(99,120,230,0.08) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+
+  .pricing-hero .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .pricing-hero .section-label {
+    color: #7da3ff;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .pricing-h1 {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 5vw, 56px);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+    max-width: 760px;
+  }
+
+  .pricing-sub {
+    font-size: 17px;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.7;
+    max-width: 560px;
+  }
+
+  /* ── CARDS ── */
+  .cards-section {
+    background: #f7f8fc;
+    padding: 80px 0 96px;
+  }
+
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: start;
+  }
+
+  .pricing-card {
+    background: #ffffff;
+    border: 1px solid #e8ecf4;
+    border-radius: 20px;
+    padding: 36px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  /* Featured card */
+  .pricing-card--featured {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.12), 0 16px 48px rgba(37,99,235,0.14);
+  }
+
+  .card-badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 5px 16px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+
+  .card-name {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 20px;
+  }
+
+  .card-price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+
+  .card-price {
+    font-family: var(--font-display);
+    font-size: 40px;
+    font-weight: 800;
+    color: #111111;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  .pricing-card--featured .card-price {
+    color: #2563eb;
+  }
+
+  .card-subtext {
+    font-size: 13px;
+    color: #999999;
+    margin-bottom: 28px;
+  }
+
+  /* Feature list */
+  .card-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    flex: 1;
+    margin-bottom: 32px;
+  }
+
+  .card-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    color: #444444;
+    line-height: 1.5;
+  }
+
+  .check {
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* CTA buttons */
+  .card-cta {
+    display: block;
+    text-align: center;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.18s ease, transform 0.18s ease;
+    background: #f0f4ff;
+    color: #2563eb;
+    border: 1.5px solid #c7d5fc;
+  }
+
+  .card-cta:hover {
+    background: #e0eaff;
+    transform: translateY(-1px);
+  }
+
+  .card-cta--featured {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+  }
+
+  .card-cta--featured:hover {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+  }
+
+  /* ── ADD-ONS ── */
+  .addons-section {
+    background: #ffffff;
+    padding: 80px 0 96px;
+    border-top: 1px solid #e8ecf4;
+  }
+
+  .addons-header {
+    margin-bottom: 40px;
+  }
+
+  .addons-heading {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 3vw, 36px);
+    font-weight: 800;
+    color: #111111;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .addons-sub {
+    font-size: 15px;
+    color: #888888;
+  }
+
+  .addons-grid {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e8ecf4;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .addon-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 24px 28px;
+    border-bottom: 1px solid #e8ecf4;
+  }
+
+  .addon-row:last-child {
+    border-bottom: none;
+  }
+
+  .addon-row:nth-child(odd) {
+    background: #fafbff;
+  }
+
+  .addon-left {
+    flex: 1;
+  }
+
+  .addon-name {
+    font-family: var(--font-display);
+    font-size: 15px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 4px;
+  }
+
+  .addon-desc {
+    font-size: 13px;
+    color: #888888;
+    line-height: 1.5;
+  }
+
+  .addon-price {
+    font-family: var(--font-display);
+    font-size: 17px;
+    font-weight: 800;
+    color: #2563eb;
+    white-space: nowrap;
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  .addon-freq {
+    font-size: 12px;
+    font-weight: 500;
+    color: #aaaaaa;
+    display: block;
+    text-align: right;
+    margin-top: 2px;
+  }
+
+  /* ── TRUST STRIP ── */
+  .trust-section {
+    background: #f7f8fc;
+    border-top: 1px solid #e8ecf4;
+    border-bottom: 1px solid #e8ecf4;
+    padding: 56px 0;
+  }
+
+  .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    color: #2563eb;
+  }
+
+  .trust-item svg {
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .trust-title {
+    font-family: var(--font-display);
+    font-size: 15px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 6px;
+  }
+
+  .trust-desc {
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.6;
+  }
+
+  /* ── FINAL CTA ── */
+  .final-cta-section {
+    background: #ffffff;
+    padding: 96px 0;
+  }
+
+  .final-cta-inner {
+    text-align: center;
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  .final-cta-heading {
+    font-family: var(--font-display);
+    font-size: clamp(24px, 3.5vw, 36px);
+    font-weight: 800;
+    color: #111111;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    line-height: 1.15;
+  }
+
+  .final-cta-sub {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.65;
+    margin-bottom: 36px;
+  }
+
+  .final-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.18s ease, transform 0.18s ease;
+  }
+
+  .final-cta-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+  }
+
+  /* ── MOBILE ── */
+  @media (max-width: 960px) {
+    .cards-grid {
+      grid-template-columns: 1fr;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .trust-grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .addon-row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .addon-price {
+      text-align: left;
+    }
+
+    .addon-freq {
+      text-align: left;
+    }
+  }
+</style>
