@@ -1,0 +1,266 @@
+---
+import Base from '../../layouts/Base.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+import { articles } from '../../data/articles';
+import { SITE } from '../../config';
+
+export function getStaticPaths() {
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+
+// Related articles: same category, excluding current
+const related = articles
+  .filter((a) => a.category === article.category && a.slug !== article.slug)
+  .slice(0, 3);
+---
+
+<Base
+  title={`${article.title} | Tupate Studio`}
+  description={article.description}
+>
+  <Navbar />
+
+  <!-- Article hero -->
+  <section class="article-hero">
+    <div class="container">
+      <a href="/articles" class="back-link">&larr; All articles</a>
+      <span class="article-hero-cat">{article.category}</span>
+      <h1 class="article-hero-title">{article.title}</h1>
+      <p class="article-hero-desc">{article.description}</p>
+    </div>
+  </section>
+
+  <!-- Article body placeholder -->
+  <section class="article-body">
+    <div class="container article-content">
+
+      <div class="coming-soon-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+          <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+        </svg>
+        <h2>This guide is coming soon.</h2>
+        <p>
+          We're writing a full, practical guide on <strong>{article.title}</strong>. In the meantime, speak to our team directly — we're happy to answer any questions.
+        </p>
+        <a
+          href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(`Hi Tupate Studio, I have a question about: ${article.title}`)}`}
+          class="cs-cta"
+          target="_blank"
+          rel="noopener"
+        >
+          Ask us on WhatsApp &rarr;
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Related articles -->
+  {related.length > 0 && (
+    <section class="related-section">
+      <div class="container">
+        <h2 class="related-heading">More in {article.category}</h2>
+        <div class="related-grid">
+          {related.map((a) => (
+            <a href={`/articles/${a.slug}`} class="related-card">
+              <span class="related-cat">{a.category}</span>
+              <h3 class="related-title">{a.title}</h3>
+              <p class="related-desc">{a.description}</p>
+              <span class="related-read">Read article &rarr;</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <Footer />
+</Base>
+
+<style>
+  /* ── Hero ── */
+  .article-hero {
+    background: #2563eb;
+    padding: 72px 0 64px;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.65);
+    text-decoration: none;
+    margin-bottom: 24px;
+    transition: color 0.15s;
+  }
+
+  .back-link:hover {
+    color: #ffffff;
+  }
+
+  .article-hero-cat {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #93b4ff;
+    margin-bottom: 14px;
+  }
+
+  .article-hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(26px, 4vw, 44px);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    max-width: 700px;
+  }
+
+  .article-hero-desc {
+    font-size: 17px;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.65;
+    max-width: 560px;
+  }
+
+  /* ── Body ── */
+  .article-body {
+    background: #ffffff;
+    padding: 80px 0;
+  }
+
+  .article-content {
+    max-width: 720px;
+  }
+
+  .coming-soon-box {
+    background: #f7f8fc;
+    border: 1px solid #e8ecf4;
+    border-radius: 16px;
+    padding: 48px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    color: #888888;
+  }
+
+  .coming-soon-box h2 {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 800;
+    color: #111111;
+  }
+
+  .coming-soon-box p {
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.65;
+    max-width: 480px;
+  }
+
+  .cs-cta {
+    display: inline-flex;
+    align-items: center;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 26px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 8px;
+    transition: background 0.18s ease;
+  }
+
+  .cs-cta:hover {
+    background: #1d4ed8;
+  }
+
+  /* ── Related ── */
+  .related-section {
+    background: #f7f8fc;
+    padding: 64px 0 80px;
+    border-top: 1px solid #e8ecf4;
+  }
+
+  .related-heading {
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2563eb;
+    border-bottom: 2px solid #e8ecf4;
+    padding-bottom: 12px;
+    margin-bottom: 28px;
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .related-card {
+    background: #ffffff;
+    border: 1px solid #e8ecf4;
+    border-radius: 14px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .related-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(37, 99, 235, 0.10);
+  }
+
+  .related-cat {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2563eb;
+    margin-bottom: 8px;
+  }
+
+  .related-title {
+    font-family: var(--font-display);
+    font-size: 15px;
+    font-weight: 700;
+    color: #111111;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+
+  .related-desc {
+    font-size: 13px;
+    color: #777777;
+    line-height: 1.6;
+    flex: 1;
+    margin-bottom: 16px;
+  }
+
+  .related-read {
+    font-size: 13px;
+    font-weight: 700;
+    color: #2563eb;
+  }
+
+  @media (max-width: 768px) {
+    .related-grid { grid-template-columns: 1fr; }
+    .coming-soon-box { padding: 32px 24px; }
+  }
+</style>

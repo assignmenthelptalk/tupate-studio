@@ -1,0 +1,181 @@
+---
+import Base from '../../layouts/Base.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+import { articles, categories } from '../../data/articles';
+---
+
+<Base
+  title="Articles & Guides | Tupate Studio — Web Design & SEO Kenya"
+  description="Free guides on web design, SEO, e-commerce, and digital marketing for Kenyan businesses. Written by the Tupate Studio team."
+>
+  <Navbar />
+
+  <section class="articles-hero">
+    <div class="container">
+      <span class="ah-pill">Free Guides</span>
+      <h1 class="ah-heading">Articles & Guides</h1>
+      <p class="ah-sub">Practical advice on growing your business online in Kenya. No fluff — just what works.</p>
+    </div>
+  </section>
+
+  <section class="articles-body">
+    <div class="container">
+
+      {categories.map((cat) => (
+        <div class="cat-group">
+          <h2 class="cat-heading">{cat}</h2>
+          <div class="articles-grid">
+            {articles.filter((a) => a.category === cat).map((article) => (
+              <a href={`/articles/${article.slug}`} class="article-card">
+                <span class="article-cat">{article.category}</span>
+                <h3 class="article-title">{article.title}</h3>
+                <p class="article-desc">{article.description}</p>
+                <span class="article-read">Read article &rarr;</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+
+    </div>
+  </section>
+
+  <Footer />
+</Base>
+
+<style>
+  /* ── Hero ── */
+  .articles-hero {
+    background: #2563eb;
+    padding: 80px 0 72px;
+  }
+
+  .ah-pill {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #93b4ff;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 999px;
+    padding: 5px 14px;
+    margin-bottom: 20px;
+  }
+
+  .ah-heading {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 5vw, 56px);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+
+  .ah-sub {
+    font-size: 17px;
+    color: rgba(255,255,255,0.75);
+    max-width: 520px;
+    line-height: 1.65;
+  }
+
+  /* ── Body ── */
+  .articles-body {
+    padding: 80px 0 96px;
+    background: #ffffff;
+  }
+
+  .cat-group {
+    margin-bottom: 64px;
+  }
+
+  .cat-group:last-child {
+    margin-bottom: 0;
+  }
+
+  .cat-heading {
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2563eb;
+    border-bottom: 2px solid #e8ecf4;
+    padding-bottom: 12px;
+    margin-bottom: 28px;
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  /* ── Card ── */
+  .article-card {
+    background: #f7f8fc;
+    border: 1px solid #e8ecf4;
+    border-radius: 14px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .article-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(37, 99, 235, 0.10);
+    border-color: #c5d0f5;
+  }
+
+  .article-cat {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2563eb;
+    margin-bottom: 10px;
+  }
+
+  .article-title {
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+    line-height: 1.35;
+    margin-bottom: 10px;
+  }
+
+  .article-desc {
+    font-size: 13px;
+    color: #777777;
+    line-height: 1.6;
+    flex: 1;
+    margin-bottom: 20px;
+  }
+
+  .article-read {
+    font-size: 13px;
+    font-weight: 700;
+    color: #2563eb;
+    align-self: flex-start;
+  }
+
+  /* ── Mobile ── */
+  @media (max-width: 900px) {
+    .articles-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 560px) {
+    .articles-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
