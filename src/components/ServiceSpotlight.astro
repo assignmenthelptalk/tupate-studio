@@ -1,0 +1,327 @@
+---
+import { SITE } from '../config';
+
+const cards = [
+  {
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>`,
+    title: "Hand-Built, No Templates",
+    desc: "Every site is coded from scratch for your business — no drag-and-drop, no bloated page builders.",
+  },
+  {
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>`,
+    title: "Fast Load Times",
+    desc: "Optimised for speed so your site passes Core Web Vitals and keeps visitors on the page.",
+  },
+  {
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>`,
+    title: "Google Maps Ranking",
+    desc: "We get your business listed and ranking on Google Maps so local customers find you first.",
+  },
+  {
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>`,
+    title: "Monthly SEO Reporting",
+    desc: "You see exactly where your keywords rank each month — no guesswork, full transparency.",
+  },
+  {
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M6 8l3 3 3-3 3 3"/></svg>`,
+    title: "Conversion-Focused Design",
+    desc: "Every layout decision is made to turn visitors into enquiries — not just look pretty.",
+  },
+  {
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
+    title: "Kenyan Keyword Targeting",
+    desc: "We research and target the exact phrases your Kenyan customers type into Google.",
+  },
+  {
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`,
+    title: "Ad Copy Written for You",
+    desc: "We craft every headline and description for your Google Ads — you don't write a word.",
+  },
+  {
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>`,
+    title: "Delivered in Under 2 Weeks",
+    desc: "Most websites go live in 10–14 days from the first call. Fast without cutting corners.",
+  },
+];
+
+// Split into two columns
+const col1 = cards.slice(0, Math.ceil(cards.length / 2));
+const col2 = cards.slice(Math.ceil(cards.length / 2));
+---
+
+<section class="spotlight-section">
+  <div class="container spotlight-inner">
+
+    <!-- Left: headline + stats + CTA -->
+    <div class="spotlight-left">
+      <span class="spotlight-pill">Why Tupate</span>
+      <h2 class="spotlight-heading">Everything your business needs to win online.</h2>
+      <p class="spotlight-sub">
+        We handle your website, SEO, and ads — so you can focus on running your business. Built for Kenyan SMEs from day one.
+      </p>
+      <a
+        href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(SITE.ctaWhatsappMessage)}`}
+        class="spotlight-cta"
+        target="_blank"
+        rel="noopener"
+      >
+        Get a free quote &rarr;
+      </a>
+      <div class="spotlight-stats">
+        {SITE.stats.map((stat) => (
+          <div class="spotlight-stat">
+            <span class="spotlight-stat-value">{stat.value}</span>
+            <span class="spotlight-stat-label">{stat.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Right: auto-scrolling card columns -->
+    <div class="spotlight-right" aria-hidden="true">
+      <!-- Column 1 scrolls up -->
+      <div class="scroll-col">
+        <div class="scroll-track scroll-up">
+          {[...col1, ...col1].map((card) => (
+            <div class="scroll-card">
+              <span class="scroll-card-icon" set:html={card.icon} />
+              <div>
+                <p class="scroll-card-title">{card.title}</p>
+                <p class="scroll-card-desc">{card.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Column 2 scrolls up (offset start) -->
+      <div class="scroll-col">
+        <div class="scroll-track scroll-up scroll-offset">
+          {[...col2, ...col2].map((card) => (
+            <div class="scroll-card">
+              <span class="scroll-card-icon" set:html={card.icon} />
+              <div>
+                <p class="scroll-card-title">{card.title}</p>
+                <p class="scroll-card-desc">{card.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .spotlight-section {
+    background: #ffffff;
+    padding: 96px 0;
+    border-top: 1px solid #e8ecf4;
+  }
+
+  .spotlight-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 72px;
+    align-items: center;
+  }
+
+  /* ── Left ── */
+  .spotlight-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .spotlight-pill {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2563eb;
+    background: #eff3ff;
+    border: 1px solid #c7d5fc;
+    border-radius: 999px;
+    padding: 5px 14px;
+    margin-bottom: 24px;
+  }
+
+  .spotlight-heading {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 800;
+    color: #111111;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+
+  .spotlight-sub {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.65;
+    margin-bottom: 32px;
+    max-width: 400px;
+  }
+
+  .spotlight-cta {
+    display: inline-flex;
+    align-items: center;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.18s ease, transform 0.18s ease;
+    margin-bottom: 48px;
+  }
+
+  .spotlight-cta:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+  }
+
+  .spotlight-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .spotlight-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .spotlight-stat-value {
+    font-family: var(--font-display);
+    font-size: 36px;
+    font-weight: 800;
+    color: #3d5af1;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  .spotlight-stat-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #999999;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  /* ── Right scrolling grid ── */
+  .spotlight-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    /* Fade top and bottom edges */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%);
+  }
+
+  .scroll-col {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scroll-track {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* Infinite upward scroll */
+  @keyframes scrollUp {
+    from { transform: translateY(0); }
+    to   { transform: translateY(-50%); }
+  }
+
+  .scroll-up {
+    animation: scrollUp 18s linear infinite;
+  }
+
+  /* Second column starts halfway through to stagger the rhythm */
+  .scroll-up.scroll-offset {
+    animation-delay: -9s;
+  }
+
+  .scroll-track:hover {
+    animation-play-state: paused;
+  }
+
+  /* ── Card ── */
+  .scroll-card {
+    background: #f7f8fc;
+    border: 1px solid #e8ecf4;
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
+  }
+
+  .scroll-card-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    background: #ffffff;
+    border: 1px solid #e2e6f0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2563eb;
+  }
+
+  .scroll-card-icon :global(svg) {
+    width: 18px;
+    height: 18px;
+  }
+
+  .scroll-card-title {
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 4px;
+    line-height: 1.3;
+  }
+
+  .scroll-card-desc {
+    font-size: 13px;
+    color: #777777;
+    line-height: 1.55;
+  }
+
+  /* ── Mobile ── */
+  @media (max-width: 900px) {
+    .spotlight-inner {
+      grid-template-columns: 1fr;
+      gap: 48px;
+    }
+
+    .spotlight-right {
+      height: 360px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .spotlight-right {
+      grid-template-columns: 1fr;
+    }
+
+    .scroll-col:last-child {
+      display: none;
+    }
+  }
+</style>
