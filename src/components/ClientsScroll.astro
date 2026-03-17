@@ -1,0 +1,263 @@
+---
+const clients = [
+  {
+    name: "Eunidrip Irrigation Systems",
+    role: "Irrigation & Agri-tech",
+    url: "https://eunidripirrigationsystems.com/",
+    initials: "EU",
+    quote: "Our website now brings in enquiries from farmers across Kenya without us lifting a finger. Tupate delivered exactly what we needed.",
+  },
+  {
+    name: "Grekkon Limited",
+    role: "Greenhouse & Irrigation",
+    url: "https://grekkon-eldoret.co.ke/",
+    initials: "GL",
+    quote: "We rank on Google for the keywords that matter most to our customers. The team understood our market from day one.",
+  },
+  {
+    name: "Avenue Valuers",
+    role: "Property Valuation",
+    url: "https://avenuevaluers.co.ke/",
+    initials: "AV",
+    quote: "Professional, fast, and built for conversion. Our site looks better than competitors with much bigger budgets.",
+  },
+  {
+    name: "GossTech Engineering",
+    role: "Industrial Engineering",
+    url: "#",
+    initials: "GE",
+    quote: "Tupate delivered our website in 10 days. It loads fast and we already rank on Google for our main keywords.",
+  },
+  {
+    name: "Vita Family Clinic",
+    role: "Medical / Healthcare",
+    url: "#",
+    initials: "VC",
+    quote: "The team understood what our clinic needed without a long brief. Clean design, easy contact form — patients love it.",
+  },
+  {
+    name: "Kamau & Associates",
+    role: "Legal / Law Firm",
+    url: "#",
+    initials: "KA",
+    quote: "Best investment I made for my law firm. The site brought in three new clients in the first month.",
+  },
+];
+
+// Row 1: first 3, Row 2: last 3 — both duplicated for infinite loop
+const row1 = clients.slice(0, 3);
+const row2 = clients.slice(3);
+---
+
+<section class="clients-scroll-section">
+  <div class="container">
+    <div class="cs-header">
+      <span class="cs-pill">Our Clients</span>
+      <h2 class="cs-heading">Trusted by Kenyan businesses.</h2>
+      <p class="cs-sub">Real results from real clients across Kenya.</p>
+    </div>
+  </div>
+
+  <!-- Row 1 — scrolls left -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track scroll-left">
+      {[...row1, ...row1, ...row1, ...row1].map((c) => (
+        <a
+          href={c.url}
+          class="cs-card"
+          target={c.url !== '#' ? '_blank' : undefined}
+          rel={c.url !== '#' ? 'noopener' : undefined}
+          aria-label={c.name}
+        >
+          <div class="cs-card-top">
+            <div class="cs-avatar">{c.initials}</div>
+            <div>
+              <p class="cs-name">{c.name}</p>
+              <p class="cs-role">{c.role}</p>
+            </div>
+          </div>
+          <p class="cs-quote">"{c.quote}"</p>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Row 2 — scrolls right -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track scroll-right">
+      {[...row2, ...row2, ...row2, ...row2].map((c) => (
+        <a
+          href={c.url}
+          class="cs-card"
+          target={c.url !== '#' ? '_blank' : undefined}
+          rel={c.url !== '#' ? 'noopener' : undefined}
+          aria-label={c.name}
+        >
+          <div class="cs-card-top">
+            <div class="cs-avatar">{c.initials}</div>
+            <div>
+              <p class="cs-name">{c.name}</p>
+              <p class="cs-role">{c.role}</p>
+            </div>
+          </div>
+          <p class="cs-quote">"{c.quote}"</p>
+        </a>
+      ))}
+    </div>
+  </div>
+
+</section>
+
+<style>
+  .clients-scroll-section {
+    background: #ffffff;
+    padding: 96px 0;
+    border-top: 1px solid #e8ecf4;
+    overflow: hidden;
+  }
+
+  /* ── Header ── */
+  .cs-header {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  .cs-pill {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2563eb;
+    background: #eff3ff;
+    border: 1px solid #c7d5fc;
+    border-radius: 999px;
+    padding: 5px 14px;
+    margin-bottom: 20px;
+  }
+
+  .cs-heading {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 4vw, 52px);
+    font-weight: 800;
+    color: #111111;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 14px;
+  }
+
+  .cs-sub {
+    font-size: 16px;
+    color: #888888;
+  }
+
+  /* ── Marquee wrapper ── */
+  .marquee-wrap {
+    width: 100%;
+    overflow: hidden;
+    /* Fade left & right edges */
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+    margin-bottom: 16px;
+  }
+
+  .marquee-wrap:last-child {
+    margin-bottom: 0;
+  }
+
+  .marquee-track {
+    display: flex;
+    gap: 16px;
+    width: max-content;
+  }
+
+  /* Scroll left (default marquee direction) */
+  @keyframes marqueeLeft {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
+  /* Scroll right */
+  @keyframes marqueeRight {
+    from { transform: translateX(-50%); }
+    to   { transform: translateX(0); }
+  }
+
+  .scroll-left {
+    animation: marqueeLeft 28s linear infinite;
+  }
+
+  .scroll-right {
+    animation: marqueeRight 24s linear infinite;
+  }
+
+  .marquee-wrap:hover .marquee-track {
+    animation-play-state: paused;
+  }
+
+  /* ── Card ── */
+  .cs-card {
+    background: #ffffff;
+    border: 1px solid #e8ecf4;
+    border-radius: 16px;
+    padding: 28px;
+    width: 320px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-decoration: none;
+    transition: box-shadow 0.22s ease, border-color 0.22s ease, transform 0.22s ease;
+    cursor: pointer;
+  }
+
+  .cs-card:hover {
+    box-shadow: 0 8px 32px rgba(37, 99, 235, 0.10);
+    border-color: #c5d0f5;
+    transform: translateY(-3px);
+  }
+
+  .cs-card-top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .cs-avatar {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    border-radius: 50%;
+    background: #eff3ff;
+    border: 1px solid #c7d5fc;
+    color: #2563eb;
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+  }
+
+  .cs-name {
+    font-family: var(--font-display);
+    font-size: 15px;
+    font-weight: 700;
+    color: #111111;
+    line-height: 1.3;
+  }
+
+  .cs-role {
+    font-size: 13px;
+    color: #999999;
+    margin-top: 2px;
+  }
+
+  .cs-quote {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.65;
+    font-style: italic;
+  }
+</style>
