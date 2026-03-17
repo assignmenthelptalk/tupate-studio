@@ -2,8 +2,8 @@ export const SITE = {
   name: "Tupate Studio",
   tagline: "Web design & digital marketing for Kenyan businesses",
   description: "Nairobi web design agency. We build fast, beautiful websites for Kenyan SMEs — no templates, no page builders. From Ksh 25,000.",
-  phone: "+254 700 000 000",
-  whatsapp: "254700000000",
+  phone: "+254 721 165 448",
+  whatsapp: "254721165448",
   email: "hello@tupate.studio",
   address: "Nairobi, Kenya",
 
