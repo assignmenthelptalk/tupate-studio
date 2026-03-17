@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 660" width="100%" height="auto" role="img" aria-labelledby="infographic-title-6">
+  <title id="infographic-title-6">Corporate vs Business Website: What's Different</title>
+
+  <!-- Background -->
+  <rect width="800" height="660" fill="#F5F5F5" rx="12"/>
+
+  <!-- Header band -->
+  <rect width="800" height="80" fill="#1A1A2E" rx="12"/>
+  <rect x="0" y="68" width="800" height="12" fill="#1A1A2E"/>
+  <text x="400" y="36" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Corporate vs Business Website</text>
+  <text x="400" y="60" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#E94560">What's the Difference — and Which Does Your Brand Need?</text>
+
+  <!-- Column headers -->
+  <!-- Business Website header -->
+  <rect x="30" y="90" width="358" height="50" fill="#4A90D9" rx="6"/>
+  <text x="209" y="112" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Business Website</text>
+  <text x="209" y="131" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#DDEEFF">SMEs · Startups · Local Businesses</text>
+
+  <!-- Corporate Website header -->
+  <rect x="412" y="90" width="358" height="50" fill="#1A1A2E" rx="6"/>
+  <text x="591" y="112" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Corporate Website</text>
+  <text x="591" y="131" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Enterprise · Listed Companies · NGOs</text>
+
+  <!-- Dividing accent line -->
+  <rect x="393" y="90" width="14" height="560" fill="#E94560" rx="3"/>
+
+  <!-- Row 1: Page count -->
+  <rect x="30" y="150" width="358" height="54" fill="#EBF3FD" rx="4"/>
+  <text x="50" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" font-weight="700">Page Count</text>
+  <text x="50" y="192" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#1A1A2E" font-weight="700">5–10 pages</text>
+  <rect x="412" y="150" width="358" height="54" fill="#1A1A2E" rx="4"/>
+  <text x="432" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA" font-weight="700">Page Count</text>
+  <text x="432" y="192" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700">20–50+ pages</text>
+
+  <!-- Row 2: Audience -->
+  <rect x="30" y="210" width="358" height="54" fill="#FFFFFF" rx="4"/>
+  <text x="50" y="232" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" font-weight="700">Target Audience</text>
+  <text x="50" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#1A1A2E" font-weight="700">End customers only</text>
+  <rect x="412" y="210" width="358" height="54" fill="#16213E" rx="4"/>
+  <text x="432" y="232" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA" font-weight="700">Target Audience</text>
+  <text x="432" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="700">Multiple: customers, investors, press, staff</text>
+
+  <!-- Row 3: Navigation -->
+  <rect x="30" y="270" width="358" height="54" fill="#EBF3FD" rx="4"/>
+  <text x="50" y="292" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" font-weight="700">Navigation</text>
+  <text x="50" y="312" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#1A1A2E" font-weight="700">Standard top-nav menu</text>
+  <rect x="412" y="270" width="358" height="54" fill="#1A1A2E" rx="4"/>
+  <text x="432" y="292" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA" font-weight="700">Navigation</text>
+  <text x="432" y="312" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="700">Mega menu + audience portals</text>
+
+  <!-- Row 4: Contact -->
+  <rect x="30" y="330" width="358" height="54" fill="#FFFFFF" rx="4"/>
+  <text x="50" y="352" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" font-weight="700">Contact / Enquiry</text>
+  <text x="50" y="372" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#1A1A2E" font-weight="700">Basic contact form + M-Pesa CTA</text>
+  <rect x="412" y="330" width="358" height="54" fill="#16213E" rx="4"/>
+  <text x="432" y="352" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA" font-weight="700">Contact / Enquiry</text>
+  <text x="432" y="372" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="700">Department routing + CRM integration</text>
+
+  <!-- Row 5: Careers -->
+  <rect x="30" y="390" width="358" height="54" fill="#EBF3FD" rx="4"/>
+  <text x="50" y="412" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" font-weight="700">Careers Portal</text>
+  <text x="50" y="432" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#AAAAAA" font-weight="700">— Not required</text>
+  <rect x="412" y="390" width="358" height="54" fill="#1A1A2E" rx="4"/>
+  <text x="432" y="412" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA" font-weight="700">Careers Portal</text>
+  <text x="432" y="432" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="700">Job listings + application system</text>
+
+  <!-- Row 6: Compliance -->
+  <rect x="30" y="450" width="358" height="54" fill="#FFFFFF" rx="4"/>
+  <text x="50" y="472" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" font-weight="700">Legal &amp; Compliance</text>
+  <text x="50" y="492" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#AAAAAA" font-weight="700">KRA PIN in footer</text>
+  <rect x="412" y="450" width="358" height="54" fill="#16213E" rx="4"/>
+  <text x="432" y="472" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA" font-weight="700">Legal &amp; Compliance</text>
+  <text x="432" y="492" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="700">KDPA policy + Investor Relations + Press</text>
+
+  <!-- Row 7: CMS -->
+  <rect x="30" y="510" width="358" height="54" fill="#EBF3FD" rx="4"/>
+  <text x="50" y="532" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#555555" font-weight="700">Content Management</text>
+  <text x="50" y="552" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#1A1A2E" font-weight="700">Single admin CMS</text>
+  <rect x="412" y="510" width="358" height="54" fill="#1A1A2E" rx="4"/>
+  <text x="432" y="532" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA" font-weight="700">Content Management</text>
+  <text x="432" y="552" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="700">Multi-author CMS with role permissions</text>
+
+  <!-- Bottom CTA note -->
+  <rect x="30" y="572" width="740" height="50" fill="#E94560" rx="6"/>
+  <text x="400" y="594" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Not sure which you need? Tupate Studio scopes the right solution for your Kenyan brand.</text>
+  <text x="400" y="613" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#FFCCCC">Both are built custom — no WordPress bloat.</text>
+
+  <!-- Footer -->
+  <text x="400" y="647" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#999999">tupate.studio</text>
+</svg>

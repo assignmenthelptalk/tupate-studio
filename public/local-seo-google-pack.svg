@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="100%" height="auto" role="img" aria-labelledby="infographic-title-4">
+  <title id="infographic-title-4">The Google 3-Pack: How Local Businesses Win in Kenya</title>
+
+  <!-- Background -->
+  <rect width="800" height="640" fill="#F5F5F5" rx="12"/>
+
+  <!-- Header -->
+  <rect width="800" height="75" fill="#1A1A2E" rx="12"/>
+  <rect x="0" y="63" width="800" height="12" fill="#1A1A2E"/>
+  <text x="400" y="36" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">The Google 3-Pack</text>
+  <text x="400" y="60" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#E94560">How Local Businesses Win in Kenya</text>
+
+  <!-- Label: Search Results Page illustration -->
+  <text x="400" y="102" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#555555">How a Google.co.ke search page looks for local queries:</text>
+
+  <!-- SERP mock-up container -->
+  <rect x="100" y="110" width="600" height="380" fill="#FFFFFF" rx="8" stroke="#DDDDDD" stroke-width="1"/>
+
+  <!-- Google search bar mock -->
+  <rect x="120" y="122" width="400" height="28" fill="#F5F5F5" rx="14" stroke="#DDDDDD" stroke-width="1"/>
+  <text x="140" y="141" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#444444">web design company in Nairobi</text>
+  <rect x="535" y="122" width="60" height="28" fill="#1A1A2E" rx="14"/>
+  <text x="565" y="141" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#FFFFFF">Search</text>
+
+  <!-- Ad label -->
+  <rect x="120" y="160" width="35" height="14" fill="#FFFFFF" rx="2" stroke="#BBBBBB" stroke-width="1"/>
+  <text x="138" y="171" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#666666">Ad</text>
+  <text x="162" y="171" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#1A0DAB">Company X — websiteX.co.ke</text>
+
+  <!-- 3-Pack box -->
+  <rect x="120" y="185" width="400" height="180" fill="#F0F7FF" rx="6" stroke="#AACCEE" stroke-width="1.5"/>
+
+  <!-- Map placeholder -->
+  <rect x="380" y="190" width="132" height="170" fill="#DDEECC" rx="4"/>
+  <text x="446" y="278" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#555555">Map</text>
+
+  <!-- 3-Pack badge -->
+  <rect x="120" y="185" width="260" height="22" fill="#E94560" rx="6"/>
+  <rect x="120" y="197" width="260" height="10" fill="#E94560"/>
+  <text x="250" y="200" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Google 3-Pack — Above All Organic Results</text>
+
+  <!-- Listing 1 -->
+  <rect x="126" y="212" width="246" height="44" fill="#FFFFFF" rx="4"/>
+  <text x="138" y="228" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1A0DAB">Tupate Studio Web Design</text>
+  <text x="138" y="242" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#E94560">★★★★★ 4.9 (87) · Web Design Agency</text>
+  <text x="138" y="254" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#555555">Nairobi CBD · Open now · 0712 345 678</text>
+
+  <!-- Listing 2 -->
+  <rect x="126" y="261" width="246" height="44" fill="#FFFFFF" rx="4" stroke="#EEEEEE" stroke-width="1"/>
+  <text x="138" y="277" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1A0DAB">Competitor B Web Agency</text>
+  <text x="138" y="291" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#777777">★★★★☆ 4.2 (31) · Web Design</text>
+  <text x="138" y="303" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#555555">Westlands · Closed · 0720 000 000</text>
+
+  <!-- Listing 3 -->
+  <rect x="126" y="310" width="246" height="44" fill="#FFFFFF" rx="4" stroke="#EEEEEE" stroke-width="1"/>
+  <text x="138" y="326" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1A0DAB">Competitor C Digital</text>
+  <text x="138" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#777777">★★★★☆ 4.0 (14) · Website Design</text>
+  <text x="138" y="352" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#555555">Karen · Open · 0733 000 000</text>
+
+  <!-- Organic results below -->
+  <text x="128" y="382" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#1A0DAB">organicresult1.co.ke › web-design</text>
+  <text x="128" y="395" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#555555">Best web design in Nairobi — affordable websites...</text>
+  <text x="128" y="412" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#1A0DAB">organicresult2.com › nairobi</text>
+  <text x="128" y="425" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#555555">Professional web designers in Kenya — since 2010...</text>
+  <text x="128" y="442" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#AAAAAA">... more organic results below ...</text>
+
+  <!-- Pyramid layers -->
+  <text x="400" y="516" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1A1A2E">What It Takes to Enter the Google 3-Pack:</text>
+
+  <!-- Layer 1 top — 3 pack -->
+  <polygon points="400,530 310,558 490,558" fill="#E94560"/>
+  <text x="400" y="549" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Google 3-Pack</text>
+
+  <!-- Layer 2 middle -->
+  <polygon points="310,562 270,590 530,590 490,562" fill="#C0392B"/>
+  <text x="400" y="580" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#FFFFFF">Google Business Profile + Citations + Reviews</text>
+
+  <!-- Layer 3 base -->
+  <polygon points="270,594 220,622 580,622 530,594" fill="#1A1A2E"/>
+  <text x="400" y="612" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#FFFFFF">Website Location Pages + NAP Consistency + On-Page SEO</text>
+
+  <!-- Footer -->
+  <text x="400" y="633" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#999999">tupate.studio</text>
+</svg>

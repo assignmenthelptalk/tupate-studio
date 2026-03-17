@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 740" width="100%" height="auto" role="img" aria-labelledby="infographic-title-10">
+  <title id="infographic-title-10">Technical SEO Audit: 8 Dimensions We Check on Every Kenyan Website</title>
+
+  <!-- Background -->
+  <rect width="800" height="740" fill="#1A1A2E" rx="12"/>
+
+  <!-- Header -->
+  <rect width="800" height="80" fill="#0A0A1A" rx="12"/>
+  <rect x="0" y="68" width="800" height="12" fill="#0A0A1A"/>
+  <text x="400" y="34" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Technical SEO Audit: 8 Dimensions</text>
+  <text x="400" y="58" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#E94560">We Check on Every Kenyan Website Before Launch</text>
+
+  <!-- Row 1 — Cards 1 to 4 -->
+
+  <!-- Card 1: Crawlability -->
+  <rect x="18" y="97" width="184" height="140" fill="#16213E" rx="8"/>
+  <rect x="18" y="97" width="184" height="8" fill="#E94560" rx="8"/>
+  <rect x="18" y="97" width="8" height="140" fill="#E94560" rx="8"/>
+  <rect x="26" y="97" width="176" height="8" fill="#E94560"/>
+  <circle cx="44" cy="121" r="14" fill="#E94560"/>
+  <text x="44" y="127" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="115" y="121" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Crawlability</text>
+  <line x1="26" y1="132" x2="194" y2="132" stroke="#2C3E6A" stroke-width="1"/>
+  <text x="34" y="150" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">robots.txt rules</text>
+  <text x="34" y="167" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">XML sitemap accuracy</text>
+  <text x="34" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Crawl budget efficiency</text>
+  <text x="34" y="201" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">No orphaned pages</text>
+  <text x="34" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#777777">Ensures Google indexes every page</text>
+
+  <!-- Card 2: Indexation -->
+  <rect x="212" y="97" width="184" height="140" fill="#16213E" rx="8"/>
+  <rect x="212" y="97" width="184" height="8" fill="#3A6BC9" rx="8"/>
+  <rect x="212" y="97" width="8" height="140" fill="#3A6BC9" rx="8"/>
+  <rect x="220" y="97" width="176" height="8" fill="#3A6BC9"/>
+  <circle cx="238" cy="121" r="14" fill="#3A6BC9"/>
+  <text x="238" y="127" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="308" y="121" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Indexation</text>
+  <line x1="220" y1="132" x2="388" y2="132" stroke="#2C3E6A" stroke-width="1"/>
+  <text x="228" y="150" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">Canonical tags correct</text>
+  <text x="228" y="167" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">noindex usage audit</text>
+  <text x="228" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Duplicate content check</text>
+  <text x="228" y="201" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Pagination tags</text>
+  <text x="228" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#777777">Only the right pages appear in Google</text>
+
+  <!-- Card 3: Core Web Vitals -->
+  <rect x="406" y="97" width="184" height="140" fill="#16213E" rx="8"/>
+  <rect x="406" y="97" width="184" height="8" fill="#9B59B6" rx="8"/>
+  <rect x="406" y="97" width="8" height="140" fill="#9B59B6" rx="8"/>
+  <rect x="414" y="97" width="176" height="8" fill="#9B59B6"/>
+  <circle cx="432" cy="121" r="14" fill="#9B59B6"/>
+  <text x="432" y="127" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="508" y="121" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Core Web Vitals</text>
+  <line x1="414" y1="132" x2="582" y2="132" stroke="#2C3E6A" stroke-width="1"/>
+  <text x="422" y="150" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">LCP under 2.5 seconds</text>
+  <text x="422" y="167" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">INP under 200ms</text>
+  <text x="422" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">CLS score below 0.1</text>
+  <text x="422" y="201" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">FCP optimization</text>
+  <text x="422" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#777777">Google ranking signal since 2021</text>
+
+  <!-- Card 4: Mobile Usability -->
+  <rect x="600" y="97" width="182" height="140" fill="#16213E" rx="8"/>
+  <rect x="600" y="97" width="182" height="8" fill="#E67E22" rx="8"/>
+  <rect x="600" y="97" width="8" height="140" fill="#E67E22" rx="8"/>
+  <rect x="608" y="97" width="174" height="8" fill="#E67E22"/>
+  <circle cx="625" cy="121" r="14" fill="#E67E22"/>
+  <text x="625" y="127" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="700" y="121" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Mobile Usability</text>
+  <line x1="608" y1="132" x2="774" y2="132" stroke="#2C3E6A" stroke-width="1"/>
+  <text x="616" y="150" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">Responsive on 360px+</text>
+  <text x="616" y="167" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">Tap targets 48px min</text>
+  <text x="616" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">No horizontal scroll</text>
+  <text x="616" y="201" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Font size min 16px</text>
+  <text x="616" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#777777">Critical for Kenya's mobile audience</text>
+
+  <!-- Row 2 — Cards 5 to 8 -->
+
+  <!-- Card 5: HTTPS & Security -->
+  <rect x="18" y="252" width="184" height="140" fill="#16213E" rx="8"/>
+  <rect x="18" y="252" width="184" height="8" fill="#27AE60" rx="8"/>
+  <rect x="18" y="252" width="8" height="140" fill="#27AE60" rx="8"/>
+  <rect x="26" y="252" width="176" height="8" fill="#27AE60"/>
+  <circle cx="44" cy="276" r="14" fill="#27AE60"/>
+  <text x="44" y="282" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
+  <text x="115" y="277" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">HTTPS &amp; Security</text>
+  <line x1="26" y1="287" x2="194" y2="287" stroke="#2C3E6A" stroke-width="1"/>
+  <text x="34" y="305" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">SSL certificate valid</text>
+  <text x="34" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">HTTP → HTTPS redirect</text>
+  <text x="34" y="339" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Security headers check</text>
+  <text x="34" y="356" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Mixed content scan</text>
+  <text x="34" y="373" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#777777">Google ranks HTTPS sites higher</text>
+
+  <!-- Card 6: Schema Markup -->
+  <rect x="212" y="252" width="184" height="140" fill="#16213E" rx="8"/>
+  <rect x="212" y="252" width="184" height="8" fill="#E94560" rx="8"/>
+  <rect x="212" y="252" width="8" height="140" fill="#E94560" rx="8"/>
+  <rect x="220" y="252" width="176" height="8" fill="#E94560"/>
+  <circle cx="238" cy="276" r="14" fill="#E94560"/>
+  <text x="238" y="282" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">6</text>
+  <text x="308" y="277" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Schema Markup</text>
+  <line x1="220" y1="287" x2="388" y2="287" stroke="#2C3E6A" stroke-width="1"/>
+  <text x="228" y="305" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">LocalBusiness schema</text>
+  <text x="228" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">Product + Review schema</text>
+  <text x="228" y="339" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">FAQ / HowTo schema</text>
+  <text x="228" y="356" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">BreadcrumbList schema</text>
+  <text x="228" y="373" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#777777">Enables rich results in Google SERPs</text>
+
+  <!-- Card 7: Internal Linking -->
+  <rect x="406" y="252" width="184" height="140" fill="#16213E" rx="8"/>
+  <rect x="406" y="252" width="184" height="8" fill="#1ABC9C" rx="8"/>
+  <rect x="406" y="252" width="8" height="140" fill="#1ABC9C" rx="8"/>
+  <rect x="414" y="252" width="176" height="8" fill="#1ABC9C"/>
+  <circle cx="432" cy="276" r="14" fill="#1ABC9C"/>
+  <text x="432" y="282" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">7</text>
+  <text x="508" y="277" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Internal Linking</text>
+  <line x1="414" y1="287" x2="582" y2="287" stroke="#2C3E6A" stroke-width="1"/>
+  <text x="422" y="305" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">Contextual anchor texts</text>
+  <text x="422" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">PageRank flow check</text>
+  <text x="422" y="339" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">No broken internal links</text>
+  <text x="422" y="356" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Topical cluster bridges</text>
+  <text x="422" y="373" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#777777">Strengthens topical authority signals</text>
+
+  <!-- Card 8: Page Speed & Hosting -->
+  <rect x="600" y="252" width="182" height="140" fill="#16213E" rx="8"/>
+  <rect x="600" y="252" width="182" height="8" fill="#F39C12" rx="8"/>
+  <rect x="600" y="252" width="8" height="140" fill="#F39C12" rx="8"/>
+  <rect x="608" y="252" width="174" height="8" fill="#F39C12"/>
+  <circle cx="625" cy="276" r="14" fill="#F39C12"/>
+  <text x="625" y="282" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">8</text>
+  <text x="700" y="277" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Page Speed &amp; Hosting</text>
+  <line x1="608" y1="287" x2="774" y2="287" stroke="#2C3E6A" stroke-width="1"/>
+  <text x="616" y="305" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">TTFB under 600ms</text>
+  <text x="616" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#CCCCCC">CDN configuration</text>
+  <text x="616" y="339" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Image compression</text>
+  <text x="616" y="356" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Render-blocking scripts</text>
+  <text x="616" y="373" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#777777">Server close to Nairobi reduces latency</text>
+
+  <!-- Summary section -->
+  <rect x="18" y="410" width="764" height="70" fill="#0F3460" rx="8"/>
+  <text x="400" y="438" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">What Happens After the Audit?</text>
+  <text x="400" y="462" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#CCCCCC">Each dimension is scored. Issues are prioritised by impact. We fix — then re-audit to confirm resolution.</text>
+  <text x="400" y="474" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">You receive a full PDF report with scores, issues, and fixes. Typically delivered within 5 business days.</text>
+
+  <!-- Score legend -->
+  <rect x="18" y="496" width="764" height="186" fill="#16213E" rx="8"/>
+  <text x="400" y="522" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Scoring Key — Each Dimension Rated:</text>
+
+  <!-- Score boxes -->
+  <rect x="40" y="534" width="160" height="60" fill="#1A4731" rx="6"/>
+  <text x="120" y="558" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#27AE60">Pass</text>
+  <text x="120" y="578" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">No issues found</text>
+
+  <rect x="220" y="534" width="160" height="60" fill="#3D3005" rx="6"/>
+  <text x="300" y="558" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#F39C12">Warning</text>
+  <text x="300" y="578" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Needs improvement</text>
+
+  <rect x="400" y="534" width="160" height="60" fill="#4A1020" rx="6"/>
+  <text x="480" y="558" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#E94560">Fail</text>
+  <text x="480" y="578" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#AAAAAA">Immediate fix required</text>
+
+  <rect x="580" y="534" width="182" height="60" fill="#0F3460" rx="6"/>
+  <text x="671" y="553" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Overall Health Score</text>
+  <text x="671" y="572" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#E94560">0–100</text>
+  <text x="671" y="589" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#AAAAAA">Tracked over time</text>
+
+  <!-- CTA row -->
+  <rect x="40" y="610" width="720" height="46" fill="#E94560" rx="6"/>
+  <text x="400" y="630" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Request a Free Technical SEO Audit for Your Kenyan Website</text>
+  <text x="400" y="649" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#FFCCCC">tupate.studio — WhatsApp: 0712 345 678</text>
+
+  <!-- Footer -->
+  <text x="400" y="727" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#999999">tupate.studio</text>
+</svg>

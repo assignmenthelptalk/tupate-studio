@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" width="100%" height="auto" role="img" aria-labelledby="infographic-title-1">
+  <title id="infographic-title-1">Anatomy of a High-Converting Kenyan Business Website</title>
+
+  <!-- Background -->
+  <rect width="800" height="700" fill="#1A1A2E" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="38" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Anatomy of a High-Converting Kenyan Business Website</text>
+  <line x1="80" y1="50" x2="720" y2="50" stroke="#E94560" stroke-width="2"/>
+
+  <!-- Browser chrome -->
+  <rect x="180" y="65" width="440" height="22" fill="#16213E" rx="4"/>
+  <circle cx="196" cy="76" r="5" fill="#E94560"/>
+  <circle cx="212" cy="76" r="5" fill="#F5C518"/>
+  <circle cx="228" cy="76" r="5" fill="#4CAF50"/>
+  <rect x="250" y="70" width="350" height="12" fill="#0F3460" rx="3"/>
+  <text x="425" y="81" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#999999">yourbusiness.co.ke</text>
+
+  <!-- Website wireframe outer -->
+  <rect x="180" y="87" width="440" height="540" fill="#0F3460" rx="0" rx="4"/>
+
+  <!-- NAV BAR section -->
+  <rect x="180" y="87" width="440" height="36" fill="#16213E"/>
+  <rect x="188" y="97" width="50" height="16" fill="#E94560" rx="2"/>
+  <text x="213" y="109" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#FFFFFF">LOGO</text>
+  <rect x="530" y="97" width="42" height="16" fill="#4CAF50" rx="2"/>
+  <text x="551" y="109" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#FFFFFF">WhatsApp</text>
+  <rect x="578" y="97" width="36" height="16" fill="#0F3460" rx="2" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="596" y="109" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#FFFFFF">📞 Call</text>
+
+  <!-- HERO section -->
+  <rect x="180" y="123" width="440" height="100" fill="#1A1A2E"/>
+  <text x="290" y="152" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Grow Your Business Online</text>
+  <text x="290" y="168" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#CCCCCC">Professional websites for Kenyan businesses</text>
+  <rect x="290" y="178" width="70" height="20" fill="#E94560" rx="3"/>
+  <text x="325" y="192" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">Get Quote →</text>
+  <rect x="370" y="178" width="72" height="20" fill="#16213E" rx="3" stroke="#E94560" stroke-width="1"/>
+  <text x="406" y="192" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#FFFFFF">Pay via M-Pesa</text>
+  <!-- Hero image placeholder -->
+  <rect x="480" y="128" width="130" height="90" fill="#0F3460" rx="4"/>
+  <text x="545" y="178" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#555577">[Hero Image]</text>
+  <!-- Load badge -->
+  <rect x="488" y="134" width="52" height="14" fill="#4CAF50" rx="2"/>
+  <text x="514" y="145" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">⚡ &lt;2.5s</text>
+
+  <!-- Trust signals bar -->
+  <rect x="180" y="223" width="440" height="40" fill="#16213E"/>
+  <text x="280" y="238" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#999999">TRUSTED BY</text>
+  <rect x="196" y="230" width="50" height="16" fill="#0F3460" rx="2"/>
+  <text x="221" y="242" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#AAAAAA">Client A</text>
+  <rect x="254" y="230" width="50" height="16" fill="#0F3460" rx="2"/>
+  <text x="279" y="242" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#AAAAAA">Client B</text>
+  <rect x="312" y="230" width="50" height="16" fill="#0F3460" rx="2"/>
+  <text x="337" y="242" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#AAAAAA">Client C</text>
+  <rect x="370" y="230" width="50" height="16" fill="#0F3460" rx="2"/>
+  <text x="395" y="242" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#AAAAAA">Client D</text>
+  <rect x="428" y="230" width="50" height="16" fill="#0F3460" rx="2"/>
+  <text x="453" y="242" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#AAAAAA">Client E</text>
+  <text x="490" y="242" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#AAAAAA">★★★★★ 4.9</text>
+
+  <!-- Services section -->
+  <rect x="180" y="263" width="440" height="90" fill="#1A1A2E"/>
+  <rect x="190" y="270" width="130" height="75" fill="#0F3460" rx="3"/>
+  <rect x="330" y="270" width="130" height="75" fill="#0F3460" rx="3"/>
+  <rect x="470" y="270" width="140" height="75" fill="#0F3460" rx="3"/>
+  <text x="255" y="315" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#CCCCCC">Web Design</text>
+  <text x="395" y="315" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#CCCCCC">SEO Services</text>
+  <text x="540" y="315" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#CCCCCC">E-commerce</text>
+
+  <!-- Testimonials section -->
+  <rect x="180" y="353" width="440" height="70" fill="#16213E"/>
+  <text x="400" y="372" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">What Our Clients Say</text>
+  <rect x="193" y="379" width="200" height="38" fill="#0F3460" rx="3"/>
+  <rect x="403" y="379" width="207" height="38" fill="#0F3460" rx="3"/>
+  <text x="293" y="398" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#AAAAAA">"Great results in 3 months" ★★★★★</text>
+  <text x="506" y="398" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#AAAAAA">"Sales up 40% after launch" ★★★★★</text>
+
+  <!-- Maps section -->
+  <rect x="180" y="423" width="440" height="60" fill="#1A1A2E"/>
+  <rect x="190" y="430" width="200" height="46" fill="#0F3460" rx="3"/>
+  <text x="290" y="457" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#555577">[Google Maps Embed]</text>
+  <rect x="400" y="430" width="210" height="46" fill="#0F3460" rx="3"/>
+  <text x="505" y="450" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#CCCCCC">Contact Form</text>
+  <text x="505" y="465" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#999999">Pay via M-Pesa • Call • WhatsApp</text>
+
+  <!-- Footer -->
+  <rect x="180" y="483" width="440" height="60" fill="#0A0A1A"/>
+  <text x="290" y="502" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#AAAAAA">Business Name | Nairobi, Kenya</text>
+  <text x="290" y="515" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#777777">KRA PIN: P051XXXXXX | +254 700 000 000</text>
+  <text x="530" y="502" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#AAAAAA">Privacy Policy | Terms</text>
+  <text x="530" y="515" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#777777">© 2025 All rights reserved</text>
+
+  <!-- WhatsApp float button -->
+  <circle cx="598" cy="528" r="12" fill="#4CAF50"/>
+  <text x="598" y="533" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#FFFFFF" font-weight="700">W</text>
+
+  <!-- CALLOUT LABELS (left side) -->
+  <!-- Nav label -->
+  <line x1="178" y1="105" x2="130" y2="105" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="20" y="94" width="108" height="22" fill="#E94560" rx="3"/>
+  <text x="74" y="109" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Navigation</text>
+
+  <!-- Hero label -->
+  <line x1="178" y1="165" x2="130" y2="165" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="5" y="154" width="123" height="22" fill="#E94560" rx="3"/>
+  <text x="66" y="169" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">H1 + CTA Above Fold</text>
+
+  <!-- Trust signals label -->
+  <line x1="178" y1="243" x2="130" y2="243" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="10" y="232" width="118" height="22" fill="#E94560" rx="3"/>
+  <text x="69" y="247" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Trust Signals</text>
+
+  <!-- Testimonials label -->
+  <line x1="178" y1="390" x2="130" y2="390" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="8" y="379" width="120" height="22" fill="#E94560" rx="3"/>
+  <text x="68" y="394" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Testimonials</text>
+
+  <!-- Maps label -->
+  <line x1="178" y1="453" x2="130" y2="453" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="4" y="442" width="124" height="22" fill="#E94560" rx="3"/>
+  <text x="66" y="457" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Google Maps Embed</text>
+
+  <!-- Footer label -->
+  <line x1="178" y1="510" x2="130" y2="510" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="8" y="499" width="120" height="22" fill="#E94560" rx="3"/>
+  <text x="68" y="514" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Footer: NAP + KRA PIN</text>
+
+  <!-- CALLOUT LABELS (right side) -->
+  <!-- WhatsApp phone right nav -->
+  <line x1="622" y1="105" x2="670" y2="105" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="672" y="94" width="106" height="22" fill="#E94560" rx="3"/>
+  <text x="725" y="109" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Phone + WhatsApp</text>
+
+  <!-- Load speed label -->
+  <line x1="542" y1="141" x2="590" y2="141" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="592" y="130" width="108" height="22" fill="#E94560" rx="3"/>
+  <text x="646" y="145" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Fast Load &lt;2.5s</text>
+
+  <!-- M-Pesa button label -->
+  <line x1="444" y1="188" x2="592" y2="188" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="594" y="177" width="100" height="22" fill="#E94560" rx="3"/>
+  <text x="644" y="192" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">M-Pesa Button</text>
+
+  <!-- Mobile layout label -->
+  <line x1="622" y1="300" x2="670" y2="300" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="672" y="289" width="110" height="22" fill="#E94560" rx="3"/>
+  <text x="727" y="304" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Mobile-Optimised</text>
+
+  <!-- WhatsApp float label -->
+  <line x1="622" y1="528" x2="670" y2="528" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="672" y="517" width="112" height="22" fill="#E94560" rx="3"/>
+  <text x="728" y="532" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">WhatsApp Float Btn</text>
+
+  <!-- Page footer -->
+  <text x="400" y="685" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#999999">tupate.studio</text>
+</svg>

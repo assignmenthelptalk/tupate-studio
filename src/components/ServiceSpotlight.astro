@@ -75,6 +75,15 @@ const col2 = cards.slice(Math.ceil(cards.length / 2));
           </div>
         ))}
       </div>
+
+      <div class="spotlight-photo-wrap">
+        <img
+          src="/businessman-nairobi.png"
+          alt="Kenyan business owner with a professional website"
+          class="spotlight-photo"
+          loading="lazy"
+        />
+      </div>
     </div>
 
     <!-- Right: auto-scrolling card columns -->
@@ -301,6 +310,21 @@ const col2 = cards.slice(Math.ceil(cards.length / 2));
     font-size: 13px;
     color: #777777;
     line-height: 1.55;
+  }
+
+  /* ── Spotlight photo ── */
+  .spotlight-photo-wrap {
+    margin-top: 40px;
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 360px;
+  }
+
+  .spotlight-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
   }
 
   /* ── Mobile ── */

@@ -397,6 +397,30 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
     color: #2563eb;
   }
 
+  .article-prose figure {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .article-prose figure img,
+  .article-prose figure svg {
+    width: 100%;
+    max-width: 680px;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #e8ecf4;
+    background: #f7f8fc;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .article-prose figcaption {
+    font-size: 13px;
+    color: #999999;
+    margin-top: 10px;
+    font-style: italic;
+  }
+
   @media (max-width: 768px) {
     .related-grid { grid-template-columns: 1fr; }
     .coming-soon-box { padding: 32px 24px; }
