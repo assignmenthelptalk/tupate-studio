@@ -1,0 +1,263 @@
+<svg viewBox="0 0 800 1020" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="infographic-title" font-family="'Inter', 'Segoe UI', Arial, sans-serif">
+  <title id="infographic-title">Local SEO for Kenyan Clinics — Google Business Profile Optimisation Checklist</title>
+  <defs>
+    <linearGradient id="hG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+    <linearGradient id="aG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E94560"/>
+      <stop offset="100%" style="stop-color:#c73652"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1020" fill="#F5F5F5"/>
+
+  <!-- Header -->
+  <rect width="800" height="68" fill="url(#hG)"/>
+  <text x="400" y="28" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" letter-spacing="0.5">LOCAL SEO FOR KENYAN CLINICS</text>
+  <text x="400" y="50" text-anchor="middle" fill="#E94560" font-size="11" font-weight="600">Google Business Profile Optimisation Checklist — Nairobi &amp; Mombasa Healthcare Practices</text>
+
+  <!-- Dominant search pattern callout -->
+  <rect x="30" y="78" width="740" height="42" rx="6" fill="#E94560"/>
+  <text x="400" y="97" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700">DOMINANT KENYAN PATIENT SEARCH PATTERN:</text>
+  <text x="400" y="113" text-anchor="middle" fill="#FFFFFF" font-size="11">"Specialty + Location" searches — "dentist Kilimani" / "gynecologist Westlands" / "pediatrician Karen Nairobi"</text>
+
+  <!-- Search pattern examples -->
+  <rect x="30" y="130" width="740" height="55" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <text x="400" y="148" text-anchor="middle" fill="#1A1A2E" font-size="10" font-weight="700">HIGH-VALUE LOCAL SEARCH QUERIES FOR NAIROBI CLINIC WEBSITES</text>
+  <!-- Query chips -->
+  <rect x="40" y="154" width="118" height="22" rx="11" fill="#1A1A2E"/>
+  <text x="99" y="169" text-anchor="middle" fill="#FFFFFF" font-size="8">dentist Kilimani</text>
+  <rect x="166" y="154" width="136" height="22" rx="11" fill="#1A1A2E"/>
+  <text x="234" y="169" text-anchor="middle" fill="#FFFFFF" font-size="8">gynecologist Westlands</text>
+  <rect x="310" y="154" width="134" height="22" rx="11" fill="#1A1A2E"/>
+  <text x="377" y="169" text-anchor="middle" fill="#FFFFFF" font-size="8">pediatrician Karen Nairobi</text>
+  <rect x="452" y="154" width="136" height="22" rx="11" fill="#E94560"/>
+  <text x="520" y="169" text-anchor="middle" fill="#FFFFFF" font-size="8">physiotherapist Lavington</text>
+  <rect x="596" y="154" width="130" height="22" rx="11" fill="#E94560"/>
+  <text x="661" y="169" text-anchor="middle" fill="#FFFFFF" font-size="8">cardiologist Upperhill</text>
+
+  <!-- GBP CHECKLIST - Main section -->
+  <rect x="30" y="195" width="740" height="22" rx="4" fill="#1A1A2E"/>
+  <text x="400" y="211" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">GOOGLE BUSINESS PROFILE — COMPLETE OPTIMISATION CHECKLIST</text>
+
+  <!-- LEFT CHECKLIST COLUMN -->
+  <!-- Section: Profile Setup -->
+  <rect x="30" y="223" width="365" height="18" rx="3" fill="#16213E"/>
+  <text x="212" y="235" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">PROFILE SETUP &amp; CATEGORY</text>
+
+  <!-- Checklist items with boxes -->
+  <rect x="30" y="246" width="365" height="220" rx="0" fill="#FFFFFF" stroke="#ddd" stroke-width="0.5"/>
+
+  <!-- Item 1 -->
+  <rect x="42" y="253" width="14" height="14" rx="2" fill="#1A1A2E"/>
+  <text x="49" y="264" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">✓</text>
+  <text x="64" y="263" fill="#2C2C2C" font-size="9" font-weight="600">Correct primary category selected</text>
+  <text x="64" y="275" fill="#888" font-size="8">"Dentist" / "Medical Clinic" / "General Practitioner" / "Pediatrician"</text>
+
+  <!-- Item 2 -->
+  <rect x="42" y="283" width="14" height="14" rx="2" fill="#1A1A2E"/>
+  <text x="49" y="294" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="64" y="293" fill="#2C2C2C" font-size="9" font-weight="600">NHIF acceptance added as service attribute</text>
+  <text x="64" y="305" fill="#888" font-size="8">Add SHA accreditation as attribute from Oct 2024</text>
+
+  <!-- Item 3 -->
+  <rect x="42" y="313" width="14" height="14" rx="2" fill="#1A1A2E"/>
+  <text x="49" y="324" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="64" y="323" fill="#2C2C2C" font-size="9" font-weight="600">Business name matches exactly on website + GBP</text>
+  <text x="64" y="335" fill="#888" font-size="8">NAP consistency (Name, Address, Phone) across all platforms</text>
+
+  <!-- Item 4 -->
+  <rect x="42" y="343" width="14" height="14" rx="2" fill="#1A1A2E"/>
+  <text x="49" y="354" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="64" y="353" fill="#2C2C2C" font-size="9" font-weight="600">Operating hours match website exactly</text>
+  <text x="64" y="365" fill="#888" font-size="8">Saturday hours especially critical — inconsistency reduces trust signals</text>
+
+  <!-- Item 5 -->
+  <rect x="42" y="373" width="14" height="14" rx="2" fill="#1A1A2E"/>
+  <text x="49" y="384" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="64" y="383" fill="#2C2C2C" font-size="9" font-weight="600">Services listed with individual service entries</text>
+  <text x="64" y="395" fill="#888" font-size="8">Each dental/medical service = separate GBP service entry</text>
+
+  <!-- Item 6 -->
+  <rect x="42" y="403" width="14" height="14" rx="2" fill="#1A1A2E"/>
+  <text x="49" y="414" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="64" y="413" fill="#2C2C2C" font-size="9" font-weight="600">WhatsApp number listed as primary contact</text>
+  <text x="64" y="425" fill="#888" font-size="8">Use Safaricom number — matches patient expectation</text>
+
+  <!-- Item 7 -->
+  <rect x="42" y="433" width="14" height="14" rx="2" fill="#1A1A2E"/>
+  <text x="49" y="444" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="64" y="443" fill="#2C2C2C" font-size="9" font-weight="600">KMPDC registration numbers in description</text>
+  <text x="64" y="455" fill="#888" font-size="8">Mention KMPDC registration in GBP description field</text>
+
+  <!-- Section: Photos -->
+  <rect x="30" y="470" width="365" height="18" rx="3" fill="#16213E"/>
+  <text x="212" y="482" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">PHOTOS — QUALITY &amp; VARIETY</text>
+
+  <rect x="30" y="492" width="365" height="130" rx="0" fill="#FFFFFF" stroke="#ddd" stroke-width="0.5"/>
+
+  <rect x="42" y="499" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="49" y="510" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="64" y="509" fill="#2C2C2C" font-size="9" font-weight="600">Clinic exterior / signage photo (identifiable)</text>
+  <text x="64" y="521" fill="#888" font-size="8">Patients navigate by landmarks — exterior photo helps location identification</text>
+
+  <rect x="42" y="529" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="49" y="540" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="64" y="539" fill="#2C2C2C" font-size="9" font-weight="600">Reception area (clean, professional)</text>
+  <text x="64" y="551" fill="#888" font-size="8">First impression of what patients will experience</text>
+
+  <rect x="42" y="559" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="49" y="570" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="64" y="569" fill="#2C2C2C" font-size="9" font-weight="600">Treatment room interiors (no patients visible)</text>
+  <text x="64" y="581" fill="#888" font-size="8">Equipment visible builds clinical credibility signals</text>
+
+  <rect x="42" y="589" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="49" y="600" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="64" y="599" fill="#2C2C2C" font-size="9" font-weight="600">Professional staff photos (actual doctors)</text>
+  <text x="64" y="611" fill="#888" font-size="8">Verified on Google Maps — stock photos reduce trust when cross-referenced</text>
+
+  <!-- RIGHT CHECKLIST COLUMN -->
+  <!-- Review Management -->
+  <rect x="405" y="223" width="365" height="18" rx="3" fill="#E94560"/>
+  <text x="587" y="235" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">REVIEW ACQUISITION &amp; MANAGEMENT</text>
+
+  <rect x="405" y="246" width="365" height="245" rx="0" fill="#FFFFFF" stroke="#ddd" stroke-width="0.5"/>
+
+  <!-- Review strategy diagram -->
+  <text x="587" y="264" text-anchor="middle" fill="#1A1A2E" font-size="9.5" font-weight="700">Post-Visit WhatsApp Review Request Strategy:</text>
+
+  <!-- Flow: Visit -> 2-4hrs -> WhatsApp -> Review -->
+  <rect x="415" y="270" width="80" height="26" rx="4" fill="#1A1A2E"/>
+  <text x="455" y="286" text-anchor="middle" fill="#FFFFFF" font-size="8">Patient visits</text>
+  <line x1="495" y1="283" x2="510" y2="283" stroke="#E94560" stroke-width="1.5"/><polygon points="507,279 515,283 507,287" fill="#E94560"/>
+  <rect x="515" y="270" width="80" height="26" rx="4" fill="#1A1A2E"/>
+  <text x="555" y="283" text-anchor="middle" fill="#FFFFFF" font-size="8">Wait 2–4 hrs</text>
+  <text x="555" y="293" text-anchor="middle" fill="#aaaacc" font-size="7">(after appointment)</text>
+  <line x1="595" y1="283" x2="610" y2="283" stroke="#E94560" stroke-width="1.5"/><polygon points="607,279 615,283 607,287" fill="#E94560"/>
+  <rect x="615" y="270" width="145" height="26" rx="4" fill="#25D366"/>
+  <text x="687" y="283" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="700">Send WhatsApp message</text>
+  <text x="687" y="293" text-anchor="middle" fill="#FFFFFF" font-size="7">with Google review short link</text>
+
+  <rect x="415" y="305" width="345" height="38" rx="4" fill="#F5F5F5" stroke="#ddd" stroke-width="0.5"/>
+  <text x="587" y="318" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="600">Message template:</text>
+  <text x="587" y="330" text-anchor="middle" fill="#888" font-size="7.5">"Thank you for visiting [Clinic Name] today. If you had a good experience, we</text>
+  <text x="587" y="340" text-anchor="middle" fill="#888" font-size="7.5">would be grateful for a Google review: [short link]"</text>
+
+  <rect x="415" y="350" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="422" y="361" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="436" y="361" fill="#2C2C2C" font-size="9" font-weight="600">Respond to every review — positive and negative</text>
+  <text x="436" y="373" fill="#888" font-size="8">Google uses review response activity as local ranking signal</text>
+  <text x="436" y="385" fill="#888" font-size="8">Kenyan patients read negative reviews + responses before booking</text>
+
+  <rect x="415" y="392" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="422" y="403" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="436" y="403" fill="#2C2C2C" font-size="9" font-weight="600">Respond professionally within 24 hours</text>
+  <text x="436" y="415" fill="#888" font-size="8">Never respond defensively to negative reviews — acknowledge, apologise, offer to resolve</text>
+
+  <rect x="415" y="422" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="422" y="433" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="436" y="433" fill="#2C2C2C" font-size="9" font-weight="600">Target: minimum 20 reviews, 4.0+ average rating</text>
+  <text x="436" y="445" fill="#888" font-size="8">Strong review profile + high response rate = better Google Maps rank for Nairobi clinic queries</text>
+
+  <rect x="415" y="452" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="422" y="463" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="436" y="463" fill="#2C2C2C" font-size="9" font-weight="600">Display reviews as screenshots on clinic website</text>
+  <text x="436" y="475" fill="#888" font-size="8">Google reviews = third-party validated (cannot be fabricated) — Kenyan patients trust these</text>
+
+  <!-- Multi-branch section -->
+  <rect x="405" y="495" width="365" height="18" rx="3" fill="#E94560"/>
+  <text x="587" y="507" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">MULTI-BRANCH LOCATION PAGES</text>
+
+  <rect x="405" y="517" width="365" height="105" rx="0" fill="#FFFFFF" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="415" y="524" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="422" y="535" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="436" y="535" fill="#2C2C2C" font-size="9" font-weight="600">Each branch = separate GBP listing</text>
+  <text x="436" y="547" fill="#888" font-size="8">One GBP per physical location — e.g., "Clinic Name — Westlands" and "Clinic Name — Karen"</text>
+
+  <rect x="415" y="554" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="422" y="565" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="436" y="565" fill="#2C2C2C" font-size="9" font-weight="600">Each branch = dedicated website page with unique content</text>
+  <text x="436" y="577" fill="#888" font-size="8">Unique address, phone, Google Maps embed, doctors at that branch, directions</text>
+
+  <rect x="415" y="584" width="14" height="14" rx="2" fill="#E94560"/>
+  <text x="422" y="595" text-anchor="middle" fill="#FFFFFF" font-size="9">✓</text>
+  <text x="436" y="595" fill="#2C2C2C" font-size="9" font-weight="600">Do NOT use a single multi-location page</text>
+  <text x="436" y="607" fill="#888" font-size="8">Generic multi-location pages do not rank locally for any individual branch</text>
+
+  <!-- Schema markup -->
+  <rect x="30" y="628" width="740" height="22" rx="4" fill="#16213E"/>
+  <text x="400" y="644" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">MEDICAL SCHEMA MARKUP — Structured Data for Enhanced Google Search Results</text>
+
+  <rect x="30" y="655" width="740" height="60" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <rect x="46" y="663" width="160" height="38" rx="4" fill="#F5F5F5" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="126" y="677" text-anchor="middle" fill="#1A1A2E" font-size="8.5" font-weight="700">HealthBusiness</text>
+  <text x="126" y="690" text-anchor="middle" fill="#888" font-size="7.5">Practice type, location, hours</text>
+  <text x="126" y="701" text-anchor="middle" fill="#888" font-size="7.5">insurance types accepted</text>
+
+  <rect x="216" y="663" width="160" height="38" rx="4" fill="#F5F5F5" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="296" y="677" text-anchor="middle" fill="#1A1A2E" font-size="8.5" font-weight="700">MedicalOrganization</text>
+  <text x="296" y="690" text-anchor="middle" fill="#888" font-size="7.5">Specialty, accreditation</text>
+  <text x="296" y="701" text-anchor="middle" fill="#888" font-size="7.5">service area coverage</text>
+
+  <rect x="386" y="663" width="160" height="38" rx="4" fill="#F5F5F5" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="466" y="677" text-anchor="middle" fill="#1A1A2E" font-size="8.5" font-weight="700">Physician Schema</text>
+  <text x="466" y="690" text-anchor="middle" fill="#888" font-size="7.5">KMPDC reg, specialty</text>
+  <text x="466" y="701" text-anchor="middle" fill="#888" font-size="7.5">education, languages</text>
+
+  <rect x="556" y="663" width="200" height="38" rx="4" fill="#E94560"/>
+  <text x="656" y="677" text-anchor="middle" fill="#FFFFFF" font-size="8.5" font-weight="700">FAQPage Schema</text>
+  <text x="656" y="690" text-anchor="middle" fill="#FFFFFF" font-size="7.5">Question-answer format for</text>
+  <text x="656" y="701" text-anchor="middle" fill="#FFFFFF" font-size="7.5">Google Featured Snippet capture</text>
+
+  <!-- DOCTOR PROFILE SECTION -->
+  <rect x="30" y="725" width="740" height="22" rx="4" fill="#1A1A2E"/>
+  <text x="400" y="741" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">DOCTOR PROFILE PAGE — MANDATORY ELEMENTS (Converts specialist searches)</text>
+
+  <rect x="30" y="752" width="365" height="168" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <!-- Profile card mockup -->
+  <rect x="40" y="762" width="60" height="60" rx="30" fill="#F5F5F5" stroke="#1A1A2E" stroke-width="1"/>
+  <text x="70" y="797" text-anchor="middle" fill="#888" font-size="9">Photo</text>
+  <text x="70" y="809" text-anchor="middle" fill="#888" font-size="7">clinical setting</text>
+
+  <text x="115" y="775" fill="#1A1A2E" font-size="9.5" font-weight="700">Dr. [Full Name]</text>
+  <text x="115" y="789" fill="#888" font-size="8">Specialist in Orthodontics</text>
+  <text x="115" y="802" fill="#E94560" font-size="8">KMPDC Reg: KE-DENT-XXXX</text>
+  <text x="115" y="815" fill="#888" font-size="7.5">BDS — University of Nairobi, 2008</text>
+  <text x="115" y="828" fill="#888" font-size="7.5">12 years practice · English, Swahili, Kikuyu</text>
+
+  <line x1="40" y1="838" x2="385" y2="838" stroke="#eee" stroke-width="0.5"/>
+  <text x="45" y="852" fill="#1A1A2E" font-size="8.5" font-weight="600">Conditions treated (linked to service pages):</text>
+  <text x="45" y="865" fill="#E94560" font-size="8" text-decoration="underline">Metal Braces</text>
+  <text x="110" y="865" fill="#E94560" font-size="8" text-decoration="underline">Clear Aligners</text>
+  <text x="185" y="865" fill="#E94560" font-size="8" text-decoration="underline">Pediatric Orthodontics</text>
+  <text x="45" y="882" fill="#888" font-size="7.5" font-style="italic">"My focus is making orthodontic care accessible and comfortable for every Kenyan patient..."</text>
+  <text x="45" y="895" fill="#888" font-size="7">Personal statement — 2–3 sentences, first person, specific</text>
+  <rect x="45" y="902" width="105" height="13" rx="6" fill="#E94560"/>
+  <text x="97" y="912" text-anchor="middle" fill="#FFFFFF" font-size="7" font-weight="700">Book with Dr. [Name]  ▶</text>
+
+  <!-- Doctor profile element list -->
+  <rect x="405" y="752" width="365" height="168" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <text x="587" y="770" text-anchor="middle" fill="#1A1A2E" font-size="9.5" font-weight="700">9 REQUIRED DOCTOR PROFILE ELEMENTS</text>
+  <text x="420" y="786" fill="#E94560" font-size="9" font-weight="700">1</text><text x="432" y="786" fill="#2C2C2C" font-size="8.5"> Professional photo — clinical setting, real person</text>
+  <text x="420" y="800" fill="#E94560" font-size="9" font-weight="700">2</text><text x="432" y="800" fill="#2C2C2C" font-size="8.5"> Full name + specialist designation</text>
+  <text x="420" y="814" fill="#E94560" font-size="9" font-weight="700">3</text><text x="432" y="814" fill="#2C2C2C" font-size="8.5"> KMPDC registration number (visible)</text>
+  <text x="420" y="828" fill="#E94560" font-size="9" font-weight="700">4</text><text x="432" y="828" fill="#2C2C2C" font-size="8.5"> Specialisation + sub-specialties</text>
+  <text x="420" y="842" fill="#E94560" font-size="9" font-weight="700">5</text><text x="432" y="842" fill="#2C2C2C" font-size="8.5"> Medical school + graduation year</text>
+  <text x="420" y="856" fill="#E94560" font-size="9" font-weight="700">6</text><text x="432" y="856" fill="#2C2C2C" font-size="8.5"> Years of practice in Kenya (specific number)</text>
+  <text x="420" y="870" fill="#E94560" font-size="9" font-weight="700">7</text><text x="432" y="870" fill="#2C2C2C" font-size="8.5"> Languages spoken (incl. Kenyan community languages)</text>
+  <text x="420" y="884" fill="#E94560" font-size="9" font-weight="700">8</text><text x="432" y="884" fill="#2C2C2C" font-size="8.5"> Conditions treated — linked to service pages</text>
+  <text x="420" y="898" fill="#E94560" font-size="9" font-weight="700">9</text><text x="432" y="898" fill="#2C2C2C" font-size="8.5"> Personal statement (first person, 2–3 sentences)</text>
+  <text x="420" y="912" fill="#888" font-size="7.5">Dentist addition: BDS university, dental specialty, before/after gallery</text>
+
+  <!-- Bottom summary bar -->
+  <rect x="30" y="930" width="740" height="55" rx="6" fill="#1A1A2E"/>
+  <text x="400" y="950" text-anchor="middle" fill="#E94560" font-size="11" font-weight="700">WHY LOCAL SEO IS THE HIGHEST-ROI INVESTMENT FOR KENYAN CLINICS</text>
+  <text x="400" y="966" text-anchor="middle" fill="#FFFFFF" font-size="9">Google Maps results appear ABOVE organic search results for healthcare queries in Nairobi — "cardiologist near me" / "orthodontist Westlands"</text>
+  <text x="400" y="980" text-anchor="middle" fill="#aaaacc" font-size="9">Local pack clicks = patients who have already decided they need the service — choosing between providers — highest conversion intent</text>
+
+  <!-- Footer -->
+  <text x="400" y="1010" text-anchor="middle" fill="#999" font-size="11">tupate.studio</text>
+</svg>

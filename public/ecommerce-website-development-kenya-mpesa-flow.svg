@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="100%" role="img" aria-labelledby="infographic-title">
+  <title id="infographic-title">M-Pesa STK Push Payment Flow for Kenyan E-commerce Websites</title>
+
+  <!-- Background -->
+  <rect width="800" height="580" fill="#1A1A2E" rx="12"/>
+
+  <!-- Header -->
+  <rect width="800" height="78" fill="#070712" rx="12"/>
+  <rect x="0" y="66" width="800" height="12" fill="#070712"/>
+  <text x="400" y="36" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">M-Pesa Payment Flow</text>
+  <text x="400" y="58" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#00A550">How Customers Pay on Your Kenyan Online Store — STK Push via Daraja API</text>
+
+  <!-- ============= STEP BOXES (horizontal, 5 steps) ============= -->
+
+  <!-- Step 1 — Customer clicks Pay -->
+  <rect x="22" y="100" width="130" height="148" fill="#16213E" rx="8" stroke="#00A550" stroke-width="1.5"/>
+  <rect x="22" y="100" width="130" height="36" fill="#0F3460" rx="8"/>
+  <rect x="22" y="124" width="130" height="12" fill="#0F3460"/>
+  <text x="87" y="124" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#00A550">1</text>
+  <!-- Cart icon -->
+  <rect x="46" y="148" width="82" height="44" fill="#0F3460" rx="4"/>
+  <text x="87" y="175" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" fill="#FFFFFF">🛒</text>
+  <text x="87" y="208" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Customer</text>
+  <text x="87" y="221" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">clicks Pay</text>
+  <text x="87" y="234" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">on Checkout</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="152" y1="174" x2="176" y2="174" stroke="#E94560" stroke-width="2.5"/>
+  <polygon points="176,168 186,174 176,180" fill="#E94560"/>
+
+  <!-- Step 2 — STK Push to phone -->
+  <rect x="188" y="100" width="130" height="148" fill="#005C2E" rx="8" stroke="#00A550" stroke-width="2"/>
+  <rect x="188" y="100" width="130" height="36" fill="#007A3D" rx="8"/>
+  <rect x="188" y="124" width="130" height="12" fill="#007A3D"/>
+  <text x="253" y="124" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">2</text>
+  <!-- M-Pesa logo area -->
+  <rect x="205" y="142" width="96" height="26" fill="#00A550" rx="4"/>
+  <text x="253" y="159" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">M-PESA</text>
+  <text x="253" y="180" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAFFAA">Daraja API</text>
+  <text x="253" y="194" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">STK Push Sent</text>
+  <text x="253" y="208" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAFFAA">to Customer</text>
+  <text x="253" y="222" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAFFAA">phone screen</text>
+  <text x="253" y="238" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCFFCC">within 3–5 seconds</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="318" y1="174" x2="342" y2="174" stroke="#E94560" stroke-width="2.5"/>
+  <polygon points="342,168 352,174 342,180" fill="#E94560"/>
+
+  <!-- Step 3 — Customer enters PIN -->
+  <rect x="354" y="100" width="130" height="148" fill="#16213E" rx="8" stroke="#00A550" stroke-width="1.5"/>
+  <rect x="354" y="100" width="130" height="36" fill="#0F3460" rx="8"/>
+  <rect x="354" y="124" width="130" height="12" fill="#0F3460"/>
+  <text x="419" y="124" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#00A550">3</text>
+  <!-- Phone icon -->
+  <rect x="378" y="148" width="82" height="44" fill="#0F3460" rx="4"/>
+  <text x="419" y="175" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" fill="#FFFFFF">📱</text>
+  <text x="419" y="208" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Customer</text>
+  <text x="419" y="221" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">enters M-Pesa</text>
+  <text x="419" y="234" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">PIN to approve</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="484" y1="174" x2="508" y2="174" stroke="#E94560" stroke-width="2.5"/>
+  <polygon points="508,168 518,174 508,180" fill="#E94560"/>
+
+  <!-- Step 4 — Daraja API confirmation -->
+  <rect x="520" y="100" width="130" height="148" fill="#005C2E" rx="8" stroke="#00A550" stroke-width="2"/>
+  <rect x="520" y="100" width="130" height="36" fill="#007A3D" rx="8"/>
+  <rect x="520" y="124" width="130" height="12" fill="#007A3D"/>
+  <text x="585" y="124" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">4</text>
+  <!-- Webhook badge -->
+  <rect x="537" y="142" width="96" height="26" fill="#00A550" rx="4"/>
+  <text x="585" y="158" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Daraja API</text>
+  <text x="585" y="178" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAFFAA">Webhook fires</text>
+  <text x="585" y="192" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAFFAA">to store server</text>
+  <text x="585" y="206" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Payment Auto-</text>
+  <text x="585" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAFFAA">Confirmed</text>
+  <text x="585" y="234" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCFFCC">within 5–10 seconds</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="650" y1="174" x2="674" y2="174" stroke="#E94560" stroke-width="2.5"/>
+  <polygon points="674,168 684,174 674,180" fill="#E94560"/>
+
+  <!-- Step 5 — Order confirmed -->
+  <rect x="686" y="100" width="96" height="148" fill="#16213E" rx="8" stroke="#00A550" stroke-width="1.5"/>
+  <rect x="686" y="100" width="96" height="36" fill="#0F3460" rx="8"/>
+  <rect x="686" y="124" width="96" height="12" fill="#0F3460"/>
+  <text x="734" y="124" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#00A550">5</text>
+  <!-- Checkmark icon -->
+  <rect x="704" y="148" width="60" height="44" fill="#0F3460" rx="4"/>
+  <text x="734" y="175" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" fill="#4CAF50">✅</text>
+  <text x="734" y="208" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Order</text>
+  <text x="734" y="221" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">Confirmed</text>
+  <text x="734" y="234" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">+ Fulfilled</text>
+
+  <!-- ============= STEP LABELS below boxes ============= -->
+  <text x="87" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAAAAA">Cart + checkout</text>
+  <text x="253" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAFFAA">Safaricom routes</text>
+  <text x="419" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAAAAA">No card needed</text>
+  <text x="585" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAFFAA">Real-time webhook</text>
+  <text x="734" y="262" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAAAAA">Auto dispatch</text>
+
+  <!-- ============= KEY STATS ROW ============= -->
+  <text x="400" y="294" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#E94560">Why M-Pesa STK Push is Non-Negotiable for Kenyan E-commerce</text>
+
+  <rect x="22" y="306" width="232" height="72" fill="#16213E" rx="6"/>
+  <text x="138" y="332" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#00A550">70%+</text>
+  <text x="138" y="351" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFFFFF">of Kenyans prefer M-Pesa</text>
+  <text x="138" y="368" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">over bank card for online purchases</text>
+
+  <rect x="284" y="306" width="232" height="72" fill="#16213E" rx="6"/>
+  <text x="400" y="332" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#00A550">5–10s</text>
+  <text x="400" y="351" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFFFFF">automatic payment confirmation</text>
+  <text x="400" y="368" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">no manual verification needed</text>
+
+  <rect x="546" y="306" width="232" height="72" fill="#16213E" rx="6"/>
+  <text x="662" y="332" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#00A550">0</text>
+  <text x="662" y="351" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFFFFF">plugin dependencies</text>
+  <text x="662" y="368" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">Daraja API coded directly in-store</text>
+
+  <!-- ============= API INTEGRATION TYPES ============= -->
+  <rect x="22" y="395" width="756" height="114" fill="#0F3460" rx="8"/>
+  <text x="400" y="416" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Safaricom Daraja API — All Integration Modes Supported</text>
+
+  <!-- STK Push -->
+  <rect x="36" y="424" width="222" height="72" fill="#16213E" rx="5"/>
+  <rect x="36" y="424" width="222" height="26" fill="#007A3D" rx="5"/>
+  <rect x="36" y="440" width="222" height="10" fill="#007A3D"/>
+  <text x="147" y="440" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">STK Push (Primary)</text>
+  <text x="147" y="459" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#CCCCCC">Best UX — customer approves</text>
+  <text x="147" y="472" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#CCCCCC">on phone, auto-confirms</text>
+  <text x="147" y="488" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">Recommended for all stores</text>
+
+  <!-- C2B Paybill -->
+  <rect x="290" y="424" width="220" height="72" fill="#16213E" rx="5"/>
+  <rect x="290" y="424" width="220" height="26" fill="#0F3460" rx="5"/>
+  <rect x="290" y="440" width="220" height="10" fill="#0F3460"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#E94560">C2B — Paybill Fallback</text>
+  <text x="400" y="459" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#CCCCCC">Manual payment + reference</text>
+  <text x="400" y="472" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#CCCCCC">code entry by customer</text>
+  <text x="400" y="488" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">Backup during API downtime</text>
+
+  <!-- B2C Refunds -->
+  <rect x="544" y="424" width="220" height="72" fill="#16213E" rx="5"/>
+  <rect x="544" y="424" width="220" height="26" fill="#0F3460" rx="5"/>
+  <rect x="544" y="440" width="220" height="10" fill="#0F3460"/>
+  <text x="654" y="440" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#E94560">B2C — Automated Refunds</text>
+  <text x="654" y="459" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#CCCCCC">Direct M-Pesa refund to</text>
+  <text x="654" y="472" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#CCCCCC">customer from dashboard</text>
+  <text x="654" y="488" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#AAAAAA">Consumer Protection Act compliant</text>
+
+  <!-- Footer -->
+  <text x="400" y="562" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#999">tupate.studio</text>
+</svg>

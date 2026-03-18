@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1060" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Kenya Internet and Mobile Penetration Statistics 2024–2025</title>
+
+  <!-- Background -->
+  <rect width="800" height="1060" fill="#1A1A2E"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="90" fill="#16213E"/>
+  <text x="400" y="38" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Kenya Digital Economy</text>
+  <text x="400" y="65" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" text-anchor="middle">Internet &amp; Mobile Penetration Statistics 2024–2025</text>
+
+  <!-- ====== HEADLINE STATS ====== -->
+  <text x="56" y="118" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">KEY DIGITAL INDICATORS</text>
+
+  <!-- Hero stat cards -->
+  <rect x="40" y="126" width="220" height="110" rx="8" fill="#16213E"/>
+  <text x="150" y="168" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="32" font-weight="700" fill="#E94560" text-anchor="middle">22–25M</text>
+  <text x="150" y="194" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Internet Users</text>
+  <text x="150" y="212" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">43–47% penetration</text>
+
+  <rect x="290" y="126" width="220" height="110" rx="8" fill="#16213E"/>
+  <text x="400" y="168" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="32" font-weight="700" fill="#E94560" text-anchor="middle">30M+</text>
+  <text x="400" y="194" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">M-Pesa Users</text>
+  <text x="400" y="212" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">#1 mobile money globally</text>
+
+  <rect x="540" y="126" width="220" height="110" rx="8" fill="#16213E"/>
+  <text x="650" y="168" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="32" font-weight="700" fill="#E94560" text-anchor="middle">90%+</text>
+  <text x="650" y="194" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Mobile Internet Share</text>
+  <text x="650" y="212" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">of all Kenyan sessions</text>
+
+  <!-- Row 2 stats -->
+  <rect x="40" y="250" width="220" height="110" rx="8" fill="#16213E"/>
+  <text x="150" y="292" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="32" font-weight="700" fill="#E94560" text-anchor="middle">60%+</text>
+  <text x="150" y="318" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Smartphone Ownership</text>
+  <text x="150" y="336" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">Mainly Android</text>
+
+  <rect x="290" y="250" width="220" height="110" rx="8" fill="#16213E"/>
+  <text x="400" y="292" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="32" font-weight="700" fill="#E94560" text-anchor="middle">Ksh 35T</text>
+  <text x="400" y="318" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">M-Pesa Annual Volume</text>
+  <text x="400" y="336" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">≈ Kenya GDP (CBK 2024)</text>
+
+  <rect x="540" y="250" width="220" height="110" rx="8" fill="#16213E"/>
+  <text x="650" y="292" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="32" font-weight="700" fill="#E94560" text-anchor="middle">~20</text>
+  <text x="650" y="318" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Median Age (Years)</text>
+  <text x="650" y="336" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">Digitally-native majority</text>
+
+  <!-- ====== MOBILE NETWORK SHARE ====== -->
+  <text x="56" y="388" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">MOBILE NETWORK MARKET SHARE</text>
+
+  <rect x="40" y="398" width="720" height="130" rx="8" fill="#16213E"/>
+
+  <!-- Safaricom bar: 62% -->
+  <text x="60" y="426" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Safaricom</text>
+  <rect x="160" y="414" width="434" height="22" rx="4" fill="#E94560"/>
+  <text x="602" y="430" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">62%</text>
+  <text x="60" y="447" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999">Best 4G national coverage + M-Pesa</text>
+
+  <!-- Airtel bar: 27% -->
+  <text x="60" y="472" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Airtel Kenya</text>
+  <rect x="160" y="460" width="189" height="22" rx="4" fill="#E94560" opacity="0.65"/>
+  <text x="357" y="476" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">27%</text>
+  <text x="60" y="493" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999">Price-competitive, strong in some counties</text>
+
+  <!-- Telkom bar: 8% -->
+  <text x="60" y="518" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Telkom Kenya</text>
+  <rect x="160" y="506" width="56" height="22" rx="4" fill="#E94560" opacity="0.4"/>
+  <text x="224" y="522" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">8%</text>
+
+  <!-- Bar chart end line -->
+  <text x="598" y="410" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#999" text-anchor="end">100%</text>
+
+  <!-- ====== SAFARICOM ECOSYSTEM ====== -->
+  <text x="56" y="558" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">SAFARICOM ECOSYSTEM — KENYA'S DIGITAL INFRASTRUCTURE LAYER</text>
+
+  <!-- Central node -->
+  <circle cx="400" cy="660" r="52" fill="#E94560"/>
+  <text x="400" y="654" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Safaricom</text>
+  <text x="400" y="672" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">Ecosystem</text>
+
+  <!-- Connecting lines -->
+  <line x1="348" y1="633" x2="200" y2="590" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="348" y1="680" x2="190" y2="720" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="452" y1="633" x2="590" y2="590" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="452" y1="680" x2="595" y2="720" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="400" y1="608" x2="400" y2="568" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="400" y1="712" x2="400" y2="752" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+
+  <!-- Satellite nodes -->
+  <rect x="110" y="560" width="160" height="56" rx="8" fill="#16213E"/>
+  <text x="190" y="582" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">M-Pesa</text>
+  <text x="190" y="600" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">30M+ users, Ksh 35T+/yr</text>
+
+  <rect x="110" y="694" width="160" height="56" rx="8" fill="#16213E"/>
+  <text x="190" y="716" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">M-Shwari / Fuliza</text>
+  <text x="190" y="734" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Savings, loans, overdraft</text>
+
+  <rect x="330" y="516" width="140" height="56" rx="8" fill="#16213E"/>
+  <text x="400" y="538" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">4G Network</text>
+  <text x="400" y="556" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">National coverage, 5G Nairobi</text>
+
+  <rect x="330" y="752" width="140" height="56" rx="8" fill="#16213E"/>
+  <text x="400" y="774" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">Daraja API</text>
+  <text x="400" y="792" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Website payment integration</text>
+
+  <rect x="530" y="560" width="160" height="56" rx="8" fill="#16213E"/>
+  <text x="610" y="582" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">Safaricom Fibre</text>
+  <text x="610" y="600" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Nairobi fixed broadband</text>
+
+  <rect x="530" y="694" width="160" height="56" rx="8" fill="#16213E"/>
+  <text x="610" y="716" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5" text-anchor="middle">Masoko</text>
+  <text x="610" y="734" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">E-commerce marketplace</text>
+
+  <!-- ====== SOCIAL MEDIA ====== -->
+  <text x="56" y="840" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">SOCIAL MEDIA PENETRATION IN KENYA</text>
+
+  <rect x="40" y="850" width="720" height="120" rx="8" fill="#16213E"/>
+
+  <!-- Facebook -->
+  <text x="70" y="878" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Facebook</text>
+  <rect x="160" y="866" width="480" height="18" rx="4" fill="#E94560" opacity="0.9"/>
+  <text x="648" y="879" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">12M+</text>
+
+  <!-- Instagram -->
+  <text x="70" y="906" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Instagram</text>
+  <rect x="160" y="894" width="200" height="18" rx="4" fill="#E94560" opacity="0.7"/>
+  <text x="368" y="907" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">5M+</text>
+
+  <!-- TikTok -->
+  <text x="70" y="934" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">TikTok</text>
+  <rect x="160" y="922" width="120" height="18" rx="4" fill="#E94560" opacity="0.55"/>
+  <text x="288" y="935" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">3M+ (fastest growing)</text>
+
+  <!-- LinkedIn / Twitter -->
+  <text x="70" y="958" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">LinkedIn: 2M+ professionals | Twitter/X: 2.4M (Nairobi-heavy)</text>
+
+  <!-- ====== IMPLICATIONS ====== -->
+  <rect x="40" y="988" width="720" height="44" rx="8" fill="#16213E"/>
+  <rect x="40" y="988" width="720" height="4" rx="2" fill="#E94560"/>
+  <text x="400" y="1014" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5" text-anchor="middle">Any Kenyan business website must load cleanly on Android + Safaricom 4G — and accept M-Pesa at checkout</text>
+
+  <!-- Footer -->
+  <text x="400" y="1052" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

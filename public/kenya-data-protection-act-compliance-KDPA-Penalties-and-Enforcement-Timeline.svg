@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 800 700" width="100%"
+     role="img" aria-labelledby="infographic-title-2">
+  <title id="infographic-title-2">KDPA Penalties and Enforcement Timeline — Kenya Data Protection Act Enforcement Escalation</title>
+  <defs>
+    <linearGradient id="hdrGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213E;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowDown" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="90">
+      <path d="M2,2 L5,8 L8,2" fill="none" stroke="#E94560" stroke-width="1.5"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="700" fill="#F5F5F5"/>
+
+  <!-- Header -->
+  <rect width="800" height="90" fill="url(#hdrGrad2)"/>
+  <rect y="88" width="800" height="4" fill="#E94560"/>
+  <text x="400" y="38" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700"
+        fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">KDPA PENALTIES AND ENFORCEMENT</text>
+  <text x="400" y="64" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="400"
+        fill="#E94560" text-anchor="middle" letter-spacing="1">ESCALATION TIMELINE — KENYA DATA PROTECTION ACT 2019</text>
+
+  <!-- ── TIMELINE: vertical spine ── -->
+  <!-- Spine line -->
+  <line x1="116" y1="118" x2="116" y2="640" stroke="#E94560" stroke-width="3" stroke-dasharray="0"/>
+
+  <!-- ══ LEVEL 1: Incident / Breach ══ -->
+  <!-- Dot -->
+  <circle cx="116" cy="142" r="14" fill="#E94560"/>
+  <text x="116" y="147" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#FFFFFF" text-anchor="middle">1</text>
+  <!-- Content box -->
+  <rect x="148" y="112" width="622" height="72" rx="6" fill="#1A1A2E"/>
+  <text x="168" y="136" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
+        fill="#E94560">DATA BREACH / COMPLIANCE FAILURE</text>
+  <text x="168" y="155" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">
+    Accidental or unlawful destruction, loss, alteration, unauthorised disclosure of personal data</text>
+  <text x="168" y="174" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaaacc">
+    Triggers: contact form hack, wrong-recipient email, analytics without consent, unregistered processing</text>
+  <!-- Time label -->
+  <rect x="30" y="130" width="76" height="24" rx="4" fill="#16213E"/>
+  <text x="68" y="147" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600"
+        fill="#E94560" text-anchor="middle">Day 0</text>
+
+  <!-- Arrow connector -->
+  <line x1="116" y1="156" x2="116" y2="196" stroke="#E94560" stroke-width="2.5"
+        marker-end="url(#arrowDown)"/>
+
+  <!-- ══ LEVEL 2: 72-hour notification ══ -->
+  <circle cx="116" cy="214" r="14" fill="#E94560"/>
+  <text x="116" y="219" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#FFFFFF" text-anchor="middle">2</text>
+  <rect x="148" y="185" width="622" height="72" rx="6" fill="#16213E"/>
+  <text x="168" y="209" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
+        fill="#E94560">72-HOUR ODPC BREACH NOTIFICATION (MANDATORY)</text>
+  <text x="168" y="228" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">
+    Business must notify the ODPC within 72 hours of becoming aware of a personal data breach</text>
+  <text x="168" y="247" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaaacc">
+    Failure to notify on time is itself a separate KDPA violation — adds to enforcement exposure</text>
+  <rect x="30" y="202" width="76" height="24" rx="4" fill="#16213E"/>
+  <text x="68" y="219" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600"
+        fill="#E94560" text-anchor="middle">+72 hours</text>
+
+  <!-- Arrow -->
+  <line x1="116" y1="228" x2="116" y2="268" stroke="#E94560" stroke-width="2.5"
+        marker-end="url(#arrowDown)"/>
+
+  <!-- ══ LEVEL 3: ODPC Investigation ══ -->
+  <circle cx="116" cy="286" r="14" fill="#E94560"/>
+  <text x="116" y="291" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#FFFFFF" text-anchor="middle">3</text>
+  <rect x="148" y="257" width="622" height="72" rx="6" fill="#2C2C2C"/>
+  <text x="168" y="281" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
+        fill="#E94560">ODPC INVESTIGATION OPENS</text>
+  <text x="168" y="300" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">
+    ODPC investigates complaints, conducts audits, issues information notices</text>
+  <text x="168" y="319" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaaacc">
+    Business must cooperate. Obstruction is a separate criminal offense under KDPA</text>
+  <rect x="30" y="274" width="76" height="24" rx="4" fill="#16213E"/>
+  <text x="68" y="291" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600"
+        fill="#E94560" text-anchor="middle">Days–Weeks</text>
+
+  <!-- Arrow -->
+  <line x1="116" y1="300" x2="116" y2="340" stroke="#E94560" stroke-width="2.5"
+        marker-end="url(#arrowDown)"/>
+
+  <!-- ══ LEVEL 4: Enforcement Notice ══ -->
+  <circle cx="116" cy="358" r="14" fill="#E94560"/>
+  <text x="116" y="363" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#FFFFFF" text-anchor="middle">4</text>
+  <rect x="148" y="329" width="622" height="72" rx="6" fill="#2C2C2C"/>
+  <text x="168" y="353" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
+        fill="#E94560">ENFORCEMENT NOTICE ISSUED</text>
+  <text x="168" y="372" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">
+    ODPC issues formal enforcement notice requiring specific remedial actions and compliance deadline</text>
+  <text x="168" y="391" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaaacc">
+    Non-compliance with enforcement notice escalates penalty exposure significantly</text>
+  <rect x="30" y="347" width="76" height="24" rx="4" fill="#16213E"/>
+  <text x="68" y="363" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600"
+        fill="#E94560" text-anchor="middle">Weeks–Months</text>
+
+  <!-- Arrow -->
+  <line x1="116" y1="372" x2="116" y2="412" stroke="#E94560" stroke-width="2.5"
+        marker-end="url(#arrowDown)"/>
+
+  <!-- ══ LEVEL 5: Administrative Fine ══ -->
+  <circle cx="116" cy="430" r="14" fill="#E94560"/>
+  <text x="116" y="435" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#FFFFFF" text-anchor="middle">5</text>
+  <!-- Highlighted box -->
+  <rect x="148" y="401" width="622" height="80" rx="6" fill="#E94560"/>
+  <text x="168" y="425" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
+        fill="#FFFFFF">ADMINISTRATIVE FINE — UP TO Ksh 5,000,000</text>
+  <text x="168" y="447" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="600"
+        fill="#FFFFFF">or 1% of annual gross turnover — whichever is HIGHER</text>
+  <text x="168" y="467" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E">
+    Example: Ksh 10M turnover business → 1% = Ksh 100,000 (exceeds Ksh 5M floor)</text>
+  <text x="168" y="478" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E">
+    Large enterprises: 1% calculation is the operative figure</text>
+  <rect x="30" y="418" width="76" height="24" rx="4" fill="#E94560"/>
+  <text x="68" y="435" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600"
+        fill="#FFFFFF" text-anchor="middle">ODPC Order</text>
+
+  <!-- Arrow -->
+  <line x1="116" y1="444" x2="116" y2="500" stroke="#E94560" stroke-width="2.5"
+        marker-end="url(#arrowDown)"/>
+
+  <!-- ══ LEVEL 6: Criminal Prosecution ══ -->
+  <circle cx="116" cy="518" r="14" fill="#1A1A2E"/>
+  <text x="116" y="523" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#E94560" text-anchor="middle">6</text>
+  <rect x="148" y="488" width="622" height="80" rx="6" fill="#1A1A2E"/>
+  <text x="168" y="512" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
+        fill="#E94560">CRIMINAL PROSECUTION (SERIOUS / WILFUL VIOLATIONS)</text>
+  <text x="168" y="532" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="600"
+        fill="#FFFFFF">Fine up to Ksh 3,000,000 + Imprisonment up to 10 years</text>
+  <text x="168" y="552" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaaacc">
+    Applies to knowing/wilful misuse of data, concealment of breaches, obstruction of ODPC</text>
+  <text x="168" y="563" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaaacc">
+    Not triggered by technical compliance failures or oversight alone</text>
+  <rect x="30" y="506" width="76" height="24" rx="4" fill="#1A1A2E"/>
+  <text x="68" y="523" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="600"
+        fill="#E94560" text-anchor="middle">Court Process</text>
+
+  <!-- ── Good compliance note ── -->
+  <rect x="30" y="588" width="740" height="46" rx="5" fill="#FFFFFF"/>
+  <rect x="30" y="588" width="4" height="46" rx="2" fill="#E94560"/>
+  <text x="46" y="607" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700"
+        fill="#1A1A2E">ODPC ENFORCEMENT PRIORITY (2021–PRESENT)</text>
+  <text x="46" y="624" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#444">
+    Initial focus: telecoms, banks, healthcare, government agencies. Progressively expanding to all commercial sectors.</text>
+
+  <!-- Footer -->
+  <text x="400" y="690" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

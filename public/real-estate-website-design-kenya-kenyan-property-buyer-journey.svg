@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1020" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Kenyan Property Buyer Journey: 6 Features That Convert Website Visitors Into WhatsApp Inquiries</title>
+
+  <!-- Background -->
+  <rect width="800" height="1020" fill="#1A1A2E"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="96" fill="#16213E"/>
+  <text x="400" y="28" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle" letter-spacing="2">REAL ESTATE WEBSITE DESIGN — KENYA</text>
+  <text x="400" y="58" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="21" fill="#F5F5F5" font-weight="700" text-anchor="middle">Kenyan Property Buyer Journey</text>
+  <text x="400" y="80" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#CCCCCC" text-anchor="middle">6 features a Kenyan buyer expects before sending any WhatsApp inquiry</text>
+
+  <!-- Journey progress bar -->
+  <rect x="30" y="106" width="740" height="8" rx="4" fill="#2C2C2C"/>
+  <rect x="30" y="106" width="740" height="8" rx="4" fill="#E94560"/>
+  <text x="30" y="126" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">Google search</text>
+  <text x="770" y="126" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="end" font-weight="700">WhatsApp inquiry sent</text>
+
+  <!-- Step 1 -->
+  <rect x="30" y="138" width="740" height="120" rx="6" fill="#16213E"/>
+  <rect x="30" y="138" width="8" height="120" rx="4" fill="#E94560"/>
+
+  <!-- Step number badge -->
+  <rect x="52" y="152" width="36" height="22" rx="3" fill="#E94560"/>
+  <text x="70" y="167" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">01</text>
+
+  <text x="100" y="167" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#F5F5F5" font-weight="700">SEARCHABLE, FILTERABLE LISTINGS</text>
+  <text x="52" y="196" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">Kenyan buyers do not scroll — they filter. Required filters:</text>
+  <text x="52" y="214" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• Location: Kilimani · Westlands · Lavington · Karen · Runda · Muthaiga · Kileleshwa · Lang'ata · Ruaka · Syokimau</text>
+  <text x="52" y="232" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• Price range in KES · Property type (apartment/maisonette/bungalow/commercial) · Bedrooms · For sale / For rent</text>
+  <text x="52" y="250" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Without these filters the website loses buyers at the listing search stage</text>
+
+  <!-- Step 2 -->
+  <rect x="30" y="270" width="740" height="120" rx="6" fill="#16213E"/>
+  <rect x="30" y="270" width="8" height="120" rx="4" fill="#E94560"/>
+
+  <rect x="52" y="284" width="36" height="22" rx="3" fill="#E94560"/>
+  <text x="70" y="299" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">02</text>
+
+  <text x="100" y="299" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#F5F5F5" font-weight="700">COMPLETE PROPERTY INFORMATION</text>
+  <text x="52" y="328" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">Each listing must state:</text>
+  <text x="52" y="346" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• Price in KES (USD pricing discourages domestic buyers) · Size in m² · Bedrooms &amp; bathrooms · Floor level for apartments</text>
+  <text x="52" y="364" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• Amenities · Nearby landmarks · Management fee · Available date · Furnishing status</text>
+  <text x="52" y="382" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Incomplete listings are skipped in favour of complete ones — every field matters</text>
+
+  <!-- Step 3 -->
+  <rect x="30" y="402" width="740" height="120" rx="6" fill="#16213E"/>
+  <rect x="30" y="402" width="8" height="120" rx="4" fill="#E94560"/>
+
+  <rect x="52" y="416" width="36" height="22" rx="3" fill="#E94560"/>
+  <text x="70" y="431" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">03</text>
+
+  <text x="100" y="431" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#F5F5F5" font-weight="700">PROPERTY PHOTOGRAPHY</text>
+  <text x="52" y="460" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">Minimum 8–12 photos per property in WebP format (max 80KB each for Safaricom/Airtel 4G performance)</text>
+  <text x="52" y="478" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• Exterior · Living areas (multiple angles) · Kitchen · Master bedroom · Secondary bedrooms · Bathrooms</text>
+  <text x="52" y="496" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• Outdoor/parking · Distinctive amenities (pool, gym, views) · Drone aerial for premium Karen/Runda/Muthaiga</text>
+  <text x="52" y="514" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Photos are the primary decision tool — properties without photos receive significantly lower inquiry rates</text>
+
+  <!-- Step 4 -->
+  <rect x="30" y="534" width="740" height="100" rx="6" fill="#16213E"/>
+  <rect x="30" y="534" width="8" height="100" rx="4" fill="#E94560"/>
+
+  <rect x="52" y="548" width="36" height="22" rx="3" fill="#E94560"/>
+  <text x="70" y="563" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">04</text>
+
+  <text x="100" y="563" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#F5F5F5" font-weight="700">GOOGLE MAPS LOCATION PIN</text>
+  <text x="52" y="592" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Every listing must embed Google Maps with precise GPS coordinates — not a general area pin</text>
+  <text x="52" y="610" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Kenyan buyers verify neighbourhood, road access, and proximity to schools/CBD before inquiring</text>
+  <text x="52" y="628" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Estate naming conventions in Nairobi are inconsistent — a listing without a map creates immediate uncertainty</text>
+
+  <!-- Step 5 -->
+  <rect x="30" y="646" width="740" height="100" rx="6" fill="#16213E"/>
+  <rect x="30" y="646" width="8" height="100" rx="4" fill="#E94560"/>
+
+  <rect x="52" y="660" width="36" height="22" rx="3" fill="#E94560"/>
+  <text x="70" y="675" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">05</text>
+
+  <text x="100" y="675" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#F5F5F5" font-weight="700">WHATSAPP CONTACT ON EVERY LISTING</text>
+  <text x="52" y="704" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">The majority of Kenyan property inquiries start via WhatsApp — not phone calls or email forms</text>
+  <text x="52" y="722" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Click-to-WhatsApp button on every listing page, linked to the responsible agent's number directly</text>
+  <text x="52" y="740" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">A website that routes inquiries through a form instead of WhatsApp loses mobile-first Kenyan buyers</text>
+
+  <!-- Step 6 -->
+  <rect x="30" y="758" width="740" height="100" rx="6" fill="#16213E"/>
+  <rect x="30" y="758" width="8" height="100" rx="4" fill="#E94560"/>
+
+  <rect x="52" y="772" width="36" height="22" rx="3" fill="#E94560"/>
+  <text x="70" y="787" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">06</text>
+
+  <text x="100" y="787" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#F5F5F5" font-weight="700">EARB REGISTRATION DISPLAY</text>
+  <text x="52" y="816" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Estate Agents Registration Board (EARB) number is a legal requirement and direct trust signal</text>
+  <text x="52" y="834" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Displayed on: every agent profile page · website footer on all pages · About page</text>
+  <text x="52" y="852" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Operating as an estate agent without EARB registration is illegal under the Estate Agents Act</text>
+
+  <!-- Outcome -->
+  <rect x="30" y="870" width="740" height="58" rx="6" fill="#E94560"/>
+  <text x="400" y="896" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#FFFFFF" font-weight="700" text-anchor="middle">All 6 features present = WhatsApp inquiry sent</text>
+  <text x="400" y="916" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">Any feature missing = buyer moves to the next website on Google results</text>
+
+  <!-- KRA tools footnote -->
+  <rect x="30" y="938" width="740" height="40" rx="4" fill="#16213E"/>
+  <text x="52" y="957" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">Bonus conversion tools: KRA stamp duty calculator (4% urban / 2% rural) + Mortgage calculator (KCB, Equity, NCBA, Co-op, HF rates)</text>
+  <text x="52" y="973" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">Legal fees estimator (Advocates Remuneration Order) — removes last-minute financial shock that delays transactions</text>
+
+  <!-- Footer -->
+  <text x="400" y="1004" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">tupate.studio</text>
+</svg>

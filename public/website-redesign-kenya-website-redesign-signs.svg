@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" width="100%" role="img" aria-labelledby="infographic-title" font-family="'Inter', 'Segoe UI', Arial, sans-serif">
+  <title id="infographic-title">9 Signs Your Website Needs a Redesign — Tupate Studio Kenya</title>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#1A1A2E"/>
+
+  <!-- Header band -->
+  <rect x="0" y="0" width="800" height="100" fill="#16213E"/>
+  <rect x="0" y="96" width="800" height="4" fill="#E94560"/>
+
+  <!-- Header text -->
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">9 Signs Your Website Needs a Redesign</text>
+  <text x="400" y="74" text-anchor="middle" font-size="14" fill="#E94560" font-weight="600" letter-spacing="1">KENYA EDITION — TUPATE STUDIO</text>
+
+  <!-- ===== ROW 1 ===== -->
+
+  <!-- Card 1: Mobile Failure -->
+  <rect x="30" y="120" width="225" height="210" rx="10" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <!-- Icon: mobile with X -->
+  <rect x="110" y="140" width="46" height="70" rx="6" fill="none" stroke="#E94560" stroke-width="2.5"/>
+  <rect x="115" y="147" width="36" height="53" rx="3" fill="#1A1A2E"/>
+  <circle cx="133" cy="207" r="3" fill="#E94560"/>
+  <line x1="118" y1="153" x2="148" y2="183" stroke="#E94560" stroke-width="2.5"/>
+  <line x1="148" y1="153" x2="118" y2="183" stroke="#E94560" stroke-width="2.5"/>
+  <!-- Label -->
+  <text x="143" y="238" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">1. Mobile Failure</text>
+  <text x="143" y="257" text-anchor="middle" font-size="11" fill="#A0A0B0">Requires zoom or horizontal</text>
+  <text x="143" y="272" text-anchor="middle" font-size="11" fill="#A0A0B0">scroll on phone</text>
+  <text x="143" y="292" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">80%+ Kenyan users are mobile</text>
+  <text x="143" y="308" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">Google Mobile-First Index</text>
+
+  <!-- Card 2: Speed Failure -->
+  <rect x="288" y="120" width="225" height="210" rx="10" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <!-- Icon: clock/speedometer -->
+  <circle cx="400" cy="178" r="32" fill="none" stroke="#E94560" stroke-width="2.5"/>
+  <line x1="400" y1="152" x2="400" y2="163" stroke="#E94560" stroke-width="2"/>
+  <line x1="400" y1="193" x2="400" y2="204" stroke="#E94560" stroke-width="2"/>
+  <line x1="374" y1="178" x2="385" y2="178" stroke="#E94560" stroke-width="2"/>
+  <line x1="415" y1="178" x2="426" y2="178" stroke="#E94560" stroke-width="2"/>
+  <line x1="400" y1="178" x2="418" y2="163" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="400" y1="178" x2="393" y2="165" stroke="#E94560" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="400" cy="178" r="4" fill="#E94560"/>
+  <text x="400" y="238" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">2. Speed Failure</text>
+  <text x="400" y="257" text-anchor="middle" font-size="11" fill="#A0A0B0">Loads 6+ seconds on</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#A0A0B0">Safaricom 4G</text>
+  <text x="400" y="292" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">Lose 40–50% visitors before</text>
+  <text x="400" y="308" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">they see your content</text>
+
+  <!-- Card 3: Outdated Design -->
+  <rect x="545" y="120" width="225" height="210" rx="10" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <!-- Icon: calendar/age -->
+  <rect x="621" y="143" width="46" height="42" rx="4" fill="none" stroke="#E94560" stroke-width="2.5"/>
+  <line x1="621" y1="155" x2="667" y2="155" stroke="#E94560" stroke-width="1.5"/>
+  <line x1="633" y1="139" x2="633" y2="151" stroke="#E94560" stroke-width="2.5"/>
+  <line x1="655" y1="139" x2="655" y2="151" stroke="#E94560" stroke-width="2.5"/>
+  <text x="644" y="176" text-anchor="middle" font-size="14" font-weight="700" fill="#E94560">3+</text>
+  <text x="644" y="190" text-anchor="middle" font-size="9" fill="#A0A0B0">years</text>
+  <text x="658" y="238" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">3. Design Age 3+ Yrs</text>
+  <text x="658" y="257" text-anchor="middle" font-size="11" fill="#A0A0B0">Dated look: bevelled buttons,</text>
+  <text x="658" y="272" text-anchor="middle" font-size="11" fill="#A0A0B0">cluttered layouts</text>
+  <text x="658" y="292" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">Credibility judged in</text>
+  <text x="658" y="308" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">50 milliseconds</text>
+
+  <!-- ===== ROW 2 ===== -->
+
+  <!-- Card 4: No HTTPS -->
+  <rect x="30" y="352" width="225" height="210" rx="10" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <!-- Icon: broken lock -->
+  <rect x="113" y="385" width="40" height="32" rx="4" fill="none" stroke="#E94560" stroke-width="2.5"/>
+  <path d="M118 385 Q118 368 133 368 Q148 368 148 385" fill="none" stroke="#E94560" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <circle cx="133" cy="401" r="5" fill="#E94560"/>
+  <line x1="133" y1="406" x2="133" y2="412" stroke="#E94560" stroke-width="2.5"/>
+  <text x="143" y="440" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">4. No HTTPS</text>
+  <text x="143" y="459" text-anchor="middle" font-size="11" fill="#A0A0B0">Chrome shows "Not Secure"</text>
+  <text x="143" y="474" text-anchor="middle" font-size="11" fill="#A0A0B0">warning in address bar</text>
+  <text x="143" y="494" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">Google directly suppresses</text>
+  <text x="143" y="510" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">HTTP sites in rankings</text>
+
+  <!-- Card 5: Declining Traffic -->
+  <rect x="288" y="352" width="225" height="210" rx="10" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <!-- Icon: downward trend chart -->
+  <polyline points="360,380 380,388 400,395 420,408 440,420" fill="none" stroke="#E94560" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="360,375 440,375" fill="none" stroke="#A0A0B0" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="355" y1="420" x2="445" y2="420" stroke="#A0A0B0" stroke-width="1.5"/>
+  <line x1="355" y1="375" x2="355" y2="425" stroke="#A0A0B0" stroke-width="1.5"/>
+  <polygon points="440,415 450,420 440,425" fill="#E94560"/>
+  <text x="400" y="450" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">5. Declining Traffic</text>
+  <text x="400" y="469" text-anchor="middle" font-size="11" fill="#A0A0B0">Google Search Console shows</text>
+  <text x="400" y="484" text-anchor="middle" font-size="11" fill="#A0A0B0">downward 12+ month trend</text>
+  <text x="400" y="504" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">Broad Core Updates penalize</text>
+  <text x="400" y="520" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">outdated, unoptimized sites</text>
+
+  <!-- Card 6: High Bounce Rate -->
+  <rect x="545" y="352" width="225" height="210" rx="10" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <!-- Icon: person bouncing out -->
+  <circle cx="658" cy="380" r="12" fill="none" stroke="#E94560" stroke-width="2.5"/>
+  <line x1="658" y1="392" x2="658" y2="410" stroke="#E94560" stroke-width="2.5"/>
+  <line x1="658" y1="398" x2="646" y2="408" stroke="#E94560" stroke-width="2.5"/>
+  <line x1="658" y1="398" x2="670" y2="408" stroke="#E94560" stroke-width="2.5"/>
+  <line x1="658" y1="410" x2="648" y2="424" stroke="#E94560" stroke-width="2.5"/>
+  <line x1="658" y1="410" x2="668" y2="424" stroke="#E94560" stroke-width="2.5"/>
+  <path d="M674 388 L682 380 L690 388" fill="none" stroke="#E94560" stroke-width="2" stroke-linecap="round"/>
+  <line x1="682" y1="380" x2="682" y2="400" stroke="#E94560" stroke-width="2"/>
+  <text x="658" y="450" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">6. High Bounce Rate</text>
+  <text x="658" y="469" text-anchor="middle" font-size="11" fill="#A0A0B0">Google Analytics showing</text>
+  <text x="658" y="484" text-anchor="middle" font-size="11" fill="#A0A0B0">70%+ bounce rate</text>
+  <text x="658" y="504" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">Visitors leave before seeing</text>
+  <text x="658" y="520" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">your services or offer</text>
+
+  <!-- ===== ROW 3 ===== -->
+
+  <!-- Card 7: No Clear CTA -->
+  <rect x="30" y="584" width="225" height="210" rx="10" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <!-- Icon: cursor clicking empty space -->
+  <rect x="108" y="610" width="70" height="44" rx="6" fill="none" stroke="#A0A0B0" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="143" y="637" text-anchor="middle" font-size="10" fill="#A0A0B0">? ? ?</text>
+  <polygon points="152,640 163,655 153,651 150,662 139,645" fill="#E94560"/>
+  <text x="143" y="672" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">7. No Clear CTA</text>
+  <text x="143" y="691" text-anchor="middle" font-size="11" fill="#A0A0B0">Can't find phone / WhatsApp</text>
+  <text x="143" y="706" text-anchor="middle" font-size="11" fill="#A0A0B0">button without scrolling</text>
+  <text x="143" y="726" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">WhatsApp is Kenya's primary</text>
+  <text x="143" y="742" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">customer inquiry channel</text>
+  <text x="143" y="762" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">in 2026</text>
+
+  <!-- Card 8: Competitor Looks Better -->
+  <rect x="288" y="584" width="225" height="210" rx="10" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <!-- Icon: two screens, one star rating better -->
+  <rect x="355" y="610" width="38" height="30" rx="4" fill="none" stroke="#A0A0B0" stroke-width="1.5"/>
+  <text x="374" y="629" text-anchor="middle" font-size="10" fill="#A0A0B0">YOU</text>
+  <rect x="407" y="607" width="40" height="33" rx="4" fill="none" stroke="#E94560" stroke-width="2.5"/>
+  <text x="427" y="628" text-anchor="middle" font-size="10" fill="#E94560" font-weight="700">THEM</text>
+  <text x="427" y="642" text-anchor="middle" font-size="12" fill="#E94560">★★★</text>
+  <text x="374" y="642" text-anchor="middle" font-size="12" fill="#A0A0B0">☆☆☆</text>
+  <text x="400" y="672" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">8. Competitor Wins</text>
+  <text x="400" y="691" text-anchor="middle" font-size="11" fill="#A0A0B0">Competitor site looks more</text>
+  <text x="400" y="706" text-anchor="middle" font-size="11" fill="#A0A0B0">professional and modern</text>
+  <text x="400" y="726" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">B2B buyers shortlist or</text>
+  <text x="400" y="742" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">disqualify on website quality</text>
+
+  <!-- Card 9: WordPress Plugin Chaos -->
+  <rect x="545" y="584" width="225" height="210" rx="10" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <!-- Icon: puzzle pieces with warning -->
+  <rect x="618" y="610" width="22" height="22" rx="3" fill="none" stroke="#E94560" stroke-width="2"/>
+  <rect x="642" y="610" width="22" height="22" rx="3" fill="none" stroke="#A0A0B0" stroke-width="2" stroke-dasharray="3 2"/>
+  <rect x="618" y="634" width="22" height="22" rx="3" fill="none" stroke="#A0A0B0" stroke-width="2" stroke-dasharray="3 2"/>
+  <rect x="642" y="634" width="22" height="22" rx="3" fill="none" stroke="#E94560" stroke-width="2"/>
+  <text x="658" y="680" text-anchor="middle" font-size="22" fill="#E94560">⚠</text>
+  <text x="658" y="706" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">9. Plugin Chaos</text>
+  <text x="658" y="721" text-anchor="middle" font-size="11" fill="#A0A0B0">Site breaks every 2–3 months</text>
+  <text x="658" y="736" text-anchor="middle" font-size="11" fill="#A0A0B0">from conflicts or hacking</text>
+  <text x="658" y="756" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">30% of Kenyan WordPress sites</text>
+  <text x="658" y="772" text-anchor="middle" font-size="11" fill="#E94560" font-weight="600">are hacked each year</text>
+
+  <!-- Bottom CTA band -->
+  <rect x="0" y="818" width="800" height="60" fill="#16213E"/>
+  <rect x="0" y="818" width="800" height="3" fill="#E94560"/>
+  <text x="400" y="844" text-anchor="middle" font-size="13" fill="#FFFFFF">Score 3+ of these? Your website is costing you customers.</text>
+  <text x="400" y="863" text-anchor="middle" font-size="13" fill="#E94560" font-weight="600">Free redesign audit → WhatsApp Tupate Studio · Ksh 25,000 starting</text>
+
+  <!-- Footer -->
+  <text x="400" y="906" text-anchor="middle" font-size="11" fill="#999">tupate.studio</text>
+</svg>

@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 760" width="100%" role="img" aria-labelledby="infographic-title-p10" font-family="'Inter','Segoe UI',Arial,sans-serif">
+  <title id="infographic-title-p10">Technical SEO Audit: 8 Dimensions — Crawlability, Indexation, Core Web Vitals, Mobile Usability, HTTPS Security, Schema Markup, Internal Linking, Page Speed</title>
+  <defs>
+    <linearGradient id="hdrG10" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+    <!-- Glow filter for center circle -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="760" fill="#F5F5F5"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="88" fill="url(#hdrG10)"/>
+  <text x="400" y="36" text-anchor="middle" font-size="21" font-weight="700" fill="#FFFFFF">Technical SEO Audit: 8 Dimensions</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#E94560" font-weight="600">Every dimension assessed · Every issue prioritised · Every fix implemented</text>
+  <text x="400" y="76" text-anchor="middle" font-size="11" fill="#aaaacc">Tupate Studio Technical SEO Audit — Ksh 8,000/month retainer includes all fixes</text>
+
+  <!-- ──────────────────────────────────────────────
+       WHEEL / OCTAGON DIAGRAM  (centre 400, 390)
+       8 segments radiating outward
+  ─────────────────────────────────────────────── -->
+
+  <!-- Guide ring (outer boundary) -->
+  <circle cx="400" cy="400" r="230" fill="none" stroke="#d0d0d8" stroke-width="1" stroke-dasharray="6,4"/>
+  <!-- Mid ring -->
+  <circle cx="400" cy="400" r="165" fill="none" stroke="#d0d0d8" stroke-width="1" stroke-dasharray="4,4"/>
+  <!-- Inner ring -->
+  <circle cx="400" cy="400" r="100" fill="none" stroke="#d0d0d8" stroke-width="1" stroke-dasharray="2,4"/>
+
+  <!-- 8 segment dividers (every 45°) -->
+  <!-- 0°=top, then clockwise: 0,45,90,135,180,225,270,315 -->
+  <!-- Lines from centre to outer ring -->
+  <line x1="400" y1="170" x2="400" y2="630" stroke="#d0d0d8" stroke-width="1"/>
+  <line x1="563" y1="237" x2="237" y2="563" stroke="#d0d0d8" stroke-width="1"/>
+  <line x1="630" y1="400" x2="170" y2="400" stroke="#d0d0d8" stroke-width="1"/>
+  <line x1="563" y1="563" x2="237" y2="237" stroke="#d0d0d8" stroke-width="1"/>
+
+  <!-- ── FILLED SEGMENTS (each dimension gets a filled arc wedge) ──
+       Using 8 polygon paths to approximate pie-like wedges
+       Centre (400,400), each wedge spans 45° starting from 90° offset (top = -90° = 270° in SVG)
+       Angles: 0=top → -90° offset → seg1 starts at 270°
+
+       Wedge helper (approximated as triangular sector with two arc points):
+         x = cx + r*cos(θ), y = cy + r*sin(θ)
+         θ in degrees, convert: θ_rad = θ * π/180
+
+       Segment centres (mid-angle) at r=170 for label placement:
+         1: 315° → x=520.4,y=279.6   label pos approx
+         2: 0°(360°) → x=570,y=400
+         3: 45° → x=520.4,y=520.4
+         4: 90° → x=400,y=570
+         5: 135° → x=279.6,y=520.4
+         6: 180° → x=230,y=400
+         7: 225° → x=279.6,y=279.6
+         8: 270° → x=400,y=230
+
+       Let me compute actual arc endpoints at r=225:
+       θ (SVG, clockwise from 3 o'clock):
+         Top = -90° = 270° → 0° offset
+         Segment boundaries at: 270,315,0,45,90,135,180,225,270
+         In radians: multiply by π/180
+
+       Arc endpoint formula:
+         x = 400 + 225*cos(θ_rad), y = 400 + 225*sin(θ_rad)
+
+       θ=270°(=-90°): cos=-6.12e-17≈0, sin=-1  → (400, 175)
+       θ=315°(=-45°): cos=0.7071, sin=-0.7071   → (559, 241)
+       θ=0°:          cos=1, sin=0               → (625, 400)
+       θ=45°:         cos=0.7071, sin=0.7071     → (559, 559)
+       θ=90°:         cos=0, sin=1               → (400, 625)
+       θ=135°:        cos=-0.7071, sin=0.7071    → (241, 559)
+       θ=180°:        cos=-1, sin=0              → (175, 400)
+       θ=225°:        cos=-0.7071,sin=-0.7071    → (241, 241)
+  -->
+
+  <!-- Seg 1: Crawlability (270°–315°) -->
+  <path d="M400,400 L400,175 A225,225 0 0,1 559,241 Z" fill="#E94560" opacity="0.82"/>
+  <!-- Seg 2: Indexation (315°–0°) -->
+  <path d="M400,400 L559,241 A225,225 0 0,1 625,400 Z" fill="#c73652" opacity="0.78"/>
+  <!-- Seg 3: Core Web Vitals (0°–45°) -->
+  <path d="M400,400 L625,400 A225,225 0 0,1 559,559 Z" fill="#16213E" opacity="0.90"/>
+  <!-- Seg 4: Mobile Usability (45°–90°) -->
+  <path d="M400,400 L559,559 A225,225 0 0,1 400,625 Z" fill="#1A1A2E" opacity="0.85"/>
+  <!-- Seg 5: HTTPS Security (90°–135°) -->
+  <path d="M400,400 L400,625 A225,225 0 0,1 241,559 Z" fill="#E94560" opacity="0.70"/>
+  <!-- Seg 6: Schema Markup (135°–180°) -->
+  <path d="M400,400 L241,559 A225,225 0 0,1 175,400 Z" fill="#c73652" opacity="0.65"/>
+  <!-- Seg 7: Internal Linking (180°–225°) -->
+  <path d="M400,400 L175,400 A225,225 0 0,1 241,241 Z" fill="#16213E" opacity="0.80"/>
+  <!-- Seg 8: Page Speed (225°–270°) -->
+  <path d="M400,400 L241,241 A225,225 0 0,1 400,175 Z" fill="#1A1A2E" opacity="0.90"/>
+
+  <!-- White divider lines on top of segments -->
+  <line x1="400" y1="400" x2="400" y2="175" stroke="#F5F5F5" stroke-width="2"/>
+  <line x1="400" y1="400" x2="559" y2="241" stroke="#F5F5F5" stroke-width="2"/>
+  <line x1="400" y1="400" x2="625" y2="400" stroke="#F5F5F5" stroke-width="2"/>
+  <line x1="400" y1="400" x2="559" y2="559" stroke="#F5F5F5" stroke-width="2"/>
+  <line x1="400" y1="400" x2="400" y2="625" stroke="#F5F5F5" stroke-width="2"/>
+  <line x1="400" y1="400" x2="241" y2="559" stroke="#F5F5F5" stroke-width="2"/>
+  <line x1="400" y1="400" x2="175" y2="400" stroke="#F5F5F5" stroke-width="2"/>
+  <line x1="400" y1="400" x2="241" y2="241" stroke="#F5F5F5" stroke-width="2"/>
+
+  <!-- Centre circle -->
+  <circle cx="400" cy="400" r="78" fill="#1A1A2E" filter="url(#glow)"/>
+  <circle cx="400" cy="400" r="75" fill="#1A1A2E"/>
+  <circle cx="400" cy="400" r="72" fill="none" stroke="#E94560" stroke-width="2"/>
+  <text x="400" y="392" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">TECHNICAL</text>
+  <text x="400" y="408" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">SEO AUDIT</text>
+  <text x="400" y="424" text-anchor="middle" font-size="10" fill="#E94560">8 Dimensions</text>
+
+  <!-- ── SEGMENT LABELS (at r≈255 from centre, mid-angle of each wedge) ──
+       mid-angles: 292.5°, 337.5°, 22.5°, 67.5°, 112.5°, 157.5°, 202.5°, 247.5°
+       r=255: positions:
+         292.5°: 400+255*cos(292.5°*π/180), 400+255*sin(292.5°*π/180)
+               cos(292.5°)=0.3827, sin(292.5°)=-0.9239 → (497.6, 164.4) → use ~(498,162)
+         337.5°: cos=0.9239, sin=-0.3827 → (635.6, 302.4) → (636,300)
+         22.5°:  cos=0.9239, sin=0.3827  → (635.6,497.6) → (636,498)
+         67.5°:  cos=0.3827, sin=0.9239  → (497.6,635.6) → (498,636)
+         112.5°: cos=-0.3827,sin=0.9239  → (302.4,635.6) → (302,636)
+         157.5°: cos=-0.9239,sin=0.3827  → (164.4,497.6) → (164,498)
+         202.5°: cos=-0.9239,sin=-0.3827 → (164.4,302.4) → (164,302)
+         247.5°: cos=-0.3827,sin=-0.9239 → (302.4,164.4) → (302,162)
+  -->
+
+  <!-- Pill label backgrounds + text for each dimension -->
+  <!-- 1. Crawlability (top-right zone) -->
+  <rect x="440" y="143" width="140" height="38" rx="8" fill="#E94560"/>
+  <text x="510" y="159" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">1. CRAWLABILITY</text>
+  <text x="510" y="174" text-anchor="middle" font-size="9" fill="#fff">robots.txt · sitemap · crawl budget</text>
+
+  <!-- 2. Indexation (right) -->
+  <rect x="618" y="273" width="148" height="38" rx="8" fill="#c73652"/>
+  <text x="692" y="289" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">2. INDEXATION</text>
+  <text x="692" y="304" text-anchor="middle" font-size="9" fill="#fff">noindex · canonical · duplicate content</text>
+
+  <!-- 3. Core Web Vitals (right-lower) -->
+  <rect x="618" y="463" width="150" height="38" rx="8" fill="#16213E"/>
+  <text x="693" y="479" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">3. CORE WEB VITALS</text>
+  <text x="693" y="494" text-anchor="middle" font-size="9" fill="#aaaacc">LCP · INP · CLS · PageSpeed</text>
+
+  <!-- 4. Mobile Usability (bottom-right) -->
+  <rect x="440" y="620" width="156" height="38" rx="8" fill="#1A1A2E"/>
+  <text x="518" y="636" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">4. MOBILE USABILITY</text>
+  <text x="518" y="651" text-anchor="middle" font-size="9" fill="#aaaacc">touch targets · viewport · text size</text>
+
+  <!-- 5. HTTPS Security (bottom-left) -->
+  <rect x="200" y="620" width="148" height="38" rx="8" fill="#E94560" opacity="0.9"/>
+  <text x="274" y="636" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">5. HTTPS SECURITY</text>
+  <text x="274" y="651" text-anchor="middle" font-size="9" fill="#fff">SSL cert · mixed content · HSTS</text>
+
+  <!-- 6. Schema Markup (left-lower) -->
+  <rect x="28" y="463" width="145" height="38" rx="8" fill="#c73652" opacity="0.9"/>
+  <text x="100" y="479" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">6. SCHEMA MARKUP</text>
+  <text x="100" y="494" text-anchor="middle" font-size="9" fill="#fff">LocalBusiness · FAQ · Service</text>
+
+  <!-- 7. Internal Linking (left-upper) -->
+  <rect x="28" y="273" width="148" height="38" rx="8" fill="#16213E"/>
+  <text x="102" y="289" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">7. INTERNAL LINKING</text>
+  <text x="102" y="304" text-anchor="middle" font-size="9" fill="#aaaacc">depth · orphan pages · anchor text</text>
+
+  <!-- 8. Page Speed (top-left) -->
+  <rect x="200" y="143" width="140" height="38" rx="8" fill="#1A1A2E"/>
+  <text x="270" y="159" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">8. PAGE SPEED</text>
+  <text x="270" y="174" text-anchor="middle" font-size="9" fill="#aaaacc">TTFB · render-blocking · images</text>
+
+  <!-- Connecting lines from label box to segment -->
+  <line x1="510" y1="181" x2="476" y2="210" stroke="#E94560" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="692" y1="311" x2="592" y2="360" stroke="#c73652" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="693" y1="463" x2="592" y2="440" stroke="#16213E" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="518" y1="620" x2="476" y2="590" stroke="#1A1A2E" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="274" y1="620" x2="324" y2="590" stroke="#E94560" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="100" y1="501" x2="208" y2="440" stroke="#c73652" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="102" y1="311" x2="208" y2="360" stroke="#16213E" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="270" y1="181" x2="325" y2="210" stroke="#1A1A2E" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Footer -->
+  <text x="400" y="752" text-anchor="middle" font-size="10" fill="#999999">tupate.studio</text>
+</svg>

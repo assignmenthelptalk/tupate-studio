@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">7 Trust Signals Kenyan Clients Scan on a Law Firm or Accounting Website</title>
+
+  <!-- Background -->
+  <rect width="800" height="980" fill="#1A1A2E"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="90" fill="#16213E"/>
+  <text x="400" y="34" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="700" text-anchor="middle" letter-spacing="2">TUPATE STUDIO — KENYAN PROFESSIONAL SERVICES</text>
+  <text x="400" y="66" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="22" fill="#F5F5F5" font-weight="700" text-anchor="middle">7 Trust Signals Kenyan Clients Scan on a</text>
+  <text x="400" y="88" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="22" fill="#F5F5F5" font-weight="700" text-anchor="middle">Law Firm or Accounting Website</text>
+
+  <!-- Sub-header -->
+  <rect x="0" y="90" width="800" height="38" fill="#E94560"/>
+  <text x="400" y="114" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#FFFFFF" font-weight="600" text-anchor="middle">A Kenyan client decides within 30 seconds — based on these 7 signals in order</text>
+
+  <!-- Signal 1 -->
+  <rect x="30" y="144" width="740" height="98" rx="6" fill="#16213E"/>
+  <rect x="30" y="144" width="6" height="98" rx="3" fill="#E94560"/>
+  <circle cx="74" cy="193" r="22" fill="#E94560"/>
+  <text x="74" y="199" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" fill="#FFFFFF" font-weight="700" text-anchor="middle">1</text>
+  <text x="110" y="172" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#E94560" font-weight="700">REGULATORY CREDENTIALS</text>
+  <text x="110" y="192" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Law: LSK admission number + year of call to the bar</text>
+  <text x="110" y="210" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Accounting: ICPAK membership number + CPA(K) or FCPA designation</text>
+  <text x="110" y="228" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">The professional equivalent of a medical licence — Kenyan clients check this first</text>
+
+  <!-- Signal 2 -->
+  <rect x="30" y="254" width="740" height="98" rx="6" fill="#16213E"/>
+  <rect x="30" y="254" width="6" height="98" rx="3" fill="#E94560"/>
+  <circle cx="74" cy="303" r="22" fill="#E94560"/>
+  <text x="74" y="309" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" fill="#FFFFFF" font-weight="700" text-anchor="middle">2</text>
+  <text x="110" y="282" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#E94560" font-weight="700">PRACTICE AREA SPECIALISATION</text>
+  <text x="110" y="302" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Law: Conveyancing · Corporate · Family · Employment · Criminal · Immigration</text>
+  <text x="110" y="320" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Accounting: Tax Advisory · Audit · Financial Advisory · Payroll (PAYE/NSSF/SHA)</text>
+  <text x="110" y="338" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">Kenyan clients self-select into contacting — specialisation clarity drives this decision</text>
+
+  <!-- Signal 3 -->
+  <rect x="30" y="364" width="740" height="98" rx="6" fill="#16213E"/>
+  <rect x="30" y="364" width="6" height="98" rx="3" fill="#E94560"/>
+  <circle cx="74" cy="413" r="22" fill="#E94560"/>
+  <text x="74" y="419" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" fill="#FFFFFF" font-weight="700" text-anchor="middle">3</text>
+  <text x="110" y="392" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#E94560" font-weight="700">NAIROBI OFFICE LOCATION</text>
+  <text x="110" y="412" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Nairobi CBD · Westlands · Upper Hill · Gigiri signals client tier served</text>
+  <text x="110" y="430" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Helps clients self-qualify AND signals local relevance for Google searches</text>
+  <text x="110" y="448" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">e.g. "advocate Upper Hill Nairobi" — location drives both trust and SEO ranking</text>
+
+  <!-- Signal 4 -->
+  <rect x="30" y="474" width="740" height="98" rx="6" fill="#16213E"/>
+  <rect x="30" y="474" width="6" height="98" rx="3" fill="#E94560"/>
+  <circle cx="74" cy="523" r="22" fill="#E94560"/>
+  <text x="74" y="529" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" fill="#FFFFFF" font-weight="700" text-anchor="middle">4</text>
+  <text x="110" y="502" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#E94560" font-weight="700">EXPERIENCE INDICATORS</text>
+  <text x="110" y="522" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Years of Kenya practice · Sectors served · Case outcome statistics by category</text>
+  <text x="110" y="540" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Example: "Successfully handled 200+ Kenyan land disputes" — without naming clients</text>
+  <text x="110" y="558" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">Proven performance signals without breaching client confidentiality</text>
+
+  <!-- Signal 5 -->
+  <rect x="30" y="584" width="740" height="98" rx="6" fill="#16213E"/>
+  <rect x="30" y="584" width="6" height="98" rx="3" fill="#E94560"/>
+  <circle cx="74" cy="633" r="22" fill="#E94560"/>
+  <text x="74" y="639" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" fill="#FFFFFF" font-weight="700" text-anchor="middle">5</text>
+  <text x="110" y="612" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#E94560" font-weight="700">CONFIDENTIALITY SIGNALS</text>
+  <text x="110" y="632" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">"All enquiries are strictly confidential and subject to advocate-client privilege"</text>
+  <text x="110" y="650" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Required above every inquiry form · in footer · on Contact page</text>
+  <text x="110" y="668" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">Disproportionately important — Kenyan clients are cautious sharing legal/financial matters online</text>
+
+  <!-- Signal 6 -->
+  <rect x="30" y="694" width="740" height="98" rx="6" fill="#16213E"/>
+  <rect x="30" y="694" width="6" height="98" rx="3" fill="#E94560"/>
+  <circle cx="74" cy="743" r="22" fill="#E94560"/>
+  <text x="74" y="749" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" fill="#FFFFFF" font-weight="700" text-anchor="middle">6</text>
+  <text x="110" y="722" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#E94560" font-weight="700">LANGUAGE REGISTER</text>
+  <text x="110" y="742" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Formal English: expected and required for Kenyan legal and accounting contexts</text>
+  <text x="110" y="760" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Latin-heavy text: alienates clients — plain professional English converts better</text>
+  <text x="110" y="778" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">Avoid aggressive sales language — "Sign up now!" undermines the professional tone</text>
+
+  <!-- Signal 7 -->
+  <rect x="30" y="804" width="740" height="98" rx="6" fill="#16213E"/>
+  <rect x="30" y="804" width="6" height="98" rx="3" fill="#E94560"/>
+  <circle cx="74" cy="853" r="22" fill="#E94560"/>
+  <text x="74" y="859" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" fill="#FFFFFF" font-weight="700" text-anchor="middle">7</text>
+  <text x="110" y="832" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#E94560" font-weight="700">FEE TRANSPARENCY</text>
+  <text x="110" y="852" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">"Free initial consultation" statement removes the barrier to first contact</text>
+  <text x="110" y="870" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5">Kenyan clients are cost-conscious — knowing the entry cost drives inquiry submission</text>
+  <text x="110" y="888" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">Advocates (Remuneration) Order 2014 governs prescribed fees — state value before fee structure</text>
+
+  <!-- Footer -->
+  <text x="400" y="962" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">tupate.studio</text>
+</svg>

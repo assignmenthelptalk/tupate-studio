@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1020" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Kenya E-commerce Market Growth Drivers 2023–2025</title>
+
+  <!-- Background -->
+  <rect width="800" height="1020" fill="#1A1A2E"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="90" fill="#16213E"/>
+  <text x="400" y="38" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Kenya E-commerce Market</text>
+  <text x="400" y="65" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" text-anchor="middle">Growth Drivers 2023–2025</text>
+
+  <!-- ====== MARKET SIZE HERO ====== -->
+  <rect x="40" y="108" width="720" height="100" rx="10" fill="#16213E"/>
+  <text x="400" y="148" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="42" font-weight="700" fill="#E94560" text-anchor="middle">$3.5–4.5B</text>
+  <text x="400" y="175" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#F5F5F5" text-anchor="middle">Kenya E-commerce Market Value (2023) — Top 3 in Sub-Saharan Africa</text>
+  <text x="400" y="197" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" text-anchor="middle">Growing 15–20% annually</text>
+
+  <!-- ====== KEY STATS ROW ====== -->
+  <!-- Stat 1 -->
+  <rect x="40" y="226" width="220" height="100" rx="8" fill="#16213E"/>
+  <text x="150" y="264" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="30" font-weight="700" fill="#E94560" text-anchor="middle">22–25M</text>
+  <text x="150" y="286" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5" text-anchor="middle">Internet Users</text>
+  <text x="150" y="304" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">43–47% penetration</text>
+
+  <!-- Stat 2 -->
+  <rect x="290" y="226" width="220" height="100" rx="8" fill="#16213E"/>
+  <text x="400" y="264" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="30" font-weight="700" fill="#E94560" text-anchor="middle">30M+</text>
+  <text x="400" y="286" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5" text-anchor="middle">Active M-Pesa Users</text>
+  <text x="400" y="304" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">Ksh 35T+ annually</text>
+
+  <!-- Stat 3 -->
+  <rect x="540" y="226" width="220" height="100" rx="8" fill="#16213E"/>
+  <text x="650" y="264" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="30" font-weight="700" fill="#E94560" text-anchor="middle">60%+</text>
+  <text x="650" y="286" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5" text-anchor="middle">Smartphone Ownership</text>
+  <text x="650" y="304" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">Android-first market</text>
+
+  <!-- ====== GROWTH DRIVERS ====== -->
+  <text x="56" y="356" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">4 PRIMARY GROWTH DRIVERS</text>
+
+  <!-- Driver 1: M-Pesa -->
+  <rect x="40" y="366" width="344" height="140" rx="8" fill="#16213E"/>
+  <rect x="40" y="366" width="6" height="140" rx="3" fill="#E94560"/>
+  <text x="66" y="392" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">M-Pesa Payment Infrastructure</text>
+  <text x="66" y="412" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• 30M+ active users — 60%+ of adult population</text>
+  <text x="66" y="430" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Ksh 35T+ transacted annually (≈ Kenya's GDP)</text>
+  <text x="66" y="448" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• STK Push removes card requirement at checkout</text>
+  <text x="66" y="466" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• 2× the penetration of debit cards (15–20%)</text>
+  <text x="66" y="484" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Daraja API enables M-Pesa checkout integration</text>
+
+  <!-- Driver 2: Mobile Internet -->
+  <rect x="416" y="366" width="344" height="140" rx="8" fill="#16213E"/>
+  <rect x="416" y="366" width="6" height="140" rx="3" fill="#E94560"/>
+  <text x="442" y="392" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Mobile-First Internet Access</text>
+  <text x="442" y="412" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• 90%+ of sessions from mobile handsets</text>
+  <text x="442" y="430" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Safaricom 4G: 60–65% market share</text>
+  <text x="442" y="448" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Airtel Kenya: 25–30% market share</text>
+  <text x="442" y="466" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Android devices: Samsung, Tecno, Infinix</text>
+  <text x="442" y="484" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Design + test for Android on Safaricom 4G first</text>
+
+  <!-- Driver 3: Young Population -->
+  <rect x="40" y="520" width="344" height="140" rx="8" fill="#16213E"/>
+  <rect x="40" y="520" width="6" height="140" rx="3" fill="#E94560"/>
+  <text x="66" y="546" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Young Digitally-Native Population</text>
+  <text x="66" y="566" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Median age ≈ 20 years</text>
+  <text x="66" y="584" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Growing urban middle class</text>
+  <text x="66" y="602" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• 8–12M online shoppers (2023–2024)</text>
+  <text x="66" y="620" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Facebook: 12M+ | Instagram: 5M+ | TikTok: 3M+</text>
+  <text x="66" y="638" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Comfortable with M-Pesa before traditional banking</text>
+
+  <!-- Driver 4: Product Categories -->
+  <rect x="416" y="520" width="344" height="140" rx="8" fill="#16213E"/>
+  <rect x="416" y="520" width="6" height="140" rx="3" fill="#E94560"/>
+  <text x="442" y="546" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Top E-commerce Categories</text>
+  <text x="442" y="566" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Fashion &amp; Apparel — highest transaction volume</text>
+  <text x="442" y="584" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Electronics &amp; Phones — highest avg. order value</text>
+  <text x="442" y="602" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Food &amp; Grocery (Glovo, Jumia Food, Twiga)</text>
+  <text x="442" y="620" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">• Health &amp; Beauty — price comparison driven</text>
+  <text x="442" y="638" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Industrial B2B: fastest-growing underserved segment</text>
+
+  <!-- ====== GROWTH BAR CHART ====== -->
+  <text x="56" y="690" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">ANNUAL GROWTH TRAJECTORY (USD BILLION)</text>
+
+  <rect x="40" y="700" width="720" height="180" rx="8" fill="#16213E"/>
+
+  <!-- Chart axes -->
+  <line x1="100" y1="730" x2="100" y2="845" stroke="#2C2C2C" stroke-width="1"/>
+  <line x1="100" y1="845" x2="720" y2="845" stroke="#2C2C2C" stroke-width="1"/>
+
+  <!-- Y axis labels -->
+  <text x="94" y="735" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="end">$7B</text>
+  <text x="94" y="773" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="end">$5B</text>
+  <text x="94" y="810" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="end">$3B</text>
+  <text x="94" y="848" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="end">$0</text>
+
+  <!-- Grid lines -->
+  <line x1="100" y1="773" x2="720" y2="773" stroke="#2C2C2C" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="100" y1="810" x2="720" y2="810" stroke="#2C2C2C" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Bars: 2021=$2.0B, 2022=$2.6B, 2023=$3.5B, 2024e=$4.2B, 2025e=$5.0B -->
+  <!-- bar height scale: $7B = 115px, so 1B = 16.4px -->
+  <!-- 2021 $2.0B → height=32.8 → y=845-32.8=812.2 -->
+  <rect x="140" y="812" width="80" height="33" fill="#E94560" rx="3"/>
+  <text x="180" y="808" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">$2.0B</text>
+  <text x="180" y="860" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">2021</text>
+
+  <!-- 2022 $2.6B → height=42.6 → y=845-42.6=802.4 -->
+  <rect x="250" y="802" width="80" height="43" fill="#E94560" rx="3" opacity="0.85"/>
+  <text x="290" y="798" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">$2.6B</text>
+  <text x="290" y="860" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">2022</text>
+
+  <!-- 2023 $3.5B → height=57.4 → y=845-57.4=787.6 -->
+  <rect x="360" y="788" width="80" height="57" fill="#E94560" rx="3"/>
+  <text x="400" y="784" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">$3.5B</text>
+  <text x="400" y="860" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">2023</text>
+
+  <!-- 2024e $4.2B → height=68.9 → y=845-68.9=776.1 -->
+  <rect x="470" y="776" width="80" height="69" fill="#E94560" rx="3" opacity="0.7"/>
+  <text x="510" y="772" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">$4.2B</text>
+  <text x="510" y="860" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">2024e</text>
+
+  <!-- 2025e $5.0B → height=82 → y=845-82=763 -->
+  <rect x="580" y="763" width="80" height="82" fill="#E94560" rx="3" opacity="0.55"/>
+  <text x="620" y="759" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">$5.0B</text>
+  <text x="620" y="860" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">2025e</text>
+
+  <!-- Growth rate annotation -->
+  <text x="400" y="882" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">+15–20% CAGR | Source: Safaricom / CBK / KNBS estimates</text>
+
+  <!-- ====== PLATFORM COMPARISON ====== -->
+  <text x="56" y="916" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">PLATFORM VS OWN WEBSITE</text>
+
+  <rect x="40" y="926" width="344" height="68" rx="8" fill="#16213E"/>
+  <text x="60" y="948" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5">Jumia / Kilimall / Masoko</text>
+  <text x="60" y="966" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">10–25% commission | No customer data ownership</text>
+  <text x="60" y="982" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Instant reach | Price race vs competitors</text>
+
+  <rect x="416" y="926" width="344" height="68" rx="8" fill="#16213E"/>
+  <rect x="416" y="926" width="344" height="4" rx="2" fill="#E94560"/>
+  <text x="436" y="948" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5">Owned Website (Tupate Studio)</text>
+  <text x="436" y="966" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Full margins | KDPA-compliant data ownership</text>
+  <text x="436" y="982" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Brand equity | Ranked on Google.co.ke</text>
+
+  <!-- Footer -->
+  <text x="400" y="1012" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

@@ -1,0 +1,256 @@
+<svg viewBox="0 0 800 1080" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="infographic-title" font-family="'Inter', 'Segoe UI', Arial, sans-serif">
+  <title id="infographic-title">Equipment Catalog Page Structure — Required Elements for Kenyan Industrial B2B Websites</title>
+  <defs>
+    <linearGradient id="hG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+    <linearGradient id="aG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E94560"/>
+      <stop offset="100%" style="stop-color:#c73652"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1080" fill="#F5F5F5"/>
+
+  <!-- Header -->
+  <rect width="800" height="68" fill="url(#hG)"/>
+  <text x="400" y="28" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" letter-spacing="0.5">EQUIPMENT CATALOG PAGE STRUCTURE</text>
+  <text x="400" y="50" text-anchor="middle" fill="#E94560" font-size="11" font-weight="600">Required Elements for Kenyan Industrial B2B Websites</text>
+
+  <!-- NAVIGATION ARCHITECTURE -->
+  <rect x="30" y="78" width="740" height="20" rx="4" fill="#1A1A2E"/>
+  <text x="400" y="93" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">CATALOG NAVIGATION ARCHITECTURE — Max 2 clicks from homepage to any product</text>
+
+  <!-- Level 1 -->
+  <rect x="310" y="105" width="180" height="28" rx="4" fill="#1A1A2E"/>
+  <text x="400" y="124" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">HOMEPAGE</text>
+  <!-- Arrow down -->
+  <line x1="400" y1="133" x2="400" y2="148" stroke="#E94560" stroke-width="2"/>
+  <polygon points="396,148 404,148 400,155" fill="#E94560"/>
+
+  <!-- Level 2: Categories -->
+  <text x="400" y="168" text-anchor="middle" fill="#888" font-size="8">Level 1 — Equipment Categories</text>
+  <rect x="32" y="173" width="132" height="24" rx="3" fill="#16213E"/>
+  <text x="98" y="189" text-anchor="middle" fill="#FFFFFF" font-size="8.5">Power Generation</text>
+  <rect x="174" y="173" width="132" height="24" rx="3" fill="#16213E"/>
+  <text x="240" y="189" text-anchor="middle" fill="#FFFFFF" font-size="8.5">Material Handling</text>
+  <rect x="316" y="173" width="132" height="24" rx="3" fill="#16213E"/>
+  <text x="382" y="189" text-anchor="middle" fill="#FFFFFF" font-size="8.5">Construction Equip.</text>
+  <rect x="458" y="173" width="132" height="24" rx="3" fill="#16213E"/>
+  <text x="524" y="189" text-anchor="middle" fill="#FFFFFF" font-size="8.5">Industrial Tools</text>
+  <rect x="600" y="173" width="168" height="24" rx="3" fill="#16213E"/>
+  <text x="684" y="189" text-anchor="middle" fill="#FFFFFF" font-size="8.5">Spare Parts</text>
+
+  <!-- Connector lines Level 2 -->
+  <line x1="98" y1="173" x2="400" y2="133" stroke="#E94560" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="240" y1="173" x2="400" y2="133" stroke="#E94560" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="382" y1="173" x2="400" y2="133" stroke="#E94560" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="524" y1="173" x2="400" y2="133" stroke="#E94560" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="684" y1="173" x2="400" y2="133" stroke="#E94560" stroke-width="0.8" stroke-dasharray="3,2"/>
+
+  <!-- Arrow down to level 3 -->
+  <line x1="98" y1="197" x2="98" y2="210" stroke="#888" stroke-width="1.5"/>
+  <polygon points="94,210 102,210 98,217" fill="#888"/>
+  <text x="98" y="230" text-anchor="middle" fill="#888" font-size="7.5">Level 2</text>
+  <rect x="32" y="233" width="82" height="18" rx="3" fill="#888" fill-opacity="0.3"/>
+  <text x="73" y="245" text-anchor="middle" fill="#2C2C2C" font-size="7.5">Diesel Generators</text>
+  <rect x="120" y="233" width="82" height="18" rx="3" fill="#888" fill-opacity="0.3"/>
+  <text x="161" y="245" text-anchor="middle" fill="#2C2C2C" font-size="7.5">Gas Generators</text>
+
+  <!-- Arrow Level 3 -->
+  <line x1="73" y1="251" x2="73" y2="264" stroke="#E94560" stroke-width="1.5"/>
+  <polygon points="69,264 77,264 73,271" fill="#E94560"/>
+  <text x="73" y="282" text-anchor="middle" fill="#E94560" font-size="8" font-weight="700">INDIVIDUAL PRODUCT PAGE</text>
+
+  <!-- MAIN PRODUCT PAGE LAYOUT -->
+  <rect x="30" y="295" width="740" height="20" rx="4" fill="#E94560"/>
+  <text x="400" y="310" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">INDIVIDUAL EQUIPMENT PAGE — MANDATORY ELEMENTS CHECKLIST</text>
+
+  <!-- Left column: product page mockup -->
+  <rect x="30" y="322" width="265" height="440" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1.5"/>
+
+  <!-- Product page header -->
+  <rect x="30" y="322" width="265" height="26" rx="6" fill="#1A1A2E"/>
+  <text x="162" y="339" text-anchor="middle" fill="#FFFFFF" font-size="8.5" font-weight="700">Product: Cummins 500KVA Diesel Generator</text>
+
+  <!-- Product image placeholder -->
+  <rect x="40" y="354" width="245" height="100" rx="4" fill="#F5F5F5" stroke="#ddd" stroke-width="1"/>
+  <text x="162" y="400" text-anchor="middle" fill="#888" font-size="9">[ Product Photos ]</text>
+  <text x="162" y="414" text-anchor="middle" fill="#aaa" font-size="7.5">Multiple angles · Control panel detail</text>
+  <text x="162" y="427" text-anchor="middle" fill="#aaa" font-size="7.5">Kenyan client site installation photo</text>
+
+  <!-- Spec table -->
+  <rect x="40" y="460" width="245" height="138" rx="4" fill="#F5F5F5"/>
+  <text x="162" y="474" text-anchor="middle" fill="#1A1A2E" font-size="8.5" font-weight="700">TECHNICAL SPECIFICATIONS</text>
+  <line x1="40" y1="478" x2="285" y2="478" stroke="#ddd" stroke-width="0.5"/>
+  <text x="52" y="491" fill="#888" font-size="7.5">Power Rating</text><text x="220" y="491" text-anchor="end" fill="#2C2C2C" font-size="7.5" font-weight="600">500 kVA / 400 kW</text>
+  <text x="52" y="504" fill="#888" font-size="7.5">Voltage / Freq</text><text x="220" y="504" text-anchor="end" fill="#E94560" font-size="7.5" font-weight="700">240V / 50Hz (Kenya Std.)</text>
+  <text x="52" y="517" fill="#888" font-size="7.5">Dimensions (mm)</text><text x="220" y="517" text-anchor="end" fill="#2C2C2C" font-size="7.5">3200 × 1100 × 1800</text>
+  <text x="52" y="530" fill="#888" font-size="7.5">Weight</text><text x="220" y="530" text-anchor="end" fill="#2C2C2C" font-size="7.5">3,850 kg</text>
+  <text x="52" y="543" fill="#888" font-size="7.5">Fuel Consumption</text><text x="220" y="543" text-anchor="end" fill="#2C2C2C" font-size="7.5">98 L/hr at full load</text>
+  <text x="52" y="556" fill="#888" font-size="7.5">Altitude Limit</text><text x="220" y="556" text-anchor="end" fill="#2C2C2C" font-size="7.5">2,500m (Nairobi +)</text>
+  <text x="52" y="569" fill="#888" font-size="7.5">Price</text><text x="220" y="569" text-anchor="end" fill="#E94560" font-size="7.5" font-weight="700">Ksh 4,200,000</text>
+  <line x1="40" y1="573" x2="285" y2="573" stroke="#ddd" stroke-width="0.5"/>
+  <text x="162" y="583" text-anchor="middle" fill="#888" font-size="7">All prices in Kenya Shillings</text>
+  <text x="162" y="593" text-anchor="middle" fill="#888" font-size="7">Key spare parts: Nairobi Industrial Area stock</text>
+
+  <!-- Download + RFQ buttons -->
+  <rect x="40" y="603" width="115" height="22" rx="4" fill="#1A1A2E"/>
+  <text x="97" y="618" text-anchor="middle" fill="#FFFFFF" font-size="7.5" font-weight="600">Download Datasheet PDF</text>
+  <rect x="165" y="603" width="120" height="22" rx="4" fill="url(#aG)"/>
+  <text x="225" y="618" text-anchor="middle" fill="#FFFFFF" font-size="7.5" font-weight="600">Request a Quote (RFQ)</text>
+
+  <!-- Applications -->
+  <rect x="40" y="632" width="245" height="24" rx="4" fill="#F5F5F5"/>
+  <text x="162" y="642" text-anchor="middle" fill="#1A1A2E" font-size="7.5" font-weight="700">Applications:</text>
+  <text x="162" y="653" text-anchor="middle" fill="#888" font-size="7">Healthcare · County Govt · Manufacturing · Hotels</text>
+
+  <!-- WhatsApp floating button indicator -->
+  <rect x="250" y="710" width="38" height="38" rx="19" fill="#25D366"/>
+  <text x="269" y="733" text-anchor="middle" fill="#FFFFFF" font-size="14">⊕</text>
+  <text x="162" y="742" text-anchor="middle" fill="#888" font-size="7">Floating WhatsApp contact — always visible</text>
+  <text x="162" y="752" text-anchor="middle" fill="#888" font-size="7">+254 XXX XXX XXX · Direct phone in header</text>
+
+  <!-- RIGHT COLUMN: 7 Critical Elements -->
+  <text x="315" y="337" fill="#1A1A2E" font-size="11" font-weight="700">7 KENYA-SPECIFIC CATALOG REQUIREMENTS</text>
+
+  <!-- Req 1 -->
+  <rect x="310" y="344" width="460" height="56" rx="5" fill="#1A1A2E"/>
+  <rect x="310" y="344" width="5" height="56" fill="#E94560"/>
+  <circle cx="330" cy="356" r="9" fill="#E94560"/>
+  <text x="330" y="360" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">1</text>
+  <text x="348" y="358" fill="#FFFFFF" font-size="9" font-weight="700">240V / 50Hz Compatibility (Non-negotiable)</text>
+  <text x="348" y="372" fill="#aaaacc" font-size="8">Kenya standard — imported 110V/60Hz equipment will damage Kenyan infrastructure</text>
+  <text x="348" y="386" fill="#E94560" font-size="8" font-weight="600">Procurement managers filter for this BEFORE requesting a quote</text>
+
+  <!-- Req 2 -->
+  <rect x="310" y="406" width="460" height="50" rx="5" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <rect x="310" y="406" width="5" height="50" fill="#16213E"/>
+  <circle cx="330" cy="418" r="9" fill="#16213E"/>
+  <text x="330" y="422" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">2</text>
+  <text x="348" y="420" fill="#1A1A2E" font-size="9" font-weight="700">Spare Parts Availability Statement</text>
+  <text x="348" y="434" fill="#2C2C2C" font-size="8">"Key spare parts stocked in Nairobi Industrial Area warehouse"</text>
+  <text x="348" y="448" fill="#888" font-size="8">Local parts supplier preferred over 6–8 week China import lead time</text>
+
+  <!-- Req 3 -->
+  <rect x="310" y="462" width="460" height="50" rx="5" fill="#1A1A2E"/>
+  <rect x="310" y="462" width="5" height="50" fill="#E94560"/>
+  <circle cx="330" cy="474" r="9" fill="#E94560"/>
+  <text x="330" y="478" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">3</text>
+  <text x="348" y="476" fill="#FFFFFF" font-size="9" font-weight="700">Pricing in Kenya Shillings (Ksh)</text>
+  <text x="348" y="490" fill="#aaaacc" font-size="8">Even for USD-sourced equipment — procurement teams build budgets in Ksh</text>
+  <text x="348" y="504" fill="#E94560" font-size="8">USD pricing = friction point competitors who quote in Ksh avoid</text>
+
+  <!-- Req 4 -->
+  <rect x="310" y="518" width="460" height="50" rx="5" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <rect x="310" y="518" width="5" height="50" fill="#16213E"/>
+  <circle cx="330" cy="530" r="9" fill="#16213E"/>
+  <text x="330" y="534" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">4</text>
+  <text x="348" y="532" fill="#1A1A2E" font-size="9" font-weight="700">Service Coverage Map by County</text>
+  <text x="348" y="546" fill="#2C2C2C" font-size="8">County hospital projects, county government facilities need county-level coverage</text>
+  <text x="348" y="560" fill="#888" font-size="8">Multi-site manufacturers need to confirm coverage outside Nairobi</text>
+
+  <!-- Req 5 -->
+  <rect x="310" y="574" width="460" height="50" rx="5" fill="#1A1A2E"/>
+  <rect x="310" y="574" width="5" height="50" fill="#E94560"/>
+  <circle cx="330" cy="586" r="9" fill="#E94560"/>
+  <text x="330" y="590" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">5</text>
+  <text x="348" y="588" fill="#FFFFFF" font-size="9" font-weight="700">Free PDF Datasheet (No Registration Gate)</text>
+  <text x="348" y="602" fill="#aaaacc" font-size="8">Procurement managers share spec sheets internally for technical review</text>
+  <text x="348" y="616" fill="#E94560" font-size="8">Registration gates = use competitor's freely downloadable sheet instead</text>
+
+  <!-- Req 6 -->
+  <rect x="310" y="630" width="460" height="50" rx="5" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <rect x="310" y="630" width="5" height="50" fill="#16213E"/>
+  <circle cx="330" cy="642" r="9" fill="#16213E"/>
+  <text x="330" y="646" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">6</text>
+  <text x="348" y="644" fill="#1A1A2E" font-size="9" font-weight="700">Product-Specific RFQ Form</text>
+  <text x="348" y="658" fill="#2C2C2C" font-size="8">Pre-populated with equipment model, county of operation dropdown</text>
+  <text x="348" y="672" fill="#888" font-size="8">WhatsApp auto-reply within 60 seconds of submission (B2B expectation)</text>
+
+  <!-- Req 7 -->
+  <rect x="310" y="686" width="460" height="50" rx="5" fill="#1A1A2E"/>
+  <rect x="310" y="686" width="5" height="50" fill="#E94560"/>
+  <circle cx="330" cy="698" r="9" fill="#E94560"/>
+  <text x="330" y="702" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">7</text>
+  <text x="348" y="700" fill="#FFFFFF" font-size="9" font-weight="700">Application Compatibility by Kenyan Industry</text>
+  <text x="348" y="714" fill="#aaaacc" font-size="8">Construction · Mining · Agriculture · Food Processing · Healthcare · Education</text>
+  <text x="348" y="728" fill="#E94560" font-size="8">Connects product to the buyer's specific Kenyan use case</text>
+
+  <!-- CERTIFICATIONS STRIP -->
+  <rect x="30" y="774" width="740" height="20" rx="4" fill="#16213E"/>
+  <text x="400" y="789" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">CERTIFICATIONS TO DISPLAY WITH SCANNED IMAGES + REGISTRATION NUMBERS</text>
+
+  <rect x="30" y="800" width="740" height="58" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <!-- Cert badges -->
+  <rect x="48" y="810" width="96" height="34" rx="4" fill="#F5F5F5" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="96" y="824" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">ISO 9001</text>
+  <text x="96" y="836" text-anchor="middle" fill="#888" font-size="7">Quality Mgmt</text>
+
+  <rect x="154" y="810" width="96" height="34" rx="4" fill="#F5F5F5" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="202" y="824" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">KEBS Approval</text>
+  <text x="202" y="836" text-anchor="middle" fill="#888" font-size="7">Product Standards</text>
+
+  <rect x="260" y="810" width="96" height="34" rx="4" fill="#F5F5F5" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="308" y="824" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">NEMA Cert.</text>
+  <text x="308" y="836" text-anchor="middle" fill="#888" font-size="7">Environmental</text>
+
+  <rect x="366" y="810" width="96" height="34" rx="4" fill="#F5F5F5" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="414" y="824" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">NCA Reg.</text>
+  <text x="414" y="836" text-anchor="middle" fill="#888" font-size="7">Construction</text>
+
+  <rect x="472" y="810" width="96" height="34" rx="4" fill="#F5F5F5" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="520" y="824" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">KRA PIN</text>
+  <text x="520" y="836" text-anchor="middle" fill="#888" font-size="7">Tax Compliance</text>
+
+  <rect x="578" y="810" width="96" height="34" rx="4" fill="#F5F5F5" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="626" y="824" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">County Permit</text>
+  <text x="626" y="836" text-anchor="middle" fill="#888" font-size="7">Current Year</text>
+
+  <rect x="684" y="810" width="80" height="34" rx="4" fill="#E94560"/>
+  <text x="724" y="824" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="700">IFMIS Reg.</text>
+  <text x="724" y="836" text-anchor="middle" fill="#FFFFFF" font-size="7">Govt Tenders</text>
+
+  <!-- RFQ Workflow -->
+  <rect x="30" y="868" width="740" height="20" rx="4" fill="#E94560"/>
+  <text x="400" y="883" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">RFQ WORKFLOW — FROM FORM TO FIRST RESPONSE</text>
+
+  <rect x="30" y="894" width="740" height="55" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <!-- Flow steps -->
+  <rect x="48" y="905" width="100" height="30" rx="4" fill="#1A1A2E"/>
+  <text x="98" y="918" text-anchor="middle" fill="#FFFFFF" font-size="7.5">Procurement Mgr</text>
+  <text x="98" y="929" text-anchor="middle" fill="#FFFFFF" font-size="7.5">fills RFQ form</text>
+  <line x1="148" y1="920" x2="168" y2="920" stroke="#E94560" stroke-width="2"/><polygon points="165,916 173,920 165,924" fill="#E94560"/>
+  <rect x="175" y="905" width="110" height="30" rx="4" fill="#16213E"/>
+  <text x="230" y="918" text-anchor="middle" fill="#FFFFFF" font-size="7.5">WhatsApp auto-reply</text>
+  <text x="230" y="929" text-anchor="middle" fill="#FFFFFF" font-size="7.5">within 60 seconds</text>
+  <line x1="285" y1="920" x2="305" y2="920" stroke="#E94560" stroke-width="2"/><polygon points="302,916 310,920 302,924" fill="#E94560"/>
+  <rect x="312" y="905" width="110" height="30" rx="4" fill="#16213E"/>
+  <text x="367" y="918" text-anchor="middle" fill="#FFFFFF" font-size="7.5">Sales CRM</text>
+  <text x="367" y="929" text-anchor="middle" fill="#FFFFFF" font-size="7.5">notification</text>
+  <line x1="422" y1="920" x2="442" y2="920" stroke="#E94560" stroke-width="2"/><polygon points="439,916 447,920 439,924" fill="#E94560"/>
+  <rect x="449" y="905" width="110" height="30" rx="4" fill="#1A1A2E"/>
+  <text x="504" y="918" text-anchor="middle" fill="#FFFFFF" font-size="7.5">"We respond to all</text>
+  <text x="504" y="929" text-anchor="middle" fill="#FFFFFF" font-size="7.5">RFQs within 4hrs"</text>
+  <line x1="559" y1="920" x2="579" y2="920" stroke="#E94560" stroke-width="2"/><polygon points="576,916 584,920 576,924" fill="#E94560"/>
+  <rect x="586" y="905" width="150" height="30" rx="4" fill="#E94560"/>
+  <text x="661" y="918" text-anchor="middle" fill="#FFFFFF" font-size="7.5" font-weight="700">Tender document ZIP</text>
+  <text x="661" y="929" text-anchor="middle" fill="#FFFFFF" font-size="7.5" font-weight="700">available for download</text>
+
+  <!-- Pricing note -->
+  <rect x="30" y="958" width="360" height="50" rx="6" fill="#1A1A2E"/>
+  <text x="210" y="976" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">INDUSTRIAL WEBSITE PRICING (KENYA)</text>
+  <text x="210" y="991" text-anchor="middle" fill="#aaaacc" font-size="9">Brochure + static catalog (20 products): Ksh 35,000–50,000</text>
+  <text x="210" y="1005" text-anchor="middle" fill="#E94560" font-size="9" font-weight="600">Custom DB catalog + RFQ workflow: from Ksh 80,000</text>
+
+  <!-- SEO note -->
+  <rect x="410" y="958" width="360" height="50" rx="6" fill="#E94560"/>
+  <text x="590" y="976" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">SEO ADVANTAGE — KENYA INDUSTRIAL SERP</text>
+  <text x="590" y="991" text-anchor="middle" fill="#FFFFFF" font-size="9">Most Kenyan industrial sites: slow WP, thin content, no spec pages</text>
+  <text x="590" y="1005" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">First-page rankings achievable in 3–6 months</text>
+
+  <!-- Footer -->
+  <text x="400" y="1068" text-anchor="middle" fill="#999" font-size="11">tupate.studio</text>
+</svg>

@@ -1,0 +1,222 @@
+<svg viewBox="0 0 800 920" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="infographic-title" font-family="'Inter', 'Segoe UI', Arial, sans-serif">
+  <title id="infographic-title">Kenya Business Content Calendar — Search Volume Peaks by Month</title>
+  <defs>
+    <linearGradient id="hdrG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+    <linearGradient id="barHigh" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E94560"/>
+      <stop offset="100%" style="stop-color:#c73652"/>
+    </linearGradient>
+    <linearGradient id="barMed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+    <linearGradient id="barLow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#888"/>
+      <stop offset="100%" style="stop-color:#aaa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#F5F5F5"/>
+
+  <!-- Header -->
+  <rect width="800" height="68" fill="url(#hdrG)"/>
+  <text x="400" y="28" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" letter-spacing="0.5">KENYA BUSINESS CONTENT CALENDAR</text>
+  <text x="400" y="50" text-anchor="middle" fill="#E94560" font-size="11" font-weight="600">Search Volume Peaks by Month — Publish 4–6 Weeks Before Each Peak</text>
+
+  <!-- Legend -->
+  <rect x="30" y="78" width="14" height="12" rx="2" fill="#E94560"/>
+  <text x="50" y="89" fill="#2C2C2C" font-size="9">Peak / High Volume</text>
+  <rect x="175" y="78" width="14" height="12" rx="2" fill="#1A1A2E"/>
+  <text x="195" y="89" fill="#2C2C2C" font-size="9">Medium Volume</text>
+  <rect x="315" y="78" width="14" height="12" rx="2" fill="#888"/>
+  <text x="335" y="89" fill="#2C2C2C" font-size="9">Low / Recovery</text>
+  <rect x="455" y="78" width="14" height="12" rx="2" fill="#E94560" fill-opacity="0.3"/>
+  <text x="475" y="89" fill="#2C2C2C" font-size="9">Publish content 4–6 weeks BEFORE these months</text>
+
+  <!-- Chart area -->
+  <rect x="30" y="98" width="740" height="290" rx="6" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Y-axis label -->
+  <text transform="rotate(-90,22,243)" x="22" y="243" text-anchor="middle" fill="#888" font-size="9">Relative Search Volume</text>
+
+  <!-- Y-axis gridlines and labels -->
+  <line x1="75" y1="108" x2="75" y2="378" stroke="#eee" stroke-width="1"/>
+  <line x1="75" y1="108" x2="762" y2="108" stroke="#eee" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="68" y="112" text-anchor="end" fill="#888" font-size="8">100%</text>
+  <line x1="75" y1="178" x2="762" y2="178" stroke="#eee" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="68" y="182" text-anchor="end" fill="#888" font-size="8">75%</text>
+  <line x1="75" y1="248" x2="762" y2="248" stroke="#eee" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="68" y="252" text-anchor="end" fill="#888" font-size="8">50%</text>
+  <line x1="75" y1="318" x2="762" y2="318" stroke="#eee" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="68" y="322" text-anchor="end" fill="#888" font-size="8">25%</text>
+  <line x1="75" y1="378" x2="762" y2="378" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Bar data: heights mapped to 270px max (100%)
+       Jan: high 90% = 243px, Feb: med 55% = 149, Mar: med 50% = 135,
+       Apr: high 85% = 230, May: peak 100% = 270, Jun: peak 95% = 257,
+       Jul: med 45% = 122, Aug: med 50% = 135, Sep: high 80% = 216,
+       Oct: high 75% = 203, Nov: med 55% = 149, Dec: low 35% = 95 -->
+
+  <!-- BAR WIDTH=48, gap=9, start=76 -->
+  <!-- Jan -->
+  <rect x="77" y="135" width="48" height="243" rx="3" fill="url(#barHigh)"/>
+  <text x="101" y="129" text-anchor="middle" fill="#E94560" font-size="8" font-weight="700">90%</text>
+  <text x="101" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">JAN</text>
+
+  <!-- Feb -->
+  <rect x="134" y="229" width="48" height="149" rx="3" fill="url(#barMed)"/>
+  <text x="158" y="223" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">55%</text>
+  <text x="158" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">FEB</text>
+
+  <!-- Mar -->
+  <rect x="191" y="243" width="48" height="135" rx="3" fill="url(#barMed)"/>
+  <text x="215" y="237" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">50%</text>
+  <text x="215" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">MAR</text>
+
+  <!-- Apr -->
+  <rect x="248" y="148" width="48" height="230" rx="3" fill="url(#barHigh)"/>
+  <text x="272" y="142" text-anchor="middle" fill="#E94560" font-size="8" font-weight="700">85%</text>
+  <text x="272" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">APR</text>
+
+  <!-- May PEAK -->
+  <rect x="305" y="108" width="48" height="270" rx="3" fill="url(#barHigh)"/>
+  <text x="329" y="102" text-anchor="middle" fill="#E94560" font-size="8" font-weight="700">PEAK</text>
+  <text x="329" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">MAY</text>
+
+  <!-- Jun -->
+  <rect x="362" y="121" width="48" height="257" rx="3" fill="url(#barHigh)"/>
+  <text x="386" y="115" text-anchor="middle" fill="#E94560" font-size="8" font-weight="700">95%</text>
+  <text x="386" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">JUN</text>
+
+  <!-- Jul -->
+  <rect x="419" y="256" width="48" height="122" rx="3" fill="url(#barMed)"/>
+  <text x="443" y="250" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">45%</text>
+  <text x="443" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">JUL</text>
+
+  <!-- Aug -->
+  <rect x="476" y="243" width="48" height="135" rx="3" fill="url(#barMed)"/>
+  <text x="500" y="237" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">50%</text>
+  <text x="500" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">AUG</text>
+
+  <!-- Sep -->
+  <rect x="533" y="162" width="48" height="216" rx="3" fill="url(#barHigh)"/>
+  <text x="557" y="156" text-anchor="middle" fill="#E94560" font-size="8" font-weight="700">80%</text>
+  <text x="557" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">SEP</text>
+
+  <!-- Oct -->
+  <rect x="590" y="175" width="48" height="203" rx="3" fill="url(#barHigh)"/>
+  <text x="614" y="169" text-anchor="middle" fill="#E94560" font-size="8" font-weight="700">75%</text>
+  <text x="614" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">OCT</text>
+
+  <!-- Nov -->
+  <rect x="647" y="229" width="48" height="149" rx="3" fill="url(#barMed)"/>
+  <text x="671" y="223" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">55%</text>
+  <text x="671" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">NOV</text>
+
+  <!-- Dec -->
+  <rect x="704" y="283" width="48" height="95" rx="3" fill="url(#barLow)"/>
+  <text x="728" y="277" text-anchor="middle" fill="#888" font-size="8" font-weight="700">35%</text>
+  <text x="728" y="392" text-anchor="middle" fill="#2C2C2C" font-size="9" font-weight="700">DEC</text>
+
+  <!-- MONTH DETAIL CARDS - 2 per row, 4 rows -->
+  <!-- Row 1: Jan + Apr-May -->
+  <rect x="30" y="408" width="360" height="100" rx="6" fill="#1A1A2E"/>
+  <rect x="30" y="408" width="5" height="100" fill="#E94560"/>
+  <text x="48" y="428" fill="#E94560" font-size="10" font-weight="700">JANUARY — Website &amp; School Season</text>
+  <text x="48" y="444" fill="#FFFFFF" font-size="9">"New website for my business" — peaks first 2 weeks</text>
+  <text x="48" y="458" fill="#FFFFFF" font-size="9">Back-to-school content — January school term</text>
+  <text x="48" y="472" fill="#FFFFFF" font-size="9">Update NHIF/SHA coverage info before Jan 1</text>
+  <text x="48" y="486" fill="#aaaacc" font-size="8">Publish: mid-November to mid-December</text>
+  <text x="48" y="498" fill="#E94560" font-size="8" font-weight="600">Industries: Web design, education, healthcare</text>
+
+  <rect x="410" y="408" width="360" height="100" rx="6" fill="#1A1A2E"/>
+  <rect x="410" y="408" width="5" height="100" fill="#E94560"/>
+  <text x="428" y="428" fill="#E94560" font-size="10" font-weight="700">APRIL–MAY — KRA Tax Season PEAK</text>
+  <text x="428" y="444" fill="#FFFFFF" font-size="9">"How to file KRA returns Kenya" — sharp peak</text>
+  <text x="428" y="458" fill="#FFFFFF" font-size="9">"VAT filing deadline Kenya" — high urgency</text>
+  <text x="428" y="472" fill="#FFFFFF" font-size="9">"PAYE penalties Kenya" — compliance anxiety</text>
+  <text x="428" y="486" fill="#aaaacc" font-size="8">Publish: March (6 weeks before May peak)</text>
+  <text x="428" y="498" fill="#E94560" font-size="8" font-weight="600">Industries: Accounting, legal, financial services</text>
+
+  <!-- Row 2: Jun + Sep-Oct -->
+  <rect x="30" y="518" width="360" height="100" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <rect x="30" y="518" width="5" height="100" fill="#16213E"/>
+  <text x="48" y="538" fill="#1A1A2E" font-size="10" font-weight="700">JUNE — National Budget Impact</text>
+  <text x="48" y="554" fill="#2C2C2C" font-size="9">"VAT changes Kenya 2025 budget" — 24–48hr window</text>
+  <text x="48" y="568" fill="#2C2C2C" font-size="9">"New tax measures SMEs Kenya" — instant demand</text>
+  <text x="48" y="582" fill="#2C2C2C" font-size="9">"Finance Act Kenya implications business" searches spike</text>
+  <text x="48" y="596" fill="#888" font-size="8">Publish: within 24–48 hrs of budget speech (June)</text>
+  <text x="48" y="608" fill="#16213E" font-size="8" font-weight="600">Industries: Legal, accounting, all B2B sectors</text>
+
+  <rect x="410" y="518" width="360" height="100" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <rect x="410" y="518" width="5" height="100" fill="#16213E"/>
+  <text x="428" y="538" fill="#1A1A2E" font-size="10" font-weight="700">SEPT–OCT — Year-End Planning + Retail</text>
+  <text x="428" y="554" fill="#2C2C2C" font-size="9">"Best website designer Nairobi 2026" — evaluating vendors</text>
+  <text x="428" y="568" fill="#2C2C2C" font-size="9">"SEO agency Kenya reviews" — service evaluation</text>
+  <text x="428" y="582" fill="#2C2C2C" font-size="9">Christmas retail starts earlier in Nairobi CBD</text>
+  <text x="428" y="596" fill="#888" font-size="8">Publish: mid-August to early September</text>
+  <text x="428" y="608" fill="#16213E" font-size="8" font-weight="600">Industries: Hospitality, retail, web design, agencies</text>
+
+  <!-- Row 3: Dec + Frequency Rec -->
+  <rect x="30" y="628" width="360" height="75" rx="6" fill="#F5F5F5" stroke="#888" stroke-width="1"/>
+  <rect x="30" y="628" width="5" height="75" fill="#888"/>
+  <text x="48" y="648" fill="#2C2C2C" font-size="10" font-weight="700">DECEMBER — Holiday + Hospitality</text>
+  <text x="48" y="664" fill="#2C2C2C" font-size="9">Travel and hospitality searches peak</text>
+  <text x="48" y="678" fill="#2C2C2C" font-size="9">B2B activity drops significantly</text>
+  <text x="48" y="692" fill="#888" font-size="8">"Best of" / annual review content builds authority</text>
+
+  <!-- Publication frequency -->
+  <rect x="410" y="628" width="360" height="75" rx="6" fill="#E94560"/>
+  <text x="590" y="648" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">PUBLICATION FREQUENCY GUIDE</text>
+  <text x="590" y="664" text-anchor="middle" fill="#FFFFFF" font-size="9">Growth phase: Minimum 2 pieces/month</text>
+  <text x="590" y="678" text-anchor="middle" fill="#FFFFFF" font-size="9">Competitive niche (real estate, legal, medical):</text>
+  <text x="590" y="692" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">4–8 pieces/month accelerates topical authority</text>
+
+  <!-- Calendar timeline strip -->
+  <rect x="30" y="713" width="740" height="60" rx="6" fill="#16213E"/>
+  <text x="400" y="731" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">CONTENT PUBLISH TIMING CALENDAR (6-WEEK LEAD RULE)</text>
+  <!-- Timeline arrows -->
+  <text x="105" y="751" text-anchor="middle" fill="#aaaacc" font-size="8">Nov–Dec</text>
+  <text x="105" y="762" text-anchor="middle" fill="#E94560" font-size="8" font-weight="600">→ Jan peak</text>
+  <line x1="162" y1="755" x2="175" y2="755" stroke="#E94560" stroke-width="1"/>
+  <text x="218" y="751" text-anchor="middle" fill="#aaaacc" font-size="8">Feb–Mar</text>
+  <text x="218" y="762" text-anchor="middle" fill="#E94560" font-size="8" font-weight="600">→ Apr–May peak</text>
+  <line x1="278" y1="755" x2="290" y2="755" stroke="#E94560" stroke-width="1"/>
+  <text x="340" y="751" text-anchor="middle" fill="#aaaacc" font-size="8">Budget day</text>
+  <text x="340" y="762" text-anchor="middle" fill="#E94560" font-size="8" font-weight="600">→ Jun surge</text>
+  <line x1="390" y1="755" x2="400" y2="755" stroke="#E94560" stroke-width="1"/>
+  <text x="463" y="751" text-anchor="middle" fill="#aaaacc" font-size="8">Jul–Aug</text>
+  <text x="463" y="762" text-anchor="middle" fill="#E94560" font-size="8" font-weight="600">→ Sep–Oct peak</text>
+  <line x1="525" y1="755" x2="537" y2="755" stroke="#E94560" stroke-width="1"/>
+  <text x="600" y="751" text-anchor="middle" fill="#aaaacc" font-size="8">Sep–Oct</text>
+  <text x="600" y="762" text-anchor="middle" fill="#E94560" font-size="8" font-weight="600">→ Nov–Dec retail</text>
+  <line x1="665" y1="755" x2="677" y2="755" stroke="#E94560" stroke-width="1"/>
+  <text x="725" y="751" text-anchor="middle" fill="#aaaacc" font-size="8">Jan new year</text>
+  <text x="725" y="762" text-anchor="middle" fill="#E94560" font-size="8" font-weight="600">→ cycle repeats</text>
+
+  <!-- Content format note -->
+  <rect x="30" y="783" width="740" height="55" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <text x="400" y="801" text-anchor="middle" fill="#1A1A2E" font-size="11" font-weight="700">CONTENT FORMAT VARIETY — IMPROVE SIGNAL DIVERSITY</text>
+  <rect x="48" y="808" width="120" height="22" rx="4" fill="#1A1A2E"/>
+  <text x="108" y="823" text-anchor="middle" fill="#FFFFFF" font-size="8">Educational Posts</text>
+  <rect x="178" y="808" width="120" height="22" rx="4" fill="#E94560"/>
+  <text x="238" y="823" text-anchor="middle" fill="#FFFFFF" font-size="8">Case Studies</text>
+  <rect x="308" y="808" width="130" height="22" rx="4" fill="#16213E"/>
+  <text x="373" y="823" text-anchor="middle" fill="#FFFFFF" font-size="8">Service Page Updates</text>
+  <rect x="448" y="808" width="130" height="22" rx="4" fill="#1A1A2E"/>
+  <text x="513" y="823" text-anchor="middle" fill="#FFFFFF" font-size="8">Kenyan Industry News</text>
+  <rect x="588" y="808" width="120" height="22" rx="4" fill="#E94560"/>
+  <text x="648" y="823" text-anchor="middle" fill="#FFFFFF" font-size="8">FAQ Pages</text>
+
+  <!-- Quarterly audit note -->
+  <rect x="30" y="848" width="740" height="42" rx="6" fill="#F5F5F5" stroke="#E94560" stroke-width="1"/>
+  <text x="400" y="867" text-anchor="middle" fill="#1A1A2E" font-size="9" font-weight="700">QUARTERLY CONTENT AUDIT — Update Ksh pricing, Kenya government statistics, NHIF/SHA information, and service availability</text>
+  <text x="400" y="881" text-anchor="middle" fill="#888" font-size="8.5">Stale pricing or outdated policy information on Kenyan business websites reduces conversion rates and trust signals to Google</text>
+
+  <!-- Footer -->
+  <text x="400" y="910" text-anchor="middle" fill="#999" font-size="11">tupate.studio</text>
+</svg>

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" width="100%" role="img" aria-labelledby="infographic-title" font-family="'Inter', 'Segoe UI', Arial, sans-serif">
+  <title id="infographic-title">Daraja API Architecture — Custom M-Pesa Integration for Kenyan E-commerce — Tupate Studio</title>
+
+  <!-- Background -->
+  <rect width="800" height="960" fill="#1A1A2E"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="90" fill="#16213E"/>
+  <rect x="0" y="87" width="800" height="3" fill="#E94560"/>
+  <text x="400" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">Daraja API Architecture</text>
+  <text x="400" y="60" text-anchor="middle" font-size="13" fill="#E94560" font-weight="600" letter-spacing="0.8">CUSTOM M-PESA INTEGRATION FOR KENYAN E-COMMERCE — TUPATE STUDIO</text>
+
+  <!-- Subtitle -->
+  <text x="400" y="80" text-anchor="middle" font-size="11" fill="#A0A0B0">Direct Safaricom Daraja API · No third-party plugin · No intermediary layer</text>
+
+  <!-- ====== FLOW DIAGRAM AREA ====== -->
+
+  <!-- Central: Store Server node -->
+  <rect x="300" y="200" width="200" height="60" rx="10" fill="#E94560"/>
+  <text x="400" y="226" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Your Store Server</text>
+  <text x="400" y="244" text-anchor="middle" font-size="11" fill="#FFFFFF">Custom-Built (Tupate Studio)</text>
+
+  <!-- Central: Safaricom Daraja API node -->
+  <rect x="300" y="320" width="200" height="60" rx="10" fill="#16213E" stroke="#E94560" stroke-width="2"/>
+  <text x="400" y="346" text-anchor="middle" font-size="13" font-weight="700" fill="#E94560">Safaricom</text>
+  <text x="400" y="364" text-anchor="middle" font-size="13" font-weight="700" fill="#E94560">Daraja API</text>
+
+  <!-- Arrow: Store → Daraja -->
+  <line x1="400" y1="260" x2="400" y2="320" stroke="#E94560" stroke-width="2" stroke-dasharray="5 3"/>
+  <polygon points="393,316 407,316 400,324" fill="#E94560"/>
+  <text x="420" y="295" font-size="10" fill="#A0A0B0">API request</text>
+
+  <!-- Arrow: Daraja → Store (webhook) -->
+  <line x1="388" y1="320" x2="388" y2="262" stroke="#4CAF50" stroke-width="2"/>
+  <polygon points="381,266 395,266 388,258" fill="#4CAF50"/>
+  <text x="290" y="295" font-size="10" fill="#4CAF50">webhook callback</text>
+
+  <!-- Customer node (left) -->
+  <rect x="60" y="310" width="170" height="60" rx="10" fill="#16213E" stroke="#A0A0B0" stroke-width="1.5"/>
+  <text x="145" y="336" text-anchor="middle" font-size="12" font-weight="700" fill="#F5F5F5">Customer</text>
+  <text x="145" y="354" text-anchor="middle" font-size="11" fill="#A0A0B0">Kenyan Mobile User</text>
+
+  <!-- Arrow: Store → Customer (STK Push) -->
+  <line x1="300" y1="345" x2="230" y2="345" stroke="#E94560" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="234,339 234,351 226,345" fill="#E94560"/>
+  <text x="263" y="338" text-anchor="middle" font-size="9" fill="#E94560">STK Push</text>
+
+  <!-- Arrow: Customer → Daraja (PIN confirm) -->
+  <line x1="230" y1="355" x2="300" y2="355" stroke="#4CAF50" stroke-width="2"/>
+  <polygon points="296,349 296,361 304,355" fill="#4CAF50"/>
+  <text x="263" y="370" text-anchor="middle" font-size="9" fill="#4CAF50">M-Pesa PIN</text>
+
+  <!-- ====== 5 COMPONENT CARDS ====== -->
+
+  <!-- Component 1: STK Push -->
+  <rect x="30" y="430" width="335" height="150" rx="8" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <!-- Number badge -->
+  <circle cx="60" cy="455" r="16" fill="#E94560"/>
+  <text x="60" y="460" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="200" y="462" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">STK Push (Lipa Na M-Pesa)</text>
+  <text x="48" y="488" font-size="11" fill="#A0A0B0">Customer enters phone → server sends STK Push</text>
+  <text x="48" y="504" font-size="11" fill="#A0A0B0">request → M-Pesa app push notification in 1–3 s</text>
+  <text x="48" y="520" font-size="11" fill="#A0A0B0">→ customer enters PIN → Safaricom webhook</text>
+  <text x="48" y="536" font-size="11" fill="#A0A0B0">confirms in 5–10 s → order auto-confirmed.</text>
+  <text x="48" y="556" font-size="11" fill="#E94560" font-weight="600">No external page redirect. No polling delay.</text>
+
+  <!-- Component 2: C2B IPN -->
+  <rect x="435" y="430" width="335" height="150" rx="8" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <circle cx="465" cy="455" r="16" fill="#E94560"/>
+  <text x="465" y="460" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="602" y="462" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">C2B with IPN (Paybill)</text>
+  <text x="453" y="488" font-size="11" fill="#A0A0B0">Customer pays via Paybill number directly</text>
+  <text x="453" y="504" font-size="11" fill="#A0A0B0">from M-Pesa menu (fallback for STK Push).</text>
+  <text x="453" y="520" font-size="11" fill="#A0A0B0">IPN endpoint receives server-to-server</text>
+  <text x="453" y="536" font-size="11" fill="#A0A0B0">confirmation → matches M-Pesa ref to order.</text>
+  <text x="453" y="556" font-size="11" fill="#E94560" font-weight="600">Auto order matching. Zero manual review.</text>
+
+  <!-- Component 3: B2C Refunds -->
+  <rect x="30" y="600" width="335" height="130" rx="8" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <circle cx="60" cy="622" r="16" fill="#E94560"/>
+  <text x="60" y="627" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="200" y="629" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">B2C — Automated Refunds</text>
+  <text x="48" y="653" font-size="11" fill="#A0A0B0">Business to Customer: admin triggers refund</text>
+  <text x="48" y="669" font-size="11" fill="#A0A0B0">from order dashboard → customer receives</text>
+  <text x="48" y="685" font-size="11" fill="#A0A0B0">M-Pesa within minutes.</text>
+  <text x="48" y="710" font-size="11" fill="#E94560" font-weight="600">No manual bank transfer. No finance delay.</text>
+
+  <!-- Component 4: Transaction Status Query -->
+  <rect x="435" y="600" width="335" height="130" rx="8" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <circle cx="465" cy="622" r="16" fill="#E94560"/>
+  <text x="465" y="627" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="602" y="629" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Transaction Status Query</text>
+  <text x="453" y="653" font-size="11" fill="#A0A0B0">Network issues can prevent webhook.</text>
+  <text x="453" y="669" font-size="11" fill="#A0A0B0">Fallback: store polls Daraja API directly</text>
+  <text x="453" y="685" font-size="11" fill="#A0A0B0">for specific transaction status.</text>
+  <text x="453" y="710" font-size="11" fill="#E94560" font-weight="600">Critical for 3G users in Kisumu, Mombasa.</text>
+
+  <!-- Component 5: Account Balance API -->
+  <rect x="232" y="750" width="335" height="110" rx="8" fill="#16213E" stroke="#E94560" stroke-width="1.5"/>
+  <circle cx="262" cy="772" r="16" fill="#E94560"/>
+  <text x="262" y="777" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
+  <text x="400" y="779" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Account Balance API</text>
+  <text x="250" y="803" font-size="11" fill="#A0A0B0">Reconciliation dashboard: business M-Pesa</text>
+  <text x="250" y="819" font-size="11" fill="#A0A0B0">balance alongside order payment records.</text>
+  <text x="250" y="838" font-size="11" fill="#E94560" font-weight="600">Daily revenue reconciliation without M-Pesa portal.</text>
+
+  <!-- Reliability features band -->
+  <rect x="0" y="878" width="800" height="50" fill="#16213E" opacity="0.8"/>
+  <rect x="0" y="878" width="800" height="2" fill="#E94560"/>
+  <text x="400" y="899" text-anchor="middle" font-size="12" font-weight="600" fill="#FFFFFF">Reliability Built-In: Sandbox testing · Idempotency (no double-payments) · Auto reconciliation · Failed payment retry with 10-min hold</text>
+
+  <!-- Footer -->
+  <text x="400" y="948" text-anchor="middle" font-size="11" fill="#999">tupate.studio</text>
+</svg>

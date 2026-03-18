@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Kenyan Real Estate Photography Requirements: Standards for Property Listing Images That Convert</title>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#1A1A2E"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="90" fill="#16213E"/>
+  <text x="400" y="26" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle" letter-spacing="2">KENYAN REAL ESTATE WEBSITE — PHOTOGRAPHY STANDARDS</text>
+  <text x="400" y="56" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="21" fill="#F5F5F5" font-weight="700" text-anchor="middle">Real Estate Photography Requirements</text>
+  <text x="400" y="78" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#CCCCCC" text-anchor="middle">Technical and content standards for Kenyan property listing photography that drives inquiries</text>
+
+  <!-- Photo count requirements by tier -->
+  <rect x="30" y="104" width="740" height="36" rx="4" fill="#E94560"/>
+  <text x="400" y="127" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">PHOTO COUNT BY PROPERTY TIER</text>
+
+  <rect x="30" y="144" width="226" height="120" rx="4" fill="#16213E"/>
+  <text x="143" y="168" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="700" text-anchor="middle">STANDARD RESIDENTIAL</text>
+  <text x="143" y="190" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="36" fill="#F5F5F5" font-weight="700" text-anchor="middle">8</text>
+  <text x="143" y="214" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#CCCCCC" text-anchor="middle">minimum photos</text>
+  <text x="143" y="234" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">Kilimani · Westlands</text>
+  <text x="143" y="250" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">Ruaka · Syokimau</text>
+
+  <rect x="287" y="144" width="226" height="120" rx="4" fill="#16213E"/>
+  <text x="400" y="168" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="700" text-anchor="middle">PREMIUM RESIDENTIAL</text>
+  <text x="400" y="190" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="36" fill="#F5F5F5" font-weight="700" text-anchor="middle">12+</text>
+  <text x="400" y="214" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#CCCCCC" text-anchor="middle">professional photos required</text>
+  <text x="400" y="234" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">Karen · Runda · Muthaiga</text>
+  <text x="400" y="250" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">Ksh 30M–200M decisions</text>
+
+  <rect x="544" y="144" width="226" height="120" rx="4" fill="#16213E"/>
+  <text x="657" y="168" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="700" text-anchor="middle">OFF-PLAN PROJECT</text>
+  <text x="657" y="190" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="36" fill="#F5F5F5" font-weight="700" text-anchor="middle">Monthly</text>
+  <text x="657" y="214" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#CCCCCC" text-anchor="middle">progress gallery updates</text>
+  <text x="657" y="234" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">Foundation → structure</text>
+  <text x="657" y="250" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">→ fit-out phases</text>
+
+  <!-- Required photo categories -->
+  <rect x="30" y="278" width="740" height="36" rx="4" fill="#2C2C2C"/>
+  <text x="400" y="301" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" font-weight="700" text-anchor="middle">REQUIRED PHOTO CATEGORIES — EVERY LISTING</text>
+
+  <!-- 6 category boxes in 2 rows of 3 -->
+  <rect x="30" y="318" width="226" height="86" rx="4" fill="#16213E"/>
+  <text x="143" y="342" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">EXTERIOR FACADE</text>
+  <text x="143" y="362" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Front view, main entrance</text>
+  <text x="143" y="378" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Drone aerial for premium</text>
+  <text x="143" y="394" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">neighbourhood context</text>
+
+  <rect x="287" y="318" width="226" height="86" rx="4" fill="#16213E"/>
+  <text x="400" y="342" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">LIVING AREAS</text>
+  <text x="400" y="362" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Multiple angles per room</text>
+  <text x="400" y="378" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Natural + artificial lighting</text>
+  <text x="400" y="394" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">Lounge, dining, open plan</text>
+
+  <rect x="544" y="318" width="226" height="86" rx="4" fill="#16213E"/>
+  <text x="657" y="342" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">KITCHEN</text>
+  <text x="657" y="362" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Worktop surfaces, storage</text>
+  <text x="657" y="378" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">fitted or open kitchen</text>
+  <text x="657" y="394" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">appliances if included</text>
+
+  <rect x="30" y="414" width="226" height="86" rx="4" fill="#16213E"/>
+  <text x="143" y="438" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">BEDROOMS</text>
+  <text x="143" y="458" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Master + all secondary</text>
+  <text x="143" y="474" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Ensuite where applicable</text>
+  <text x="143" y="490" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">Built-in wardrobes visible</text>
+
+  <rect x="287" y="414" width="226" height="86" rx="4" fill="#16213E"/>
+  <text x="400" y="438" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">OUTDOOR + PARKING</text>
+  <text x="400" y="458" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Garden, balcony, terrace</text>
+  <text x="400" y="474" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Parking bays clearly shown</text>
+  <text x="400" y="490" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">Pool, gym if available</text>
+
+  <rect x="544" y="414" width="226" height="86" rx="4" fill="#16213E"/>
+  <text x="657" y="438" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">VIEWS FROM WINDOWS</text>
+  <text x="657" y="458" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">High-floor apartments</text>
+  <text x="657" y="474" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Nairobi skyline, Ngong Hills</text>
+  <text x="657" y="490" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">key selling differentiator</text>
+
+  <!-- Technical specs -->
+  <rect x="30" y="514" width="740" height="36" rx="4" fill="#2C2C2C"/>
+  <text x="400" y="537" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" font-weight="700" text-anchor="middle">TECHNICAL DELIVERY SPECIFICATIONS</text>
+
+  <rect x="30" y="554" width="740" height="160" rx="4" fill="#16213E"/>
+
+  <rect x="50" y="568" width="330" height="54" rx="3" fill="#1A1A2E"/>
+  <text x="70" y="588" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600">Image Format</text>
+  <text x="70" y="608" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">WebP format · Max 80KB per image for 4G/3G performance</text>
+
+  <rect x="410" y="568" width="340" height="54" rx="3" fill="#1A1A2E"/>
+  <text x="430" y="588" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600">Loading Strategy</text>
+  <text x="430" y="608" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Lazy loading on listing pages — initial load not delayed by unviewed photos</text>
+
+  <rect x="50" y="634" width="330" height="54" rx="3" fill="#1A1A2E"/>
+  <text x="70" y="654" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600">Professional Standard</text>
+  <text x="70" y="674" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">24MP+ resolution · Proper interior lighting · No harsh flash shadows</text>
+
+  <rect x="410" y="634" width="340" height="54" rx="3" fill="#1A1A2E"/>
+  <text x="430" y="654" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600">Staging for Photography</text>
+  <text x="430" y="674" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Beds made professionally · surfaces cleared · complementary props</text>
+
+  <!-- Virtual tours section -->
+  <rect x="30" y="728" width="740" height="36" rx="4" fill="#2C2C2C"/>
+  <text x="400" y="751" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" font-weight="700" text-anchor="middle">VIRTUAL TOUR OPTIONS FOR KENYAN REAL ESTATE</text>
+
+  <rect x="30" y="768" width="226" height="100" rx="4" fill="#16213E"/>
+  <text x="143" y="792" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">MATTERPORT 3D</text>
+  <text x="143" y="812" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5" text-anchor="middle">Most immersive experience</text>
+  <text x="143" y="830" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">Premium properties targeting</text>
+  <text x="143" y="848" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">domestic + international buyers</text>
+
+  <rect x="287" y="768" width="226" height="100" rx="4" fill="#16213E"/>
+  <text x="400" y="792" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">360° PHOTO TOUR</text>
+  <text x="400" y="812" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5" text-anchor="middle">Cost-effective alternative</text>
+  <text x="400" y="830" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">Suitable for mid-range</text>
+  <text x="400" y="848" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">Nairobi residential listings</text>
+
+  <rect x="544" y="768" width="226" height="100" rx="4" fill="#16213E"/>
+  <text x="657" y="792" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">YOUTUBE WALKTHROUGH</text>
+  <text x="657" y="812" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5" text-anchor="middle">Most common in Kenya</text>
+  <text x="657" y="830" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">Agent narration builds trust</text>
+  <text x="657" y="848" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">Strong engagement rate</text>
+
+  <!-- Also downloadable floor plans note -->
+  <rect x="30" y="880" width="740" height="44" rx="4" fill="#16213E"/>
+  <text x="52" y="900" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">Downloadable PDF floor plans: standard feature for off-plan and larger properties — used for furniture planning, sharing with family members</text>
+  <text x="52" y="918" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">involved in the purchase decision, and assessing room dimensions before a site visit</text>
+
+  <!-- Footer -->
+  <text x="400" y="982" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">tupate.studio</text>
+</svg>

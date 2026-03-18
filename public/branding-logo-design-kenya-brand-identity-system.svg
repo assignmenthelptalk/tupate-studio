@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Brand Identity System Components for Kenyan Businesses</title>
+  <defs>
+    <linearGradient id="bgGrad4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="100%" stop-color="#16213E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="980" fill="url(#bgGrad4)" rx="12"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="78" fill="#E94560" rx="12"/>
+  <rect x="0" y="66" width="800" height="12" fill="#E94560"/>
+  <text x="400" y="32" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Brand Identity System Components</text>
+  <text x="400" y="58" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#ffd0d8" text-anchor="middle">A complete visual identity for Kenyan businesses — logo is just one of five components</text>
+
+  <!-- Central hub circle -->
+  <circle cx="400" cy="300" r="72" fill="#E94560"/>
+  <text x="400" y="292" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">BRAND</text>
+  <text x="400" y="312" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#ffd0d8" text-anchor="middle">IDENTITY</text>
+  <text x="400" y="328" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#ffd0d8" text-anchor="middle">SYSTEM</text>
+
+  <!-- Connector lines from center to each component -->
+  <!-- Component 1: Logo — top -->
+  <line x1="400" y1="228" x2="400" y2="188" stroke="#E94560" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- Component 2: Color Palette — top right -->
+  <line x1="462" y1="258" x2="565" y2="192" stroke="#2980b9" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- Component 3: Typography — bottom right -->
+  <line x1="462" y1="338" x2="565" y2="408" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- Component 4: Brand Voice — bottom -->
+  <line x1="400" y1="372" x2="400" y2="412" stroke="#f39c12" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- Component 5: Brand Guidelines — top left -->
+  <line x1="338" y1="258" x2="235" y2="192" stroke="#8e44ad" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- === COMPONENT 1: LOGO (top) === -->
+  <rect x="280" y="96" width="240" height="92" fill="#2C2C2C" rx="10"/>
+  <rect x="280" y="96" width="240" height="6" fill="#E94560" rx="4"/>
+  <text x="400" y="122" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#E94560" text-anchor="middle">01 — LOGO</text>
+  <text x="295" y="142" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Primary mark (logo + symbol)</text>
+  <text x="295" y="158" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Horizontal variant (header/email)</text>
+  <text x="295" y="174" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Icon-only (WhatsApp · favicon)</text>
+
+  <!-- === COMPONENT 2: COLOR PALETTE (right) === -->
+  <rect x="572" y="156" width="188" height="130" fill="#2C2C2C" rx="10"/>
+  <rect x="572" y="156" width="188" height="6" fill="#2980b9" rx="4"/>
+  <text x="666" y="180" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#2980b9" text-anchor="middle">02 — COLOR</text>
+  <!-- Color swatches -->
+  <rect x="586" y="192" width="30" height="22" fill="#1A3A6B" rx="3"/>
+  <text x="620" y="207" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5">Primary</text>
+  <rect x="586" y="220" width="30" height="22" fill="#E94560" rx="3"/>
+  <text x="620" y="235" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5">Secondary</text>
+  <rect x="586" y="248" width="30" height="22" fill="#F5F5F5" rx="3" stroke="#555" stroke-width="1"/>
+  <text x="620" y="263" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Neutral</text>
+  <text x="586" y="278" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">HEX · RGB · Pantone</text>
+
+  <!-- === COMPONENT 3: TYPOGRAPHY (bottom right) === -->
+  <rect x="572" y="408" width="188" height="110" fill="#2C2C2C" rx="10"/>
+  <rect x="572" y="408" width="188" height="6" fill="#27ae60" rx="4"/>
+  <text x="666" y="432" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#27ae60" text-anchor="middle">03 — TYPE</text>
+  <text x="586" y="452" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">Heading Font</text>
+  <text x="586" y="468" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Body text font</text>
+  <text x="586" y="488" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Google Fonts preferred —</text>
+  <text x="586" y="502" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">fast on Safaricom 4G</text>
+
+  <!-- === COMPONENT 4: BRAND VOICE (bottom center) === -->
+  <rect x="280" y="412" width="240" height="92" fill="#2C2C2C" rx="10"/>
+  <rect x="280" y="412" width="240" height="6" fill="#f39c12" rx="4"/>
+  <text x="400" y="436" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#f39c12" text-anchor="middle">04 — BRAND VOICE</text>
+  <text x="295" y="456" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Formal vs informal tone</text>
+  <text x="295" y="472" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Key messaging phrases</text>
+  <text x="295" y="488" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Tagline — verbal identity</text>
+
+  <!-- === COMPONENT 5: BRAND GUIDELINES (top left) === -->
+  <rect x="40" y="156" width="188" height="130" fill="#2C2C2C" rx="10"/>
+  <rect x="40" y="156" width="188" height="6" fill="#8e44ad" rx="4"/>
+  <text x="134" y="180" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#8e44ad" text-anchor="middle">05 — GUIDELINES</text>
+  <text x="55" y="200" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Logo clear space rules</text>
+  <text x="55" y="218" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Approved color combos</text>
+  <text x="55" y="236" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Do / Don't examples</text>
+  <text x="55" y="254" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">PDF delivered to client</text>
+  <text x="55" y="270" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">For printer · web designer · social</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="540" x2="760" y2="540" stroke="#333" stroke-width="1"/>
+
+  <!-- LOGO COST TIERS -->
+  <text x="400" y="566" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#E94560" text-anchor="middle">Kenya Logo &amp; Branding Cost Tiers</text>
+
+  <!-- Tier 1: DIY -->
+  <rect x="40" y="578" width="158" height="130" fill="#2C2C2C" rx="8"/>
+  <rect x="40" y="578" width="158" height="5" fill="#666" rx="4"/>
+  <text x="119" y="600" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#999" text-anchor="middle">TIER 1 — DIY</text>
+  <text x="119" y="622" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="18" font-weight="800" fill="#F5F5F5" text-anchor="middle">Ksh 0–2K</text>
+  <line x1="60" y1="635" x2="178" y2="635" stroke="#444" stroke-width="1"/>
+  <text x="119" y="654" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">Canva · Fiverr cheap</text>
+  <text x="119" y="670" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">JPEG only — not exclusive</text>
+  <text x="119" y="686" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">No SVG · No guidelines</text>
+  <text x="119" y="702" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">Rejected by printers</text>
+
+  <!-- Tier 2: Freelance -->
+  <rect x="213" y="578" width="158" height="130" fill="#2C2C2C" rx="8"/>
+  <rect x="213" y="578" width="158" height="5" fill="#f39c12" rx="4"/>
+  <text x="292" y="600" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#f39c12" text-anchor="middle">TIER 2 — FREELANCE</text>
+  <text x="292" y="622" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="18" font-weight="800" fill="#F5F5F5" text-anchor="middle">Ksh 3–10K</text>
+  <line x1="233" y1="635" x2="351" y2="635" stroke="#444" stroke-width="1"/>
+  <text x="292" y="654" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">Upwork · LinkedIn Kenya</text>
+  <text x="292" y="670" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">SVG if you specify it</text>
+  <text x="292" y="686" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">Variable quality</text>
+  <text x="292" y="702" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">Usually no guidelines</text>
+
+  <!-- Tier 3: Studio (HIGHLIGHTED) -->
+  <rect x="383" y="568" width="178" height="150" fill="#E94560" rx="8"/>
+  <rect x="383" y="568" width="178" height="5" fill="#FFFFFF" rx="4" opacity="0.3"/>
+  <text x="472" y="590" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">TIER 3 — STUDIO</text>
+  <rect x="410" y="596" width="124" height="22" fill="#FFFFFF" rx="4" opacity="0.2"/>
+  <text x="472" y="611" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">RECOMMENDED</text>
+  <text x="472" y="634" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">Ksh 8–20K</text>
+  <line x1="403" y1="647" x2="541" y2="647" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  <text x="472" y="664" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">Full 5-component system</text>
+  <text x="472" y="680" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">SVG + PNG + WebP + PDF</text>
+  <text x="472" y="696" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">HEX/RGB/Pantone colors</text>
+  <text x="472" y="712" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#ffd0d8" text-anchor="middle">Tupate Studio</text>
+
+  <!-- Tier 4: Enterprise -->
+  <rect x="576" y="578" width="184" height="130" fill="#2C2C2C" rx="8"/>
+  <rect x="576" y="578" width="184" height="5" fill="#8e44ad" rx="4"/>
+  <text x="668" y="600" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#8e44ad" text-anchor="middle">TIER 4 — ENTERPRISE</text>
+  <text x="668" y="622" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#F5F5F5" text-anchor="middle">Ksh 50K–200K+</text>
+  <line x1="596" y1="635" x2="740" y2="635" stroke="#444" stroke-width="1"/>
+  <text x="668" y="654" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">Banks · Corporates · NGOs</text>
+  <text x="668" y="670" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">Market research included</text>
+  <text x="668" y="686" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">Stakeholder presentations</text>
+  <text x="668" y="702" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">Full brand strategy</text>
+
+  <!-- Industry Color Conventions Section -->
+  <line x1="40" y1="736" x2="760" y2="736" stroke="#333" stroke-width="1"/>
+  <text x="400" y="758" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#E94560" text-anchor="middle">Kenya Industry Color Conventions</text>
+  <text x="400" y="774" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">Using wrong colors signals the wrong industry — Kenyan customers categorise by color before reading</text>
+
+  <!-- Color convention rows -->
+  <!-- Banking -->
+  <rect x="40" y="784" width="220" height="44" fill="#2C2C2C" rx="6"/>
+  <rect x="40" y="784" width="8" height="44" fill="#1A3A6B" rx="3"/>
+  <rect x="54" y="793" width="18" height="18" fill="#1A3A6B" rx="2"/>
+  <rect x="76" y="793" width="18" height="18" fill="#C9A84C" rx="2"/>
+  <text x="105" y="800" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">Banking &amp; Finance</text>
+  <text x="105" y="818" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Deep blue + gold — trust &amp; stability</text>
+
+  <!-- Healthcare -->
+  <rect x="273" y="784" width="220" height="44" fill="#2C2C2C" rx="6"/>
+  <rect x="273" y="784" width="8" height="44" fill="#1a7abf" rx="3"/>
+  <rect x="287" y="793" width="18" height="18" fill="#1a7abf" rx="2"/>
+  <rect x="309" y="793" width="18" height="18" fill="#27ae60" rx="2"/>
+  <text x="338" y="800" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">Healthcare</text>
+  <text x="338" y="818" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Blue + green — clean &amp; trustworthy</text>
+
+  <!-- Legal -->
+  <rect x="506" y="784" width="254" height="44" fill="#2C2C2C" rx="6"/>
+  <rect x="506" y="784" width="8" height="44" fill="#1c2b4a" rx="3"/>
+  <rect x="520" y="793" width="18" height="18" fill="#1c2b4a" rx="2"/>
+  <rect x="542" y="793" width="18" height="18" fill="#7d6608" rx="2"/>
+  <text x="571" y="800" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">Legal Services</text>
+  <text x="571" y="818" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Navy + gold — authority &amp; formality</text>
+
+  <!-- Second row -->
+  <!-- Hospitality -->
+  <rect x="40" y="836" width="220" height="44" fill="#2C2C2C" rx="6"/>
+  <rect x="40" y="836" width="8" height="44" fill="#ca6f1e" rx="3"/>
+  <rect x="54" y="845" width="18" height="18" fill="#ca6f1e" rx="2"/>
+  <rect x="76" y="845" width="18" height="18" fill="#795548" rx="2"/>
+  <text x="105" y="852" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">Hospitality &amp; Tourism</text>
+  <text x="105" y="870" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Safari orange + earth tones</text>
+
+  <!-- Tech -->
+  <rect x="273" y="836" width="220" height="44" fill="#2C2C2C" rx="6"/>
+  <rect x="273" y="836" width="8" height="44" fill="#1565c0" rx="3"/>
+  <rect x="287" y="845" width="18" height="18" fill="#1565c0" rx="2"/>
+  <rect x="309" y="845" width="18" height="18" fill="#212121" rx="2"/>
+  <text x="338" y="852" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">Tech &amp; Digital</text>
+  <text x="338" y="870" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Electric blue + black — innovation</text>
+
+  <!-- Construction -->
+  <rect x="506" y="836" width="254" height="44" fill="#2C2C2C" rx="6"/>
+  <rect x="506" y="836" width="8" height="44" fill="#e65100" rx="3"/>
+  <rect x="520" y="845" width="18" height="18" fill="#e65100" rx="2"/>
+  <rect x="542" y="845" width="18" height="18" fill="#607d8b" rx="2"/>
+  <text x="571" y="852" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">Construction &amp; Industrial</text>
+  <text x="571" y="870" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Orange + grey — strength &amp; precision</text>
+
+  <!-- Footer -->
+  <text x="400" y="970" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

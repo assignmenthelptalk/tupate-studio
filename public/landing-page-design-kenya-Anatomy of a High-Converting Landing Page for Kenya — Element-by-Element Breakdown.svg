@@ -1,0 +1,239 @@
+<svg viewBox="0 0 800 1100" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="infographic-title" font-family="'Inter', 'Segoe UI', Arial, sans-serif">
+  <title id="infographic-title">Anatomy of a High-Converting Landing Page for Kenya — Element-by-Element Breakdown</title>
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E94560"/>
+      <stop offset="100%" style="stop-color:#c73652"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1100" fill="#F5F5F5"/>
+
+  <!-- Header bar -->
+  <rect width="800" height="72" fill="url(#headerGrad)"/>
+  <text x="400" y="30" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" letter-spacing="0.5">ANATOMY OF A HIGH-CONVERTING LANDING PAGE</text>
+  <text x="400" y="54" text-anchor="middle" fill="#E94560" font-size="12" font-weight="600">FOR KENYAN BUSINESSES — ELEMENT-BY-ELEMENT BREAKDOWN</text>
+
+  <!-- Phone frame mockup -->
+  <rect x="60" y="88" width="260" height="980" rx="16" fill="#1A1A2E" stroke="#16213E" stroke-width="3"/>
+  <rect x="72" y="102" width="236" height="954" rx="8" fill="#FFFFFF"/>
+  <!-- Phone notch -->
+  <rect x="155" y="95" width="70" height="10" rx="5" fill="#0d0d1a"/>
+
+  <!-- SECTION 1: Hero -->
+  <rect x="72" y="102" width="236" height="165" rx="8" fill="#1A1A2E"/>
+  <text x="190" y="132" text-anchor="middle" fill="#E94560" font-size="8" font-weight="700">NO NAVIGATION MENU</text>
+  <text x="190" y="146" text-anchor="middle" fill="#FFFFFF" font-size="7">Logo + Phone only in header</text>
+  <line x1="100" y1="155" x2="280" y2="155" stroke="#E94560" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="190" y="170" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">Get a Professional Website</text>
+  <text x="190" y="182" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700">in 10 Working Days</text>
+  <text x="190" y="196" text-anchor="middle" fill="#aaaacc" font-size="7">Custom-coded, M-Pesa ready — Ksh 25,000</text>
+  <!-- CTA Button -->
+  <rect x="130" y="203" width="120" height="22" rx="4" fill="url(#accentGrad)"/>
+  <text x="190" y="218" text-anchor="middle" fill="#FFFFFF" font-size="8" font-weight="700">WhatsApp Us Now</text>
+  <text x="190" y="257" text-anchor="middle" fill="#aaaacc" font-size="7">CTA #1 of 4</text>
+
+  <!-- SECTION 2: Social Proof -->
+  <rect x="72" y="267" width="236" height="120" fill="#F5F5F5"/>
+  <text x="190" y="285" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">SOCIAL PROOF</text>
+  <!-- Stars -->
+  <text x="150" y="300" text-anchor="middle" fill="#E94560" font-size="10">★★★★★</text>
+  <text x="230" y="300" text-anchor="middle" fill="#E94560" font-size="10">★★★★★</text>
+  <rect x="90" y="305" width="100" height="40" rx="4" fill="#FFFFFF" stroke="#ddd" stroke-width="0.5"/>
+  <text x="140" y="319" text-anchor="middle" fill="#2C2C2C" font-size="6.5" font-style="italic">"Website converted our</text>
+  <text x="140" y="329" text-anchor="middle" fill="#2C2C2C" font-size="6.5" font-style="italic">leads by 3x!"</text>
+  <text x="140" y="340" text-anchor="middle" fill="#888" font-size="5.5">Otieno W., Westlands, Nairobi</text>
+  <rect x="198" y="305" width="100" height="40" rx="4" fill="#FFFFFF" stroke="#ddd" stroke-width="0.5"/>
+  <text x="248" y="319" text-anchor="middle" fill="#2C2C2C" font-size="6.5" font-style="italic">"Rank 1 on Google</text>
+  <text x="248" y="329" text-anchor="middle" fill="#2C2C2C" font-size="6.5" font-style="italic">within 90 days"</text>
+  <text x="248" y="340" text-anchor="middle" fill="#888" font-size="5.5">Wanja K., Karen, Nairobi</text>
+  <text x="190" y="375" text-anchor="middle" fill="#888" font-size="6">47 Kenyan businesses served</text>
+
+  <!-- SECTION 3: Features -->
+  <rect x="72" y="387" width="236" height="105" fill="#FFFFFF"/>
+  <text x="190" y="405" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">FEATURES &amp; BENEFITS</text>
+  <circle cx="92" cy="420" r="5" fill="#E94560"/>
+  <text x="102" y="424" fill="#2C2C2C" font-size="7">Ranks on Google.co.ke within 90 days</text>
+  <circle cx="92" cy="437" r="5" fill="#E94560"/>
+  <text x="102" y="441" fill="#2C2C2C" font-size="7">M-Pesa STK Push integrated</text>
+  <circle cx="92" cy="454" r="5" fill="#E94560"/>
+  <text x="102" y="458" fill="#2C2C2C" font-size="7">Works on Tecno &amp; Samsung A-series</text>
+  <circle cx="92" cy="471" r="5" fill="#E94560"/>
+  <text x="102" y="475" fill="#2C2C2C" font-size="7">Loads under 2.5s on Safaricom 4G</text>
+  <!-- CTA #2 -->
+  <rect x="130" y="480" width="120" height="0" rx="4" fill="transparent"/>
+
+  <!-- SECTION 4: CTA Repeat #2 -->
+  <rect x="72" y="492" width="236" height="28" fill="#16213E"/>
+  <text x="190" y="510" text-anchor="middle" fill="#FFFFFF" font-size="7.5" font-weight="600">Get Your Free Quote Today  ▶</text>
+  <text x="190" y="524" text-anchor="middle" fill="#888" font-size="6">CTA #2 of 4</text>
+
+  <!-- SECTION 5: Trust Signals -->
+  <rect x="72" y="527" width="236" height="110" fill="#F5F5F5"/>
+  <text x="190" y="545" text-anchor="middle" fill="#1A1A2E" font-size="8" font-weight="700">KENYAN TRUST SIGNALS</text>
+  <!-- Trust badges row -->
+  <rect x="85" y="552" width="46" height="28" rx="3" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="108" y="562" text-anchor="middle" fill="#1A1A2E" font-size="5.5" font-weight="700">M-PESA</text>
+  <text x="108" y="572" text-anchor="middle" fill="#E94560" font-size="5">Accepted</text>
+  <rect x="141" y="552" width="46" height="28" rx="3" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="164" y="562" text-anchor="middle" fill="#1A1A2E" font-size="5.5" font-weight="700">KRA PIN</text>
+  <text x="164" y="572" text-anchor="middle" fill="#E94560" font-size="5">Verified</text>
+  <rect x="197" y="552" width="46" height="28" rx="3" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="220" y="562" text-anchor="middle" fill="#1A1A2E" font-size="5.5" font-weight="700">Physical</text>
+  <text x="220" y="572" text-anchor="middle" fill="#E94560" font-size="5">Address</text>
+  <rect x="253" y="552" width="46" height="28" rx="3" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="0.8"/>
+  <text x="276" y="562" text-anchor="middle" fill="#1A1A2E" font-size="5.5" font-weight="700">WhatsApp</text>
+  <text x="276" y="572" text-anchor="middle" fill="#E94560" font-size="5">Visible</text>
+  <!-- Google reviews -->
+  <rect x="85" y="588" width="214" height="22" rx="3" fill="#FFFFFF" stroke="#ddd" stroke-width="0.5"/>
+  <text x="192" y="601" text-anchor="middle" fill="#2C2C2C" font-size="6.5">★★★★★ Google Reviews (verified screenshots)</text>
+  <!-- Urgency -->
+  <rect x="85" y="618" width="214" height="14" rx="3" fill="#E94560" fill-opacity="0.1" stroke="#E94560" stroke-width="0.5"/>
+  <text x="192" y="628" text-anchor="middle" fill="#E94560" font-size="6" font-weight="600">Only 2 website build slots available this month</text>
+
+  <!-- SECTION 6: CTA Repeat #3 -->
+  <rect x="72" y="637" width="236" height="28" fill="#E94560"/>
+  <text x="190" y="655" text-anchor="middle" fill="#FFFFFF" font-size="7.5" font-weight="700">Start Your Website — WhatsApp Us</text>
+  <text x="190" y="669" text-anchor="middle" fill="#888" font-size="6">CTA #3 of 4</text>
+
+  <!-- SECTION 7: Footer CTA -->
+  <rect x="72" y="670" width="236" height="60" fill="#1A1A2E" rx="0"/>
+  <text x="190" y="688" text-anchor="middle" fill="#aaaacc" font-size="7">Privacy Policy (KDPA required)</text>
+  <text x="190" y="702" text-anchor="middle" fill="#FFFFFF" font-size="7">Nairobi Industrial Area, Block C, 3rd Floor</text>
+  <text x="190" y="715" text-anchor="middle" fill="#FFFFFF" font-size="7">+254 700 000 000</text>
+  <rect x="130" y="720" width="120" height="0" rx="4" fill="transparent"/>
+
+  <!-- CTA #4 -->
+  <rect x="100" y="720" width="180" height="7" fill="transparent"/>
+  <text x="190" y="723" text-anchor="middle" fill="#888" font-size="6">CTA #4 of 4 (footer)</text>
+
+  <!-- Page frame bottom cap -->
+  <rect x="72" y="730" width="236" height="326" rx="0" fill="#FFFFFF"/>
+  <text x="190" y="750" text-anchor="middle" fill="#888" font-size="7">Page ends here</text>
+
+  <!-- RIGHT SIDE: Annotations -->
+  <!-- Title for right side -->
+  <text x="420" y="100" fill="#1A1A2E" font-size="13" font-weight="700">5 ELEMENTS THAT CONVERT</text>
+  <text x="420" y="116" fill="#1A1A2E" font-size="13" font-weight="700">KENYAN VISITORS INTO LEADS</text>
+
+  <!-- Connector lines from phone to annotations -->
+  <!-- Hero -->
+  <line x1="308" y1="185" x2="400" y2="185" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <circle cx="308" cy="185" r="3" fill="#E94560"/>
+
+  <!-- Social Proof -->
+  <line x1="308" y1="325" x2="400" y2="325" stroke="#16213E" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <circle cx="308" cy="325" r="3" fill="#16213E"/>
+
+  <!-- Features -->
+  <line x1="308" y1="440" x2="400" y2="440" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <circle cx="308" cy="440" r="3" fill="#E94560"/>
+
+  <!-- Trust Signals -->
+  <line x1="308" y1="580" x2="400" y2="580" stroke="#16213E" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <circle cx="308" cy="580" r="3" fill="#16213E"/>
+
+  <!-- Element 1: Hero Section -->
+  <rect x="400" y="130" width="370" height="100" rx="6" fill="#1A1A2E"/>
+  <rect x="400" y="130" width="5" height="100" rx="0" fill="#E94560"/>
+  <text x="416" y="150" fill="#E94560" font-size="10" font-weight="700">1  HERO SECTION (ABOVE THE FOLD)</text>
+  <text x="416" y="167" fill="#FFFFFF" font-size="9">Headline: Specific, measurable benefit</text>
+  <text x="416" y="181" fill="#FFFFFF" font-size="9">Sub-headline: Kenya specifics + Ksh price</text>
+  <text x="416" y="195" fill="#FFFFFF" font-size="9">CTA: "WhatsApp Us Now" without scrolling</text>
+  <text x="416" y="209" fill="#aaaacc" font-size="8">Hero image: business outcome on Tecno/Samsung screen</text>
+  <text x="416" y="223" fill="#aaaacc" font-size="8">NOT: generic handshake stock photos</text>
+
+  <!-- Element 2: Social Proof -->
+  <rect x="400" y="240" width="370" height="100" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <rect x="400" y="240" width="5" height="100" fill="#16213E"/>
+  <text x="416" y="260" fill="#1A1A2E" font-size="10" font-weight="700">2  SOCIAL PROOF SECTION</text>
+  <text x="416" y="277" fill="#2C2C2C" font-size="9">Testimonials: Full name + business + Nairobi estate</text>
+  <text x="416" y="291" fill="#2C2C2C" font-size="9">Client logos: 4–6 recognisable Kenyan businesses</text>
+  <text x="416" y="305" fill="#2C2C2C" font-size="9">Quantified: "47 Kenyan businesses served"</text>
+  <text x="416" y="319" fill="#888" font-size="8">Include month + year — undated testimonials convert poorly</text>
+  <text x="416" y="333" fill="#888" font-size="8">Google review screenshots (third-party validated)</text>
+
+  <!-- Element 3: Features -->
+  <rect x="400" y="350" width="370" height="100" rx="6" fill="#1A1A2E"/>
+  <rect x="400" y="350" width="5" height="100" fill="#E94560"/>
+  <text x="416" y="370" fill="#E94560" font-size="10" font-weight="700">3  FEATURES &amp; BENEFITS</text>
+  <text x="416" y="387" fill="#FFFFFF" font-size="9">3–5 bullet points, benefit-first framing</text>
+  <text x="416" y="401" fill="#FFFFFF" font-size="9">"Ranks on Google.co.ke" vs "SEO-structured HTML"</text>
+  <text x="416" y="415" fill="#FFFFFF" font-size="9">"Kenyan customers find you on mobile" wins over</text>
+  <text x="416" y="429" fill="#aaaacc" font-size="9">"responsive design" — outcome language converts</text>
+  <text x="416" y="443" fill="#aaaacc" font-size="8">Icons improve scannability on mobile screens</text>
+
+  <!-- Element 4: CTA Repetition -->
+  <rect x="400" y="460" width="370" height="100" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <rect x="400" y="460" width="5" height="100" fill="#E94560"/>
+  <text x="416" y="480" fill="#1A1A2E" font-size="10" font-weight="700">4  CTA REPETITION — MINIMUM 4×</text>
+  <text x="416" y="497" fill="#2C2C2C" font-size="9">CTA 1: Hero section (primary)</text>
+  <text x="416" y="511" fill="#2C2C2C" font-size="9">CTA 2: After social proof section</text>
+  <text x="416" y="525" fill="#2C2C2C" font-size="9">CTA 3: After features section</text>
+  <text x="416" y="539" fill="#2C2C2C" font-size="9">CTA 4: Bottom / footer</text>
+  <text x="416" y="553" fill="#888" font-size="8">Vary phrasing: "WhatsApp Now" / "Get Free Quote" / "Start Today"</text>
+
+  <!-- Element 5: Trust Signals -->
+  <rect x="400" y="570" width="370" height="100" rx="6" fill="#1A1A2E"/>
+  <rect x="400" y="570" width="5" height="100" fill="#E94560"/>
+  <text x="416" y="590" fill="#E94560" font-size="10" font-weight="700">5  KENYAN TRUST SIGNALS</text>
+  <text x="416" y="607" fill="#FFFFFF" font-size="9">Physical address (building, estate, Nairobi/Mombasa)</text>
+  <text x="416" y="621" fill="#FFFFFF" font-size="9">Clickable phone number (tel: link) in header</text>
+  <text x="416" y="635" fill="#FFFFFF" font-size="9">Floating WhatsApp button (primary contact)</text>
+  <text x="416" y="649" fill="#aaaacc" font-size="9">M-Pesa Paybill / Till / STK Push badge</text>
+  <text x="416" y="663" fill="#aaaacc" font-size="8">KRA PIN (B2B) + Privacy Policy (KDPA required)</text>
+
+  <!-- Mobile Optimisation Box -->
+  <rect x="400" y="685" width="370" height="85" rx="6" fill="#F5F5F5" stroke="#E94560" stroke-width="1.5"/>
+  <text x="416" y="705" fill="#E94560" font-size="10" font-weight="700">MOBILE OPTIMISATION (80%+ traffic)</text>
+  <text x="416" y="721" fill="#2C2C2C" font-size="9">Headline + CTA visible above fold on Tecno Spark</text>
+  <text x="416" y="735" fill="#2C2C2C" font-size="9">Max 3 form fields • Tap targets ≥44px</text>
+  <text x="416" y="749" fill="#2C2C2C" font-size="9">Page weight &lt;500KB • Loads &lt;2.5s on Safaricom 4G</text>
+  <text x="416" y="763" fill="#888" font-size="8">No pop-ups • WhatsApp pre-filled message button</text>
+
+  <!-- Quality Score callout -->
+  <rect x="400" y="783" width="370" height="75" rx="6" fill="#16213E"/>
+  <text x="585" y="803" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">GOOGLE ADS QUALITY SCORE IMPACT</text>
+  <text x="585" y="820" text-anchor="middle" fill="#aaaacc" font-size="9">Homepage traffic → Quality Score 3–5</text>
+  <text x="585" y="836" text-anchor="middle" fill="#aaaacc" font-size="9">Dedicated landing page → Quality Score 6–9</text>
+  <text x="585" y="850" text-anchor="middle" fill="#E94560" font-size="9" font-weight="600">Score difference = up to 50% lower CPC on Ksh budgets</text>
+
+  <!-- Conversion types bar -->
+  <text x="400" y="880" fill="#1A1A2E" font-size="10" font-weight="700">LANDING PAGE PURPOSE TYPES FOR KENYAN BUSINESSES</text>
+  <!-- Bar pills -->
+  <rect x="400" y="888" width="68" height="20" rx="10" fill="#1A1A2E"/>
+  <text x="434" y="902" text-anchor="middle" fill="#FFFFFF" font-size="7" font-weight="600">Lead Gen</text>
+  <rect x="475" y="888" width="72" height="20" rx="10" fill="#E94560"/>
+  <text x="511" y="902" text-anchor="middle" fill="#FFFFFF" font-size="7" font-weight="600">Direct Sales</text>
+  <rect x="554" y="888" width="82" height="20" rx="10" fill="#16213E"/>
+  <text x="595" y="902" text-anchor="middle" fill="#FFFFFF" font-size="7" font-weight="600">Appointment</text>
+  <rect x="643" y="888" width="60" height="20" rx="10" fill="#1A1A2E"/>
+  <text x="673" y="902" text-anchor="middle" fill="#FFFFFF" font-size="7" font-weight="600">Event Reg</text>
+  <rect x="710" y="888" width="60" height="20" rx="10" fill="#E94560"/>
+  <text x="740" y="902" text-anchor="middle" fill="#FFFFFF" font-size="7" font-weight="600">Lead Magnet</text>
+
+  <!-- Price strip -->
+  <rect x="400" y="918" width="370" height="32" rx="6" fill="#E94560"/>
+  <text x="585" y="936" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">Standalone Landing Page: Ksh 8,000 – Ksh 15,000</text>
+  <text x="585" y="949" text-anchor="middle" fill="#FFFFFF" font-size="9">Included free within full website build from Ksh 25,000</text>
+
+  <!-- Message match callout -->
+  <rect x="400" y="960" width="370" height="50" rx="6" fill="#FFFFFF" stroke="#1A1A2E" stroke-width="1"/>
+  <text x="416" y="978" fill="#1A1A2E" font-size="9" font-weight="700">MESSAGE MATCH (Most missed element)</text>
+  <text x="416" y="993" fill="#2C2C2C" font-size="9">Ad: "Website Design for Nairobi Businesses"</text>
+  <text x="416" y="1007" fill="#E94560" font-size="9">Landing Page headline must echo this exact promise</text>
+
+  <!-- A/B Testing box -->
+  <rect x="400" y="1020" width="370" height="50" rx="6" fill="#F5F5F5" stroke="#16213E" stroke-width="1"/>
+  <text x="416" y="1038" fill="#1A1A2E" font-size="9" font-weight="700">A/B TESTING — HIGHEST IMPACT ELEMENTS</text>
+  <text x="416" y="1053" fill="#2C2C2C" font-size="8">Headline • CTA text • Hero image • Form length • Social proof type</text>
+  <text x="416" y="1066" fill="#888" font-size="8">Min 2–4 weeks per test on Kenyan traffic volumes</text>
+
+  <!-- Footer -->
+  <text x="400" y="1092" text-anchor="middle" fill="#999" font-size="11">tupate.studio</text>
+</svg>

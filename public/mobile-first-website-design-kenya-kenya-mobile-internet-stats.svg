@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="100%" role="img" aria-labelledby="infographic-title-p9" font-family="'Inter','Segoe UI',Arial,sans-serif">
+  <title id="infographic-title-p9">Kenya Mobile Internet by the Numbers — Key statistics for Kenyan mobile web browsing</title>
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+    <linearGradient id="barGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E94560"/>
+      <stop offset="100%" style="stop-color:#c73652"/>
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#16213E"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="620" fill="#F5F5F5"/>
+
+  <!-- Header band -->
+  <rect x="0" y="0" width="800" height="90" fill="url(#headerGrad)"/>
+  <text x="400" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Kenya Mobile Internet by the Numbers</text>
+  <text x="400" y="62" text-anchor="middle" font-size="13" fill="#E94560" font-weight="600">DataReportal Kenya 2024 · Safaricom Annual Report · Google Market Data</text>
+  <text x="400" y="80" text-anchor="middle" font-size="11" fill="#aaaacc">Key facts every Kenyan business website owner needs to know</text>
+
+  <!-- ─── ROW 1: Two hero stat cards ─── -->
+  <!-- Card: 80% mobile browsing -->
+  <rect x="30" y="110" width="355" height="155" rx="10" fill="#1A1A2E"/>
+  <text x="212" y="165" text-anchor="middle" font-size="72" font-weight="800" fill="#E94560">80%</text>
+  <text x="212" y="192" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="600">of Kenyan internet users</text>
+  <text x="212" y="210" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="600">browse on mobile phones</text>
+  <text x="212" y="232" text-anchor="middle" font-size="11" fill="#aaaacc">vs under 20% on desktop — mobile-first is not optional</text>
+  <text x="212" y="250" text-anchor="middle" font-size="10" fill="#E94560">Source: DataReportal Kenya 2024</text>
+
+  <!-- Card: Safaricom 4G coverage -->
+  <rect x="415" y="110" width="355" height="155" rx="10" fill="#1A1A2E"/>
+  <text x="592" y="165" text-anchor="middle" font-size="72" font-weight="800" fill="#E94560">93%</text>
+  <text x="592" y="192" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="600">of Kenya's population</text>
+  <text x="592" y="210" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="600">covered by Safaricom 4G</text>
+  <text x="592" y="232" text-anchor="middle" font-size="11" fill="#aaaacc">Speeds range: 1–3 Mbps rural → 15–25 Mbps Nairobi CBD</text>
+  <text x="592" y="250" text-anchor="middle" font-size="10" fill="#E94560">Source: Safaricom Annual Report</text>
+
+  <!-- ─── ROW 2: Smartphone market share bar chart ─── -->
+  <rect x="30" y="285" width="740" height="170" rx="10" fill="#FFFFFF"/>
+  <text x="400" y="308" text-anchor="middle" font-size="14" font-weight="700" fill="#1A1A2E">Kenya Smartphone Market Share — Devices Your Customers Use</text>
+
+  <!-- Bar: Tecno -->
+  <rect x="60" y="322" width="198" height="32" rx="4" fill="url(#barGrad1)"/>
+  <text x="264" y="344" text-anchor="end" font-size="13" font-weight="700" fill="#FFFFFF">Tecno  35%</text>
+  <text x="60" y="368" font-size="11" fill="#2C2C2C">Spark series · Ksh 8,000–15,000 · 5" screen · 2GB RAM</text>
+
+  <!-- Bar: Infinix -->
+  <rect x="60" y="380" width="162" height="32" rx="4" fill="url(#barGrad1)" opacity="0.85"/>
+  <text x="228" y="402" text-anchor="end" font-size="13" font-weight="700" fill="#FFFFFF">Infinix  28%</text>
+  <text x="60" y="426" font-size="11" fill="#2C2C2C">Hot series · Ksh 12,000–25,000 · 6–6.7" screen · 3–4GB RAM</text>
+
+  <!-- Bar: Samsung -->
+  <rect x="60" y="438" width="132" height="32" rx="4" fill="url(#barGrad2)"/>
+  <text x="198" y="460" text-anchor="end" font-size="13" font-weight="700" fill="#FFFFFF">Samsung  23%</text>
+  <text x="60" y="484" font-size="11" fill="#2C2C2C">Galaxy A-series · Ksh 20,000–40,000 · Mid-range performance</text>
+
+  <!-- iOS note -->
+  <rect x="480" y="375" width="270" height="70" rx="8" fill="#fff0f3" stroke="#E94560" stroke-width="1.5"/>
+  <text x="615" y="397" text-anchor="middle" font-size="12" font-weight="700" fill="#E94560">iOS / iPhone market share in Kenya</text>
+  <text x="615" y="414" text-anchor="middle" font-size="22" font-weight="800" fill="#1A1A2E">&lt;10%</text>
+  <text x="615" y="434" text-anchor="middle" font-size="11" fill="#2C2C2C">Designing for iPhone = optimising for under 10% of audience</text>
+
+  <!-- ─── ROW 3: Data cost callout ─── -->
+  <rect x="30" y="475" width="355" height="115" rx="10" fill="#16213E"/>
+  <text x="207" y="499" text-anchor="middle" font-size="13" font-weight="700" fill="#E94560">Safaricom Data Bundle Costs</text>
+  <!-- price rows -->
+  <text x="60" y="522" font-size="13" fill="#FFFFFF">1-Day 1GB bundle</text>
+  <text x="355" y="522" text-anchor="end" font-size="16" font-weight="700" fill="#E94560">Ksh 99</text>
+  <line x1="60" y1="530" x2="355" y2="530" stroke="#334" stroke-width="1"/>
+  <text x="60" y="550" font-size="13" fill="#FFFFFF">30-Day 1GB bundle</text>
+  <text x="355" y="550" text-anchor="end" font-size="16" font-weight="700" fill="#E94560">Ksh 250</text>
+  <line x1="60" y1="558" x2="355" y2="558" stroke="#334" stroke-width="1"/>
+  <text x="60" y="578" font-size="11" fill="#aaaacc">A 3MB page visit = 0.3% of monthly bundle in one load</text>
+
+  <!-- Network speed breakdown -->
+  <rect x="415" y="475" width="355" height="115" rx="10" fill="#16213E"/>
+  <text x="592" y="499" text-anchor="middle" font-size="13" font-weight="700" fill="#E94560">4G Download Speeds by Region</text>
+  <text x="430" y="522" font-size="12" fill="#FFFFFF">Nairobi CBD</text>
+  <text x="755" y="522" text-anchor="end" font-size="13" font-weight="600" fill="#4fc3f7">15–25 Mbps</text>
+  <text x="430" y="541" font-size="12" fill="#FFFFFF">Nairobi suburbs (Ruiru, Rongai)</text>
+  <text x="755" y="541" text-anchor="end" font-size="13" font-weight="600" fill="#81d4fa">8–15 Mbps</text>
+  <text x="430" y="560" font-size="12" fill="#FFFFFF">Upcountry towns (Eldoret, Kisumu)</text>
+  <text x="755" y="560" text-anchor="end" font-size="13" font-weight="600" fill="#b3e5fc">3–8 Mbps</text>
+  <text x="430" y="579" font-size="12" fill="#FFFFFF">Rural Kenya (3G)</text>
+  <text x="755" y="579" text-anchor="end" font-size="13" font-weight="600" fill="#e1f5fe">1–3 Mbps</text>
+
+  <!-- Footer -->
+  <text x="400" y="612" text-anchor="middle" font-size="10" fill="#999999">tupate.studio</text>
+</svg>

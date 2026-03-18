@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 740" width="100%" role="img" aria-labelledby="infographic-title-p12" font-family="'Inter','Segoe UI',Arial,sans-serif">
+  <title id="infographic-title-p12">GBP Category Examples by Kenyan Business Type — Primary and secondary Google Business Profile categories for common Kenya businesses</title>
+  <defs>
+    <linearGradient id="hdr12" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="740" fill="#F5F5F5"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="88" fill="url(#hdr12)"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">GBP Category Selection: Kenyan Business Examples</text>
+  <text x="400" y="54" text-anchor="middle" font-size="13" fill="#E94560" font-weight="600">Primary category = the most impactful field in your entire Google Business Profile</text>
+  <text x="400" y="72" text-anchor="middle" font-size="11" fill="#aaaacc">Wrong category = removed from local pack results for your most valuable Kenyan queries</text>
+
+  <!-- Column headers -->
+  <rect x="12" y="100" width="200" height="36" rx="6" fill="#1A1A2E"/>
+  <text x="112" y="123" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">BUSINESS TYPE</text>
+
+  <rect x="220" y="100" width="246" height="36" rx="6" fill="#E94560"/>
+  <text x="343" y="117" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">PRIMARY CATEGORY</text>
+  <text x="343" y="130" text-anchor="middle" font-size="9.5" fill="#FFFFFF">(Most important — affects local pack inclusion)</text>
+
+  <rect x="474" y="100" width="314" height="36" rx="6" fill="#16213E"/>
+  <text x="631" y="117" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">SECONDARY CATEGORIES</text>
+  <text x="631" y="130" text-anchor="middle" font-size="9.5" fill="#aaaacc">(Support additional services — max 9 allowed)</text>
+
+  <!-- ─── DATA ROWS ─── -->
+  <!-- Row heights: 70px each, starting y=146 -->
+
+  <!-- DENTAL CLINIC -->
+  <rect x="12" y="146" width="776" height="68" rx="4" fill="#FFFFFF"/>
+  <rect x="12" y="146" width="4" height="68" rx="2" fill="#E94560"/>
+  <!-- Icon placeholder circle -->
+  <circle cx="35" cy="180" r="14" fill="#E94560" opacity="0.15"/>
+  <text x="35" y="185" text-anchor="middle" font-size="14">🦷</text>
+  <text x="65" y="172" font-size="13" font-weight="700" fill="#1A1A2E">Dental Clinic</text>
+  <text x="65" y="188" font-size="10.5" fill="#666">Nairobi / upcountry</text>
+  <text x="65" y="203" font-size="10" fill="#999">⚠ Not: "Healthcare" or "Medical clinic"</text>
+  <!-- Primary -->
+  <rect x="228" y="155" width="228" height="50" rx="6" fill="#E94560" opacity="0.12" stroke="#E94560" stroke-width="1.5"/>
+  <text x="342" y="176" text-anchor="middle" font-size="13" font-weight="700" fill="#E94560">Dentist</text>
+  <text x="342" y="192" text-anchor="middle" font-size="10" fill="#2C2C2C">Triggers: "dentist Nairobi," "dental clinic near me"</text>
+  <text x="342" y="205" text-anchor="middle" font-size="10" fill="#999">NOT "Healthcare" — too broad to rank specifically</text>
+  <!-- Secondary -->
+  <text x="482" y="170" font-size="11" fill="#2C2C2C">• Teeth whitening service</text>
+  <text x="482" y="185" font-size="11" fill="#2C2C2C">• Dental implants periodontist</text>
+  <text x="482" y="200" font-size="11" fill="#2C2C2C">• Orthodontist (if braces offered)</text>
+
+  <!-- LAW FIRM -->
+  <rect x="12" y="222" width="776" height="68" rx="4" fill="#F9F9FF"/>
+  <rect x="12" y="222" width="4" height="68" rx="2" fill="#1A1A2E"/>
+  <circle cx="35" cy="256" r="14" fill="#1A1A2E" opacity="0.1"/>
+  <text x="35" y="261" text-anchor="middle" font-size="14">⚖️</text>
+  <text x="65" y="248" font-size="13" font-weight="700" fill="#1A1A2E">Law Firm</text>
+  <text x="65" y="264" font-size="10.5" fill="#666">Nairobi CBD / Westlands</text>
+  <text x="65" y="279" font-size="10" fill="#999">⚠ Not: "Professional services" or "Legal services"</text>
+  <rect x="228" y="231" width="228" height="50" rx="6" fill="#1A1A2E" opacity="0.08" stroke="#1A1A2E" stroke-width="1.5"/>
+  <text x="342" y="252" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1A2E">Law firm</text>
+  <text x="342" y="268" text-anchor="middle" font-size="10" fill="#2C2C2C">Triggers: "law firm Nairobi," "lawyer Kenya"</text>
+  <text x="342" y="281" text-anchor="middle" font-size="10" fill="#999">NOT "Professional services" — loses specific pack</text>
+  <text x="482" y="246" font-size="11" fill="#2C2C2C">• Conveyancing attorney</text>
+  <text x="482" y="261" font-size="11" fill="#2C2C2C">• Family law attorney</text>
+  <text x="482" y="276" font-size="11" fill="#2C2C2C">• Legal services (general support)</text>
+
+  <!-- CONSTRUCTION COMPANY -->
+  <rect x="12" y="298" width="776" height="68" rx="4" fill="#FFFFFF"/>
+  <rect x="12" y="298" width="4" height="68" rx="2" fill="#E94560"/>
+  <circle cx="35" cy="332" r="14" fill="#E94560" opacity="0.12"/>
+  <text x="35" y="337" text-anchor="middle" font-size="14">🏗️</text>
+  <text x="65" y="324" font-size="13" font-weight="700" fill="#1A1A2E">Construction Company</text>
+  <text x="65" y="340" font-size="10.5" fill="#666">Nairobi · Kiambu · Nakuru</text>
+  <text x="65" y="355" font-size="10" fill="#999">⚠ Not: "Business" or "Contractor"</text>
+  <rect x="228" y="307" width="228" height="50" rx="6" fill="#E94560" opacity="0.10" stroke="#E94560" stroke-width="1.5"/>
+  <text x="342" y="328" text-anchor="middle" font-size="13" font-weight="700" fill="#E94560">General contractor</text>
+  <text x="342" y="344" text-anchor="middle" font-size="10" fill="#2C2C2C">Triggers: "contractor Nairobi," "construction Kenya"</text>
+  <text x="342" y="357" text-anchor="middle" font-size="10" fill="#999">NOT "Construction company" alone — too broad</text>
+  <text x="482" y="322" font-size="11" fill="#2C2C2C">• Construction company</text>
+  <text x="482" y="337" font-size="11" fill="#2C2C2C">• Building materials supplier</text>
+  <text x="482" y="352" font-size="11" fill="#2C2C2C">• Roofing contractor (if applicable)</text>
+
+  <!-- REAL ESTATE -->
+  <rect x="12" y="374" width="776" height="68" rx="4" fill="#F9F9FF"/>
+  <rect x="12" y="374" width="4" height="68" rx="2" fill="#16213E"/>
+  <circle cx="35" cy="408" r="14" fill="#16213E" opacity="0.12"/>
+  <text x="35" y="413" text-anchor="middle" font-size="14">🏠</text>
+  <text x="65" y="400" font-size="13" font-weight="700" fill="#1A1A2E">Real Estate Agency</text>
+  <text x="65" y="416" font-size="10.5" fill="#666">Karen · Lavington · Westlands</text>
+  <text x="65" y="431" font-size="10" fill="#999">⚠ Not: "Real estate" or "Property"</text>
+  <rect x="228" y="383" width="228" height="50" rx="6" fill="#16213E" opacity="0.08" stroke="#16213E" stroke-width="1.5"/>
+  <text x="342" y="404" text-anchor="middle" font-size="13" font-weight="700" fill="#16213E">Real estate agency</text>
+  <text x="342" y="420" text-anchor="middle" font-size="10" fill="#2C2C2C">Triggers: "property agency Nairobi," "realtor Kenya"</text>
+  <text x="342" y="433" text-anchor="middle" font-size="10" fill="#999">NOT "Real estate" — misses agency-intent queries</text>
+  <text x="482" y="398" font-size="11" fill="#2C2C2C">• Property management company</text>
+  <text x="482" y="413" font-size="11" fill="#2C2C2C">• Land surveyor (if applicable)</text>
+  <text x="482" y="428" font-size="11" fill="#2C2C2C">• Mortgage broker (if applicable)</text>
+
+  <!-- HOTEL / RESTAURANT -->
+  <rect x="12" y="450" width="776" height="68" rx="4" fill="#FFFFFF"/>
+  <rect x="12" y="450" width="4" height="68" rx="2" fill="#E94560"/>
+  <circle cx="35" cy="484" r="14" fill="#E94560" opacity="0.12"/>
+  <text x="35" y="489" text-anchor="middle" font-size="14">🏨</text>
+  <text x="65" y="476" font-size="13" font-weight="700" fill="#1A1A2E">Hotel</text>
+  <text x="65" y="492" font-size="10.5" fill="#666">Nairobi · Mombasa · Kisumu</text>
+  <text x="65" y="507" font-size="10" fill="#999">⚠ Not: "Accommodation" — loses hotel pack</text>
+  <rect x="228" y="459" width="228" height="50" rx="6" fill="#E94560" opacity="0.10" stroke="#E94560" stroke-width="1.5"/>
+  <text x="342" y="480" text-anchor="middle" font-size="13" font-weight="700" fill="#E94560">Hotel</text>
+  <text x="342" y="496" text-anchor="middle" font-size="10" fill="#2C2C2C">Triggers: "hotel Nairobi," "hotel near Westlands"</text>
+  <text x="342" y="509" text-anchor="middle" font-size="10" fill="#999">NOT "Accommodation" — misses hotel-specific pack</text>
+  <text x="482" y="474" font-size="11" fill="#2C2C2C">• Restaurant (if dining available)</text>
+  <text x="482" y="489" font-size="11" fill="#2C2C2C">• Conference centre (if applicable)</text>
+  <text x="482" y="504" font-size="11" fill="#2C2C2C">• Bar (if applicable)</text>
+
+  <!-- ─── RULES BOX ─── -->
+  <rect x="12" y="530" width="776" height="120" rx="10" fill="#1A1A2E"/>
+  <text x="400" y="552" text-anchor="middle" font-size="13" font-weight="700" fill="#E94560">5 Rules for GBP Category Selection in Kenya</text>
+  <text x="30" y="572" font-size="11" fill="#FFFFFF">1. Primary category = your single most specific core business function — never a parent/broad category</text>
+  <text x="30" y="590" font-size="11" fill="#FFFFFF">2. Never add secondary categories for services you do not genuinely offer — Google cross-references website content</text>
+  <text x="30" y="608" font-size="11" fill="#FFFFFF">3. Allow 3–7 days after a category change before measuring impact in Google Maps Kenya results</text>
+  <text x="30" y="626" font-size="11" fill="#FFFFFF">4. Review available categories quarterly — Google regularly adds new category options for Kenyan businesses</text>
+  <text x="30" y="644" font-size="11" fill="#FFFFFF">5. Category inconsistency with website content triggers ranking suppression across ALL your categories</text>
+
+  <!-- Footer -->
+  <text x="400" y="732" text-anchor="middle" font-size="10" fill="#999999">tupate.studio</text>
+</svg>

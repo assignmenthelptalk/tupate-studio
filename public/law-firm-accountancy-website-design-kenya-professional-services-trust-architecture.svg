@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1060" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Professional Services Website Trust Architecture: How Kenyan Law Firm and Accounting Websites Convert Inquiries</title>
+
+  <!-- Background -->
+  <rect width="800" height="1060" fill="#1A1A2E"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="100" fill="#16213E"/>
+  <text x="400" y="30" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle" letter-spacing="2">KENYAN LAW FIRM AND ACCOUNTING WEBSITE DESIGN</text>
+  <text x="400" y="58" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="21" fill="#F5F5F5" font-weight="700" text-anchor="middle">Professional Services Trust Architecture</text>
+  <text x="400" y="82" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#CCCCCC" text-anchor="middle">The layered system that converts Kenyan website visitors into inquiry submissions</text>
+
+  <!-- Layer 1: Credentials Layer -->
+  <rect x="30" y="116" width="740" height="36" rx="4" fill="#E94560"/>
+  <text x="400" y="139" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">LAYER 1 — REGULATORY CREDENTIALS (First 5 seconds)</text>
+
+  <rect x="30" y="152" width="355" height="110" rx="4" fill="#16213E"/>
+  <text x="52" y="175" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="700">LAW FIRM</text>
+  <text x="52" y="196" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• LSK admission number + year of call</text>
+  <text x="52" y="214" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• Advocate of the High Court of Kenya title</text>
+  <text x="52" y="232" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• Law school (UoN, Strathmore, Moi, MKU)</text>
+  <text x="52" y="250" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• LSK + EALS + ICC Kenya memberships</text>
+
+  <rect x="415" y="152" width="355" height="110" rx="4" fill="#16213E"/>
+  <text x="437" y="175" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="700">ACCOUNTING FIRM</text>
+  <text x="437" y="196" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• ICPAK membership number + grade</text>
+  <text x="437" y="214" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• CPA(K) practicing / FCPA fellow status</text>
+  <text x="437" y="232" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• Audit practising certificate number</text>
+  <text x="437" y="250" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">• Big4 / top-tier firm background if applicable</text>
+
+  <!-- Connector arrow -->
+  <line x1="400" y1="262" x2="400" y2="282" stroke="#E94560" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="394,278 406,278 400,288" fill="#E94560"/>
+
+  <!-- Layer 2: Confidentiality Layer -->
+  <rect x="30" y="292" width="740" height="36" rx="4" fill="#2C2C2C"/>
+  <text x="400" y="315" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" font-weight="700" text-anchor="middle">LAYER 2 — CONFIDENTIALITY ARCHITECTURE (Inquiry trigger)</text>
+
+  <!-- 3 placement boxes -->
+  <rect x="30" y="332" width="226" height="100" rx="4" fill="#16213E"/>
+  <text x="143" y="356" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle">ABOVE EVERY FORM</text>
+  <text x="143" y="376" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">"All enquiries are strictly</text>
+  <text x="143" y="392" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">confidential and subject to</text>
+  <text x="143" y="408" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">advocate-client privilege"</text>
+
+  <rect x="287" y="332" width="226" height="100" rx="4" fill="#16213E"/>
+  <text x="400" y="356" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle">FOOTER — EVERY PAGE</text>
+  <text x="400" y="376" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Persistent confidentiality</text>
+  <text x="400" y="392" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">statement visible on all</text>
+  <text x="400" y="408" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">pages site-wide</text>
+
+  <rect x="544" y="332" width="226" height="100" rx="4" fill="#16213E"/>
+  <text x="657" y="356" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle">CONTACT PAGE</text>
+  <text x="657" y="376" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">KDPA 2019 compliance</text>
+  <text x="657" y="392" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">statement: data not shared</text>
+  <text x="657" y="408" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">without consent</text>
+
+  <!-- Connector arrow -->
+  <line x1="400" y1="432" x2="400" y2="452" stroke="#E94560" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="394,448 406,448 400,458" fill="#E94560"/>
+
+  <!-- Layer 3: Social Proof -->
+  <rect x="30" y="462" width="740" height="36" rx="4" fill="#2C2C2C"/>
+  <text x="400" y="485" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" font-weight="700" text-anchor="middle">LAYER 3 — SOCIAL PROOF (Verification, not persuasion)</text>
+
+  <rect x="30" y="502" width="740" height="108" rx="4" fill="#16213E"/>
+  <!-- 4 proof types -->
+  <rect x="50" y="516" width="156" height="78" rx="3" fill="#1A1A2E"/>
+  <text x="128" y="538" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#E94560" font-weight="700" text-anchor="middle">OUTCOME STATS</text>
+  <text x="128" y="556" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">"150+ Kenyan</text>
+  <text x="128" y="572" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">property disputes</text>
+  <text x="128" y="588" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">resolved"</text>
+
+  <rect x="224" y="516" width="156" height="78" rx="3" fill="#1A1A2E"/>
+  <text x="302" y="538" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#E94560" font-weight="700" text-anchor="middle">CLIENT SEGMENT</text>
+  <text x="302" y="556" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">"Kenyan SMEs,</text>
+  <text x="302" y="572" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">multinationals in</text>
+  <text x="302" y="588" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">Kenya, individuals"</text>
+
+  <rect x="398" y="516" width="156" height="78" rx="3" fill="#1A1A2E"/>
+  <text x="476" y="538" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#E94560" font-weight="700" text-anchor="middle">LONGEVITY</text>
+  <text x="476" y="556" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">"Established in</text>
+  <text x="476" y="572" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">Nairobi since</text>
+  <text x="476" y="588" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">1998"</text>
+
+  <rect x="572" y="516" width="168" height="78" rx="3" fill="#1A1A2E"/>
+  <text x="656" y="538" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#E94560" font-weight="700" text-anchor="middle">TESTIMONIALS</text>
+  <text x="656" y="556" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">Named, with written</text>
+  <text x="656" y="572" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">consent only —</text>
+  <text x="656" y="588" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">corporate matters</text>
+
+  <!-- Connector arrow -->
+  <line x1="400" y1="610" x2="400" y2="630" stroke="#E94560" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="394,626 406,626 400,636" fill="#E94560"/>
+
+  <!-- Layer 4: What to Avoid -->
+  <rect x="30" y="640" width="740" height="36" rx="4" fill="#2C2C2C"/>
+  <text x="400" y="663" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" font-weight="700" text-anchor="middle">LAYER 4 — WHAT TO AVOID (Active trust destroyers)</text>
+
+  <rect x="30" y="680" width="740" height="80" rx="4" fill="#16213E"/>
+  <text x="52" y="703" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✗  "Sign up now!" and aggressive CTAs — undermine the professional tone Kenyan clients expect</text>
+  <text x="52" y="723" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✗  Displaying pricing before establishing value — state expertise first, fee structure second</text>
+  <text x="52" y="743" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✗  Social media share buttons on legal/accounting pages — signals lack of seriousness</text>
+
+  <!-- Connector arrow -->
+  <line x1="400" y1="760" x2="400" y2="780" stroke="#E94560" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="394,776 406,776 400,786" fill="#E94560"/>
+
+  <!-- Outcome box -->
+  <rect x="30" y="790" width="740" height="100" rx="6" fill="#E94560"/>
+  <text x="400" y="818" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="15" fill="#FFFFFF" font-weight="700" text-anchor="middle">OUTCOME: Kenyan Professional Client Submits Inquiry</text>
+  <text x="400" y="842" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">The trust architecture completes when the client has verified credentials (Layer 1),</text>
+  <text x="400" y="860" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">seen confidentiality assurance (Layer 2), confirmed social proof (Layer 3),</text>
+  <text x="400" y="878" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">and encountered no trust destroyers (Layer 4).</text>
+
+  <!-- KDPA note -->
+  <rect x="30" y="904" width="740" height="50" rx="4" fill="#16213E"/>
+  <text x="52" y="924" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">Kenya Data Protection Act (KDPA) 2019: compliance statement required for corporate and digitally-aware clients.</text>
+  <text x="52" y="942" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">LSK advertising rules apply: no unsolicited direct approach, no misleading claims, factual representation only.</text>
+
+  <!-- Footer -->
+  <text x="400" y="1042" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">tupate.studio</text>
+</svg>

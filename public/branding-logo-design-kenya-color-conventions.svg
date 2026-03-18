@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 820" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Kenya Industry Color Conventions Chart</title>
+  <defs>
+    <linearGradient id="bgGrad6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="100%" stop-color="#16213E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="820" fill="url(#bgGrad6)" rx="12"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="78" fill="#E94560" rx="12"/>
+  <rect x="0" y="66" width="800" height="12" fill="#E94560"/>
+  <text x="400" y="32" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Kenya Industry Color Conventions</text>
+  <text x="400" y="58" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#ffd0d8" text-anchor="middle">Kenyan customers categorise businesses by color before reading a single word</text>
+
+  <!-- Intro callout -->
+  <rect x="40" y="94" width="720" height="40" fill="#2C2C2C" rx="8"/>
+  <rect x="40" y="94" width="4" height="40" fill="#E94560" rx="2"/>
+  <text x="56" y="114" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Using the wrong colors creates cognitive dissonance that undermines trust — before a prospect reads your headline.</text>
+  <text x="56" y="128" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Always define brand colors in HEX code — "dark blue" renders differently on every Tecno, Samsung, and Lenovo screen.</text>
+
+  <!-- Column headers -->
+  <rect x="40" y="146" width="720" height="28" fill="#16213E" rx="4"/>
+  <text x="119" y="165" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#aaa" text-anchor="middle">INDUSTRY</text>
+  <text x="310" y="165" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#aaa" text-anchor="middle">PRIMARY COLORS</text>
+  <text x="520" y="165" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#aaa" text-anchor="middle">SIGNAL / RATIONALE</text>
+  <text x="700" y="165" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#aaa" text-anchor="middle">KENYA EXAMPLES</text>
+
+  <!-- ====== BANKING & FINANCE ====== -->
+  <rect x="40" y="178" width="720" height="68" fill="#2C2C2C" rx="6"/>
+  <rect x="40" y="178" width="8" height="68" fill="#1A3A6B" rx="3"/>
+  <!-- Industry name -->
+  <text x="60" y="200" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Banking &amp;</text>
+  <text x="60" y="218" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Finance</text>
+  <text x="60" y="236" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">SACCOs · Fintechs</text>
+  <!-- Swatches -->
+  <rect x="196" y="190" width="40" height="40" fill="#1A3A6B" rx="5"/>
+  <text x="216" y="242" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#1A3A6B</text>
+  <rect x="246" y="190" width="40" height="40" fill="#C9A84C" rx="5"/>
+  <text x="266" y="242" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#C9A84C</text>
+  <rect x="296" y="190" width="40" height="40" fill="#FFFFFF" rx="5" stroke="#555" stroke-width="1"/>
+  <text x="316" y="242" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#FFFFFF</text>
+  <!-- Signal -->
+  <text x="360" y="200" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Deep blue = stability, trust, authority</text>
+  <text x="360" y="218" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Gold = prosperity, premium, wealth</text>
+  <text x="360" y="236" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560">Wrong: bright orange/pink = low trust</text>
+  <!-- Examples -->
+  <text x="640" y="200" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Equity Bank</text>
+  <text x="640" y="218" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">KCB · Co-op Bank</text>
+  <text x="640" y="236" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Stanbic Kenya</text>
+
+  <!-- ====== HEALTHCARE ====== -->
+  <rect x="40" y="252" width="720" height="68" fill="#1e1e38" rx="6"/>
+  <rect x="40" y="252" width="8" height="68" fill="#1a7abf" rx="3"/>
+  <text x="60" y="274" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Healthcare</text>
+  <text x="60" y="292" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">&amp; Medical</text>
+  <text x="60" y="310" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Clinics · Hospitals</text>
+  <rect x="196" y="264" width="40" height="40" fill="#1a7abf" rx="5"/>
+  <text x="216" y="316" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#1A7ABF</text>
+  <rect x="246" y="264" width="40" height="40" fill="#27ae60" rx="5"/>
+  <text x="266" y="316" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#27AE60</text>
+  <rect x="296" y="264" width="40" height="40" fill="#FFFFFF" rx="5" stroke="#555" stroke-width="1"/>
+  <text x="316" y="316" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#FFFFFF</text>
+  <text x="360" y="274" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Blue = cleanliness, reliability, trust</text>
+  <text x="360" y="292" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Green = health, growth, healing</text>
+  <text x="360" y="310" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560">Wrong: dark red/black = alarming</text>
+  <text x="640" y="274" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Nairobi Hospital</text>
+  <text x="640" y="292" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Aga Khan Hospital</text>
+  <text x="640" y="310" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">MP Shah Hospital</text>
+
+  <!-- ====== LEGAL SERVICES ====== -->
+  <rect x="40" y="326" width="720" height="68" fill="#2C2C2C" rx="6"/>
+  <rect x="40" y="326" width="8" height="68" fill="#1c2b4a" rx="3"/>
+  <text x="60" y="348" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Legal</text>
+  <text x="60" y="366" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Services</text>
+  <text x="60" y="384" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Law firms · Advocates</text>
+  <rect x="196" y="338" width="40" height="40" fill="#1c2b4a" rx="5"/>
+  <text x="216" y="390" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#1C2B4A</text>
+  <rect x="246" y="338" width="40" height="40" fill="#7d6608" rx="5"/>
+  <text x="266" y="390" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#7D6608</text>
+  <rect x="296" y="338" width="40" height="40" fill="#5d6d7e" rx="5"/>
+  <text x="316" y="390" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#5D6D7E</text>
+  <text x="360" y="348" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Navy = authority, formality, permanence</text>
+  <text x="360" y="366" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Gold = prestige, seriousness, trust</text>
+  <text x="360" y="384" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560">Wrong: bright palette = not serious</text>
+  <text x="640" y="348" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Nairobi law firms</text>
+  <text x="640" y="366" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Advocates chambers</text>
+  <text x="640" y="384" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Kenya Bar standard</text>
+
+  <!-- ====== HOSPITALITY & TOURISM ====== -->
+  <rect x="40" y="400" width="720" height="68" fill="#1e1e38" rx="6"/>
+  <rect x="40" y="400" width="8" height="68" fill="#ca6f1e" rx="3"/>
+  <text x="60" y="422" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Hospitality</text>
+  <text x="60" y="440" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">&amp; Tourism</text>
+  <text x="60" y="458" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Hotels · Safaris · Lodges</text>
+  <rect x="196" y="412" width="40" height="40" fill="#ca6f1e" rx="5"/>
+  <text x="216" y="464" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#CA6F1E</text>
+  <rect x="246" y="412" width="40" height="40" fill="#795548" rx="5"/>
+  <text x="266" y="464" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#795548</text>
+  <rect x="296" y="412" width="40" height="40" fill="#d4a96a" rx="5"/>
+  <text x="316" y="464" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#D4A96A</text>
+  <text x="360" y="422" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Safari orange = Kenya's natural identity</text>
+  <text x="360" y="440" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Earth tones = landscape connection</text>
+  <text x="360" y="458" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#27ae60">Resonates domestic &amp; int'l audiences</text>
+  <text x="640" y="422" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Maasai Mara camps</text>
+  <text x="640" y="440" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Kenya safari brands</text>
+  <text x="640" y="458" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Tourism Board</text>
+
+  <!-- ====== TECHNOLOGY & DIGITAL ====== -->
+  <rect x="40" y="474" width="720" height="68" fill="#2C2C2C" rx="6"/>
+  <rect x="40" y="474" width="8" height="68" fill="#1565c0" rx="3"/>
+  <text x="60" y="496" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Technology</text>
+  <text x="60" y="514" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">&amp; Digital</text>
+  <text x="60" y="532" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Startups · Agencies</text>
+  <rect x="196" y="486" width="40" height="40" fill="#1565c0" rx="5"/>
+  <text x="216" y="538" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#1565C0</text>
+  <rect x="246" y="486" width="40" height="40" fill="#212121" rx="5"/>
+  <text x="266" y="538" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#212121</text>
+  <rect x="296" y="486" width="40" height="40" fill="#FFFFFF" rx="5" stroke="#555" stroke-width="1"/>
+  <text x="316" y="538" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#FFFFFF</text>
+  <text x="360" y="496" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Electric blue = innovation, intelligence</text>
+  <text x="360" y="514" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Black + white = modern, clean</text>
+  <text x="360" y="532" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#27ae60">Nairobi tech hub standard</text>
+  <text x="640" y="496" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Safaricom M-Pesa</text>
+  <text x="640" y="514" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Kenya tech startups</text>
+  <text x="640" y="532" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">iHub ecosystem</text>
+
+  <!-- ====== EDUCATION ====== -->
+  <rect x="40" y="548" width="720" height="68" fill="#1e1e38" rx="6"/>
+  <rect x="40" y="548" width="8" height="68" fill="#1976d2" rx="3"/>
+  <text x="60" y="570" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Education</text>
+  <text x="60" y="588" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">&amp; Training</text>
+  <text x="60" y="606" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Schools · Institutes</text>
+  <rect x="196" y="560" width="40" height="40" fill="#1976d2" rx="5"/>
+  <text x="216" y="612" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#1976D2</text>
+  <rect x="246" y="560" width="40" height="40" fill="#388e3c" rx="5"/>
+  <text x="266" y="612" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#388E3C</text>
+  <rect x="296" y="560" width="40" height="40" fill="#f5f5f5" rx="5" stroke="#555" stroke-width="1"/>
+  <text x="316" y="612" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#F5F5F5</text>
+  <text x="360" y="570" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Blue = knowledge, structure, guidance</text>
+  <text x="360" y="588" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Green = growth, development, future</text>
+  <text x="360" y="606" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#27ae60">Universal education palette</text>
+  <text x="640" y="570" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Kenyan universities</text>
+  <text x="640" y="588" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Training institutes</text>
+  <text x="640" y="606" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Nairobi colleges</text>
+
+  <!-- ====== CONSTRUCTION ====== -->
+  <rect x="40" y="622" width="720" height="68" fill="#2C2C2C" rx="6"/>
+  <rect x="40" y="622" width="8" height="68" fill="#e65100" rx="3"/>
+  <text x="60" y="644" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Construction</text>
+  <text x="60" y="662" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">&amp; Industrial</text>
+  <text x="60" y="680" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#aaa">Contractors · Mfg.</text>
+  <rect x="196" y="634" width="40" height="40" fill="#e65100" rx="5"/>
+  <text x="216" y="686" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#E65100</text>
+  <rect x="246" y="634" width="40" height="40" fill="#607d8b" rx="5"/>
+  <text x="266" y="686" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#607D8B</text>
+  <rect x="296" y="634" width="40" height="40" fill="#212121" rx="5"/>
+  <text x="316" y="686" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">#212121</text>
+  <text x="360" y="644" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Orange = energy, capability, action</text>
+  <text x="360" y="662" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Grey = strength, precision, engineering</text>
+  <text x="360" y="680" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#27ae60">Industrial sector standard globally</text>
+  <text x="640" y="644" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Kenyan contractors</text>
+  <text x="640" y="662" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Industrial suppliers</text>
+  <text x="640" y="680" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Nairobi manufacturers</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="700" width="720" height="82" fill="#16213E" rx="8"/>
+  <rect x="40" y="700" width="4" height="82" fill="#f39c12" rx="2"/>
+  <text x="56" y="720" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#f39c12">Rebranding Warning for Established Kenyan Businesses</text>
+  <text x="56" y="740" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">A business with 10 years of customer recognition cannot pivot to radically different colors without risking</text>
+  <text x="56" y="758" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">that existing clients do not recognise the rebrand and assume the business has closed or changed ownership.</text>
+  <text x="56" y="776" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Successful rebrands evolve the existing identity — refine and modernise — rather than replace entirely.</text>
+
+  <!-- Footer -->
+  <text x="400" y="812" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

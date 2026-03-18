@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" width="100%" role="img" aria-labelledby="infographic-title" font-family="'Inter','Segoe UI',Arial,sans-serif">
+  <title id="infographic-title">Core Web Vitals Thresholds and Kenya-Specific Causes — Tupate Studio</title>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#F5F5F5" rx="0"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="80" fill="#1A1A2E" rx="0"/>
+  <text x="400" y="32" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" letter-spacing="0.5">CORE WEB VITALS</text>
+  <text x="400" y="58" text-anchor="middle" fill="#E94560" font-size="13" font-weight="600">Google Ranking Signals — Kenya Context</text>
+
+  <!-- Column headers -->
+  <rect x="20" y="96" width="230" height="36" fill="#16213E" rx="4"/>
+  <rect x="262" y="96" width="150" height="36" fill="#16213E" rx="4"/>
+  <rect x="424" y="96" width="150" height="36" fill="#16213E" rx="4"/>
+  <rect x="586" y="96" width="194" height="36" fill="#16213E" rx="4"/>
+
+  <text x="135" y="119" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="600">METRIC</text>
+  <text x="337" y="119" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="600">THRESHOLD</text>
+  <text x="499" y="119" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="600">RATING</text>
+  <text x="683" y="119" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="600">KENYA CONTEXT</text>
+
+  <!-- ===== LCP SECTION ===== -->
+  <!-- LCP header -->
+  <rect x="20" y="144" width="760" height="34" fill="#1A1A2E" rx="4"/>
+  <text x="400" y="167" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">LCP — Largest Contentful Paint  (Hero image / main headline load time)</text>
+
+  <!-- LCP Row 1: Good -->
+  <rect x="20" y="180" width="760" height="52" fill="#FFFFFF" rx="0"/>
+  <rect x="20" y="180" width="4" height="52" fill="#22C55E"/>
+  <text x="135" y="200" text-anchor="middle" fill="#2C2C2C" font-size="12" font-weight="700">GOOD</text>
+  <text x="135" y="218" text-anchor="middle" fill="#2C2C2C" font-size="11">Page Experience pass</text>
+  <rect x="262" y="186" width="150" height="40" fill="#DCFCE7" rx="4"/>
+  <text x="337" y="210" text-anchor="middle" fill="#166534" font-size="16" font-weight="800">≤ 2.5s</text>
+  <rect x="424" y="186" width="150" height="40" fill="#22C55E" rx="4"/>
+  <text x="499" y="210" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Good</text>
+  <text x="586" y="194" fill="#2C2C2C" font-size="10.5">WebP hero ≤ 120KB on Safaricom 4G</text>
+  <text x="586" y="210" fill="#2C2C2C" font-size="10.5">+ Cloudflare Nairobi CDN edge node</text>
+  <text x="586" y="226" fill="#2C2C2C" font-size="10.5">+ Server-side page caching enabled</text>
+
+  <!-- LCP Row 2: Needs Improvement -->
+  <rect x="20" y="234" width="760" height="52" fill="#FFFBEB" rx="0"/>
+  <rect x="20" y="234" width="4" height="52" fill="#F59E0B"/>
+  <text x="135" y="254" text-anchor="middle" fill="#2C2C2C" font-size="12" font-weight="700">NEEDS IMPROVEMENT</text>
+  <text x="135" y="272" text-anchor="middle" fill="#2C2C2C" font-size="11">Partial ranking impact</text>
+  <rect x="262" y="240" width="150" height="40" fill="#FEF3C7" rx="4"/>
+  <text x="337" y="264" text-anchor="middle" fill="#92400E" font-size="16" font-weight="800">2.5s – 4.0s</text>
+  <rect x="424" y="240" width="150" height="40" fill="#F59E0B" rx="4"/>
+  <text x="499" y="264" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Needs Improvement</text>
+  <text x="586" y="248" fill="#2C2C2C" font-size="10.5">Typical: JPEG hero 200–400KB</text>
+  <text x="586" y="264" fill="#2C2C2C" font-size="10.5">No CDN / UK-hosted server</text>
+  <text x="586" y="280" fill="#2C2C2C" font-size="10.5">3G peri-urban Kenyan users</text>
+
+  <!-- LCP Row 3: Poor -->
+  <rect x="20" y="288" width="760" height="52" fill="#FFF1F2" rx="0"/>
+  <rect x="20" y="288" width="4" height="52" fill="#E94560"/>
+  <text x="135" y="308" text-anchor="middle" fill="#2C2C2C" font-size="12" font-weight="700">POOR</text>
+  <text x="135" y="326" text-anchor="middle" fill="#E94560" font-size="11">Active ranking penalty</text>
+  <rect x="262" y="294" width="150" height="40" fill="#FFE4E6" rx="4"/>
+  <text x="337" y="318" text-anchor="middle" fill="#9F1239" font-size="16" font-weight="800">&gt; 4.0s</text>
+  <rect x="424" y="294" width="150" height="40" fill="#E94560" rx="4"/>
+  <text x="499" y="318" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Poor</text>
+  <text x="586" y="302" fill="#2C2C2C" font-size="10.5">Uncompressed JPEG hero 500KB+</text>
+  <text x="586" y="318" fill="#2C2C2C" font-size="10.5">No caching, shared UK/US hosting</text>
+  <text x="586" y="334" fill="#E94560" font-size="10.5" font-weight="600">53% of Kenyan users abandon at 3s</text>
+
+  <!-- ===== INP SECTION ===== -->
+  <rect x="20" y="352" width="760" height="34" fill="#1A1A2E" rx="4"/>
+  <text x="400" y="375" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">INP — Interaction to Next Paint  (Button tap / menu response, replaced FID March 2024)</text>
+
+  <!-- INP Row 1: Good -->
+  <rect x="20" y="388" width="760" height="52" fill="#FFFFFF" rx="0"/>
+  <rect x="20" y="388" width="4" height="52" fill="#22C55E"/>
+  <text x="135" y="408" text-anchor="middle" fill="#2C2C2C" font-size="12" font-weight="700">GOOD</text>
+  <text x="135" y="426" text-anchor="middle" fill="#2C2C2C" font-size="11">Responsive on budget Android</text>
+  <rect x="262" y="394" width="150" height="40" fill="#DCFCE7" rx="4"/>
+  <text x="337" y="418" text-anchor="middle" fill="#166534" font-size="16" font-weight="800">≤ 200ms</text>
+  <rect x="424" y="394" width="150" height="40" fill="#22C55E" rx="4"/>
+  <text x="499" y="418" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Good</text>
+  <text x="586" y="402" fill="#2C2C2C" font-size="10.5">Deferred JS, no heavy frameworks</text>
+  <text x="586" y="418" fill="#2C2C2C" font-size="10.5">Minimal 3rd-party scripts</text>
+  <text x="586" y="434" fill="#2C2C2C" font-size="10.5">Vanilla HTML/CSS approach</text>
+
+  <!-- INP Row 2: Needs Improvement -->
+  <rect x="20" y="442" width="760" height="52" fill="#FFFBEB" rx="0"/>
+  <rect x="20" y="442" width="4" height="52" fill="#F59E0B"/>
+  <text x="135" y="462" text-anchor="middle" fill="#2C2C2C" font-size="12" font-weight="700">NEEDS IMPROVEMENT</text>
+  <text x="135" y="480" text-anchor="middle" fill="#2C2C2C" font-size="11">Noticeable lag on tap</text>
+  <rect x="262" y="448" width="150" height="40" fill="#FEF3C7" rx="4"/>
+  <text x="337" y="472" text-anchor="middle" fill="#92400E" font-size="16" font-weight="800">200–500ms</text>
+  <rect x="424" y="448" width="150" height="40" fill="#F59E0B" rx="4"/>
+  <text x="499" y="472" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Needs Improvement</text>
+  <text x="586" y="456" fill="#2C2C2C" font-size="10.5">Heavy React/Vue with no code-split</text>
+  <text x="586" y="472" fill="#2C2C2C" font-size="10.5">Chat widgets + analytics overhead</text>
+  <text x="586" y="488" fill="#2C2C2C" font-size="10.5">Tecno Spark / Infinix Hot impacted</text>
+
+  <!-- INP Row 3: Poor -->
+  <rect x="20" y="496" width="760" height="52" fill="#FFF1F2" rx="0"/>
+  <rect x="20" y="496" width="4" height="52" fill="#E94560"/>
+  <text x="135" y="516" text-anchor="middle" fill="#2C2C2C" font-size="12" font-weight="700">POOR</text>
+  <text x="135" y="534" text-anchor="middle" fill="#E94560" font-size="11">Page feels broken / unresponsive</text>
+  <rect x="262" y="502" width="150" height="40" fill="#FFE4E6" rx="4"/>
+  <text x="337" y="526" text-anchor="middle" fill="#9F1239" font-size="16" font-weight="800">&gt; 500ms</text>
+  <rect x="424" y="502" width="150" height="40" fill="#E94560" rx="4"/>
+  <text x="499" y="526" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Poor</text>
+  <text x="586" y="510" fill="#2C2C2C" font-size="10.5">Full framework load before interaction</text>
+  <text x="586" y="526" fill="#2C2C2C" font-size="10.5">15–20 plugins each adding JS</text>
+  <text x="586" y="542" fill="#E94560" font-size="10.5" font-weight="600">7% conversion drop per 1s delay</text>
+
+  <!-- ===== CLS SECTION ===== -->
+  <rect x="20" y="560" width="760" height="34" fill="#1A1A2E" rx="4"/>
+  <text x="400" y="583" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">CLS — Cumulative Layout Shift  (Content jumping while page loads)</text>
+
+  <!-- CLS Row 1: Good -->
+  <rect x="20" y="596" width="760" height="52" fill="#FFFFFF" rx="0"/>
+  <rect x="20" y="596" width="4" height="52" fill="#22C55E"/>
+  <text x="135" y="616" text-anchor="middle" fill="#2C2C2C" font-size="12" font-weight="700">GOOD</text>
+  <text x="135" y="634" text-anchor="middle" fill="#2C2C2C" font-size="11">Stable layout on load</text>
+  <rect x="262" y="602" width="150" height="40" fill="#DCFCE7" rx="4"/>
+  <text x="337" y="626" text-anchor="middle" fill="#166534" font-size="16" font-weight="800">≤ 0.1</text>
+  <rect x="424" y="602" width="150" height="40" fill="#22C55E" rx="4"/>
+  <text x="499" y="626" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Good</text>
+  <text x="586" y="610" fill="#2C2C2C" font-size="10.5">Self-hosted fonts with font-display</text>
+  <text x="586" y="626" fill="#2C2C2C" font-size="10.5">Explicit width/height on all images</text>
+  <text x="586" y="642" fill="#2C2C2C" font-size="10.5">No late-loading ad banners</text>
+
+  <!-- CLS Row 2: Needs Improvement -->
+  <rect x="20" y="650" width="760" height="52" fill="#FFFBEB" rx="0"/>
+  <rect x="20" y="650" width="4" height="52" fill="#F59E0B"/>
+  <text x="135" y="670" text-anchor="middle" fill="#2C2C2C" font-size="12" font-weight="700">NEEDS IMPROVEMENT</text>
+  <text x="135" y="688" text-anchor="middle" fill="#2C2C2C" font-size="11">Minor text/image jumps</text>
+  <rect x="262" y="656" width="150" height="40" fill="#FEF3C7" rx="4"/>
+  <text x="337" y="680" text-anchor="middle" fill="#92400E" font-size="16" font-weight="800">0.1 – 0.25</text>
+  <rect x="424" y="656" width="150" height="40" fill="#F59E0B" rx="4"/>
+  <text x="499" y="680" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Needs Improvement</text>
+  <text x="586" y="664" fill="#2C2C2C" font-size="10.5">Google Fonts from CDN, no fallback</text>
+  <text x="586" y="680" fill="#2C2C2C" font-size="10.5">Some images missing dimensions</text>
+  <text x="586" y="696" fill="#2C2C2C" font-size="10.5">Affects 3G slow-load experiences</text>
+
+  <!-- CLS Row 3: Poor -->
+  <rect x="20" y="704" width="760" height="52" fill="#FFF1F2" rx="0"/>
+  <rect x="20" y="704" width="4" height="52" fill="#E94560"/>
+  <text x="135" y="724" text-anchor="middle" fill="#2C2C2C" font-size="12" font-weight="700">POOR</text>
+  <text x="135" y="742" text-anchor="middle" fill="#E94560" font-size="11">Content shifting visibly on load</text>
+  <rect x="262" y="710" width="150" height="40" fill="#FFE4E6" rx="4"/>
+  <text x="337" y="734" text-anchor="middle" fill="#9F1239" font-size="16" font-weight="800">&gt; 0.25</text>
+  <rect x="424" y="710" width="150" height="40" fill="#E94560" rx="4"/>
+  <text x="499" y="734" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">Poor</text>
+  <text x="586" y="718" fill="#2C2C2C" font-size="10.5">fonts.googleapis.com no font-display</text>
+  <text x="586" y="734" fill="#2C2C2C" font-size="10.5">No image dimensions, late ads</text>
+  <text x="586" y="750" fill="#E94560" font-size="10.5" font-weight="600">Bounce rate +32% on Kenyan 4G</text>
+
+  <!-- Kenya PageSpeed Score context bar -->
+  <rect x="20" y="772" width="760" height="70" fill="#16213E" rx="6"/>
+  <text x="400" y="795" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="600">Kenya PageSpeed Mobile Score Benchmark</text>
+
+  <!-- Score gradient bar -->
+  <defs>
+    <linearGradient id="scoreGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E94560"/>
+      <stop offset="45%" style="stop-color:#F59E0B"/>
+      <stop offset="70%" style="stop-color:#22C55E"/>
+      <stop offset="100%" style="stop-color:#16A34A"/>
+    </linearGradient>
+  </defs>
+  <rect x="60" y="806" width="680" height="16" fill="url(#scoreGrad)" rx="8"/>
+
+  <!-- Score markers -->
+  <line x1="366" y1="803" x2="366" y2="825" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="536" y1="803" x2="536" y2="825" stroke="#FFFFFF" stroke-width="2"/>
+
+  <text x="135" y="832" text-anchor="middle" fill="#FFAAAA" font-size="10" font-weight="600">0–55 (Unoptimised)</text>
+  <text x="450" y="832" text-anchor="middle" fill="#FEF3C7" font-size="10" font-weight="600">70–89 (Acceptable)</text>
+  <text x="620" y="832" text-anchor="middle" fill="#DCFCE7" font-size="10" font-weight="600">90+ (Target)</text>
+
+  <!-- Dividing lines between rows -->
+  <line x1="258" y1="96" x2="258" y2="760" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="420" y1="96" x2="420" y2="760" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="582" y1="96" x2="582" y2="760" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Footer -->
+  <text x="400" y="910" text-anchor="middle" font-size="11" fill="#999">tupate.studio</text>
+</svg>

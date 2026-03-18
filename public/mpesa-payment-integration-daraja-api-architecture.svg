@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Daraja API Architecture: M-Pesa STK Push Payment Flow — 6 Steps</title>
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#16213E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A2E;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowDown" markerWidth="10" markerHeight="7" refX="5" refY="7" orient="auto">
+      <polygon points="0 0, 10 0, 5 7" fill="#E94560" />
+    </marker>
+    <marker id="arrowUp" markerWidth="10" markerHeight="7" refX="5" refY="0" orient="auto">
+      <polygon points="0 7, 10 7, 5 0" fill="#4CAF50" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="#F5F5F5" />
+
+  <!-- Header -->
+  <rect width="800" height="80" fill="url(#headerGrad)" />
+  <text x="400" y="30" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Daraja API Architecture</text>
+  <text x="400" y="58" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" text-anchor="middle">M-Pesa STK Push Payment Flow — 6 Steps</text>
+
+  <!-- Actors Row: Customer Phone | Website Server | Safaricom Daraja -->
+  <!-- Customer Phone -->
+  <rect x="40" y="105" width="160" height="55" rx="8" fill="#16213E" />
+  <text x="120" y="128" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Customer Phone</text>
+  <text x="120" y="147" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#E94560" text-anchor="middle">Safaricom Number</text>
+
+  <!-- Website Server -->
+  <rect x="320" y="105" width="160" height="55" rx="8" fill="#16213E" />
+  <text x="400" y="128" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Website Server</text>
+  <text x="400" y="147" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#E94560" text-anchor="middle">Kenyan Business</text>
+
+  <!-- Safaricom Daraja -->
+  <rect x="600" y="105" width="160" height="55" rx="8" fill="#E94560" />
+  <text x="680" y="128" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Safaricom Daraja</text>
+  <text x="680" y="147" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">API Platform</text>
+
+  <!-- Lifelines -->
+  <line x1="120" y1="160" x2="120" y2="850" stroke="#2C2C2C" stroke-width="1.5" stroke-dasharray="6,4" />
+  <line x1="400" y1="160" x2="400" y2="850" stroke="#2C2C2C" stroke-width="1.5" stroke-dasharray="6,4" />
+  <line x1="680" y1="160" x2="680" y2="850" stroke="#2C2C2C" stroke-width="1.5" stroke-dasharray="6,4" />
+
+  <!-- Step 1 -->
+  <rect x="40" y="178" width="440" height="40" rx="6" fill="#16213E" opacity="0.08" />
+  <circle cx="24" cy="198" r="13" fill="#E94560" />
+  <text x="24" y="203" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="56" y="194" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#1A1A2E">Customer enters phone number + amount</text>
+  <text x="56" y="210" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C">On the website checkout page</text>
+  <!-- Arrow: Customer → Website -->
+  <line x1="130" y1="228" x2="390" y2="228" stroke="#E94560" stroke-width="2" marker-end="url(#arrowDown)" />
+  <text x="260" y="222" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">submit checkout</text>
+
+  <!-- Step 2 -->
+  <rect x="290" y="248" width="430" height="40" rx="6" fill="#16213E" opacity="0.08" />
+  <circle cx="276" cy="268" r="13" fill="#E94560" />
+  <text x="276" y="273" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="296" y="264" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#1A1A2E">Server sends API request to Daraja</text>
+  <text x="296" y="280" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C">Phone number, amount, shortcode, description</text>
+  <!-- Arrow: Website → Daraja -->
+  <line x1="410" y1="298" x2="665" y2="298" stroke="#E94560" stroke-width="2" marker-end="url(#arrowDown)" />
+  <text x="537" y="292" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">STK Push request</text>
+
+  <!-- Step 3 -->
+  <rect x="40" y="318" width="640" height="40" rx="6" fill="#16213E" opacity="0.08" />
+  <circle cx="24" cy="338" r="13" fill="#E94560" />
+  <text x="24" y="343" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="56" y="334" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#1A1A2E">Safaricom sends PIN prompt to customer's phone</text>
+  <text x="56" y="350" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C">"Lipa Na M-Pesa" popup appears — customer never leaves website</text>
+  <!-- Arrow: Daraja → Customer -->
+  <line x1="670" y1="368" x2="135" y2="368" stroke="#E94560" stroke-width="2" marker-end="url(#arrowDown)" />
+  <text x="400" y="362" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">PIN prompt push notification</text>
+
+  <!-- Step 4 -->
+  <rect x="40" y="388" width="200" height="40" rx="6" fill="#16213E" opacity="0.08" />
+  <circle cx="24" cy="408" r="13" fill="#E94560" />
+  <text x="24" y="413" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="56" y="404" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#1A1A2E">Customer enters M-Pesa PIN</text>
+  <text x="56" y="420" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C">Authorises payment on their phone</text>
+  <!-- Arrow: Customer → Daraja -->
+  <line x1="130" y1="438" x2="665" y2="438" stroke="#E94560" stroke-width="2" marker-end="url(#arrowDown)" />
+  <text x="400" y="432" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">PIN authorisation</text>
+
+  <!-- Step 5 -->
+  <rect x="490" y="458" width="280" height="40" rx="6" fill="#16213E" opacity="0.08" />
+  <circle cx="476" cy="478" r="13" fill="#E94560" />
+  <text x="476" y="483" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="496" y="474" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#1A1A2E">Safaricom processes transaction</text>
+  <text x="496" y="490" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C">Sends callback POST to website's callback URL</text>
+  <!-- Arrow: Daraja → Website -->
+  <line x1="670" y1="508" x2="415" y2="508" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowUp)" />
+  <text x="542" y="502" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle">callback: success / failure</text>
+
+  <!-- Step 6 -->
+  <rect x="40" y="528" width="440" height="40" rx="6" fill="#16213E" opacity="0.08" />
+  <circle cx="24" cy="548" r="13" fill="#E94560" />
+  <text x="24" y="553" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="56" y="544" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#1A1A2E">Website updates order status → shows confirmation</text>
+  <text x="56" y="560" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C">Receives callback, records transaction, shows customer success screen</text>
+  <!-- Arrow: Website → Customer -->
+  <line x1="390" y1="578" x2="135" y2="578" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowUp)" />
+  <text x="260" y="572" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle">order confirmation</text>
+
+  <!-- Timeline badge -->
+  <rect x="270" y="598" width="260" height="32" rx="16" fill="#E94560" />
+  <text x="400" y="619" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Total Flow: 10–20 seconds end-to-end</text>
+
+  <!-- Separator -->
+  <line x1="40" y1="650" x2="760" y2="650" stroke="#2C2C2C" stroke-width="0.5" stroke-dasharray="4,4" />
+
+  <!-- API Types Section -->
+  <text x="400" y="675" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E" text-anchor="middle">Daraja API Types for Kenyan Websites</text>
+
+  <!-- STK Push Box -->
+  <rect x="40" y="690" width="165" height="90" rx="8" fill="#16213E" />
+  <rect x="40" y="690" width="165" height="8" rx="4" fill="#E94560" />
+  <text x="122" y="716" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">M-Pesa Express</text>
+  <text x="122" y="730" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">(STK Push)</text>
+  <text x="122" y="748" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">Customer-initiated</text>
+  <text x="122" y="762" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">website checkout</text>
+
+  <!-- C2B Box -->
+  <rect x="217" y="690" width="165" height="90" rx="8" fill="#16213E" />
+  <rect x="217" y="690" width="165" height="8" rx="4" fill="#E94560" />
+  <text x="299" y="716" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">C2B — Paybill / Till</text>
+  <text x="299" y="730" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">(Customer to Business)</text>
+  <text x="299" y="748" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">Customer pays via</text>
+  <text x="299" y="762" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">USSD / M-Pesa app</text>
+
+  <!-- B2C Box -->
+  <rect x="394" y="690" width="165" height="90" rx="8" fill="#16213E" />
+  <rect x="394" y="690" width="165" height="8" rx="4" fill="#E94560" />
+  <text x="476" y="716" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">B2C — Payouts</text>
+  <text x="476" y="730" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">(Business to Customer)</text>
+  <text x="476" y="748" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">Refunds, salaries,</text>
+  <text x="476" y="762" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">disbursements</text>
+
+  <!-- B2B Box -->
+  <rect x="571" y="690" width="165" height="90" rx="8" fill="#16213E" />
+  <rect x="571" y="690" width="165" height="8" rx="4" fill="#E94560" />
+  <text x="653" y="716" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">B2B — Transfers</text>
+  <text x="653" y="730" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">(Business to Business)</text>
+  <text x="653" y="748" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">Inter-company</text>
+  <text x="653" y="762" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">M-Pesa payments</text>
+
+  <!-- Sandbox vs Production bar -->
+  <rect x="40" y="800" width="720" height="50" rx="8" fill="#16213E" />
+  <rect x="40" y="800" width="360" height="50" rx="8" fill="#2C2C2C" />
+  <text x="220" y="820" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#F5F5F5" text-anchor="middle">SANDBOX</text>
+  <text x="220" y="838" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">developer.safaricom.co.ke — test credentials, no real money</text>
+  <text x="580" y="820" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">PRODUCTION</text>
+  <text x="580" y="838" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">api.safaricom.co.ke — live credentials, real transactions</text>
+
+  <!-- Legend arrows -->
+  <line x1="40" y1="868" x2="80" y2="868" stroke="#E94560" stroke-width="2" />
+  <text x="88" y="872" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C">Request / Send</text>
+  <line x1="200" y1="868" x2="240" y2="868" stroke="#4CAF50" stroke-width="2" />
+  <text x="248" y="872" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C">Callback / Confirm</text>
+
+  <!-- Footer -->
+  <text x="400" y="908" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720" width="100%" role="img" aria-labelledby="infographic-title-4" version="1.1">
+  <title id="infographic-title-4">Kenyan SME Digital Marketing Budget Tiers</title>
+  <defs>
+    <linearGradient id="hg4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E" />
+      <stop offset="100%" style="stop-color:#16213E" />
+    </linearGradient>
+    <linearGradient id="tier1grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E94560" stop-opacity="0.15" />
+      <stop offset="100%" style="stop-color:#E94560" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="tier2grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#16213E" stop-opacity="0.2" />
+      <stop offset="100%" style="stop-color:#16213E" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="tier3grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E" stop-opacity="0.15" />
+      <stop offset="100%" style="stop-color:#1A1A2E" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="720" fill="#F5F5F5" />
+
+  <!-- Header -->
+  <rect width="800" height="76" fill="url(#hg4)" />
+  <text x="400" y="28" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Digital Marketing Budget Tiers — Kenyan SMEs</text>
+  <text x="400" y="55" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" text-anchor="middle">Priority-ordered allocation for each budget level</text>
+
+  <!-- Tier 1 -->
+  <rect x="30" y="92" width="740" height="164" rx="10" fill="url(#tier1grad)" stroke="#E94560" stroke-width="1.5" />
+  <rect x="30" y="92" width="8" height="164" rx="4" fill="#E94560" />
+  <!-- Tier label -->
+  <rect x="38" y="100" width="200" height="32" rx="6" fill="#E94560" />
+  <text x="138" y="121" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">STARTING BUDGET</text>
+  <text x="258" y="121" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="18" font-weight="700" fill="#E94560">Ksh 10,000 – 30,000/mo</text>
+
+  <!-- Priority items -->
+  <!-- P1 -->
+  <circle cx="60" cy="157" r="14" fill="#E94560" />
+  <text x="60" y="162" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">P1</text>
+  <text x="84" y="152" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#1A1A2E">Website + SEO Retainer</text>
+  <text x="84" y="168" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#2C2C2C">Ksh 8,000/month — builds organic traffic asset that compounds monthly · only channel that gets cheaper per visitor over time</text>
+  <!-- P2 -->
+  <circle cx="60" cy="204" r="14" fill="#16213E" />
+  <text x="60" y="209" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">P2</text>
+  <text x="84" y="199" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#1A1A2E">Google Business Profile Optimization</text>
+  <text x="84" y="215" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#2C2C2C">Free · immediate local search visibility on Google Maps · highest-ROI zero-cost action for any Kenyan business</text>
+  <!-- P3 -->
+  <circle cx="60" cy="241" r="14" fill="#2C2C2C" />
+  <text x="60" y="246" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">P3</text>
+  <text x="84" y="236" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#1A1A2E">Organic Social Media</text>
+  <text x="84" y="252" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#2C2C2C">Low cash cost — primarily time · 1 quality post/day on platform where your Kenyan customers are active</text>
+
+  <!-- Tier 2 -->
+  <rect x="30" y="272" width="740" height="160" rx="10" fill="url(#tier2grad)" stroke="#16213E" stroke-width="1.5" />
+  <rect x="30" y="272" width="8" height="160" rx="4" fill="#16213E" />
+  <rect x="38" y="280" width="200" height="32" rx="6" fill="#16213E" />
+  <text x="138" y="301" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">GROWING BUDGET</text>
+  <text x="258" y="301" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="18" font-weight="700" fill="#16213E">Ksh 30,000 – 80,000/mo</text>
+
+  <circle cx="60" cy="336" r="14" fill="#E94560" />
+  <text x="60" y="341" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">P1</text>
+  <text x="84" y="331" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#1A1A2E">SEO (increased content production)</text>
+  <text x="84" y="347" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#2C2C2C">More pages = faster topical authority development · Tupate Studio SEO retainer scales with content volume</text>
+
+  <circle cx="60" cy="378" r="14" fill="#E94560" />
+  <text x="60" y="383" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">P2</text>
+  <text x="84" y="373" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#1A1A2E">Add Google Ads</text>
+  <text x="84" y="389" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#2C2C2C">Ksh 15,000–40,000 ad spend + 15% management fee · accelerates traffic while SEO rankings mature (3–9 months)</text>
+
+  <circle cx="60" cy="415" r="14" fill="#2C2C2C" />
+  <text x="60" y="420" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">P3</text>
+  <text x="84" y="410" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#1A1A2E">Continue Organic Social</text>
+  <text x="84" y="426" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#2C2C2C">Maintain brand awareness without adding paid social budget yet</text>
+
+  <!-- Tier 3 -->
+  <rect x="30" y="448" width="740" height="136" rx="10" fill="url(#tier3grad)" stroke="#1A1A2E" stroke-width="1.5" />
+  <rect x="30" y="448" width="8" height="136" rx="4" fill="#1A1A2E" />
+  <rect x="38" y="456" width="186" height="32" rx="6" fill="#1A1A2E" />
+  <text x="131" y="477" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">SCALE BUDGET</text>
+  <text x="244" y="477" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="18" font-weight="700" fill="#1A1A2E">Ksh 80,000+/month</text>
+
+  <text x="52" y="510" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#1A1A2E">Multi-channel: SEO + Google Ads + Facebook/Instagram paid + WhatsApp automation</text>
+  <text x="52" y="528" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#2C2C2C">Each channel measured by cost-per-lead in Ksh · budget reallocated quarterly by channel with lowest qualified lead cost</text>
+  <text x="52" y="548" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560">Kenya CPCs: Ksh 50–500 (business services) · Social at scale → brand awareness, not direct leads</text>
+  <text x="52" y="566" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#2C2C2C">Retargeting: Google Display Ads to Kenyan visitors who didn't convert · warm audience = much lower CPC</text>
+
+  <!-- Core principle banner -->
+  <rect x="30" y="600" width="740" height="54" rx="8" fill="#1A1A2E" />
+  <text x="400" y="622" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" text-anchor="middle">Core Investment Principle</text>
+  <text x="400" y="644" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Website + SEO first — these are owned assets. Google Ads and social ads are rented traffic. When the budget stops, rented traffic stops.</text>
+
+  <!-- ROI note -->
+  <rect x="30" y="664" width="354" height="36" rx="6" fill="#16213E" opacity="0.1" stroke="#16213E" stroke-width="1" />
+  <text x="207" y="678" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#1A1A2E" text-anchor="middle">SEO at Ksh 8,000/month</text>
+  <text x="207" y="694" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C" text-anchor="middle">5–15x organic traffic value over 12 months</text>
+
+  <rect x="416" y="664" width="354" height="36" rx="6" fill="#E94560" opacity="0.1" stroke="#E94560" stroke-width="1" />
+  <text x="593" y="678" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#1A1A2E" text-anchor="middle">Google Ads — Kenya</text>
+  <text x="593" y="694" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C" text-anchor="middle">Ksh 30–600 CPC depending on keyword competition</text>
+
+  <!-- Footer -->
+  <text x="400" y="712" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="100%" role="img" aria-labelledby="infographic-title" font-family="'Inter','Segoe UI',Arial,sans-serif">
+  <title id="infographic-title">Tupate Studio Website Maintenance Plan — What's Included at Ksh 5,000 per Month — Kenya</title>
+
+  <!-- Background -->
+  <rect width="800" height="900" fill="#F5F5F5"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="96" fill="#1A1A2E"/>
+  <text x="400" y="30" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700">TUPATE STUDIO MAINTENANCE PLAN</text>
+  <text x="400" y="54" text-anchor="middle" fill="#E94560" font-size="22" font-weight="800">Ksh 5,000 / month</text>
+  <text x="400" y="76" text-anchor="middle" fill="#94A3B8" font-size="11">Month-to-month  ·  No annual contract  ·  Cancel anytime via WhatsApp with 7 days' notice</text>
+
+  <!-- ===== INCLUDED CHECKLIST ===== -->
+  <rect x="20" y="112" width="760" height="32" fill="#16213E" rx="4"/>
+  <text x="400" y="133" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">WHAT'S INCLUDED EVERY MONTH</text>
+
+  <!-- 8 checklist items in 2 columns -->
+  <!-- Left column items -->
+  <rect x="20" y="156" width="370" height="52" fill="#FFFFFF" rx="6"/>
+  <rect x="20" y="156" width="6" height="52" fill="#22C55E" rx="3"/>
+  <circle cx="50" cy="182" r="12" fill="#DCFCE7"/>
+  <text x="50" y="187" text-anchor="middle" fill="#166534" font-size="14" font-weight="800">&#x2713;</text>
+  <text x="76" y="176" fill="#1A1A2E" font-size="11" font-weight="700">WordPress Core + Theme + Plugin Updates</text>
+  <text x="76" y="196" fill="#555" font-size="10">Tested on staging before deployment to live site — no surprise breakages</text>
+
+  <rect x="20" y="216" width="370" height="52" fill="#FFFFFF" rx="6"/>
+  <rect x="20" y="216" width="6" height="52" fill="#22C55E" rx="3"/>
+  <circle cx="50" cy="242" r="12" fill="#DCFCE7"/>
+  <text x="50" y="247" text-anchor="middle" fill="#166534" font-size="14" font-weight="800">&#x2713;</text>
+  <text x="76" y="236" fill="#1A1A2E" font-size="11" font-weight="700">Weekly Automated Malware Scans</text>
+  <text x="76" y="256" fill="#555" font-size="10">Alert + remediation included for known WordPress vulnerability attacks</text>
+
+  <rect x="20" y="276" width="370" height="52" fill="#FFFFFF" rx="6"/>
+  <rect x="20" y="276" width="6" height="52" fill="#22C55E" rx="3"/>
+  <circle cx="50" cy="302" r="12" fill="#DCFCE7"/>
+  <text x="50" y="307" text-anchor="middle" fill="#166534" font-size="14" font-weight="800">&#x2713;</text>
+  <text x="76" y="296" fill="#1A1A2E" font-size="11" font-weight="700">Daily Off-Site Backups — 30-Day Retention</text>
+  <text x="76" y="316" fill="#555" font-size="10">AWS S3 / Google Drive / Dropbox — monthly restoration test included</text>
+
+  <rect x="20" y="336" width="370" height="52" fill="#FFFFFF" rx="6"/>
+  <rect x="20" y="336" width="6" height="52" fill="#22C55E" rx="3"/>
+  <circle cx="50" cy="362" r="12" fill="#DCFCE7"/>
+  <text x="50" y="367" text-anchor="middle" fill="#166534" font-size="14" font-weight="800">&#x2713;</text>
+  <text x="76" y="356" fill="#1A1A2E" font-size="11" font-weight="700">Uptime Monitoring — Every 5 Minutes</text>
+  <text x="76" y="376" fill="#555" font-size="10">Instant SMS alert when site goes offline — 24/7 Kenya coverage</text>
+
+  <!-- Right column items -->
+  <rect x="410" y="156" width="370" height="52" fill="#FFFFFF" rx="6"/>
+  <rect x="410" y="156" width="6" height="52" fill="#22C55E" rx="3"/>
+  <circle cx="440" cy="182" r="12" fill="#DCFCE7"/>
+  <text x="440" y="187" text-anchor="middle" fill="#166534" font-size="14" font-weight="800">&#x2713;</text>
+  <text x="466" y="176" fill="#1A1A2E" font-size="11" font-weight="700">Monthly Core Web Vitals Check</text>
+  <text x="466" y="196" fill="#555" font-size="10">PageSpeed Insights score tracked — deterioration caught before rankings drop</text>
+
+  <rect x="410" y="216" width="370" height="52" fill="#FFFFFF" rx="6"/>
+  <rect x="410" y="216" width="6" height="52" fill="#22C55E" rx="3"/>
+  <circle cx="440" cy="242" r="12" fill="#DCFCE7"/>
+  <text x="440" y="247" text-anchor="middle" fill="#166534" font-size="14" font-weight="800">&#x2713;</text>
+  <text x="466" y="236" fill="#1A1A2E" font-size="11" font-weight="700">Monthly Google Search Console Review</text>
+  <text x="466" y="256" fill="#555" font-size="10">404 errors, crawl issues, broken links — fixed before they hurt rankings</text>
+
+  <rect x="410" y="276" width="370" height="52" fill="#FFFFFF" rx="6"/>
+  <rect x="410" y="276" width="6" height="52" fill="#22C55E" rx="3"/>
+  <circle cx="440" cy="302" r="12" fill="#DCFCE7"/>
+  <text x="440" y="307" text-anchor="middle" fill="#166534" font-size="14" font-weight="800">&#x2713;</text>
+  <text x="466" y="296" fill="#1A1A2E" font-size="11" font-weight="700">Up to 1 Hour Content Changes / Month</text>
+  <text x="466" y="316" fill="#555" font-size="10">Text updates, new photos, service additions, Ksh price changes</text>
+
+  <rect x="410" y="336" width="370" height="52" fill="#FFFFFF" rx="6"/>
+  <rect x="410" y="336" width="6" height="52" fill="#22C55E" rx="3"/>
+  <circle cx="440" cy="362" r="12" fill="#DCFCE7"/>
+  <text x="440" y="367" text-anchor="middle" fill="#166534" font-size="14" font-weight="800">&#x2713;</text>
+  <text x="466" y="356" fill="#1A1A2E" font-size="11" font-weight="700">Monthly Performance Report</text>
+  <text x="466" y="376" fill="#555" font-size="10">Uptime %, PageSpeed score, security status, updates applied</text>
+
+  <!-- ===== ONBOARDING PROCESS ===== -->
+  <rect x="20" y="402" width="760" height="32" fill="#16213E" rx="4"/>
+  <text x="400" y="423" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">ONBOARDING PROCESS — Setup in 1–2 Business Days</text>
+
+  <!-- 4 onboarding steps -->
+  <rect x="20" y="446" width="172" height="88" fill="#FFFFFF" rx="6"/>
+  <rect x="20" y="446" width="172" height="6" fill="#E94560" rx="3"/>
+  <circle cx="45" cy="474" r="14" fill="#E94560"/>
+  <text x="45" y="479" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="800">1</text>
+  <text x="106" y="472" text-anchor="middle" fill="#1A1A2E" font-size="11" font-weight="700">Access Request</text>
+  <text x="106" y="490" text-anchor="middle" fill="#555" font-size="10">WP admin + hosting</text>
+  <text x="106" y="506" text-anchor="middle" fill="#555" font-size="10">control panel access</text>
+
+  <rect x="206" y="446" width="172" height="88" fill="#FFFFFF" rx="6"/>
+  <rect x="206" y="446" width="172" height="6" fill="#E94560" rx="3"/>
+  <circle cx="231" cy="474" r="14" fill="#E94560"/>
+  <text x="231" y="479" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="800">2</text>
+  <text x="292" y="472" text-anchor="middle" fill="#1A1A2E" font-size="11" font-weight="700">Security Audit</text>
+  <text x="292" y="490" text-anchor="middle" fill="#555" font-size="10">Existing vulns scanned</text>
+  <text x="292" y="506" text-anchor="middle" fill="#555" font-size="10">&amp; remediated first</text>
+
+  <rect x="392" y="446" width="172" height="88" fill="#FFFFFF" rx="6"/>
+  <rect x="392" y="446" width="172" height="6" fill="#E94560" rx="3"/>
+  <circle cx="417" cy="474" r="14" fill="#E94560"/>
+  <text x="417" y="479" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="800">3</text>
+  <text x="478" y="472" text-anchor="middle" fill="#1A1A2E" font-size="11" font-weight="700">Tools Configured</text>
+  <text x="478" y="490" text-anchor="middle" fill="#555" font-size="10">Monitoring, backup,</text>
+  <text x="478" y="506" text-anchor="middle" fill="#555" font-size="10">WAF, alerts set up</text>
+
+  <rect x="578" y="446" width="202" height="88" fill="#FFFFFF" rx="6"/>
+  <rect x="578" y="446" width="202" height="6" fill="#22C55E" rx="3"/>
+  <circle cx="603" cy="474" r="14" fill="#22C55E"/>
+  <text x="603" y="479" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="800">4</text>
+  <text x="679" y="472" text-anchor="middle" fill="#1A1A2E" font-size="11" font-weight="700">Live &amp; Protected</text>
+  <text x="679" y="490" text-anchor="middle" fill="#555" font-size="10">Maintenance active</text>
+  <text x="679" y="506" text-anchor="middle" fill="#555" font-size="10">Monthly reports begin</text>
+
+  <!-- Connecting arrows between steps -->
+  <line x1="196" y1="490" x2="202" y2="490" stroke="#E94560" stroke-width="2"/>
+  <polygon points="200,486 206,490 200,494" fill="#E94560"/>
+  <line x1="382" y1="490" x2="388" y2="490" stroke="#E94560" stroke-width="2"/>
+  <polygon points="386,486 392,490 386,494" fill="#E94560"/>
+  <line x1="568" y1="490" x2="574" y2="490" stroke="#E94560" stroke-width="2"/>
+  <polygon points="572,486 578,490 572,494" fill="#E94560"/>
+
+  <!-- Onboarding note -->
+  <rect x="20" y="546" width="760" height="30" fill="#FFFBEB" rx="4" stroke="#F59E0B" stroke-width="1"/>
+  <text x="400" y="566" text-anchor="middle" fill="#92400E" font-size="11">For websites built by other developers: one-time onboarding audit fee of Ksh 3,500 applies — covers initial security hardening and setup.</text>
+
+  <!-- ===== HACK RESPONSE ===== -->
+  <rect x="20" y="590" width="760" height="32" fill="#16213E" rx="4"/>
+  <text x="400" y="611" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">HACK RESPONSE — Included in Maintenance Plan</text>
+
+  <rect x="20" y="634" width="760" height="72" fill="#FFFFFF" rx="6"/>
+  <rect x="20" y="634" width="6" height="72" fill="#E94560" rx="3"/>
+
+  <!-- 4 response steps inline -->
+  <text x="55" y="656" fill="#E94560" font-size="11" font-weight="700">STEP 1</text>
+  <text x="55" y="672" fill="#2C2C2C" font-size="10.5">Restore from</text>
+  <text x="55" y="688" fill="#2C2C2C" font-size="10.5">clean backup</text>
+  <text x="55" y="700" fill="#94A3B8" font-size="9">within 4–8 hrs</text>
+
+  <line x1="140" y1="640" x2="140" y2="700" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="255" y="656" text-anchor="middle" fill="#E94560" font-size="11" font-weight="700">STEP 2</text>
+  <text x="255" y="672" text-anchor="middle" fill="#2C2C2C" font-size="10.5">Investigate entry</text>
+  <text x="255" y="688" text-anchor="middle" fill="#2C2C2C" font-size="10.5">point + patch vuln</text>
+
+  <line x1="370" y1="640" x2="370" y2="700" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="490" y="656" text-anchor="middle" fill="#E94560" font-size="11" font-weight="700">STEP 3</text>
+  <text x="490" y="672" text-anchor="middle" fill="#2C2C2C" font-size="10.5">Security harden</text>
+  <text x="490" y="688" text-anchor="middle" fill="#2C2C2C" font-size="10.5">against recurrence</text>
+
+  <line x1="600" y1="640" x2="600" y2="700" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="690" y="656" text-anchor="middle" fill="#22C55E" font-size="11" font-weight="700">STEP 4</text>
+  <text x="690" y="672" text-anchor="middle" fill="#2C2C2C" font-size="10.5">Google Safe Browsing</text>
+  <text x="690" y="688" text-anchor="middle" fill="#2C2C2C" font-size="10.5">review submitted</text>
+
+  <!-- ===== VALUE COMPARISON TABLE ===== -->
+  <rect x="20" y="720" width="760" height="32" fill="#16213E" rx="4"/>
+  <text x="400" y="741" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">TOTAL COST OF OWNERSHIP — Maintained vs. Unmaintained Kenyan Website</text>
+
+  <!-- Table -->
+  <rect x="20" y="764" width="760" height="36" fill="#1A1A2E" rx="0"/>
+  <text x="200" y="787" text-anchor="middle" fill="#E94560" font-size="11" font-weight="700">SCENARIO</text>
+  <text x="430" y="787" text-anchor="middle" fill="#E94560" font-size="11" font-weight="700">ANNUAL COST</text>
+  <text x="660" y="787" text-anchor="middle" fill="#E94560" font-size="11" font-weight="700">OUTCOME</text>
+  <line x1="340" y1="764" x2="340" y2="800" stroke="#2C3E60" stroke-width="1"/>
+  <line x1="520" y1="764" x2="520" y2="800" stroke="#2C3E60" stroke-width="1"/>
+
+  <rect x="20" y="800" width="760" height="34" fill="#DCFCE7"/>
+  <text x="200" y="822" text-anchor="middle" fill="#166534" font-size="11" font-weight="700">Tupate Studio Maintenance Plan</text>
+  <text x="430" y="822" text-anchor="middle" fill="#166534" font-size="11" font-weight="700">Ksh 60,000</text>
+  <text x="660" y="822" text-anchor="middle" fill="#166534" font-size="11">Secure, monitored, always online</text>
+
+  <rect x="20" y="834" width="760" height="34" fill="#FFE4E6"/>
+  <text x="200" y="856" text-anchor="middle" fill="#9F1239" font-size="11" font-weight="700">One hack recovery (no maintenance)</text>
+  <text x="430" y="856" text-anchor="middle" fill="#9F1239" font-size="11" font-weight="700">Ksh 20,000–80,000</text>
+  <text x="660" y="856" text-anchor="middle" fill="#9F1239" font-size="11">Plus revenue lost + Google penalty</text>
+
+  <line x1="340" y1="800" x2="340" y2="868" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="520" y1="800" x2="520" y2="868" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="20" y="800" width="760" height="68" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Footer -->
+  <text x="400" y="892" text-anchor="middle" font-size="11" fill="#999">tupate.studio</text>
+</svg>

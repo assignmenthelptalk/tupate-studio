@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="100%" role="img" aria-labelledby="infographic-title-p11a" font-family="'Inter','Segoe UI',Arial,sans-serif">
+  <title id="infographic-title-p11a">On-Page vs Technical vs Off-Page SEO: What Each Covers for Kenyan Business Websites</title>
+  <defs>
+    <linearGradient id="hdr11a" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="580" fill="#F5F5F5"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="82" fill="url(#hdr11a)"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">The Three Pillars of SEO for Kenyan Business Websites</text>
+  <text x="400" y="53" text-anchor="middle" font-size="13" fill="#E94560" font-weight="600">On-Page · Technical · Off-Page — each pillar has a distinct role</text>
+  <text x="400" y="70" text-anchor="middle" font-size="11" fill="#aaaacc">Tupate Studio addresses all three for Kenyan businesses at Ksh 8,000/month</text>
+
+  <!-- ─── THREE COLUMN LAYOUT ─── -->
+  <!-- Column headers -->
+
+  <!-- ON-PAGE column -->
+  <rect x="22" y="100" width="240" height="52" rx="8" fill="#E94560"/>
+  <text x="142" y="122" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">ON-PAGE SEO</text>
+  <text x="142" y="140" text-anchor="middle" font-size="11" fill="#FFFFFF" opacity="0.9">What exists WITHIN the page</text>
+
+  <!-- TECHNICAL column -->
+  <rect x="280" y="100" width="240" height="52" rx="8" fill="#1A1A2E"/>
+  <text x="400" y="122" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">TECHNICAL SEO</text>
+  <text x="400" y="140" text-anchor="middle" font-size="11" fill="#aaaacc">Server-side &amp; crawl factors</text>
+
+  <!-- OFF-PAGE column -->
+  <rect x="538" y="100" width="240" height="52" rx="8" fill="#16213E"/>
+  <text x="658" y="122" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">OFF-PAGE SEO</text>
+  <text x="658" y="140" text-anchor="middle" font-size="11" fill="#aaaacc">External signals &amp; authority</text>
+
+  <!-- ─── ITEM ROWS ─── -->
+  <!-- Row backgrounds alternating -->
+  <rect x="22" y="164" width="756" height="32" rx="0" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="22" y="196" width="756" height="32" rx="0" fill="#FFFFFF" opacity="0.4"/>
+  <rect x="22" y="228" width="756" height="32" rx="0" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="22" y="260" width="756" height="32" rx="0" fill="#FFFFFF" opacity="0.4"/>
+  <rect x="22" y="292" width="756" height="32" rx="0" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="22" y="324" width="756" height="32" rx="0" fill="#FFFFFF" opacity="0.4"/>
+  <rect x="22" y="356" width="756" height="32" rx="0" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="22" y="388" width="756" height="32" rx="0" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- Row vertical dividers -->
+  <line x1="262" y1="164" x2="262" y2="428" stroke="#d0d0d0" stroke-width="1"/>
+  <line x1="520" y1="164" x2="520" y2="428" stroke="#d0d0d0" stroke-width="1"/>
+
+  <!-- ROW LABELS (left column header) -->
+  <!-- Item 1 -->
+  <text x="36" y="184" font-size="13" font-weight="600" fill="#E94560">Title Tag</text>
+  <text x="280" y="184" font-size="12" fill="#2C2C2C" x="276">Page speed (TTFB, hosting)</text>
+  <text x="276" y="184" font-size="12" fill="#2C2C2C">Page speed (TTFB, hosting)</text>
+  <text x="534" y="184" font-size="12" fill="#2C2C2C">Backlinks from other sites</text>
+
+  <!-- Item 2 -->
+  <text x="36" y="216" font-size="13" font-weight="600" fill="#E94560">Meta Description</text>
+  <text x="276" y="216" font-size="12" fill="#2C2C2C">Crawlability (robots.txt)</text>
+  <text x="534" y="216" font-size="12" fill="#2C2C2C">Local citations (NAP)</text>
+
+  <!-- Item 3 -->
+  <text x="36" y="248" font-size="13" font-weight="600" fill="#E94560">H1–H6 Heading Structure</text>
+  <text x="276" y="248" font-size="12" fill="#2C2C2C">Indexation directives</text>
+  <text x="534" y="248" font-size="12" fill="#2C2C2C">Google Business Profile</text>
+
+  <!-- Item 4 -->
+  <text x="36" y="280" font-size="13" font-weight="600" fill="#E94560">Body Content &amp; Depth</text>
+  <text x="276" y="280" font-size="12" fill="#2C2C2C">HTTPS / SSL certificate</text>
+  <text x="534" y="280" font-size="12" fill="#2C2C2C">Social signals &amp; mentions</text>
+
+  <!-- Item 5 -->
+  <text x="36" y="312" font-size="13" font-weight="600" fill="#E94560">Image Alt Text &amp; Format</text>
+  <text x="276" y="312" font-size="12" fill="#2C2C2C">Core Web Vitals (LCP/INP/CLS)</text>
+  <text x="534" y="312" font-size="12" fill="#2C2C2C">Brand searches &amp; co-citations</text>
+
+  <!-- Item 6 -->
+  <text x="36" y="344" font-size="13" font-weight="600" fill="#E94560">Internal Links</text>
+  <text x="276" y="344" font-size="12" fill="#2C2C2C">Mobile usability (viewport)</text>
+  <text x="534" y="344" font-size="12" fill="#2C2C2C">Press coverage &amp; PR</text>
+
+  <!-- Item 7 -->
+  <text x="36" y="376" font-size="13" font-weight="600" fill="#E94560">URL Structure</text>
+  <text x="276" y="376" font-size="12" fill="#2C2C2C">Structured data / Schema</text>
+  <text x="534" y="376" font-size="12" fill="#2C2C2C">Directory listings (Yellow Pages KE)</text>
+
+  <!-- Item 8 -->
+  <text x="36" y="408" font-size="13" font-weight="600" fill="#E94560">Schema Markup</text>
+  <text x="276" y="408" font-size="12" fill="#2C2C2C">Server location / CDN</text>
+  <text x="534" y="408" font-size="12" fill="#2C2C2C">Influencer &amp; community links</text>
+
+  <!-- Bottom border for table -->
+  <line x1="22" y1="428" x2="778" y2="428" stroke="#d0d0d0" stroke-width="1"/>
+
+  <!-- ─── Key insight boxes ─── -->
+  <rect x="22" y="444" width="240" height="105" rx="8" fill="#E94560" opacity="0.12" stroke="#E94560" stroke-width="1.5"/>
+  <text x="142" y="462" text-anchor="middle" font-size="11" font-weight="700" fill="#E94560">ON-PAGE KEY INSIGHT</text>
+  <text x="32" y="480" font-size="10.5" fill="#2C2C2C">Directly controlled by you. Correct on-page</text>
+  <text x="32" y="496" font-size="10.5" fill="#2C2C2C">signals are the fastest route to ranking</text>
+  <text x="32" y="512" font-size="10.5" fill="#2C2C2C">improvements for Kenyan business keywords.</text>
+  <text x="32" y="528" font-size="10.5" fill="#2C2C2C">Every page needs its own unique optimization.</text>
+  <text x="32" y="540" font-size="10" font-weight="600" fill="#E94560">Tupate Studio optimises every page individually.</text>
+
+  <rect x="280" y="444" width="240" height="105" rx="8" fill="#1A1A2E" opacity="0.08" stroke="#1A1A2E" stroke-width="1.5"/>
+  <text x="400" y="462" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1A2E">TECHNICAL KEY INSIGHT</text>
+  <text x="290" y="480" font-size="10.5" fill="#2C2C2C">Server-side issues are invisible to you but</text>
+  <text x="290" y="496" font-size="10.5" fill="#2C2C2C">immediately visible to Google. A noindex tag</text>
+  <text x="290" y="512" font-size="10.5" fill="#2C2C2C">or broken sitemap can block all rankings</text>
+  <text x="290" y="528" font-size="10.5" fill="#2C2C2C">regardless of how good the content is.</text>
+  <text x="290" y="540" font-size="10" font-weight="600" fill="#1A1A2E">Diagnosed in a Tupate Studio technical audit.</text>
+
+  <rect x="538" y="444" width="240" height="105" rx="8" fill="#16213E" opacity="0.08" stroke="#16213E" stroke-width="1.5"/>
+  <text x="658" y="462" text-anchor="middle" font-size="11" font-weight="700" fill="#16213E">OFF-PAGE KEY INSIGHT</text>
+  <text x="548" y="480" font-size="10.5" fill="#2C2C2C">Cannot be directly controlled — earned</text>
+  <text x="548" y="496" font-size="10.5" fill="#2C2C2C">through quality content, local citations,</text>
+  <text x="548" y="512" font-size="10.5" fill="#2C2C2C">and Google Business Profile signals.</text>
+  <text x="548" y="528" font-size="10.5" fill="#2C2C2C">Most Kenyan SMEs underinvest here.</text>
+  <text x="548" y="540" font-size="10" font-weight="600" fill="#16213E">Covered in Tupate Studio Local SEO.</text>
+
+  <!-- Footer -->
+  <text x="400" y="572" text-anchor="middle" font-size="10" fill="#999999">tupate.studio</text>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Content Marketing Funnel for Kenyan Businesses</title>
+  <defs>
+    <linearGradient id="bgGrad3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="100%" stop-color="#16213E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#bgGrad3)" rx="12"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="78" fill="#E94560" rx="12"/>
+  <rect x="0" y="66" width="800" height="12" fill="#E94560"/>
+  <text x="400" y="32" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Content Marketing Funnel for Kenyan Businesses</text>
+  <text x="400" y="58" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#ffd0d8" text-anchor="middle">How educational content turns Google.co.ke searchers into paying customers over time</text>
+
+  <!-- Funnel structure — 4 stages, each narrowing -->
+  <!-- Stage 1: AWARENESS — widest — y=100, width=680 -->
+  <polygon points="60,100 740,100 700,192 100,192" fill="#E94560" opacity="0.85"/>
+  <text x="400" y="132" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">AWARENESS</text>
+  <text x="400" y="152" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#ffd0d8" text-anchor="middle">Kenyan searchers discover your content on Google.co.ke</text>
+  <text x="400" y="170" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#ffd0d8" text-anchor="middle">How-to guides · Cost guides · FAQ pages · Listicles</text>
+
+  <!-- Stage 2: INTEREST — y=196, width=500 -->
+  <polygon points="100,196 700,196 660,288 140,288" fill="#c0392b" opacity="0.85"/>
+  <text x="400" y="226" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">INTEREST</text>
+  <text x="400" y="246" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#ffd0d8" text-anchor="middle">Reader engages with detailed guides, browses multiple pages</text>
+  <text x="400" y="264" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#ffd0d8" text-anchor="middle">Industry guides · Case studies · Comparison articles</text>
+
+  <!-- Stage 3: CONSIDERATION — y=292, width=360 -->
+  <polygon points="140,292 660,292 620,384 180,384" fill="#922b21" opacity="0.85"/>
+  <text x="400" y="322" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">CONSIDERATION</text>
+  <text x="400" y="342" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#ffd0d8" text-anchor="middle">Kenyan buyer compares providers, reads pricing content</text>
+  <text x="400" y="360" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#ffd0d8" text-anchor="middle">Price guides · "Ksh cost" articles · Case studies</text>
+
+  <!-- Stage 4: CONVERSION — narrowest — y=388, width=220 -->
+  <polygon points="180,388 620,388 560,480 240,480" fill="#641e16" opacity="0.9"/>
+  <text x="400" y="420" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">CONVERSION</text>
+  <text x="400" y="440" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#ffd0d8" text-anchor="middle">Contacts via WhatsApp · Form submission · M-Pesa payment</text>
+  <text x="400" y="460" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#ffd0d8" text-anchor="middle">"Book now" CTAs · WhatsApp links · Call buttons</text>
+
+  <!-- Arrow pointing down -->
+  <polygon points="390,488 410,488 405,510 400,518 395,510" fill="#E94560"/>
+
+  <!-- Timeline compounding chart -->
+  <rect x="40" y="528" width="720" height="240" fill="#2C2C2C" rx="10"/>
+  <text x="400" y="550" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#E94560" text-anchor="middle">Content Compounding Effect — Organic Traffic Growth Timeline (Kenya)</text>
+
+  <!-- Chart axes -->
+  <line x1="80" y1="730" x2="730" y2="730" stroke="#555" stroke-width="1.5"/>
+  <line x1="80" y1="570" x2="80" y2="730" stroke="#555" stroke-width="1.5"/>
+
+  <!-- Y-axis labels -->
+  <text x="76" y="733" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="end">0</text>
+  <text x="76" y="690" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="end">Low</text>
+  <text x="76" y="650" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="end">Medium</text>
+  <text x="76" y="605" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="end">High</text>
+  <text x="60" y="660" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle" transform="rotate(-90,60,660)">Organic Traffic</text>
+
+  <!-- X-axis labels -->
+  <text x="80" y="745" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">Month 1</text>
+  <text x="190" y="745" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">Month 3</text>
+  <text x="300" y="745" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">Month 6</text>
+  <text x="410" y="745" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">Month 9</text>
+  <text x="520" y="745" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">Month 12</text>
+  <text x="630" y="745" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">Month 18</text>
+  <text x="730" y="745" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">Month 24</text>
+
+  <!-- Growth curve (bezier) -->
+  <path d="M80,726 C120,724 160,722 190,718 C240,712 270,700 300,690 C340,675 370,655 410,635 C450,610 480,595 520,575 C565,555 600,548 630,542 C670,536 700,532 730,528"
+        fill="none" stroke="#E94560" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Shade under curve -->
+  <path d="M80,726 C120,724 160,722 190,718 C240,712 270,700 300,690 C340,675 370,655 410,635 C450,610 480,595 520,575 C565,555 600,548 630,542 C670,536 700,532 730,528 L730,730 L80,730 Z"
+        fill="#E94560" opacity="0.08"/>
+
+  <!-- Milestone markers -->
+  <circle cx="190" cy="718" r="5" fill="#E94560"/>
+  <line x1="190" y1="713" x2="190" y2="680" stroke="#E94560" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="145" y="660" width="90" height="20" fill="#2C2C2C" stroke="#E94560" stroke-width="1" rx="3"/>
+  <text x="190" y="674" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">First indexing</text>
+
+  <circle cx="300" cy="690" r="5" fill="#E94560"/>
+  <line x1="300" y1="685" x2="300" y2="648" stroke="#E94560" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="248" y="630" width="104" height="20" fill="#2C2C2C" stroke="#E94560" stroke-width="1" rx="3"/>
+  <text x="300" y="644" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">Traffic building</text>
+
+  <circle cx="520" cy="575" r="5" fill="#E94560"/>
+  <line x1="520" y1="570" x2="520" y2="592" stroke="#E94560" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="458" y="576" width="124" height="20" fill="#E94560" rx="3"/>
+  <text x="520" y="590" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">Topical authority</text>
+
+  <!-- Paid ads comparison line (flat) -->
+  <line x1="80" y1="700" x2="430" y2="700" stroke="#2980b9" stroke-width="2" stroke-dasharray="6,4"/>
+  <line x1="430" y1="700" x2="430" y2="730" stroke="#E94560" stroke-width="2"/>
+  <text x="255" y="695" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2980b9" text-anchor="middle">Google Ads (traffic stops when budget stops)</text>
+  <text x="440" y="720" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#E94560">Budget cut</text>
+
+  <!-- Footer -->
+  <text x="400" y="790" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

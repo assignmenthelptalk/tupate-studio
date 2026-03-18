@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Web Hosting TTFB Comparison for Kenya — Local vs International vs CDN</title>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="100%" stop-color="#16213E"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E94560"/>
+      <stop offset="100%" stop-color="#c73050"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#27ae60"/>
+      <stop offset="100%" stop-color="#1e8449"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#ca6f1e"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2980b9"/>
+      <stop offset="100%" stop-color="#1f618d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="620" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#E94560" rx="12"/>
+  <rect x="0" y="68" width="800" height="12" fill="#E94560"/>
+  <text x="400" y="32" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Web Hosting TTFB Comparison for Kenya</text>
+  <text x="400" y="58" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#ffd0d8" text-anchor="middle">Time to First Byte — Server Response Speed for Kenyan Website Visitors</text>
+
+  <!-- Subtitle box -->
+  <rect x="40" y="96" width="720" height="30" fill="#2C2C2C" rx="6"/>
+  <text x="400" y="116" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5" text-anchor="middle">Lower TTFB = Faster site for Safaricom &amp; Airtel users · Google PageSpeed rewards TTFB under 200ms</text>
+
+  <!-- Chart Title -->
+  <text x="50" y="158" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" fill="#E94560">TTFB Range (ms) — Lower is Better</text>
+
+  <!-- Y-axis labels -->
+  <text x="42" y="200" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="end">Local Kenya</text>
+  <text x="42" y="278" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="end">Intl + Cloudflare</text>
+  <text x="42" y="358" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="end">AWS af-south-1</text>
+  <text x="42" y="438" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="end">Intl no CDN</text>
+
+  <!-- Scale reference line at max visible -->
+  <!-- Chart area: x=50 to x=750, each 100ms = ~27px, max shown 2500ms = 700px / 26px -->
+  <!-- Scale: 0–500ms shown at 1:1.25, then 500–2500 compressed; we use a log-like approach -->
+  <!-- Let's use: bar width = value * 0.26, capped to chart width 700px for 2500ms -->
+
+  <!-- Grid lines -->
+  <line x1="50" y1="170" x2="50" y2="470" stroke="#3a3a5a" stroke-width="1"/>
+  <line x1="250" y1="170" x2="250" y2="470" stroke="#3a3a5a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="450" y1="170" x2="450" y2="470" stroke="#3a3a5a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="650" y1="170" x2="650" y2="470" stroke="#3a3a5a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="750" y1="170" x2="750" y2="470" stroke="#3a3a5a" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Scale labels -->
+  <text x="50" y="482" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">0ms</text>
+  <text x="250" y="482" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">500ms</text>
+  <text x="450" y="482" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">1,000ms</text>
+  <text x="650" y="482" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">1,500ms</text>
+  <text x="750" y="482" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">2,000ms+</text>
+
+  <!-- Scale note -->
+  <text x="400" y="495" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#666" text-anchor="middle">Scale: 0–2,000ms linear · Intl no CDN range extends to 2,500ms</text>
+
+  <!-- Row 1: Local Kenya hosting — TTFB 50–200ms -->
+  <!-- Min bar: 50ms = 50*(700/2000) = 17.5px; Max bar: 200ms = 70px -->
+  <rect x="50" y="177" width="70" height="36" fill="url(#greenGrad)" rx="4"/>
+  <rect x="50" y="177" width="18" height="36" fill="#1e8449" rx="4"/>
+  <text x="128" y="200" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#27ae60">50 – 200ms</text>
+  <rect x="216" y="185" width="54" height="20" fill="#27ae60" rx="3" opacity="0.2"/>
+  <text x="243" y="199" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#27ae60" text-anchor="middle">EXCELLENT</text>
+  <text x="50" y="225" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">Truehost Kenya · KWE · Wingu Africa — Nairobi data centres</text>
+
+  <!-- Row 2: Intl + Cloudflare CDN — TTFB 50–150ms -->
+  <rect x="50" y="255" width="53" height="36" fill="url(#greenGrad)" rx="4"/>
+  <rect x="50" y="255" width="18" height="36" fill="#1e8449" rx="4"/>
+  <text x="112" y="278" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#27ae60">50 – 150ms</text>
+  <rect x="210" y="263" width="102" height="20" fill="#27ae60" rx="3" opacity="0.2"/>
+  <text x="261" y="277" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#27ae60" text-anchor="middle">RECOMMENDED</text>
+  <text x="50" y="303" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">SiteGround / Namecheap origin + Cloudflare Nairobi PoP cache</text>
+
+  <!-- Row 3: AWS af-south-1 Cape Town — TTFB 40–100ms -->
+  <rect x="50" y="335" width="35" height="36" fill="url(#blueGrad)" rx="4"/>
+  <rect x="50" y="335" width="14" height="36" fill="#1f618d" rx="4"/>
+  <text x="93" y="358" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#2980b9">40 – 100ms</text>
+  <rect x="193" y="343" width="108" height="20" fill="#2980b9" rx="3" opacity="0.2"/>
+  <text x="247" y="357" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#2980b9" text-anchor="middle">ENTERPRISE TIER</text>
+  <text x="50" y="383" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">AWS af-south-1 (Cape Town) · Google Cloud africa-south1 (Johannesburg)</text>
+
+  <!-- Row 4: International no CDN — TTFB 800–2500ms -->
+  <!-- 800ms = 280px; 2500ms shown as full 700px with arrow indicator -->
+  <rect x="50" y="415" width="700" height="36" fill="#3a3a5a" rx="4"/>
+  <rect x="50" y="415" width="280" height="36" fill="url(#redGrad)" rx="4"/>
+  <text x="50" y="460" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#aaa">SiteGround / Bluehost UK or US server, no CDN — Kenya traffic crosses 8,000km</text>
+  <text x="338" y="438" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560">800 – 2,500ms</text>
+  <rect x="616" y="423" width="70" height="20" fill="#E94560" rx="3" opacity="0.3"/>
+  <text x="651" y="437" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#E94560" text-anchor="middle">AVOID</text>
+
+  <!-- Legend / Key Points -->
+  <rect x="40" y="510" width="720" height="82" fill="#2C2C2C" rx="8"/>
+  <text x="400" y="529" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Key Insight for Kenyan Businesses</text>
+
+  <circle cx="65" cy="548" r="5" fill="#E94560"/>
+  <text x="78" y="552" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">53% of mobile users abandon a page if it takes over 3 seconds to load (Google research)</text>
+
+  <circle cx="65" cy="568" r="5" fill="#27ae60"/>
+  <text x="78" y="572" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Cloudflare's Nairobi PoP (active since 2020) brings international origin speed down to local levels</text>
+
+  <circle cx="65" cy="588" r="5" fill="#2980b9"/>
+  <text x="78" y="592" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Tupate Studio recommendation: reputable international host + Cloudflare free CDN plan</text>
+
+  <!-- Footer -->
+  <text x="400" y="612" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

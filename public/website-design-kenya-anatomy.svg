@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 860" width="100%" role="img" aria-labelledby="infographic-title">
+  <title id="infographic-title">Anatomy of a High-Converting Kenyan Business Website</title>
+
+  <!-- Background -->
+  <rect width="800" height="860" fill="#1A1A2E" rx="12"/>
+
+  <!-- Title area -->
+  <rect width="800" height="62" fill="#0A0A1A" rx="12"/>
+  <rect x="0" y="50" width="800" height="12" fill="#0A0A1A"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Anatomy of a High-Converting Kenyan Business Website</text>
+  <text x="400" y="48" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#E94560">Every section has a job — and a Kenya-specific trust function</text>
+
+  <!-- Browser chrome -->
+  <rect x="170" y="72" width="460" height="18" fill="#16213E" rx="4"/>
+  <circle cx="183" cy="81" r="4" fill="#E94560"/>
+  <circle cx="196" cy="81" r="4" fill="#F5C518"/>
+  <circle cx="209" cy="81" r="4" fill="#4CAF50"/>
+  <rect x="224" y="76" width="390" height="10" fill="#0F3460" rx="3"/>
+  <text x="419" y="85" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">https://yourbusiness.co.ke  🔒</text>
+
+  <!-- Website outer frame -->
+  <rect x="170" y="90" width="460" height="680" fill="#0D1B3E" rx="0" stroke="#16213E" stroke-width="1"/>
+
+  <!-- ======= SECTION 1: HEADER/NAV ======= -->
+  <rect x="170" y="90" width="460" height="44" fill="#0F3460"/>
+  <!-- Logo -->
+  <rect x="181" y="99" width="52" height="26" fill="#E94560" rx="3"/>
+  <text x="207" y="116" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LOGO</text>
+  <!-- Nav links -->
+  <text x="298" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#CCCCCC">Home</text>
+  <text x="335" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#CCCCCC">Services</text>
+  <text x="375" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#CCCCCC">About</text>
+  <text x="412" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#CCCCCC">Contact</text>
+  <!-- WhatsApp CTA -->
+  <rect x="484" y="99" width="62" height="24" fill="#25D366" rx="3"/>
+  <text x="515" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">WhatsApp Us</text>
+  <!-- Phone -->
+  <text x="562" y="112" font-family="Inter, Arial, sans-serif" font-size="7" fill="#AAAAAA">+254 700…</text>
+
+  <!-- ======= SECTION 2: HERO ======= -->
+  <rect x="170" y="134" width="460" height="110" fill="#1A1A2E"/>
+  <!-- Hero text left -->
+  <text x="184" y="158" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Grow Your Business Online</text>
+  <text x="184" y="174" font-family="Inter, Arial, sans-serif" font-size="9" fill="#BBBBBB">Professional websites built for Kenyan businesses.</text>
+  <text x="184" y="186" font-family="Inter, Arial, sans-serif" font-size="9" fill="#BBBBBB">Fast. Mobile-first. M-Pesa ready.</text>
+  <!-- CTA Buttons -->
+  <rect x="184" y="194" width="78" height="22" fill="#E94560" rx="3"/>
+  <text x="223" y="209" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">Get Free Quote →</text>
+  <rect x="270" y="194" width="68" height="22" fill="#0F3460" rx="3" stroke="#E94560" stroke-width="1"/>
+  <text x="304" y="209" text-anchor="middle" font-family="Internet, Arial, sans-serif" font-size="8" fill="#FFFFFF">Pay via M-Pesa</text>
+  <!-- Hero image right -->
+  <rect x="438" y="140" width="184" height="98" fill="#0F3460" rx="4"/>
+  <text x="530" y="192" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#444477">[Hero Image]</text>
+  <!-- Speed badge -->
+  <rect x="442" y="144" width="58" height="16" fill="#4CAF50" rx="2"/>
+  <text x="471" y="155" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">⚡ LCP &lt; 2.5s</text>
+
+  <!-- ======= SECTION 3: TRUST SIGNALS BAR ======= -->
+  <rect x="170" y="244" width="460" height="36" fill="#16213E"/>
+  <text x="212" y="258" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#888888">TRUSTED BY</text>
+  <rect x="232" y="250" width="40" height="14" fill="#0F3460" rx="2"/>
+  <text x="252" y="261" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#AAAAAA">Client A</text>
+  <rect x="278" y="250" width="40" height="14" fill="#0F3460" rx="2"/>
+  <text x="298" y="261" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#AAAAAA">Client B</text>
+  <rect x="324" y="250" width="40" height="14" fill="#0F3460" rx="2"/>
+  <text x="344" y="261" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#AAAAAA">Client C</text>
+  <rect x="370" y="250" width="40" height="14" fill="#0F3460" rx="2"/>
+  <text x="390" y="261" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#AAAAAA">Client D</text>
+  <text x="490" y="260" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#F5C518">★★★★★ 4.9</text>
+  <!-- M-Pesa badge -->
+  <rect x="528" y="249" width="52" height="16" fill="#00A550" rx="2"/>
+  <text x="554" y="260" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" font-weight="700" fill="#FFFFFF">Lipa M-Pesa</text>
+  <!-- SSL badge -->
+  <rect x="585" y="249" width="36" height="16" fill="#0F3460" rx="2" stroke="#4CAF50" stroke-width="1"/>
+  <text x="603" y="260" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#4CAF50">🔒 SSL</text>
+
+  <!-- ======= SECTION 4: SERVICES ======= -->
+  <rect x="170" y="280" width="460" height="100" fill="#1A1A2E"/>
+  <text x="400" y="298" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Our Services</text>
+  <!-- 3 service cards -->
+  <rect x="184" y="306" width="132" height="64" fill="#0F3460" rx="4"/>
+  <text x="250" y="326" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#E94560">Web Design</text>
+  <text x="250" y="341" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">Custom-coded,</text>
+  <text x="250" y="353" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">mobile-first</text>
+  <text x="250" y="365" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#FFFFFF">from Ksh 25,000</text>
+
+  <rect x="334" y="306" width="132" height="64" fill="#0F3460" rx="4"/>
+  <text x="400" y="326" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#E94560">SEO Services</text>
+  <text x="400" y="341" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">Google.co.ke</text>
+  <text x="400" y="353" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">page one rankings</text>
+  <text x="400" y="365" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#FFFFFF">Ksh 8,000/mo</text>
+
+  <rect x="484" y="306" width="134" height="64" fill="#0F3460" rx="4"/>
+  <text x="551" y="326" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#E94560">E-commerce</text>
+  <text x="551" y="341" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">M-Pesa + card</text>
+  <text x="551" y="353" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">checkout built-in</text>
+  <text x="551" y="365" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#FFFFFF">from Ksh 25,000</text>
+
+  <!-- ======= SECTION 5: SOCIAL PROOF / REVIEWS ======= -->
+  <rect x="170" y="380" width="460" height="76" fill="#16213E"/>
+  <text x="400" y="398" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">What Kenyan Clients Say</text>
+  <rect x="184" y="406" width="210" height="42" fill="#0F3460" rx="3"/>
+  <text x="289" y="422" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">"Sales up 40% after launch" ★★★★★</text>
+  <text x="289" y="437" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#AAAAAA">— John M., Nairobi Retailer</text>
+  <rect x="406" y="406" width="210" height="42" fill="#0F3460" rx="3"/>
+  <text x="511" y="422" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">"Top Google ranking in 3 months" ★★★★★</text>
+  <text x="511" y="437" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#AAAAAA">— Grace W., Westlands Clinic</text>
+
+  <!-- ======= SECTION 6: CONTACT FORM + MAP ======= -->
+  <rect x="170" y="456" width="460" height="72" fill="#1A1A2E"/>
+  <!-- Map -->
+  <rect x="184" y="464" width="214" height="56" fill="#2A3B2A" rx="4"/>
+  <text x="291" y="486" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#4CAF50">📍 Google Map — Nairobi, Kenya</text>
+  <text x="291" y="501" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#888888">Click for directions</text>
+  <!-- Contact form -->
+  <rect x="410" y="464" width="208" height="56" fill="#0F3460" rx="4"/>
+  <text x="514" y="479" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">Contact Us</text>
+  <rect x="418" y="484" width="100" height="10" fill="#16213E" rx="2"/>
+  <rect x="418" y="498" width="100" height="10" fill="#16213E" rx="2"/>
+  <rect x="524" y="484" width="86" height="24" fill="#E94560" rx="3"/>
+  <text x="567" y="500" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">Send →</text>
+
+  <!-- ======= SECTION 7: FOOTER ======= -->
+  <rect x="170" y="528" width="460" height="66" fill="#070712"/>
+  <text x="310" y="547" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">Tupate Studio | Nairobi, Kenya</text>
+  <text x="310" y="560" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#666666">KRA PIN: P051XXXXXX | info@tupate.studio</text>
+  <text x="310" y="573" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#555555">Privacy Policy | Terms | © 2025</text>
+  <text x="540" y="547" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#777777">Services | Portfolio | Blog</text>
+  <text x="540" y="560" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#777777">+254 700 000 000</text>
+  <text x="540" y="573" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" fill="#555555">Wasiliana Nasi</text>
+
+  <!-- WhatsApp float -->
+  <circle cx="610" cy="548" r="13" fill="#25D366"/>
+  <text x="610" y="554" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">W</text>
+
+  <!-- ============= ANNOTATION LABELS (left side) ============= -->
+
+  <!-- Label: Header / Nav -->
+  <line x1="168" y1="112" x2="130" y2="112" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="18" y="101" width="110" height="22" fill="#E94560" rx="3"/>
+  <text x="73" y="116" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Header + Nav</text>
+
+  <!-- Label: Hero H1 + CTA -->
+  <line x1="168" y1="175" x2="130" y2="175" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="4" y="164" width="124" height="22" fill="#E94560" rx="3"/>
+  <text x="66" y="179" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">H1 + CTA Above Fold</text>
+
+  <!-- Label: Trust Signals -->
+  <line x1="168" y1="262" x2="130" y2="262" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="10" y="251" width="118" height="22" fill="#E94560" rx="3"/>
+  <text x="69" y="266" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Trust Signals Bar</text>
+
+  <!-- Label: Services -->
+  <line x1="168" y1="338" x2="130" y2="338" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="16" y="327" width="112" height="22" fill="#E94560" rx="3"/>
+  <text x="72" y="342" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Services Section</text>
+
+  <!-- Label: Social Proof -->
+  <line x1="168" y1="420" x2="130" y2="420" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="8" y="409" width="120" height="22" fill="#E94560" rx="3"/>
+  <text x="68" y="424" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Reviews / Social Proof</text>
+
+  <!-- Label: Contact + Map -->
+  <line x1="168" y1="492" x2="130" y2="492" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="4" y="481" width="124" height="22" fill="#E94560" rx="3"/>
+  <text x="66" y="496" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Contact Form + Map</text>
+
+  <!-- Label: Footer NAP -->
+  <line x1="168" y1="558" x2="130" y2="558" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="6" y="547" width="122" height="22" fill="#E94560" rx="3"/>
+  <text x="67" y="562" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Footer: NAP + KRA PIN</text>
+
+  <!-- ============= ANNOTATION LABELS (right side) ============= -->
+
+  <!-- Right: Phone + WhatsApp in header -->
+  <line x1="634" y1="112" x2="672" y2="112" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="674" y="101" width="112" height="22" fill="#E94560" rx="3"/>
+  <text x="730" y="116" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Phone + WhatsApp CTA</text>
+
+  <!-- Right: Load speed badge -->
+  <line x1="501" y1="152" x2="672" y2="152" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="674" y="141" width="108" height="22" fill="#E94560" rx="3"/>
+  <text x="728" y="156" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Fast Load &lt; 2.5s</text>
+
+  <!-- Right: M-Pesa CTA button -->
+  <line x1="342" y1="205" x2="672" y2="205" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="674" y="194" width="108" height="22" fill="#E94560" rx="3"/>
+  <text x="728" y="209" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">M-Pesa Pay Button</text>
+
+  <!-- Right: M-Pesa + SSL trust bar -->
+  <line x1="634" y1="259" x2="672" y2="259" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="674" y="248" width="112" height="22" fill="#E94560" rx="3"/>
+  <text x="730" y="263" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">M-Pesa + SSL Badges</text>
+
+  <!-- Right: WhatsApp float -->
+  <line x1="634" y1="548" x2="672" y2="548" stroke="#E94560" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="674" y="537" width="112" height="22" fill="#E94560" rx="3"/>
+  <text x="730" y="552" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">WhatsApp Sticky Btn</text>
+
+  <!-- ============= BOTTOM KEY METRICS ============= -->
+  <rect x="20" y="612" width="760" height="64" fill="#0F3460" rx="8"/>
+  <text x="400" y="632" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Kenya-Specific Website Performance Targets</text>
+
+  <rect x="36" y="640" width="170" height="28" fill="#16213E" rx="4"/>
+  <text x="121" y="651" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#E94560">LCP &lt; 2.5s on Safaricom 4G</text>
+  <text x="121" y="663" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">Core Web Vitals: Good</text>
+
+  <rect x="220" y="640" width="170" height="28" fill="#16213E" rx="4"/>
+  <text x="305" y="651" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#E94560">PageSpeed Mobile 90+</text>
+  <text x="305" y="663" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">Tested on Tecno + Samsung</text>
+
+  <rect x="404" y="640" width="170" height="28" fill="#16213E" rx="4"/>
+  <text x="489" y="651" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#E94560">44px Min Touch Targets</text>
+  <text x="489" y="663" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">No misclick on small screens</text>
+
+  <rect x="588" y="640" width="176" height="28" fill="#16213E" rx="4"/>
+  <text x="676" y="651" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#E94560">M-Pesa STK Push Checkout</text>
+  <text x="676" y="663" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#AAAAAA">Daraja API — no plugins</text>
+
+  <!-- Footer -->
+  <text x="400" y="842" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#999">tupate.studio</text>
+</svg>

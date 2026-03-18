@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">State of SME Digital Adoption in Kenya 2024</title>
+
+  <!-- Background -->
+  <rect width="800" height="960" fill="#1A1A2E"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="90" fill="#16213E"/>
+  <text x="400" y="38" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">State of SME Digital Adoption</text>
+  <text x="400" y="65" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" text-anchor="middle">Kenya 2024 — 7.4 Million MSMEs</text>
+
+  <!-- ====== HEADLINE STAT ====== -->
+  <rect x="40" y="106" width="720" height="100" rx="10" fill="#16213E"/>
+  <text x="400" y="145" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="44" font-weight="700" fill="#E94560" text-anchor="middle">7.4M</text>
+  <text x="400" y="172" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#F5F5F5" text-anchor="middle">Registered MSMEs in Kenya (KNBS 2023 Economic Survey)</text>
+  <text x="400" y="193" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999" text-anchor="middle">Employing 80%+ of Kenya's workforce</text>
+
+  <!-- ====== WEBSITE ADOPTION DONUT ====== -->
+  <text x="56" y="232" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">WEBSITE ADOPTION RATE</text>
+
+  <!-- Donut chart: 30% have website, 70% don't -->
+  <!-- Using arc approximation with large arc segments -->
+  <!-- 30% = 108° of circle. Center: 200,360 r=90 -->
+  <!-- 30% arc: start 270° = (200, 270) end 270+108=378° = 18° -->
+  <!-- 70% arc: start 18° end 270° -->
+
+  <circle cx="200" cy="360" r="90" fill="none" stroke="#2C2C2C" stroke-width="30"/>
+
+  <!-- 70% segment (no website) - stroke-dasharray trick -->
+  <!-- circumference = 2*pi*90 = 565.5 -->
+  <!-- 70% = 395.8, 30% = 169.6 -->
+  <circle cx="200" cy="360" r="90" fill="none" stroke="#E94560" stroke-width="30"
+          stroke-dasharray="169.6 565.5"
+          stroke-dashoffset="141.4"
+          opacity="0.25"/>
+  <!-- 30% segment (have website) -->
+  <circle cx="200" cy="360" r="90" fill="none" stroke="#E94560" stroke-width="30"
+          stroke-dasharray="395.8 565.5"
+          stroke-dashoffset="311"/>
+
+  <!-- Center label -->
+  <text x="200" y="350" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="26" font-weight="700" fill="#F5F5F5" text-anchor="middle">70%</text>
+  <text x="200" y="372" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999" text-anchor="middle">no website</text>
+
+  <!-- Legend -->
+  <rect x="60" y="462" width="16" height="16" rx="3" fill="#E94560"/>
+  <text x="84" y="475" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">30% — Have professional website</text>
+  <rect x="60" y="488" width="16" height="16" rx="3" fill="#E94560" opacity="0.25"/>
+  <text x="84" y="501" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">70% — WhatsApp / social only</text>
+
+  <!-- ====== BARRIERS ====== -->
+  <text x="430" y="232" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">TOP BARRIERS TO ADOPTION</text>
+
+  <rect x="416" y="242" width="344" height="76" rx="8" fill="#16213E"/>
+  <rect x="416" y="242" width="6" height="76" rx="3" fill="#E94560"/>
+  <text x="440" y="262" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5">1. Cost Perception</text>
+  <text x="440" y="280" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Myth: Ksh 50K–200K minimum</text>
+  <text x="440" y="298" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Reality: From Ksh 25,000 (Tupate Studio)</text>
+
+  <rect x="416" y="328" width="344" height="64" rx="8" fill="#16213E"/>
+  <rect x="416" y="328" width="6" height="64" rx="3" fill="#E94560"/>
+  <text x="440" y="348" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5">2. Technical Knowledge Gap</text>
+  <text x="440" y="366" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Fear of ongoing technical management</text>
+  <text x="440" y="382" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">unfamiliar to most SME owners</text>
+
+  <rect x="416" y="402" width="344" height="64" rx="8" fill="#16213E"/>
+  <rect x="416" y="402" width="6" height="64" rx="3" fill="#E94560"/>
+  <text x="440" y="422" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5">3. "WhatsApp Is Enough" Mindset</text>
+  <text x="440" y="440" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Works for existing customers</text>
+  <text x="440" y="456" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Invisible to new Google searches</text>
+
+  <rect x="416" y="476" width="344" height="52" rx="8" fill="#16213E"/>
+  <rect x="416" y="476" width="6" height="52" rx="3" fill="#E94560"/>
+  <text x="440" y="496" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#F5F5F5">4. No Visible ROI Case Studies</text>
+  <text x="440" y="514" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Lack of Kenyan SME website success stories</text>
+
+  <!-- ====== COMPETITIVE ADVANTAGE ====== -->
+  <text x="56" y="548" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">COMPETITIVE ADVANTAGES OF GOING DIGITAL</text>
+
+  <rect x="40" y="558" width="344" height="80" rx="8" fill="#16213E"/>
+  <text x="60" y="580" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">2–5x Lower</text>
+  <text x="60" y="600" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Customer Acquisition Cost</text>
+  <text x="60" y="620" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">vs. offline businesses (once ranking)</text>
+
+  <rect x="416" y="558" width="344" height="80" rx="8" fill="#16213E"/>
+  <text x="436" y="580" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">47 Counties</text>
+  <text x="436" y="600" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">National Geographic Reach</text>
+  <text x="436" y="620" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">vs. local walk-in customers only</text>
+
+  <rect x="40" y="648" width="344" height="80" rx="8" fill="#16213E"/>
+  <text x="60" y="670" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">24/7 Availability</text>
+  <text x="60" y="690" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Website works while owner is offline</text>
+  <text x="60" y="710" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Kenyan B2B research happens evenings</text>
+
+  <rect x="416" y="648" width="344" height="80" rx="8" fill="#16213E"/>
+  <text x="436" y="670" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Compounding Asset</text>
+  <text x="436" y="690" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">Rankings build over 3–12 months</text>
+  <text x="436" y="710" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999">Content published 2025 drives leads 2027</text>
+
+  <!-- ====== DIGITAL CHANNEL COMPARISON ====== -->
+  <text x="56" y="760" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">DIGITAL PRESENCE COMPARISON</text>
+
+  <rect x="40" y="770" width="720" height="130" rx="8" fill="#16213E"/>
+
+  <!-- Table header -->
+  <rect x="40" y="770" width="720" height="32" rx="8" fill="#16213E"/>
+  <text x="220" y="791" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">WhatsApp Only</text>
+  <text x="400" y="791" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">Social Media Page</text>
+  <text x="600" y="791" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">Professional Website</text>
+  <line x1="40" y1="802" x2="760" y2="802" stroke="#2C2C2C" stroke-width="1"/>
+
+  <!-- Row: Google Discovery -->
+  <text x="60" y="820" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Google Discovery</text>
+  <text x="220" y="820" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#E94560" text-anchor="middle">None</text>
+  <text x="400" y="820" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">Limited</text>
+  <text x="600" y="820" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Full Google.co.ke ranking</text>
+
+  <!-- Row: M-Pesa Checkout -->
+  <text x="60" y="843" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">M-Pesa Checkout</text>
+  <text x="220" y="843" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">Manual only</text>
+  <text x="400" y="843" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">Not available</text>
+  <text x="600" y="843" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Daraja STK Push</text>
+
+  <!-- Row: Data / Analytics -->
+  <text x="60" y="866" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Analytics Data</text>
+  <text x="220" y="866" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#E94560" text-anchor="middle">None</text>
+  <text x="400" y="866" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">Basic (platform metrics)</text>
+  <text x="600" y="866" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">GA4 + GSC full data</text>
+
+  <!-- Row: Asset ownership -->
+  <text x="60" y="889" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Asset Ownership</text>
+  <text x="220" y="889" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#E94560" text-anchor="middle">Zero</text>
+  <text x="400" y="889" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#E94560" text-anchor="middle">Platform-dependent</text>
+  <text x="600" y="889" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Owned permanently</text>
+
+  <!-- ====== CTA ====== -->
+  <rect x="40" y="916" width="720" height="24" rx="4" fill="#E94560" opacity="0.15"/>
+  <text x="400" y="932" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5" text-anchor="middle">Start from Ksh 25,000 — professional website + Google Business Profile + SEO from Ksh 8,000/month</text>
+
+  <!-- Footer -->
+  <text x="400" y="952" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1080" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">Kenyan Hospitality Booking Journey: Restaurant vs Hotel Decision Sequences and OTA vs Direct Booking Comparison</title>
+
+  <!-- Background -->
+  <rect width="800" height="1080" fill="#1A1A2E"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="96" fill="#16213E"/>
+  <text x="400" y="26" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle" letter-spacing="2">RESTAURANT AND HOTEL WEBSITE DESIGN — KENYA</text>
+  <text x="400" y="56" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="21" fill="#F5F5F5" font-weight="700" text-anchor="middle">Kenyan Hospitality Booking Journey</text>
+  <text x="400" y="80" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#CCCCCC" text-anchor="middle">Two distinct decision sequences — and why direct booking saves 15–25% per reservation</text>
+
+  <!-- Section divider label -->
+  <rect x="30" y="108" width="355" height="32" rx="4" fill="#E94560"/>
+  <text x="207" y="128" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#FFFFFF" font-weight="700" text-anchor="middle">RESTAURANT VISITOR DECISION SEQUENCE</text>
+
+  <rect x="415" y="108" width="355" height="32" rx="4" fill="#2C2C2C"/>
+  <text x="592" y="128" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="700" text-anchor="middle">HOTEL / LODGE VISITOR DECISION SEQUENCE</text>
+
+  <!-- Restaurant steps 1-5 -->
+  <rect x="30" y="144" width="355" height="64" rx="4" fill="#16213E"/>
+  <rect x="30" y="144" width="6" height="64" rx="3" fill="#E94560"/>
+  <circle cx="58" cy="176" r="14" fill="#E94560"/>
+  <text x="58" y="181" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">1</text>
+  <text x="84" y="166" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" font-weight="600">DIGITAL MENU</text>
+  <text x="84" y="184" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC">HTML menu with photos + KES pricing + dietary labels</text>
+  <text x="84" y="200" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">PDF menus fail on mobile — 80%+ of visits are on phones</text>
+
+  <rect x="30" y="212" width="355" height="64" rx="4" fill="#16213E"/>
+  <rect x="30" y="212" width="6" height="64" rx="3" fill="#E94560"/>
+  <circle cx="58" cy="244" r="14" fill="#E94560"/>
+  <text x="58" y="249" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">2</text>
+  <text x="84" y="234" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" font-weight="600">OPENING HOURS</text>
+  <text x="84" y="252" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC">Specific Friday/Saturday evening times — Nairobi peak planning</text>
+  <text x="84" y="268" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">Include public holiday hours — prevents disappointed guests and bad reviews</text>
+
+  <rect x="30" y="280" width="355" height="64" rx="4" fill="#16213E"/>
+  <rect x="30" y="280" width="6" height="64" rx="3" fill="#E94560"/>
+  <circle cx="58" cy="312" r="14" fill="#E94560"/>
+  <text x="58" y="317" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">3</text>
+  <text x="84" y="302" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" font-weight="600">TABLE AVAILABILITY</text>
+  <text x="84" y="320" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC">WhatsApp button — pre-filled: "Reserve table for [date/time/size]"</text>
+  <text x="84" y="336" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">Not a form. Not a phone call. WhatsApp is how Kenyan diners book.</text>
+
+  <rect x="30" y="348" width="355" height="64" rx="4" fill="#16213E"/>
+  <rect x="30" y="348" width="6" height="64" rx="3" fill="#E94560"/>
+  <circle cx="58" cy="380" r="14" fill="#E94560"/>
+  <text x="58" y="385" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">4</text>
+  <text x="84" y="370" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" font-weight="600">LOCATION</text>
+  <text x="84" y="388" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC">Google Maps embed + parking info + landmark reference</text>
+  <text x="84" y="404" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">Nairobi diners check road access and parking before committing</text>
+
+  <rect x="30" y="416" width="355" height="64" rx="4" fill="#16213E"/>
+  <rect x="30" y="416" width="6" height="64" rx="3" fill="#E94560"/>
+  <circle cx="58" cy="448" r="14" fill="#E94560"/>
+  <text x="58" y="453" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle">5</text>
+  <text x="84" y="438" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" font-weight="600">FOOD PHOTOGRAPHY</text>
+  <text x="84" y="456" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC">Dishes photographed at plating — displayed alongside menu items</text>
+  <text x="84" y="472" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">Halal / vegan / gluten-free labels on individual dish listings</text>
+
+  <!-- Hotel steps 1-5 -->
+  <rect x="415" y="144" width="355" height="64" rx="4" fill="#16213E"/>
+  <rect x="415" y="144" width="6" height="64" rx="3" fill="#2C2C2C"/>
+  <circle cx="443" cy="176" r="14" fill="#2C2C2C"/>
+  <text x="443" y="181" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle">1</text>
+  <text x="469" y="166" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" font-weight="600">ROOM TYPES AND RATES</text>
+  <text x="469" y="184" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC">KES for domestic · USD for international · or both via toggle</text>
+  <text x="469" y="200" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">Domestic guests compare total weekend package cost in KES</text>
+
+  <rect x="415" y="212" width="355" height="64" rx="4" fill="#16213E"/>
+  <rect x="415" y="212" width="6" height="64" rx="3" fill="#2C2C2C"/>
+  <circle cx="443" cy="244" r="14" fill="#2C2C2C"/>
+  <text x="443" y="249" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle">2</text>
+  <text x="469" y="234" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" font-weight="600">AVAILABILITY AND BOOKING PATH</text>
+  <text x="469" y="252" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC">Direct booking engine vs OTA — "Book Direct — Best Rate Guaranteed"</text>
+  <text x="469" y="268" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">M-Pesa payment required for domestic Kenyan guests</text>
+
+  <rect x="415" y="280" width="355" height="64" rx="4" fill="#16213E"/>
+  <rect x="415" y="280" width="6" height="64" rx="3" fill="#2C2C2C"/>
+  <circle cx="443" cy="312" r="14" fill="#2C2C2C"/>
+  <text x="443" y="317" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle">3</text>
+  <text x="469" y="302" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" font-weight="600">FACILITIES AND PHOTOS</text>
+  <text x="469" y="320" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC">Each room type photographed from multiple angles + common areas</text>
+  <text x="469" y="336" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">Pool · gym · spa · restaurant · activity documentation</text>
+
+  <rect x="415" y="348" width="355" height="64" rx="4" fill="#16213E"/>
+  <rect x="415" y="348" width="6" height="64" rx="3" fill="#2C2C2C"/>
+  <circle cx="443" cy="380" r="14" fill="#2C2C2C"/>
+  <text x="443" y="385" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle">4</text>
+  <text x="469" y="370" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" font-weight="600">LOCATION AND ACCESS</text>
+  <text x="469" y="388" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC">Distance from Nairobi + GPS coordinates + road surface (tarmac/murram)</text>
+  <text x="469" y="404" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">4WD requirement critical for Kenyan guests driving a saloon car</text>
+
+  <rect x="415" y="416" width="355" height="64" rx="4" fill="#16213E"/>
+  <rect x="415" y="416" width="6" height="64" rx="3" fill="#2C2C2C"/>
+  <circle cx="443" cy="448" r="14" fill="#2C2C2C"/>
+  <text x="443" y="453" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#E94560" font-weight="700" text-anchor="middle">5</text>
+  <text x="469" y="438" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" font-weight="600">REVIEWS AND TRUST</text>
+  <text x="469" y="456" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC">TripAdvisor + Google Reviews links — final trust layer before booking</text>
+  <text x="469" y="472" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999">Conservation/community messaging for international eco-tourist market</text>
+
+  <!-- OTA vs Direct booking comparison -->
+  <rect x="30" y="496" width="740" height="36" rx="4" fill="#E94560"/>
+  <text x="400" y="519" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">OTA vs DIRECT BOOKING — THE COST OF PORTAL DEPENDENCY</text>
+
+  <rect x="30" y="536" width="355" height="200" rx="4" fill="#16213E"/>
+  <text x="207" y="560" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" font-weight="700" text-anchor="middle">BOOKING VIA OTA</text>
+  <text x="207" y="580" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#CCCCCC" text-anchor="middle">(Booking.com / Expedia / Airbnb)</text>
+  <text x="52" y="608" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✗  Commission: 15–25% per booking</text>
+  <text x="52" y="628" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✗  Guest data owned by the OTA — not the hotel</text>
+  <text x="52" y="648" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✗  No upsell opportunity at booking stage</text>
+  <text x="52" y="668" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✗  Rate parity risk — OTA may undercut direct rate</text>
+  <text x="52" y="698" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">100 bookings/month at avg Ksh 8,000:</text>
+  <text x="52" y="714" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="700">= Ksh 120,000–200,000 commission paid monthly</text>
+
+  <rect x="415" y="536" width="355" height="200" rx="4" fill="#16213E"/>
+  <text x="592" y="560" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" font-weight="700" text-anchor="middle">DIRECT BOOKING</text>
+  <text x="592" y="580" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#CCCCCC" text-anchor="middle">(Hotel website with booking engine)</text>
+  <text x="435" y="608" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✓  Zero commission — 100% revenue retained</text>
+  <text x="435" y="628" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✓  Guest data owned — email/WhatsApp repeat marketing</text>
+  <text x="435" y="648" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✓  Upsell at booking: upgrades, transfers, game drives</text>
+  <text x="435" y="668" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#F5F5F5">✓  Rate parity control — you set the floor rate</text>
+  <text x="435" y="698" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">M-Pesa STK Push required for domestic Kenyan guests</text>
+  <text x="435" y="714" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="700">Cloudbeds / Little Hotelier / custom Daraja API</text>
+
+  <!-- Booking systems comparison -->
+  <rect x="30" y="750" width="740" height="36" rx="4" fill="#2C2C2C"/>
+  <text x="400" y="773" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" font-weight="700" text-anchor="middle">DIRECT BOOKING ENGINE OPTIONS FOR KENYAN HOTELS</text>
+
+  <rect x="30" y="790" width="226" height="86" rx="4" fill="#16213E"/>
+  <text x="143" y="814" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">CLOUDBEDS</text>
+  <text x="143" y="834" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Mid-size Kenyan hotels</text>
+  <text x="143" y="850" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">M-Pesa via Pesapal</text>
+  <text x="143" y="866" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">Full PMS integration</text>
+
+  <rect x="287" y="790" width="226" height="86" rx="4" fill="#16213E"/>
+  <text x="400" y="814" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">LITTLE HOTELIER</text>
+  <text x="400" y="834" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Boutique lodges + B&amp;Bs</text>
+  <text x="400" y="850" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">Simpler setup</text>
+  <text x="400" y="866" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">Kenyan market compatible</text>
+
+  <rect x="544" y="790" width="226" height="86" rx="4" fill="#16213E"/>
+  <text x="657" y="814" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" font-weight="600" text-anchor="middle">CUSTOM DARAJA API</text>
+  <text x="657" y="834" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Native M-Pesa STK Push</text>
+  <text x="657" y="850" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">No third-party gateway fees</text>
+  <text x="657" y="866" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#CCCCCC" text-anchor="middle">Unique property requirements</text>
+
+  <!-- Small lodges note -->
+  <rect x="30" y="890" width="740" height="44" rx="4" fill="#16213E"/>
+  <text x="52" y="910" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">Small lodges and guesthouses with low volume: WhatsApp booking workflow + M-Pesa payment</text>
+  <text x="52" y="928" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#CCCCCC">Guest messages for availability → pays via M-Pesa → receives WhatsApp confirmation. Zero infrastructure cost.</text>
+
+  <!-- Footer -->
+  <text x="400" y="1062" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999" text-anchor="middle">tupate.studio</text>
+</svg>

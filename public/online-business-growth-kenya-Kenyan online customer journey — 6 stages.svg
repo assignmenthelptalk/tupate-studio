@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 860" width="100%" role="img" aria-labelledby="infographic-title-5" version="1.1">
+  <title id="infographic-title-5">Kenyan Online Customer Journey — 6 Stages</title>
+  <defs>
+    <linearGradient id="hg5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E" />
+      <stop offset="100%" style="stop-color:#16213E" />
+    </linearGradient>
+    <linearGradient id="funnelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E94560" stop-opacity="0.9" />
+      <stop offset="100%" style="stop-color:#E94560" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="860" fill="#F5F5F5" />
+
+  <!-- Header -->
+  <rect width="800" height="76" fill="url(#hg5)" />
+  <text x="400" y="28" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Kenyan Online Customer Journey</text>
+  <text x="400" y="55" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" text-anchor="middle">6 Stages — Each One is a Growth Opportunity</text>
+
+  <!-- Stage widths for funnel: widest at top, narrowest at bottom -->
+  <!-- Stage 1: Awareness — full width 740 -->
+  <polygon points="30,86 770,86 730,156 70,156" fill="#1A1A2E" />
+  <polygon points="30,86 770,86 730,156 70,156" fill="none" stroke="#E94560" stroke-width="1.5" />
+  <text x="400" y="112" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" text-anchor="middle">Stage 1 — AWARENESS</text>
+  <text x="400" y="130" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#F5F5F5" text-anchor="middle">Need discovered: Google search, Facebook/TikTok, WhatsApp group recommendation</text>
+  <text x="400" y="147" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">WhatsApp groups are powerful discovery engines — 1 recommendation can generate 10+ inquiries</text>
+
+  <!-- Stage 2: Research -->
+  <polygon points="70,162 730,162 690,232 110,232" fill="#16213E" />
+  <polygon points="70,162 730,162 690,232 110,232" fill="none" stroke="#E94560" stroke-width="1.5" />
+  <text x="400" y="188" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" text-anchor="middle">Stage 2 — RESEARCH</text>
+  <text x="400" y="206" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#F5F5F5" text-anchor="middle">Google.co.ke search · visit 3–5 websites · check Google Business Profile reviews + photos</text>
+  <text x="400" y="223" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">No GBP = lost to competitor with stronger Google presence</text>
+
+  <!-- Stage 3: Comparison -->
+  <polygon points="110,238 690,238 650,308 150,308" fill="#1A1A2E" />
+  <polygon points="110,238 690,238 650,308 150,308" fill="none" stroke="#E94560" stroke-width="1.5" />
+  <text x="400" y="264" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" text-anchor="middle">Stage 3 — COMPARISON</text>
+  <text x="400" y="282" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#F5F5F5" text-anchor="middle">Evaluate: Price in Ksh · Location / service area · Google review count + rating · Response speed</text>
+  <text x="400" y="299" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Reply to WhatsApp in 5 minutes = outperform better portfolio with 2-hour response time</text>
+
+  <!-- Stage 4: Contact -->
+  <polygon points="150,314 650,314 610,384 190,384" fill="#16213E" />
+  <polygon points="150,314 650,314 610,384 190,384" fill="none" stroke="#E94560" stroke-width="1.5" />
+  <text x="400" y="340" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" text-anchor="middle">Stage 4 — CONTACT</text>
+  <text x="400" y="358" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#F5F5F5" text-anchor="middle">Channel split: 60% WhatsApp · 25% Phone call · 15% Contact form</text>
+  <text x="400" y="375" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">WhatsApp integration is not optional — it is the primary conversion mechanism</text>
+
+  <!-- Stage 5: Conversion -->
+  <polygon points="190,390 610,390 570,460 230,460" fill="#E94560" opacity="0.85" />
+  <polygon points="190,390 610,390 570,460 230,460" fill="none" stroke="#E94560" stroke-width="1.5" />
+  <text x="400" y="416" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Stage 5 — CONVERSION</text>
+  <text x="400" y="434" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#FFFFFF" text-anchor="middle">Quote → Meeting → M-Pesa payment (Daraja API / Paybill)</text>
+  <text x="400" y="451" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">Every friction point between Stage 4 and 5 reduces conversion rate</text>
+
+  <!-- Stage 6: Retention -->
+  <polygon points="230,466 570,466 530,536 270,536" fill="#1A1A2E" />
+  <polygon points="230,466 570,466 530,536 270,536" fill="none" stroke="#E94560" stroke-width="1.5" />
+  <text x="400" y="492" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" text-anchor="middle">Stage 6 — RETENTION</text>
+  <text x="400" y="510" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10.5" fill="#F5F5F5" text-anchor="middle">Repeat buyer + WhatsApp group referral source</text>
+  <text x="400" y="527" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">1 retained Kenyan customer → 5–10 new awareness opportunities</text>
+
+  <!-- Feedback arrow: Stage 6 back to Stage 1 -->
+  <path d="M400 542 Q790 540 790 120 Q790 86 770 86" fill="none" stroke="#E94560" stroke-width="2" stroke-dasharray="6,4" />
+  <polygon points="766,80 780,86 766,92" fill="#E94560" />
+  <text x="758" y="340" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9" fill="#E94560" transform="rotate(90,758,340)">referral loop feeds Stage 1</text>
+
+  <!-- Channel map below funnel -->
+  <line x1="40" y1="560" x2="760" y2="560" stroke="#2C2C2C" stroke-width="0.5" stroke-dasharray="4,4" />
+  <text x="400" y="583" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#1A1A2E" text-anchor="middle">Best Channel per Stage</text>
+
+  <!-- Channel pills -->
+  <rect x="30" y="594" width="100" height="24" rx="12" fill="#16213E" />
+  <text x="80" y="610" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">S1: Social / WA</text>
+
+  <rect x="140" y="594" width="100" height="24" rx="12" fill="#16213E" />
+  <text x="190" y="610" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">S2: SEO + GBP</text>
+
+  <rect x="250" y="594" width="120" height="24" rx="12" fill="#16213E" />
+  <text x="310" y="610" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">S3: SEO + Google Ads</text>
+
+  <rect x="380" y="594" width="110" height="24" rx="12" fill="#E94560" />
+  <text x="435" y="610" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">S4: WhatsApp CTA</text>
+
+  <rect x="500" y="594" width="120" height="24" rx="12" fill="#E94560" />
+  <text x="560" y="610" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">S5: M-Pesa Checkout</text>
+
+  <rect x="630" y="594" width="130" height="24" rx="12" fill="#16213E" />
+  <text x="695" y="610" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">S6: Email + WA Broadcast</text>
+
+  <!-- Insight boxes -->
+  <rect x="30" y="634" width="228" height="84" rx="8" fill="#16213E" />
+  <text x="144" y="655" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">Device Context</text>
+  <text x="144" y="672" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">Tecno, Infinix, Samsung</text>
+  <text x="144" y="688" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">Heavy mobile usage on</text>
+  <text x="144" y="704" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">Safaricom 4G network</text>
+
+  <rect x="286" y="634" width="228" height="84" rx="8" fill="#16213E" />
+  <text x="400" y="655" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">Acquisition Cost Reality</text>
+  <text x="400" y="672" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">New customer costs</text>
+  <text x="400" y="688" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">5× more than retaining</text>
+  <text x="400" y="704" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">an existing one</text>
+
+  <rect x="542" y="634" width="228" height="84" rx="8" fill="#16213E" />
+  <text x="656" y="655" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">Review Impact</text>
+  <text x="656" y="672" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">50 reviews + 4.7★</text>
+  <text x="656" y="688" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">beats 5 reviews + 3.9★</text>
+  <text x="656" y="704" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#F5F5F5" text-anchor="middle">every time in Kenya</text>
+
+  <!-- Footer -->
+  <text x="400" y="850" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

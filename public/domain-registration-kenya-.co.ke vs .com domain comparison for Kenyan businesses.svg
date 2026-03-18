@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 860" width="100%" role="img" aria-labelledby="infographic-title-7" version="1.1">
+  <title id="infographic-title-7">.co.ke vs .com Domain Comparison for Kenyan Businesses</title>
+  <defs>
+    <linearGradient id="hg7" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E" />
+      <stop offset="100%" style="stop-color:#16213E" />
+    </linearGradient>
+    <linearGradient id="coke" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E94560" stop-opacity="0.2" />
+      <stop offset="100%" style="stop-color:#E94560" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="dotcom" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#16213E" stop-opacity="0.2" />
+      <stop offset="100%" style="stop-color:#16213E" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="860" fill="#F5F5F5" />
+
+  <!-- Header -->
+  <rect width="800" height="76" fill="url(#hg7)" />
+  <text x="400" y="28" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">.co.ke vs .com — Domain Comparison</text>
+  <text x="400" y="55" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#E94560" text-anchor="middle">For Kenyan Business Website Registration</text>
+
+  <!-- Two column headers -->
+  <rect x="30" y="86" width="355" height="44" rx="8" fill="#E94560" />
+  <text x="207" y="114" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">.co.ke</text>
+
+  <rect x="415" y="86" width="355" height="44" rx="8" fill="#16213E" />
+  <text x="592" y="114" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">.com</text>
+
+  <!-- VS divider -->
+  <circle cx="400" cy="108" r="18" fill="#1A1A2E" />
+  <text x="400" y="114" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">VS</text>
+
+  <!-- Row 1: Type -->
+  <rect x="30" y="142" width="740" height="36" rx="0" fill="#16213E" />
+  <text x="207" y="165" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">ccTLD — Country Code</text>
+  <text x="400" y="165" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Domain Type</text>
+  <text x="592" y="165" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#F5F5F5" text-anchor="middle">gTLD — Generic Global</text>
+
+  <!-- Row 2: Managed by -->
+  <rect x="30" y="178" width="355" height="36" fill="url(#coke)" />
+  <rect x="415" y="178" width="355" height="36" fill="url(#dotcom)" />
+  <text x="207" y="201" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E" text-anchor="middle">KENIC — Kenya Network Info Centre</text>
+  <text x="400" y="201" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Registry</text>
+  <text x="592" y="201" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E" text-anchor="middle">ICANN — Global registrars</text>
+
+  <!-- Row 3: Google SEO Kenya -->
+  <rect x="30" y="214" width="355" height="36" fill="#E94560" opacity="0.08" />
+  <rect x="415" y="214" width="355" height="36" fill="#16213E" opacity="0.05" />
+  <text x="207" y="237" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">Geographic preference in Google.co.ke</text>
+  <text x="400" y="237" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Local SEO Signal</text>
+  <text x="592" y="237" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#2C2C2C" text-anchor="middle">No geographic advantage in Kenya</text>
+
+  <!-- Row 4: Trust signal -->
+  <rect x="30" y="250" width="355" height="36" fill="url(#coke)" />
+  <rect x="415" y="250" width="355" height="36" fill="url(#dotcom)" />
+  <text x="207" y="273" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#1A1A2E" text-anchor="middle">Signals: local Kenyan business</text>
+  <text x="400" y="273" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Trust Signal</text>
+  <text x="592" y="273" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E" text-anchor="middle">Universally recognized · no geo signal</text>
+
+  <!-- Row 5: Cost -->
+  <rect x="30" y="286" width="355" height="36" fill="#E94560" opacity="0.08" />
+  <rect x="415" y="286" width="355" height="36" fill="#16213E" opacity="0.05" />
+  <text x="207" y="309" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">Ksh 1,200–2,500/year</text>
+  <text x="400" y="309" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Annual Cost</text>
+  <text x="592" y="309" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#2C2C2C" text-anchor="middle">USD 10–15 (~Ksh 1,300–2,000)</text>
+
+  <!-- Row 6: Registrar -->
+  <rect x="30" y="322" width="355" height="36" fill="url(#coke)" />
+  <rect x="415" y="322" width="355" height="36" fill="url(#dotcom)" />
+  <text x="207" y="345" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E" text-anchor="middle">KENIC-accredited only (Truehost, KWE…)</text>
+  <text x="400" y="345" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Where to Register</text>
+  <text x="592" y="345" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E" text-anchor="middle">Namecheap, GoDaddy, or any global</text>
+
+  <!-- Row 7: WHOIS Privacy -->
+  <rect x="30" y="358" width="355" height="36" fill="#E94560" opacity="0.08" />
+  <rect x="415" y="358" width="355" height="36" fill="#16213E" opacity="0.05" />
+  <text x="207" y="381" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#2C2C2C" text-anchor="middle">Not always available — check registrar</text>
+  <text x="400" y="381" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">WHOIS Privacy</text>
+  <text x="592" y="381" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#2C2C2C" text-anchor="middle">Always available (free at Namecheap)</text>
+
+  <!-- Row 8: Best For -->
+  <rect x="30" y="394" width="355" height="48" fill="#E94560" opacity="0.15" />
+  <rect x="415" y="394" width="355" height="48" fill="#16213E" opacity="0.1" />
+  <text x="207" y="414" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#E94560" text-anchor="middle">Best for Kenyan-market businesses</text>
+  <text x="207" y="432" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C" text-anchor="middle">B2C, local services, most SMEs</text>
+  <text x="400" y="418" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Best For</text>
+  <text x="592" y="414" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#16213E" text-anchor="middle">International clients / NGOs / SaaS</text>
+  <text x="592" y="432" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#2C2C2C" text-anchor="middle">Pan-Africa / global market presence</text>
+
+  <!-- Table border -->
+  <rect x="30" y="142" width="740" height="300" fill="none" stroke="#2C2C2C" stroke-width="1" />
+  <!-- Vertical divider -->
+  <line x1="385" y1="142" x2="385" y2="442" stroke="#2C2C2C" stroke-width="1" />
+  <!-- Horizontal row lines -->
+  <line x1="30" y1="178" x2="770" y2="178" stroke="#2C2C2C" stroke-width="0.5" />
+  <line x1="30" y1="214" x2="770" y2="214" stroke="#2C2C2C" stroke-width="0.5" />
+  <line x1="30" y1="250" x2="770" y2="250" stroke="#2C2C2C" stroke-width="0.5" />
+  <line x1="30" y1="286" x2="770" y2="286" stroke="#2C2C2C" stroke-width="0.5" />
+  <line x1="30" y1="322" x2="770" y2="322" stroke="#2C2C2C" stroke-width="0.5" />
+  <line x1="30" y1="358" x2="770" y2="358" stroke="#2C2C2C" stroke-width="0.5" />
+  <line x1="30" y1="394" x2="770" y2="394" stroke="#2C2C2C" stroke-width="0.5" />
+
+  <!-- Recommendation banner -->
+  <rect x="30" y="458" width="740" height="58" rx="8" fill="#1A1A2E" />
+  <text x="400" y="478" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" text-anchor="middle">Tupate Studio Recommendation</text>
+  <text x="400" y="498" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Register .co.ke as your primary domain. Register .com as secondary to prevent brand squatting.</text>
+  <text x="400" y="512" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999" text-anchor="middle">Both extensions registered as standard practice for all Tupate Studio full website build clients.</text>
+
+  <!-- Registrar comparison boxes -->
+  <text x="400" y="546" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#1A1A2E" text-anchor="middle">KENIC-Accredited Registrars — Kenya</text>
+
+  <!-- Truehost -->
+  <rect x="30" y="556" width="218" height="80" rx="8" fill="#16213E" />
+  <rect x="30" y="556" width="218" height="8" rx="4" fill="#E94560" />
+  <text x="139" y="580" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Truehost Kenya</text>
+  <text x="139" y="596" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">Ksh 1,500/year</text>
+  <text x="139" y="612" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">Most widely used · Nairobi DC</text>
+  <text x="139" y="627" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#999" text-anchor="middle">cPanel · WhatsApp support</text>
+
+  <!-- KWE -->
+  <rect x="261" y="556" width="218" height="80" rx="8" fill="#16213E" />
+  <rect x="261" y="556" width="218" height="8" rx="4" fill="#E94560" />
+  <text x="370" y="580" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Kenya Website Experts</text>
+  <text x="370" y="596" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">~Ksh 1,800/year</text>
+  <text x="370" y="612" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">Strong SME + enterprise support</text>
+  <text x="370" y="627" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#999" text-anchor="middle">Responsive Kenyan support team</text>
+
+  <!-- Web4Africa -->
+  <rect x="492" y="556" width="278" height="80" rx="8" fill="#16213E" />
+  <rect x="492" y="556" width="278" height="8" rx="4" fill="#E94560" />
+  <text x="631" y="580" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Web4Africa / Safaricom Business</text>
+  <text x="631" y="596" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#E94560" text-anchor="middle">~Ksh 2,000/year</text>
+  <text x="631" y="612" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#F5F5F5" text-anchor="middle">Pan-Africa multi-domain management</text>
+  <text x="631" y="627" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="9.5" fill="#999" text-anchor="middle">Safaricom: bundled with business services</text>
+
+  <!-- Evaluator checklist -->
+  <rect x="30" y="652" width="740" height="112" rx="8" fill="#FFFFFF" stroke="#2C2C2C" stroke-width="1" />
+  <text x="400" y="672" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#1A1A2E" text-anchor="middle">4 Factors to Check When Choosing a Registrar</text>
+
+  <rect x="46" y="682" width="14" height="14" rx="3" fill="#E94560" />
+  <text x="70" y="694" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E">WHOIS privacy — included free or extra cost?</text>
+
+  <rect x="46" y="702" width="14" height="14" rx="3" fill="#E94560" />
+  <text x="70" y="714" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E">DNS management interface — can you update A, MX, TXT records yourself?</text>
+
+  <rect x="46" y="722" width="14" height="14" rx="3" fill="#E94560" />
+  <text x="70" y="734" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E">Domain transfer process — easy to move later if needed?</text>
+
+  <rect x="46" y="742" width="14" height="14" rx="3" fill="#E94560" />
+  <text x="70" y="754" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#1A1A2E">Renewal pricing — always check renewal rate, not just first-year introductory price</text>
+
+  <!-- Footer -->
+  <text x="400" y="850" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

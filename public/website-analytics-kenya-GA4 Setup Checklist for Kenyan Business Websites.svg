@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" width="100%" role="img" aria-labelledby="infographic-title" version="1.1">
+  <title id="infographic-title">GA4 Setup Checklist for Kenyan Business Websites</title>
+
+  <!-- Background -->
+  <rect width="800" height="980" fill="#1A1A2E"/>
+
+  <!-- Header band -->
+  <rect x="0" y="0" width="800" height="90" fill="#16213E"/>
+  <text x="400" y="38" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">GA4 Setup Checklist</text>
+  <text x="400" y="65" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" fill="#E94560" text-anchor="middle">For Kenyan Business Websites</text>
+
+  <!-- Subtitle bar -->
+  <rect x="40" y="100" width="720" height="36" rx="6" fill="#16213E"/>
+  <text x="400" y="123" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" fill="#F5F5F5" text-anchor="middle">5-Step Install Sequence + 4 Kenya-Specific Configuration Settings</text>
+
+  <!-- ====== PHASE 1: INSTALL SEQUENCE ====== -->
+  <text x="56" y="162" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">PHASE 1 — INSTALL SEQUENCE</text>
+
+  <!-- Step cards -->
+  <!-- Step 1 -->
+  <rect x="40" y="172" width="720" height="64" rx="8" fill="#16213E"/>
+  <rect x="40" y="172" width="6" height="64" rx="3" fill="#E94560"/>
+  <circle cx="82" cy="204" r="16" fill="#E94560"/>
+  <text x="82" y="209" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="112" y="198" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">Create Google Analytics Account</text>
+  <text x="112" y="218" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">analytics.google.com → Sign in with Google account → Create new account</text>
+
+  <!-- Step 2 -->
+  <rect x="40" y="246" width="720" height="64" rx="8" fill="#16213E"/>
+  <rect x="40" y="246" width="6" height="64" rx="3" fill="#E94560"/>
+  <circle cx="82" cy="278" r="16" fill="#E94560"/>
+  <text x="82" y="283" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="112" y="272" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">Create New GA4 Property</text>
+  <text x="112" y="292" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">Admin → Create Property → Choose "Web" → Enter website URL</text>
+
+  <!-- Step 3 -->
+  <rect x="40" y="320" width="720" height="64" rx="8" fill="#16213E"/>
+  <rect x="40" y="320" width="6" height="64" rx="3" fill="#E94560"/>
+  <circle cx="82" cy="352" r="16" fill="#E94560"/>
+  <text x="82" y="357" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="112" y="346" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">Add Web Data Stream</text>
+  <text x="112" y="366" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">Data Streams → Add stream → Web → Enter domain → Copy Measurement ID (G-XXXXXXXXXX)</text>
+
+  <!-- Step 4 -->
+  <rect x="40" y="394" width="720" height="64" rx="8" fill="#16213E"/>
+  <rect x="40" y="394" width="6" height="64" rx="3" fill="#E94560"/>
+  <circle cx="82" cy="426" r="16" fill="#E94560"/>
+  <text x="82" y="431" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="112" y="420" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">Install via Google Tag Manager (Recommended)</text>
+  <text x="112" y="440" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">GTM → New Tag → GA4 Configuration → paste Measurement ID → All Pages trigger → Publish</text>
+
+  <!-- Step 5 -->
+  <rect x="40" y="468" width="720" height="64" rx="8" fill="#16213E"/>
+  <rect x="40" y="468" width="6" height="64" rx="3" fill="#E94560"/>
+  <circle cx="82" cy="500" r="16" fill="#E94560"/>
+  <text x="82" y="505" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="112" y="494" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">Verify Installation with DebugView</text>
+  <text x="112" y="514" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" fill="#999999">GA4 → Admin → DebugView → visit your website → confirm events firing in real time</text>
+
+  <!-- ====== PHASE 2: KENYA CONFIG ====== -->
+  <text x="56" y="562" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">PHASE 2 — 4 KENYA-SPECIFIC CONFIGURATION SETTINGS</text>
+
+  <!-- Config cards row 1 -->
+  <!-- Config 1 -->
+  <rect x="40" y="572" width="344" height="120" rx="8" fill="#16213E"/>
+  <rect x="40" y="572" width="344" height="6" rx="3" fill="#E94560"/>
+  <text x="60" y="600" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#E94560">TIMEZONE</text>
+  <text x="60" y="622" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">East Africa Time (EAT)</text>
+  <text x="60" y="640" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">UTC+3 → Nairobi</text>
+  <text x="60" y="660" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Admin → Property Settings →</text>
+  <text x="60" y="676" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Reporting Time Zone</text>
+
+  <!-- Config 2 -->
+  <rect x="416" y="572" width="344" height="120" rx="8" fill="#16213E"/>
+  <rect x="416" y="572" width="344" height="6" rx="3" fill="#E94560"/>
+  <text x="436" y="600" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#E94560">CURRENCY</text>
+  <text x="436" y="622" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">KES — Kenyan Shillings</text>
+  <text x="436" y="640" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Replaces default USD display</text>
+  <text x="436" y="660" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Admin → Property Settings →</text>
+  <text x="436" y="676" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Currency</text>
+
+  <!-- Config cards row 2 -->
+  <!-- Config 3 -->
+  <rect x="40" y="706" width="344" height="120" rx="8" fill="#16213E"/>
+  <rect x="40" y="706" width="344" height="6" rx="3" fill="#E94560"/>
+  <text x="60" y="734" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#E94560">GEOGRAPHIC FILTER</text>
+  <text x="60" y="756" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">Segment Kenya Traffic</text>
+  <text x="60" y="774" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Removes bot traffic from other regions</text>
+  <text x="60" y="794" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Audience Reports →</text>
+  <text x="60" y="810" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Filter by Country: Kenya</text>
+
+  <!-- Config 4 -->
+  <rect x="416" y="706" width="344" height="120" rx="8" fill="#16213E"/>
+  <rect x="416" y="706" width="344" height="6" rx="3" fill="#E94560"/>
+  <text x="436" y="734" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#E94560">DATA RETENTION</text>
+  <text x="436" y="756" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">Set to 14 Months</text>
+  <text x="436" y="774" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5">Enables year-on-year comparisons</text>
+  <text x="436" y="794" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Admin → Data Settings →</text>
+  <text x="436" y="810" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999999">Data Retention → 14 months</text>
+
+  <!-- ====== CONVERSION EVENTS ====== -->
+  <text x="56" y="858" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#E94560" letter-spacing="1">5 CONVERSION EVENTS TO TRACK</text>
+
+  <!-- Event pills -->
+  <rect x="40" y="866" width="192" height="36" rx="18" fill="#16213E"/>
+  <text x="136" y="888" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">WhatsApp Click</text>
+
+  <rect x="244" y="866" width="192" height="36" rx="18" fill="#16213E"/>
+  <text x="340" y="888" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Contact Form Submit</text>
+
+  <rect x="448" y="866" width="192" height="36" rx="18" fill="#16213E"/>
+  <text x="544" y="888" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Phone Number Tap</text>
+
+  <rect x="40" y="912" width="192" height="36" rx="18" fill="#16213E"/>
+  <text x="136" y="934" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">M-Pesa Purchase</text>
+
+  <rect x="244" y="912" width="192" height="36" rx="18" fill="#16213E"/>
+  <text x="340" y="934" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#F5F5F5" text-anchor="middle">Email Link Click</text>
+
+  <!-- KDPA note -->
+  <rect x="40" y="956" width="720" height="2" fill="#2C2C2C"/>
+  <text x="400" y="972" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="10" fill="#999999" text-anchor="middle">KDPA 2019 compliance required: cookie consent banner + Privacy Policy on all Kenyan websites collecting GA4 data</text>
+
+  <!-- Footer -->
+  <text x="400" y="975" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle"> </text>
+  <text x="400" y="975" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="11" fill="#999" text-anchor="middle">tupate.studio</text>
+</svg>

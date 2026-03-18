@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" width="100%" role="img" aria-labelledby="infographic-title-p11b" font-family="'Inter','Segoe UI',Arial,sans-serif">
+  <title id="infographic-title-p11b">Content Depth Requirements by Page Type for Kenyan Business Websites — word count and entity coverage benchmarks</title>
+  <defs>
+    <linearGradient id="hdr11b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+    <linearGradient id="bar11b1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E94560"/>
+      <stop offset="100%" style="stop-color:#c73652"/>
+    </linearGradient>
+    <linearGradient id="bar11b2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#16213E"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="bar11b3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#2d2d5e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="680" fill="#F5F5F5"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="82" fill="url(#hdr11b)"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">Content Depth Requirements by Page Type</text>
+  <text x="400" y="53" text-anchor="middle" font-size="13" fill="#E94560" font-weight="600">Kenya-specific word count benchmarks · entity coverage · query intent</text>
+  <text x="400" y="70" text-anchor="middle" font-size="11" fill="#aaaacc">More words ≠ more depth. Depth = covering all entity attributes with specific values.</text>
+
+  <!-- ─── SCALE BAR (top axis) ─── -->
+  <text x="40" y="110" font-size="11" fill="#666" font-weight="600">Word Count →</text>
+  <!-- scale labels at 0, 500, 1000, 1500, 2000, 2500, 3000, 3500 -->
+  <!-- bar area: x=200 to x=760, total width=560, max=3500 words → scale: 560/3500 = 0.16 px/word -->
+  <line x1="200" y1="106" x2="760" y2="106" stroke="#ccc" stroke-width="1"/>
+  <text x="200" y="102" text-anchor="middle" font-size="9" fill="#999">0</text>
+  <text x="280" y="102" text-anchor="middle" font-size="9" fill="#999">500</text>
+  <text x="360" y="102" text-anchor="middle" font-size="9" fill="#999">1,000</text>
+  <text x="440" y="102" text-anchor="middle" font-size="9" fill="#999">1,500</text>
+  <text x="520" y="102" text-anchor="middle" font-size="9" fill="#999">2,000</text>
+  <text x="600" y="102" text-anchor="middle" font-size="9" fill="#999">2,500</text>
+  <text x="680" y="102" text-anchor="middle" font-size="9" fill="#999">3,000</text>
+  <text x="760" y="102" text-anchor="middle" font-size="9" fill="#999">3,500</text>
+  <!-- tick marks -->
+  <line x1="200" y1="106" x2="200" y2="112" stroke="#bbb" stroke-width="1"/>
+  <line x1="280" y1="106" x2="280" y2="112" stroke="#bbb" stroke-width="1"/>
+  <line x1="360" y1="106" x2="360" y2="112" stroke="#bbb" stroke-width="1"/>
+  <line x1="440" y1="106" x2="440" y2="112" stroke="#bbb" stroke-width="1"/>
+  <line x1="520" y1="106" x2="520" y2="112" stroke="#bbb" stroke-width="1"/>
+  <line x1="600" y1="106" x2="600" y2="112" stroke="#bbb" stroke-width="1"/>
+  <line x1="680" y1="106" x2="680" y2="112" stroke="#bbb" stroke-width="1"/>
+  <line x1="760" y1="106" x2="760" y2="112" stroke="#bbb" stroke-width="1"/>
+
+  <!-- Vertical grid lines (light) -->
+  <line x1="280" y1="112" x2="280" y2="540" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="360" y1="112" x2="360" y2="540" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="440" y1="112" x2="440" y2="540" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="520" y1="112" x2="520" y2="540" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="600" y1="112" x2="600" y2="540" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="680" y1="112" x2="680" y2="540" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- ─── PAGE TYPE ROWS ─── -->
+  <!-- Scale: 560px = 3500 words → 1 word = 0.16px
+       Bar start at x=200
+       Type label area: x=10–195
+
+       1. Transactional Service Page: 1500–2500 words
+          start_px = 200 + 1500*0.16 = 440, end_px = 200 + 2500*0.16 = 600, width=160
+       2. Informational Guide / Blog: 2000–3500 words
+          start_px = 520, end_px = 760, width=240
+       3. Location Landing Page: 800–1200 words
+          start_px = 200+800*0.16=328, end_px=200+1200*0.16=392, width=64
+       4. E-commerce Product Page: 600–1000 words
+          start_px = 296, end_px=360, width=64
+       5. FAQ / Support Page: 1000–1800 words
+          start_px = 360, end_px=488, width=128
+       6. Homepage: 400–800 words
+          start_px = 264, end_px=328, width=64
+       7. About / Team Page: 300–600 words
+          start_px = 248, end_px=296, width=48
+  -->
+
+  <!-- Row 1: Transactional Service Page -->
+  <rect x="10" y="124" width="186" height="52" rx="4" fill="#FFFFFF"/>
+  <text x="18" y="142" font-size="11" font-weight="700" fill="#E94560">Transactional</text>
+  <text x="18" y="157" font-size="11" font-weight="700" fill="#E94560">Service Page</text>
+  <text x="18" y="170" font-size="9.5" fill="#666">"website design Nairobi"</text>
+  <!-- Range bar: 1500–2500 -->
+  <rect x="440" y="133" width="160" height="34" rx="5" fill="url(#bar11b1)"/>
+  <text x="520" y="152" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">1,500 – 2,500 words</text>
+  <text x="520" y="165" text-anchor="middle" font-size="9" fill="#FFFFFF">Ksh pricing · process · timeline · CTA</text>
+  <!-- Complexity indicator -->
+  <text x="770" y="156" font-size="9" fill="#E94560" font-weight="600">HIGH</text>
+
+  <!-- Row 2: Informational Guide -->
+  <rect x="10" y="188" width="186" height="52" rx="4" fill="#FFFFFF"/>
+  <text x="18" y="206" font-size="11" font-weight="700" fill="#1A1A2E">Informational</text>
+  <text x="18" y="221" font-size="11" font-weight="700" fill="#1A1A2E">Guide / Blog Post</text>
+  <text x="18" y="234" font-size="9.5" fill="#666">"how to register biz Kenya"</text>
+  <!-- Range bar: 2000–3500 -->
+  <rect x="520" y="197" width="240" height="34" rx="5" fill="url(#bar11b2)"/>
+  <text x="640" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">2,000 – 3,500 words</text>
+  <text x="640" y="229" text-anchor="middle" font-size="9" fill="#aaaacc">Full Q&amp;A · sub-questions · Kenyan context</text>
+  <text x="770" y="220" font-size="9" fill="#1A1A2E" font-weight="600">HIGHEST</text>
+
+  <!-- Row 3: Location Landing Page -->
+  <rect x="10" y="252" width="186" height="52" rx="4" fill="#FFFFFF"/>
+  <text x="18" y="270" font-size="11" font-weight="700" fill="#E94560">Location</text>
+  <text x="18" y="285" font-size="11" font-weight="700" fill="#E94560">Landing Page</text>
+  <text x="18" y="298" font-size="9.5" fill="#666">"accountant Mombasa"</text>
+  <!-- Range bar: 800–1200 -->
+  <rect x="328" y="261" width="64" height="34" rx="5" fill="url(#bar11b1)" opacity="0.75"/>
+  <text x="360" y="278" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">800–1,200</text>
+  <text x="360" y="290" text-anchor="middle" font-size="8.5" fill="#FFFFFF">location-specific</text>
+  <text x="770" y="284" font-size="9" fill="#E94560" font-weight="600">MED</text>
+
+  <!-- Row 4: E-commerce Product Page -->
+  <rect x="10" y="316" width="186" height="52" rx="4" fill="#FFFFFF"/>
+  <text x="18" y="334" font-size="11" font-weight="700" fill="#1A1A2E">E-commerce</text>
+  <text x="18" y="349" font-size="11" font-weight="700" fill="#1A1A2E">Product Page</text>
+  <text x="18" y="362" font-size="9.5" fill="#666">M-Pesa · KRA VAT · delivery</text>
+  <!-- Range bar: 600–1000 -->
+  <rect x="296" y="325" width="64" height="34" rx="5" fill="url(#bar11b3)"/>
+  <text x="328" y="343" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">600–1,000</text>
+  <text x="328" y="355" text-anchor="middle" font-size="8.5" fill="#aaaacc">specs + payment</text>
+  <text x="770" y="347" font-size="9" fill="#1A1A2E" font-weight="600">MED</text>
+
+  <!-- Row 5: FAQ / Support Page -->
+  <rect x="10" y="380" width="186" height="52" rx="4" fill="#FFFFFF"/>
+  <text x="18" y="398" font-size="11" font-weight="700" fill="#E94560">FAQ /</text>
+  <text x="18" y="413" font-size="11" font-weight="700" fill="#E94560">Support Page</text>
+  <text x="18" y="426" font-size="9.5" fill="#666">FAQPage schema · rich results</text>
+  <!-- Range bar: 1000–1800 -->
+  <rect x="360" y="389" width="128" height="34" rx="5" fill="url(#bar11b1)" opacity="0.65"/>
+  <text x="424" y="407" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">1,000–1,800</text>
+  <text x="424" y="419" text-anchor="middle" font-size="8.5" fill="#FFFFFF">Q&amp;A pairs + schema</text>
+  <text x="770" y="411" font-size="9" fill="#E94560" font-weight="600">MED-H</text>
+
+  <!-- Row 6: Homepage -->
+  <rect x="10" y="444" width="186" height="52" rx="4" fill="#FFFFFF"/>
+  <text x="18" y="462" font-size="11" font-weight="700" fill="#1A1A2E">Homepage</text>
+  <text x="18" y="477" font-size="11" font-weight="700" fill="#1A1A2E">(Service Overview)</text>
+  <text x="18" y="490" font-size="9.5" fill="#666">brand · services · trust signals</text>
+  <!-- Range bar: 400–800 -->
+  <rect x="264" y="453" width="64" height="34" rx="5" fill="url(#bar11b2)" opacity="0.75"/>
+  <text x="296" y="471" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">400–800</text>
+  <text x="296" y="483" text-anchor="middle" font-size="8.5" fill="#aaaacc">nav + CTAs</text>
+  <text x="770" y="475" font-size="9" fill="#1A1A2E" font-weight="600">LOW</text>
+
+  <!-- Row 7: About Page -->
+  <rect x="10" y="508" width="186" height="36" rx="4" fill="#FFFFFF"/>
+  <text x="18" y="524" font-size="11" font-weight="700" fill="#1A1A2E">About / Team Page</text>
+  <text x="18" y="539" font-size="9.5" fill="#666">E-E-A-T signals · real Kenyan team</text>
+  <!-- Range bar: 300–600 -->
+  <rect x="248" y="515" width="48" height="24" rx="5" fill="url(#bar11b3)" opacity="0.65"/>
+  <text x="272" y="531" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">300–600</text>
+  <text x="770" y="531" font-size="9" fill="#1A1A2E" font-weight="600">LOW</text>
+
+  <!-- Bottom line -->
+  <line x1="10" y1="553" x2="790" y2="553" stroke="#ccc" stroke-width="1"/>
+
+  <!-- ─── WHAT COUNTS AS DEPTH callout box ─── -->
+  <rect x="10" y="562" width="388" height="95" rx="8" fill="#1A1A2E"/>
+  <text x="204" y="580" text-anchor="middle" font-size="12" font-weight="700" fill="#E94560">What "Depth" Really Means (Not Just Word Count)</text>
+  <text x="20" y="597" font-size="10.5" fill="#FFFFFF">• Entity coverage: every attribute of the topic with specific values</text>
+  <text x="20" y="613" font-size="10.5" fill="#FFFFFF">• Kenyan context: Ksh pricing, M-Pesa, NHIF, KRA, local place names</text>
+  <text x="20" y="629" font-size="10.5" fill="#FFFFFF">• Representative queries: answer sub-questions Google associates with topic</text>
+  <text x="20" y="645" font-size="10.5" fill="#FFFFFF">• No filler: "we offer quality services" = zero depth, zero coverage</text>
+
+  <!-- ─── CRITICAL MISTAKES box ─── -->
+  <rect x="408" y="562" width="380" height="95" rx="8" fill="#E94560" opacity="0.1" stroke="#E94560" stroke-width="1.5"/>
+  <text x="598" y="580" text-anchor="middle" font-size="12" font-weight="700" fill="#E94560">Most Common Kenyan Website Content Failures</text>
+  <text x="418" y="597" font-size="10.5" fill="#2C2C2C">• Thin service pages — 3–5 sentences with no specifics</text>
+  <text x="418" y="613" font-size="10.5" fill="#2C2C2C">• Duplicate location pages — same text, city name swapped</text>
+  <text x="418" y="629" font-size="10.5" fill="#2C2C2C">• Copied supplier descriptions on product pages</text>
+  <text x="418" y="645" font-size="10.5" fill="#2C2C2C">• Outdated policy pages (KDPA, KRA, M-Pesa limits)</text>
+
+  <!-- Footer -->
+  <text x="400" y="672" text-anchor="middle" font-size="10" fill="#999999">tupate.studio</text>
+</svg>

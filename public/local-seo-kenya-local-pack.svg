@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 760" width="100%" role="img" aria-labelledby="infographic-title">
+  <title id="infographic-title">Google Local Pack: How Kenyan Businesses Appear in Google's Top 3 Local Results</title>
+
+  <!-- Background -->
+  <rect width="800" height="760" fill="#F5F5F5" rx="12"/>
+
+  <!-- Header -->
+  <rect width="800" height="80" fill="#1A1A2E" rx="12"/>
+  <rect x="0" y="68" width="800" height="12" fill="#1A1A2E"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Google Local Pack</text>
+  <text x="400" y="62" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#E94560">How Kenyan Businesses Appear in Google's Top 3 Local Results</text>
+
+  <!-- ============= GOOGLE SERP MOCK-UP ============= -->
+  <text x="400" y="104" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#555555">What a Kenyan customer sees on Google.co.ke when searching locally:</text>
+
+  <!-- SERP outer frame -->
+  <rect x="80" y="112" width="640" height="420" fill="#FFFFFF" rx="8" stroke="#DDDDDD" stroke-width="1.5"/>
+
+  <!-- Search bar mock -->
+  <rect x="100" y="124" width="420" height="30" fill="#F5F5F5" rx="15" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="120" y="143" font-family="Inter, Arial, sans-serif" font-size="12" fill="#444444">web designer Nairobi</text>
+  <rect x="540" y="124" width="70" height="30" fill="#1A1A2E" rx="15"/>
+  <text x="575" y="144" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Search</text>
+
+  <!-- Paid ad row -->
+  <rect x="100" y="165" width="30" height="14" fill="#FFFFFF" rx="2" stroke="#AAAAAA" stroke-width="1"/>
+  <text x="115" y="175" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" fill="#666666">Ad</text>
+  <text x="140" y="175" font-family="Inter, Arial, sans-serif" font-size="11" fill="#1A0DAB">Competitor Ad — paid placement</text>
+  <text x="100" y="190" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAAAAA">Ads appear above the pack — but disappear when budget stops</text>
+
+  <!-- 3-PACK BOX -->
+  <rect x="100" y="200" width="440" height="210" fill="#EEF5FF" rx="6" stroke="#99BBDD" stroke-width="1.5"/>
+
+  <!-- 3-Pack top label -->
+  <rect x="100" y="200" width="440" height="24" fill="#E94560" rx="6"/>
+  <rect x="100" y="214" width="440" height="10" fill="#E94560"/>
+  <text x="320" y="216" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Google 3-Pack — Appears ABOVE All 10 Organic Results</text>
+
+  <!-- Map placeholder -->
+  <rect x="382" y="228" width="150" height="176" fill="#D4E8C2" rx="4"/>
+  <text x="457" y="302" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#446644">Google</text>
+  <text x="457" y="316" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" fill="#446644">Maps</text>
+  <!-- Map pins -->
+  <text x="440" y="270" font-family="Inter, Arial, sans-serif" font-size="14" fill="#E94560">📍</text>
+  <text x="460" y="340" font-family="Inter, Arial, sans-serif" font-size="14" fill="#555555">📍</text>
+  <text x="420" y="360" font-family="Inter, Arial, sans-serif" font-size="14" fill="#555555">📍</text>
+
+  <!-- Listing 1 — YOUR BUSINESS (highlighted) -->
+  <rect x="108" y="228" width="266" height="52" fill="#FFFFFF" rx="4" stroke="#E94560" stroke-width="1.5"/>
+  <text x="120" y="245" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#1A0DAB">Tupate Studio — Nairobi</text>
+  <text x="120" y="260" font-family="Inter, Arial, sans-serif" font-size="10" fill="#E94560">★★★★★ 4.9 (87) · Web Design Agency</text>
+  <text x="120" y="274" font-family="Inter, Arial, sans-serif" font-size="9" fill="#555555">Westlands · Open · Accepts M-Pesa · 0712 345 678</text>
+  <!-- "Your business" tag -->
+  <rect x="250" y="230" width="82" height="14" fill="#E94560" rx="2"/>
+  <text x="291" y="240" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">YOUR BUSINESS</text>
+
+  <!-- Listing 2 -->
+  <rect x="108" y="286" width="266" height="50" fill="#FFFFFF" rx="4" stroke="#DDDDDD" stroke-width="1"/>
+  <text x="120" y="302" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#1A0DAB">Competitor B Agency</text>
+  <text x="120" y="317" font-family="Inter, Arial, sans-serif" font-size="10" fill="#777777">★★★★☆ 4.2 (31) · Web Design</text>
+  <text x="120" y="330" font-family="Inter, Arial, sans-serif" font-size="9" fill="#555555">Kilimani · Closed · 0720 000 000</text>
+
+  <!-- Listing 3 -->
+  <rect x="108" y="342" width="266" height="50" fill="#FFFFFF" rx="4" stroke="#DDDDDD" stroke-width="1"/>
+  <text x="120" y="358" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#1A0DAB">Competitor C Digital</text>
+  <text x="120" y="373" font-family="Inter, Arial, sans-serif" font-size="10" fill="#777777">★★★☆☆ 3.8 (9) · Website Design</text>
+  <text x="120" y="386" font-family="Inter, Arial, sans-serif" font-size="9" fill="#555555">Karen · Open · 0733 000 000</text>
+
+  <!-- Organic results below 3-Pack -->
+  <text x="108" y="426" font-family="Inter, Arial, sans-serif" font-size="11" fill="#1A0DAB">organicresult1.co.ke › web-design-nairobi</text>
+  <text x="108" y="440" font-family="Inter, Arial, sans-serif" font-size="9" fill="#666666">Professional web design services in Nairobi — affordable custom…</text>
+  <text x="108" y="458" font-family="Inter, Arial, sans-serif" font-size="11" fill="#1A0DAB">organicresult2.com › kenya</text>
+  <text x="108" y="472" font-family="Inter, Arial, sans-serif" font-size="9" fill="#666666">Kenya web designers — trusted agency since 2015 — call us…</text>
+  <text x="108" y="492" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAAAAA">… 8 more organic results below …</text>
+
+  <!-- ============= 4 RANKING FACTORS ============= -->
+  <text x="400" y="556" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1A1A2E">4 Signals That Determine Your 3-Pack Position</text>
+
+  <!-- Factor cards row -->
+  <!-- GBP Completeness -->
+  <rect x="22" y="568" width="176" height="120" fill="#1A1A2E" rx="8"/>
+  <rect x="22" y="568" width="176" height="36" fill="#E94560" rx="8"/>
+  <rect x="22" y="590" width="176" height="14" fill="#E94560"/>
+  <text x="110" y="590" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">GBP Completeness</text>
+  <text x="110" y="614" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">Business name, category,</text>
+  <text x="110" y="627" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">services, 10+ photos,</text>
+  <text x="110" y="640" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">weekly Google Posts</text>
+  <text x="110" y="656" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#E94560">Accepts M-Pesa attribute</text>
+  <text x="110" y="680" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Impact: HIGH</text>
+
+  <!-- Proximity -->
+  <rect x="212" y="568" width="176" height="120" fill="#1A1A2E" rx="8"/>
+  <rect x="212" y="568" width="176" height="36" fill="#16213E" rx="8"/>
+  <rect x="212" y="590" width="176" height="14" fill="#16213E"/>
+  <text x="300" y="590" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#E94560">Proximity</text>
+  <text x="300" y="614" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">Physical distance between</text>
+  <text x="300" y="627" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">searcher and business</text>
+  <text x="300" y="640" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">Sub-area matters in Nairobi</text>
+  <text x="300" y="653" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">"Dentist Westlands" ≠ CBD</text>
+  <text x="300" y="680" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Impact: HIGH</text>
+
+  <!-- Review Signals -->
+  <rect x="402" y="568" width="176" height="120" fill="#1A1A2E" rx="8"/>
+  <rect x="402" y="568" width="176" height="36" fill="#16213E" rx="8"/>
+  <rect x="402" y="590" width="176" height="14" fill="#16213E"/>
+  <text x="490" y="590" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#E94560">Review Signals</text>
+  <text x="490" y="614" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">15+ Google reviews</text>
+  <text x="490" y="627" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">Recency over total count</text>
+  <text x="490" y="640" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">4.5★+ for competitive niches</text>
+  <text x="490" y="653" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">Swahili reviews indexed too</text>
+  <text x="490" y="680" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Impact: HIGH</text>
+
+  <!-- On-Page Local Signals -->
+  <rect x="592" y="568" width="186" height="120" fill="#1A1A2E" rx="8"/>
+  <rect x="592" y="568" width="186" height="36" fill="#16213E" rx="8"/>
+  <rect x="592" y="590" width="186" height="14" fill="#16213E"/>
+  <text x="685" y="590" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#E94560">On-Page Local Signals</text>
+  <text x="685" y="614" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">NAP in website footer</text>
+  <text x="685" y="627" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">LocalBusiness schema markup</text>
+  <text x="685" y="640" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">Location pages per sub-area</text>
+  <text x="685" y="653" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="9" fill="#CCCCCC">Fast mobile load (&lt;3s 4G)</text>
+  <text x="685" y="680" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Impact: MEDIUM-HIGH</text>
+
+  <!-- Timeline strip -->
+  <rect x="22" y="702" width="756" height="36" fill="#1A1A2E" rx="6"/>
+  <text x="60" y="716" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAAAAA">Kisumu/Nakuru/Eldoret:</text>
+  <text x="60" y="730" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#4CAF50">4–8 weeks to 3-Pack</text>
+  <line x1="200" y1="706" x2="200" y2="734" stroke="#333" stroke-width="1"/>
+  <text x="240" y="716" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAAAAA">Nairobi suburban:</text>
+  <text x="240" y="730" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#F5C518">2–3 months</text>
+  <line x1="360" y1="706" x2="360" y2="734" stroke="#333" stroke-width="1"/>
+  <text x="400" y="716" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAAAAA">Nairobi CBD competitive:</text>
+  <text x="400" y="730" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#E94560">3–5 months</text>
+  <line x1="540" y1="706" x2="540" y2="734" stroke="#333" stroke-width="1"/>
+  <text x="590" y="716" font-family="Inter, Arial, sans-serif" font-size="9" fill="#AAAAAA">GBP optimization:</text>
+  <text x="590" y="730" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#4CAF50">2–4 weeks visible lift</text>
+
+  <!-- Footer -->
+  <text x="400" y="742" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#999">tupate.studio</text>
+</svg>
