@@ -118,6 +118,19 @@ const {
     text-decoration: none;
   }
 
+  a[href^="/"]:not(.btn):not(.logo):not(.footer-logo):not(.article-card):not(.related-card):not(.ab-cta),
+  a[href^="#"]:not(.btn):not(.logo):not(.footer-logo):not(.article-card):not(.related-card):not(.ab-cta) {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.18em;
+  }
+
+  a[href^="/"]:not(.btn):not(.logo):not(.footer-logo):not(.article-card):not(.related-card):not(.ab-cta):hover,
+  a[href^="#"]:not(.btn):not(.logo):not(.footer-logo):not(.article-card):not(.related-card):not(.ab-cta):hover {
+    color: var(--accent-dark);
+  }
+
   /* Layout */
   .container {
     max-width: 1100px;
