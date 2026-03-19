@@ -43,7 +43,7 @@ import { SITE } from '../config';
 <style>
   .wa-float {
     position: fixed;
-    bottom: 28px;
+    bottom: 104px;
     right: 28px;
     z-index: 99;
     width: 56px;
@@ -61,5 +61,12 @@ import { SITE } from '../config';
   .wa-float:hover {
     transform: scale(1.08);
     box-shadow: 0 6px 28px rgba(37, 211, 102, 0.5);
+  }
+
+  @media (max-width: 768px) {
+    .wa-float {
+      bottom: 96px;
+      right: 20px;
+    }
   }
 </style>
