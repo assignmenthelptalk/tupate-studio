@@ -48,7 +48,19 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
         <div class="article-layout">
           <aside class="article-toc" aria-label="Table of contents">
             <div class="article-toc-card">
-              <p class="article-toc-label">On This Page</p>
+              <div class="article-toc-header">
+                <span class="article-toc-icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+                    <path d="M3.5 5h2.5" />
+                    <path d="M8.5 5h8" />
+                    <path d="M3.5 10h2.5" />
+                    <path d="M8.5 10h8" />
+                    <path d="M3.5 15h2.5" />
+                    <path d="M8.5 15h8" />
+                  </svg>
+                </span>
+                <p class="article-toc-label">Contents</p>
+              </div>
               <nav class="article-toc-nav" id="article-toc"></nav>
             </div>
           </aside>
@@ -231,51 +243,78 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
   }
 
   .article-toc-card {
-    padding: 20px 18px;
-    border: 1px solid #e8ecf4;
-    border-radius: 16px;
-    background: #fbfcff;
+    padding: 22px 18px 18px;
+    border: 1px solid #dfe7f5;
+    border-radius: 18px;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    box-shadow: 0 18px 44px rgba(148, 163, 184, 0.14);
+  }
+
+  .article-toc-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .article-toc-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    color: #111827;
   }
 
   .article-toc-label {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 800;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #2563eb;
-    margin-bottom: 14px;
+    letter-spacing: -0.01em;
+    color: #111827;
   }
 
   .article-toc-nav {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 6px;
   }
 
   .article-toc-nav :global(.toc-link) {
     display: block;
-    padding: 8px 10px;
+    position: relative;
+    padding: 10px 12px;
     border-radius: 10px;
     font-size: 13px;
     font-weight: 600;
-    line-height: 1.45;
-    color: #6b7280;
+    line-height: 1.5;
+    color: #5b6b84;
     text-decoration: none;
-    transition: background 0.18s ease, color 0.18s ease;
+    transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
   }
 
   .article-toc-nav :global(.toc-link:hover) {
-    background: #eef4ff;
-    color: #1d4ed8;
+    background: #f2f6ff;
+    color: #315fdd;
   }
 
   .article-toc-nav :global(.toc-link.active) {
-    background: #eaf1ff;
-    color: #1d4ed8;
+    background: #e9f0ff;
+    color: #4b74ec;
+  }
+
+  .article-toc-nav :global(.toc-link.active::before) {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    bottom: 10px;
+    width: 4px;
+    border-radius: 999px;
+    background: #4b74ec;
   }
 
   .article-toc-nav :global(.toc-link-sub) {
-    padding-left: 22px;
+    padding-left: 26px;
     font-size: 12px;
     font-weight: 500;
   }
