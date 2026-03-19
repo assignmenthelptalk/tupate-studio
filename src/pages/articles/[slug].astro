@@ -43,32 +43,43 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
 
   <!-- Article body -->
   <section class="article-body">
-    <div class="container article-content">
-
+    <div class="container">
       {ContentComponent ? (
-        <div class="article-prose">
-          <ContentComponent />
+        <div class="article-layout">
+          <aside class="article-toc" aria-label="Table of contents">
+            <div class="article-toc-card">
+              <p class="article-toc-label">On This Page</p>
+              <nav class="article-toc-nav" id="article-toc"></nav>
+            </div>
+          </aside>
+
+          <div class="article-content">
+            <div class="article-prose" id="article-prose">
+              <ContentComponent />
+            </div>
+          </div>
         </div>
       ) : (
-        <div class="coming-soon-box">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
-            <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
-          </svg>
-          <h2>This guide is coming soon.</h2>
-          <p>
-            We're writing a full, practical guide on <strong>{article.title}</strong>. In the meantime, speak to our team directly, we're happy to answer any questions.
-          </p>
-          <a
-            href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(`Hi Tupate Studio, I have a question about: ${article.title}`)}`}
-            class="cs-cta"
-            target="_blank"
-            rel="noopener"
-          >
-            Ask us on WhatsApp &rarr;
-          </a>
+        <div class="article-content">
+          <div class="coming-soon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+              <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+            </svg>
+            <h2>This guide is coming soon.</h2>
+            <p>
+              We're writing a full, practical guide on <strong>{article.title}</strong>. In the meantime, speak to our team directly, we're happy to answer any questions.
+            </p>
+            <a
+              href={`https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(`Hi Tupate Studio, I have a question about: ${article.title}`)}`}
+              class="cs-cta"
+              target="_blank"
+              rel="noopener"
+            >
+              Ask us on WhatsApp &rarr;
+            </a>
+          </div>
         </div>
       )}
-
     </div>
   </section>
 
@@ -93,6 +104,63 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
 
   <Footer />
 </Base>
+
+<script>
+  const prose = document.getElementById('article-prose');
+  const toc = document.getElementById('article-toc');
+
+  if (prose && toc) {
+    const headings = Array.from(prose.querySelectorAll('h2, h3'));
+    const slugCounts = new Map();
+
+    const slugify = (text) => {
+      const base = text
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-');
+      const count = slugCounts.get(base) ?? 0;
+      slugCounts.set(base, count + 1);
+      return count === 0 ? base : `${base}-${count + 1}`;
+    };
+
+    const tocLinks = headings
+      .filter((heading) => heading.textContent?.trim())
+      .map((heading) => {
+        if (!heading.id) heading.id = slugify(heading.textContent ?? '');
+
+        const link = document.createElement('a');
+        link.href = `#${heading.id}`;
+        link.textContent = heading.textContent ?? '';
+        link.className = heading.tagName === 'H3' ? 'toc-link toc-link-sub' : 'toc-link';
+        toc.appendChild(link);
+        return { heading, link };
+      });
+
+    if (tocLinks.length === 0) {
+      toc.closest('.article-toc')?.setAttribute('hidden', 'hidden');
+    } else {
+      const setActive = () => {
+        let currentId = tocLinks[0].heading.id;
+
+        for (const item of tocLinks) {
+          if (item.heading.getBoundingClientRect().top <= 140) {
+            currentId = item.heading.id;
+          }
+        }
+
+        tocLinks.forEach(({ heading, link }) => {
+          link.classList.toggle('active', heading.id === currentId);
+        });
+      };
+
+      setActive();
+      document.addEventListener('scroll', setActive, { passive: true });
+      window.addEventListener('resize', setActive);
+    }
+  }
+</script>
 
 <style>
   /* ── Hero ── */
@@ -149,8 +217,72 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
     padding: 80px 0;
   }
 
+  .article-layout {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 680px);
+    gap: 48px;
+    align-items: start;
+  }
+
+  .article-toc {
+    position: sticky;
+    top: 108px;
+    align-self: start;
+  }
+
+  .article-toc-card {
+    padding: 20px 18px;
+    border: 1px solid #e8ecf4;
+    border-radius: 16px;
+    background: #fbfcff;
+  }
+
+  .article-toc-label {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2563eb;
+    margin-bottom: 14px;
+  }
+
+  .article-toc-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .article-toc-nav :global(.toc-link) {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.45;
+    color: #6b7280;
+    text-decoration: none;
+    transition: background 0.18s ease, color 0.18s ease;
+  }
+
+  .article-toc-nav :global(.toc-link:hover) {
+    background: #eef4ff;
+    color: #1d4ed8;
+  }
+
+  .article-toc-nav :global(.toc-link.active) {
+    background: #eaf1ff;
+    color: #1d4ed8;
+  }
+
+  .article-toc-nav :global(.toc-link-sub) {
+    padding-left: 22px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
   .article-content {
     max-width: 680px;
+    min-width: 0;
   }
 
   .coming-soon-box {
@@ -431,6 +563,13 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
   }
 
   @media (max-width: 768px) {
+    .article-layout {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .article-toc {
+      display: none;
+    }
     .related-grid { grid-template-columns: 1fr; }
     .coming-soon-box { padding: 32px 24px; }
     .article-prose .cta-box { padding: 28px 24px; }
@@ -441,6 +580,13 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
     .article-prose ol,
     .article-prose blockquote {
       font-size: 17px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .article-layout {
+      grid-template-columns: 220px minmax(0, 1fr);
+      gap: 32px;
     }
   }
 </style>
