@@ -104,6 +104,7 @@ const authorSocials = {
               </div>
               <h2 class="article-author-name">Job Mugachia</h2>
               <p class="article-author-role">Co-Founder</p>
+              <p class="article-author-mobile-byline">By Job Mugachia Co-founder Tupate Studio</p>
               <p class="article-author-bio">
                 Web strategist and founder of Tupate Studio. Job helps Kenyan businesses turn their websites into practical growth tools through clear strategy, strong positioning, and conversion-focused execution.
               </p>
@@ -523,6 +524,10 @@ const authorSocials = {
     margin-bottom: 18px;
   }
 
+  .article-author-mobile-byline {
+    display: none;
+  }
+
   .article-author-social {
     display: flex;
     justify-content: center;
@@ -906,39 +911,57 @@ const authorSocials = {
     .article-author {
       display: block;
       position: static;
-      order: 2;
-      margin: 28px 0 0;
+      order: -1;
+      margin: 0 0 20px;
     }
 
     .article-author-card {
-      padding: 22px 18px 18px;
-      border-radius: 16px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-align: left;
     }
 
     .article-author-avatar-wrap {
-      width: 88px;
-      height: 88px;
-      margin-bottom: 14px;
+      width: 52px;
+      height: 52px;
+      margin: 0;
+      flex-shrink: 0;
     }
 
     .article-author-name {
-      font-size: 15px;
+      display: none;
     }
 
     .article-author-role {
-      font-size: 12px;
-      margin-bottom: 14px;
+      display: none;
+    }
+
+    .article-author-mobile-byline {
+      display: block;
+      font-family: var(--font-reading);
+      font-size: 13px;
+      line-height: 1.5;
+      color: #5b6b84;
+      margin-bottom: 8px;
     }
 
     .article-author-bio {
-      font-size: 13px;
-      line-height: 1.65;
-      margin-bottom: 14px;
+      display: none;
+    }
+
+    .article-author-social {
+      display: flex;
+      justify-content: flex-start;
+      gap: 8px;
+      margin-top: 0;
     }
 
     .article-author-social a {
-      width: 36px;
-      height: 36px;
+      width: 32px;
+      height: 32px;
     }
     .related-grid { grid-template-columns: 1fr; }
     .coming-soon-box { padding: 32px 24px; }
