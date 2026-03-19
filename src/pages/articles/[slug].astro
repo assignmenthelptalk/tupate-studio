@@ -243,19 +243,55 @@ const articleHeadings = getHeadingsForArticle(article.slug);
           const actions = document.createElement('div');
           actions.className = 'infographic-actions';
 
-          const shareLink = document.createElement('a');
-          shareLink.href = sharePath;
-          shareLink.className = 'infographic-share-link';
-          shareLink.textContent = 'Share this infographic';
+          const shareButton = document.createElement('button');
+          shareButton.type = 'button';
+          shareButton.className = 'infographic-share-link';
+          shareButton.textContent = 'Share this infographic';
+          shareButton.dataset.shareUrl = new URL(sharePath, window.location.origin).toString();
+          shareButton.dataset.shareTitle = image.getAttribute('alt') ?? 'Infographic';
 
           const backNote = document.createElement('span');
           backNote.className = 'infographic-share-note';
-          backNote.textContent = 'Shared pages include a link back to this guide.';
+          backNote.textContent = 'Shared links include a backlink to this guide.';
 
-          actions.appendChild(shareLink);
+          actions.appendChild(shareButton);
           actions.appendChild(backNote);
           figure.appendChild(actions);
         }
+      });
+
+      const shareButtons = Array.from(prose.querySelectorAll('.infographic-share-link'));
+      shareButtons.forEach((button) => {
+        button.addEventListener('click', async () => {
+          const shareUrl = button.dataset.shareUrl;
+          const shareTitle = button.dataset.shareTitle ?? 'Infographic';
+          if (!shareUrl) return;
+
+          try {
+            if (navigator.share) {
+              await navigator.share({
+                title: shareTitle,
+                text: `${shareTitle} from Tupate Studio`,
+                url: shareUrl,
+              });
+              return;
+            }
+
+            if (navigator.clipboard?.writeText) {
+              await navigator.clipboard.writeText(shareUrl);
+              const originalText = button.textContent;
+              button.textContent = 'Share link copied';
+              window.setTimeout(() => {
+                button.textContent = originalText;
+              }, 1800);
+              return;
+            }
+
+            window.open(shareUrl, '_blank', 'noopener');
+          } catch {
+            window.open(shareUrl, '_blank', 'noopener');
+          }
+        });
       });
     }
   };
@@ -810,6 +846,7 @@ const articleHeadings = getHeadingsForArticle(article.slug);
     font-size: 13px;
     font-weight: 700;
     text-decoration: none;
+    cursor: pointer;
   }
 
   .article-prose :global(.infographic-share-link:hover) {
