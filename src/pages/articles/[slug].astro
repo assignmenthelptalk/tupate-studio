@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { articles } from '../../data/articles';
 import { SITE } from '../../config';
+import { getInfographicsForArticle } from '../../lib/infographics';
 
 export function getStaticPaths() {
   return articles.map((article) => ({
@@ -23,6 +24,9 @@ const related = articles
 const contentModules = import.meta.glob('../../content/articles/*.astro', { eager: true });
 const contentKey = `../../content/articles/${article.slug}.astro`;
 const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
+const infographicShareLinks = Object.fromEntries(
+  getInfographicsForArticle(article.slug).map((graphic) => [graphic.imageSrc, graphic.sharePath]),
+);
 ---
 
 <Base
@@ -148,6 +152,7 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
 </Base>
 
 <script>
+  const infographicShareLinks = JSON.parse(document.getElementById('infographic-share-links')?.textContent ?? '{}');
   const prose = document.getElementById('article-prose');
   const toc = document.getElementById('article-toc');
 
@@ -202,6 +207,49 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
       window.addEventListener('resize', setActive);
     }
   }
+
+  if (prose) {
+    const figures = Array.from(prose.querySelectorAll('figure'));
+
+    figures.forEach((figure) => {
+      const image = figure.querySelector('img');
+      if (!image) return;
+
+      const sharePath = infographicShareLinks[image.getAttribute('src') ?? ''];
+      if (!sharePath) return;
+
+      if (image.parentElement?.tagName !== 'A') {
+        const imageLink = document.createElement('a');
+        imageLink.href = sharePath;
+        imageLink.className = 'infographic-link';
+        imageLink.setAttribute('aria-label', `Open share page for ${image.getAttribute('alt') ?? 'infographic'}`);
+        image.parentNode?.insertBefore(imageLink, image);
+        imageLink.appendChild(image);
+      }
+
+      if (!figure.querySelector('.infographic-actions')) {
+        const actions = document.createElement('div');
+        actions.className = 'infographic-actions';
+
+        const shareLink = document.createElement('a');
+        shareLink.href = sharePath;
+        shareLink.className = 'infographic-share-link';
+        shareLink.textContent = 'Share this infographic';
+
+        const backNote = document.createElement('span');
+        backNote.className = 'infographic-share-note';
+        backNote.textContent = 'Shared pages include a link back to this guide.';
+
+        actions.appendChild(shareLink);
+        actions.appendChild(backNote);
+        figure.appendChild(actions);
+      }
+    });
+  }
+</script>
+
+<script type="application/json" id="infographic-share-links">
+  {JSON.stringify(infographicShareLinks)}
 </script>
 
 <style>
@@ -704,6 +752,47 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
     background: #f7f8fc;
     display: block;
     margin: 0 auto;
+  }
+
+  .article-prose :global(.infographic-link) {
+    display: block;
+    text-decoration: none;
+  }
+
+  .article-prose :global(.infographic-actions) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+  }
+
+  .article-prose :global(.infographic-share-link) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 0 16px;
+    border-radius: 999px;
+    border: 1px solid #d5dfef;
+    background: #ffffff;
+    color: #315fdd;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .article-prose :global(.infographic-share-link:hover) {
+    border-color: #9db8f5;
+    color: #1d4ed8;
+  }
+
+  .article-prose :global(.infographic-share-note) {
+    font-family: var(--font-reading);
+    font-size: 12px;
+    line-height: 1.6;
+    color: #7a869a;
+    text-align: center;
   }
 
   .article-prose figcaption {

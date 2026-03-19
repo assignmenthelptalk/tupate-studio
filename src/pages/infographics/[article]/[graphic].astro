@@ -1,0 +1,189 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import { getAllInfographics } from '../../../lib/infographics';
+
+export function getStaticPaths() {
+  return getAllInfographics().map((graphic) => ({
+    params: {
+      article: graphic.articleSlug,
+      graphic: graphic.graphicSlug,
+    },
+    props: {
+      graphic,
+    },
+  }));
+}
+
+const { graphic } = Astro.props;
+---
+
+<Base
+  title={`${graphic.title} | ${graphic.articleTitle}`}
+  description={`Shareable infographic from ${graphic.articleTitle}.`}
+  ogImage={graphic.imageSrc}
+>
+  <Navbar />
+
+  <section class="share-hero">
+    <div class="container share-shell">
+      <a href={graphic.articlePath} class="share-back">&larr; Back to guide</a>
+      <p class="share-kicker">Shareable Infographic</p>
+      <h1 class="share-title">{graphic.title}</h1>
+      <p class="share-sub">
+        From <a href={graphic.articlePath}>{graphic.articleTitle}</a>. If this graphic was shared with you, the full guide adds the context behind it.
+      </p>
+    </div>
+  </section>
+
+  <section class="share-body">
+    <div class="container share-shell">
+      <figure class="share-figure">
+        <img src={graphic.imageSrc} alt={graphic.title} loading="eager" />
+        <figcaption>{graphic.title}</figcaption>
+      </figure>
+
+      <div class="share-actions">
+        <a href={graphic.articlePath} class="share-btn share-btn-primary">Read The Full Guide</a>
+        <a href={graphic.imageSrc} class="share-btn share-btn-secondary" target="_blank" rel="noopener">Open Image File</a>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Base>
+
+<style>
+  .share-hero {
+    background: #2563eb;
+    padding: 72px 0 54px;
+  }
+
+  .share-shell {
+    max-width: 860px;
+  }
+
+  .share-back {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+  }
+
+  .share-back:hover {
+    color: #ffffff;
+  }
+
+  .share-kicker {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #9fc0ff;
+    margin-bottom: 14px;
+  }
+
+  .share-title {
+    font-size: clamp(28px, 4vw, 44px);
+    line-height: 1.08;
+    color: #ffffff;
+    margin-bottom: 14px;
+  }
+
+  .share-sub {
+    font-family: var(--font-reading);
+    font-size: 18px;
+    line-height: 1.75;
+    color: rgba(255,255,255,0.82);
+    max-width: 760px;
+  }
+
+  .share-sub a {
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
+  }
+
+  .share-body {
+    padding: 56px 0 80px;
+    background: #f8fbff;
+  }
+
+  .share-figure {
+    margin: 0;
+    padding: 24px;
+    border: 1px solid #dfe7f5;
+    border-radius: 22px;
+    background: #ffffff;
+    box-shadow: 0 20px 48px rgba(148, 163, 184, 0.14);
+  }
+
+  .share-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+    background: #ffffff;
+  }
+
+  .share-figure figcaption {
+    margin-top: 14px;
+    font-family: var(--font-reading);
+    font-size: 14px;
+    line-height: 1.7;
+    color: #617089;
+    text-align: center;
+  }
+
+  .share-actions {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+
+  .share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 0 18px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .share-btn-primary {
+    background: #2563eb;
+    color: #ffffff;
+  }
+
+  .share-btn-primary:hover {
+    background: #1d4ed8;
+  }
+
+  .share-btn-secondary {
+    border: 1px solid #d5dfef;
+    background: #ffffff;
+    color: #5b6b84;
+  }
+
+  .share-btn-secondary:hover {
+    border-color: #9db8f5;
+    color: #315fdd;
+  }
+
+  @media (max-width: 768px) {
+    .share-sub {
+      font-size: 17px;
+    }
+
+    .share-figure {
+      padding: 16px;
+    }
+  }
+</style>
