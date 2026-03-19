@@ -92,6 +92,10 @@ const {
     text-rendering: optimizeLegibility;
   }
 
+  body {
+    overflow-x: hidden;
+  }
+
   h1, h2, h3,
   .section-title, .hero-title, .service-name,
   .step-title, .t-heading, .services-heading,
@@ -209,5 +213,11 @@ const {
     color: var(--muted);
     max-width: 560px;
     line-height: 1.7;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 16px;
+    }
   }
 </style>
