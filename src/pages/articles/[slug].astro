@@ -150,7 +150,7 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
   }
 
   .article-content {
-    max-width: 720px;
+    max-width: 680px;
   }
 
   .coming-soon-box {
@@ -273,51 +273,56 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
   /* ── Prose ── */
   .article-prose h2 {
     font-family: var(--font-display);
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 800;
     color: #111111;
-    line-height: 1.2;
+    line-height: 1.24;
     letter-spacing: -0.01em;
-    margin: 48px 0 16px;
+    margin: 56px 0 18px;
   }
 
   .article-prose h3 {
     font-family: var(--font-display);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #111111;
-    margin: 32px 0 12px;
+    line-height: 1.3;
+    margin: 36px 0 14px;
   }
 
   .article-prose p {
-    font-size: 16px;
-    color: #444444;
-    line-height: 1.75;
-    margin-bottom: 20px;
+    font-family: var(--font-reading);
+    font-size: 18px;
+    color: #445065;
+    line-height: 1.8;
+    letter-spacing: -0.01em;
+    margin-bottom: 28px;
   }
 
   .article-prose ul,
   .article-prose ol {
-    font-size: 16px;
-    color: #444444;
-    line-height: 1.75;
-    margin: 0 0 20px 0;
-    padding-left: 24px;
+    font-family: var(--font-reading);
+    font-size: 17px;
+    color: #445065;
+    line-height: 1.8;
+    margin: 0 0 28px 0;
+    padding-left: 28px;
   }
 
   .article-prose li {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
   }
 
   .article-prose strong {
     font-weight: 700;
-    color: #111111;
+    color: #1f2937;
   }
 
   .article-prose a {
     color: #2563eb;
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.16em;
   }
 
   .article-prose a:hover {
@@ -326,12 +331,15 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
 
   .article-prose blockquote {
     border-left: 4px solid #2563eb;
-    padding: 16px 24px;
-    margin: 28px 0;
+    padding: 20px 26px;
+    margin: 36px 0;
     background: #f0f5ff;
     border-radius: 0 8px 8px 0;
+    font-family: var(--font-reading);
+    font-size: 18px;
+    line-height: 1.8;
     font-style: italic;
-    color: #555555;
+    color: #445065;
   }
 
   .article-prose table {
@@ -415,6 +423,7 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
   }
 
   .article-prose figcaption {
+    font-family: var(--font-reading);
     font-size: 13px;
     color: #999999;
     margin-top: 10px;
@@ -427,5 +436,11 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
     .article-prose .cta-box { padding: 28px 24px; }
     .article-prose table { font-size: 13px; }
     .article-prose th, .article-prose td { padding: 10px 12px; }
+    .article-prose p,
+    .article-prose ul,
+    .article-prose ol,
+    .article-prose blockquote {
+      font-size: 17px;
+    }
   }
 </style>
