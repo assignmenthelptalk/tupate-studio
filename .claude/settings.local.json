@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cmd.exe /c \"cd /d C:\\\\Users\\\\jobmu\\\\myproject\\\\tupate.studio && npm install 2>&1\")"
+      "Bash(cmd.exe /c \"cd /d C:\\\\Users\\\\jobmu\\\\myproject\\\\tupate.studio && npm install 2>&1\")",
+      "Bash(python3:*)",
+      "Bash(find /c/Users/jobmu/myproject/tupate.studio/src -type f -name *.ts -o -name *.tsx -o -name *.astro)"
     ]
   }
 }
