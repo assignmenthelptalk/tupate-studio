@@ -307,11 +307,16 @@ const infographicShareLinks = Object.fromEntries(
     padding: 80px 0;
   }
 
+  .article-body .container {
+    max-width: 1420px;
+  }
+
   .article-layout {
     display: grid;
-    grid-template-columns: 240px minmax(0, 680px) 260px;
-    gap: 48px;
+    grid-template-columns: 280px minmax(0, 760px) 280px;
+    gap: 56px;
     align-items: start;
+    justify-content: center;
   }
 
   .article-toc {
@@ -398,7 +403,7 @@ const infographicShareLinks = Object.fromEntries(
   }
 
   .article-content {
-    max-width: 680px;
+    max-width: 760px;
     min-width: 0;
   }
 
@@ -828,6 +833,10 @@ const infographicShareLinks = Object.fromEntries(
   }
 
   @media (max-width: 1100px) {
+    .article-body .container {
+      max-width: 1100px;
+    }
+
     .article-layout {
       grid-template-columns: 220px minmax(0, 1fr);
       gap: 32px;
