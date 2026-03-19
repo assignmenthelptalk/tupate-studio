@@ -185,6 +185,20 @@ const articleHeadings = getHeadingsForArticle(article.slug);
       if (tocLinks.length === 0 || renderedHeadings.length === 0) {
         toc.closest('.article-toc')?.setAttribute('hidden', 'hidden');
       } else {
+        tocLinks.forEach((link) => {
+          link.addEventListener('click', (event) => {
+            const href = link.getAttribute('href');
+            if (!href?.startsWith('#')) return;
+
+            const target = prose.querySelector(href);
+            if (!target) return;
+
+            event.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            window.history.replaceState(null, '', href);
+          });
+        });
+
         const setActive = () => {
           let currentId = renderedHeadings[0]?.id;
 
@@ -625,6 +639,7 @@ const articleHeadings = getHeadingsForArticle(article.slug);
     line-height: 1.24;
     letter-spacing: -0.01em;
     margin: 56px 0 18px;
+    scroll-margin-top: 120px;
   }
 
   .article-prose h3 {
@@ -634,6 +649,7 @@ const articleHeadings = getHeadingsForArticle(article.slug);
     color: #111111;
     line-height: 1.3;
     margin: 36px 0 14px;
+    scroll-margin-top: 120px;
   }
 
   .article-prose p {
