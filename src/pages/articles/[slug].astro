@@ -166,12 +166,12 @@ const authorSocials = {
 </Base>
 
 <script>
-  const articleHeadings = JSON.parse(document.getElementById('article-headings')?.textContent ?? '[]');
-  const infographicShareLinks = JSON.parse(document.getElementById('infographic-share-links')?.textContent ?? '{}');
-  const prose = document.getElementById('article-prose');
-  const toc = document.getElementById('article-toc');
-
   const initArticlePage = () => {
+    const articleHeadings = JSON.parse(document.getElementById('article-headings')?.textContent ?? '[]');
+    const infographicShareLinks = JSON.parse(document.getElementById('infographic-share-links')?.textContent ?? '{}');
+    const prose = document.getElementById('article-prose');
+    const toc = document.getElementById('article-toc');
+
     if (prose && toc) {
       const renderedHeadings = Array.from(prose.querySelectorAll('h2, h3'));
       const tocLinks = Array.from(toc.querySelectorAll('.toc-link'));
