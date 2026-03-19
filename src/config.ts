@@ -35,7 +35,7 @@ export const SITE = {
   ],
 
   stats: [
-    { value: "43", label: "Businesses have trusted us" },
+    { value: "500", label: "Businesses have trusted us" },
     { value: "9yrs", label: "Ranking websites" },
     { value: "1,000+", label: "Kenyan keywords ranking #1 on Google" },
   ],
