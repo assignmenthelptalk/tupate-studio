@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { articles } from '../../data/articles';
 import { SITE } from '../../config';
-import { getInfographicsForArticle } from '../../lib/infographics';
+import { getHeadingsForArticle, getInfographicsForArticle } from '../../lib/infographics';
 
 export function getStaticPaths() {
   return articles.map((article) => ({
@@ -27,6 +27,7 @@ const ContentComponent = (contentModules[contentKey] as any)?.default ?? null;
 const infographicShareLinks = Object.fromEntries(
   getInfographicsForArticle(article.slug).map((graphic) => [graphic.imageSrc, graphic.sharePath]),
 );
+const articleHeadings = getHeadingsForArticle(article.slug);
 ---
 
 <Base
@@ -65,7 +66,19 @@ const infographicShareLinks = Object.fromEntries(
                 </span>
                 <p class="article-toc-label">Contents</p>
               </div>
-              <nav class="article-toc-nav" id="article-toc"></nav>
+              <nav class="article-toc-nav" id="article-toc">
+                {articleHeadings.map((heading) => (
+                  <a
+                    href={`#${heading.id}`}
+                    class:list={[
+                      'toc-link',
+                      heading.level === 'h3' && 'toc-link-sub',
+                    ]}
+                  >
+                    {heading.text}
+                  </a>
+                ))}
+              </nav>
             </div>
           </aside>
 
@@ -152,100 +165,96 @@ const infographicShareLinks = Object.fromEntries(
 </Base>
 
 <script>
+  const articleHeadings = JSON.parse(document.getElementById('article-headings')?.textContent ?? '[]');
   const infographicShareLinks = JSON.parse(document.getElementById('infographic-share-links')?.textContent ?? '{}');
   const prose = document.getElementById('article-prose');
   const toc = document.getElementById('article-toc');
 
-  if (prose && toc) {
-    const headings = Array.from(prose.querySelectorAll('h2, h3'));
-    const slugCounts = new Map();
+  const initArticlePage = () => {
+    if (prose && toc) {
+      const renderedHeadings = Array.from(prose.querySelectorAll('h2, h3'));
+      const tocLinks = Array.from(toc.querySelectorAll('.toc-link'));
 
-    const slugify = (text) => {
-      const base = text
-        .toLowerCase()
-        .trim()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-')
-        .replace(/-+/g, '-');
-      const count = slugCounts.get(base) ?? 0;
-      slugCounts.set(base, count + 1);
-      return count === 0 ? base : `${base}-${count + 1}`;
-    };
-
-    const tocLinks = headings
-      .filter((heading) => heading.textContent?.trim())
-      .map((heading) => {
-        if (!heading.id) heading.id = slugify(heading.textContent ?? '');
-
-        const link = document.createElement('a');
-        link.href = `#${heading.id}`;
-        link.textContent = heading.textContent ?? '';
-        link.className = heading.tagName === 'H3' ? 'toc-link toc-link-sub' : 'toc-link';
-        toc.appendChild(link);
-        return { heading, link };
+      renderedHeadings.forEach((heading, index) => {
+        const headingData = articleHeadings[index];
+        if (headingData && !heading.id) {
+          heading.id = headingData.id;
+        }
       });
 
-    if (tocLinks.length === 0) {
-      toc.closest('.article-toc')?.setAttribute('hidden', 'hidden');
-    } else {
-      const setActive = () => {
-        let currentId = tocLinks[0].heading.id;
+      if (tocLinks.length === 0 || renderedHeadings.length === 0) {
+        toc.closest('.article-toc')?.setAttribute('hidden', 'hidden');
+      } else {
+        const setActive = () => {
+          let currentId = renderedHeadings[0]?.id;
 
-        for (const item of tocLinks) {
-          if (item.heading.getBoundingClientRect().top <= 140) {
-            currentId = item.heading.id;
+          for (const heading of renderedHeadings) {
+            if (heading.getBoundingClientRect().top <= 140) {
+              currentId = heading.id;
+            }
           }
+
+          tocLinks.forEach((link) => {
+            const href = link.getAttribute('href');
+            link.classList.toggle('active', href === `#${currentId}`);
+          });
+        };
+
+        setActive();
+        document.addEventListener('scroll', setActive, { passive: true });
+        window.addEventListener('resize', setActive);
+      }
+    }
+
+    if (prose) {
+      const figures = Array.from(prose.querySelectorAll('figure'));
+
+      figures.forEach((figure) => {
+        const image = figure.querySelector('img');
+        if (!image) return;
+
+        const sharePath = infographicShareLinks[image.getAttribute('src') ?? ''];
+        if (!sharePath) return;
+
+        if (image.parentElement?.tagName !== 'A') {
+          const imageLink = document.createElement('a');
+          imageLink.href = sharePath;
+          imageLink.className = 'infographic-link';
+          imageLink.setAttribute('aria-label', `Open share page for ${image.getAttribute('alt') ?? 'infographic'}`);
+          image.parentNode?.insertBefore(imageLink, image);
+          imageLink.appendChild(image);
         }
 
-        tocLinks.forEach(({ heading, link }) => {
-          link.classList.toggle('active', heading.id === currentId);
-        });
-      };
+        if (!figure.querySelector('.infographic-actions')) {
+          const actions = document.createElement('div');
+          actions.className = 'infographic-actions';
 
-      setActive();
-      document.addEventListener('scroll', setActive, { passive: true });
-      window.addEventListener('resize', setActive);
+          const shareLink = document.createElement('a');
+          shareLink.href = sharePath;
+          shareLink.className = 'infographic-share-link';
+          shareLink.textContent = 'Share this infographic';
+
+          const backNote = document.createElement('span');
+          backNote.className = 'infographic-share-note';
+          backNote.textContent = 'Shared pages include a link back to this guide.';
+
+          actions.appendChild(shareLink);
+          actions.appendChild(backNote);
+          figure.appendChild(actions);
+        }
+      });
     }
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initArticlePage, { once: true });
+  } else {
+    initArticlePage();
   }
+</script>
 
-  if (prose) {
-    const figures = Array.from(prose.querySelectorAll('figure'));
-
-    figures.forEach((figure) => {
-      const image = figure.querySelector('img');
-      if (!image) return;
-
-      const sharePath = infographicShareLinks[image.getAttribute('src') ?? ''];
-      if (!sharePath) return;
-
-      if (image.parentElement?.tagName !== 'A') {
-        const imageLink = document.createElement('a');
-        imageLink.href = sharePath;
-        imageLink.className = 'infographic-link';
-        imageLink.setAttribute('aria-label', `Open share page for ${image.getAttribute('alt') ?? 'infographic'}`);
-        image.parentNode?.insertBefore(imageLink, image);
-        imageLink.appendChild(image);
-      }
-
-      if (!figure.querySelector('.infographic-actions')) {
-        const actions = document.createElement('div');
-        actions.className = 'infographic-actions';
-
-        const shareLink = document.createElement('a');
-        shareLink.href = sharePath;
-        shareLink.className = 'infographic-share-link';
-        shareLink.textContent = 'Share this infographic';
-
-        const backNote = document.createElement('span');
-        backNote.className = 'infographic-share-note';
-        backNote.textContent = 'Shared pages include a link back to this guide.';
-
-        actions.appendChild(shareLink);
-        actions.appendChild(backNote);
-        figure.appendChild(actions);
-      }
-    });
-  }
+<script type="application/json" id="article-headings">
+  {JSON.stringify(articleHeadings)}
 </script>
 
 <script type="application/json" id="infographic-share-links">
@@ -359,17 +368,17 @@ const infographicShareLinks = Object.fromEntries(
   .article-toc-nav {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 3px;
   }
 
   .article-toc-nav :global(.toc-link) {
     display: block;
     position: relative;
-    padding: 10px 12px;
+    padding: 7px 10px;
     border-radius: 10px;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1.4;
     color: #5b6b84;
     text-decoration: none;
     transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
@@ -389,16 +398,16 @@ const infographicShareLinks = Object.fromEntries(
     content: '';
     position: absolute;
     left: 0;
-    top: 10px;
-    bottom: 10px;
+    top: 7px;
+    bottom: 7px;
     width: 4px;
     border-radius: 999px;
     background: #4b74ec;
   }
 
   .article-toc-nav :global(.toc-link-sub) {
-    padding-left: 26px;
-    font-size: 12px;
+    padding-left: 20px;
+    font-size: 11px;
     font-weight: 500;
   }
 

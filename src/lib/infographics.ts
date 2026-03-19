@@ -75,3 +75,43 @@ export function getInfographicsForArticle(articleSlug: string): Infographic[] {
 export function getAllInfographics(): Infographic[] {
   return articles.flatMap((article) => getInfographicsForArticle(article.slug));
 }
+
+export interface ArticleHeading {
+  id: string;
+  text: string;
+  level: 'h2' | 'h3';
+}
+
+export function getHeadingsForArticle(articleSlug: string): ArticleHeading[] {
+  const filePath = path.join(articlesDir, `${articleSlug}.astro`);
+  if (!fs.existsSync(filePath)) return [];
+
+  const content = fs.readFileSync(filePath, 'utf8');
+  const headingRegex = /<(h2|h3)>([\s\S]*?)<\/\1>/gi;
+  const slugCounts = new Map<string, number>();
+  const headings: ArticleHeading[] = [];
+  let match: RegExpExecArray | null;
+
+  while ((match = headingRegex.exec(content)) !== null) {
+    const level = match[1].toLowerCase() as 'h2' | 'h3';
+    const rawText = match[2]
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (!rawText) continue;
+
+    const baseId = slugify(decodeEntities(rawText));
+    const count = slugCounts.get(baseId) ?? 0;
+    slugCounts.set(baseId, count + 1);
+    const id = count === 0 ? baseId : `${baseId}-${count + 1}`;
+
+    headings.push({
+      id,
+      text: decodeEntities(rawText),
+      level,
+    });
+  }
+
+  return headings;
+}
