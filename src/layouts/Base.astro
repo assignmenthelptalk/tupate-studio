@@ -5,15 +5,22 @@ interface Props {
   title?: string;
   description?: string;
   ogImage?: string;
+  canonical?: string;
 }
 
 const siteUrl = 'https://tupate.studio';
+const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
+const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION;
 
 const {
-  title = `Web Design Nairobi | ${SITE.name} — Fast, Hand-Coded Websites`,
+  title = `Web Design Nairobi | ${SITE.name} - Fast, Hand-Coded Websites`,
   description = SITE.description,
-  ogImage = `${siteUrl}/og.png`,
+  ogImage = `${siteUrl}/favicon.svg`,
+  canonical,
 } = Astro.props;
+
+const currentUrl = canonical ?? Astro.url?.toString() ?? siteUrl;
+const normalizedOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 ---
 
 <!DOCTYPE html>
@@ -23,21 +30,24 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={siteUrl} />
+    <link rel="canonical" href={currentUrl} />
 
-    <!-- Open Graph / WhatsApp previews -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content={siteUrl} />
+    <meta property="og:url" content={currentUrl} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={normalizedOgImage} />
     <meta property="og:locale" content="en_KE" />
 
-    <!-- Twitter card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={normalizedOgImage} />
+
+    {gscVerification && (
+      <meta name="google-site-verification" content={gscVerification} />
+    )}
+
     <slot name="head" />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -47,7 +57,38 @@ const {
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <!-- Start of Tawk.to Script -->
+
+    {gaMeasurementId && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>
+        <script is:inline define:vars={{ gaMeasurementId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = window.gtag || gtag;
+          gtag('js', new Date());
+          gtag('config', gaMeasurementId, { page_path: window.location.pathname });
+        </script>
+      </>
+    )}
+
+    <script is:inline>
+      document.addEventListener('click', (event) => {
+        const target = event.target instanceof Element ? event.target.closest('a, button') : null;
+        if (!target) return;
+
+        if (target instanceof HTMLAnchorElement && target.href.includes('wa.me/')) {
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'generate_lead', {
+              event_category: 'Lead',
+              event_label: target.getAttribute('data-conversion') || 'whatsapp',
+              method: 'whatsapp',
+              link_url: target.href,
+            });
+          }
+        }
+      });
+    </script>
+
     <script is:inline type="text/javascript">
       var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
       (function () {
@@ -60,7 +101,6 @@ const {
         s0.parentNode.insertBefore(s1, s0);
       })();
     </script>
-    <!-- End of Tawk.to Script -->
   </head>
   <body>
     <slot />
@@ -69,21 +109,21 @@ const {
 
 <style is:global>
   :root {
-    --accent:       #2563eb;
-    --accent-dark:  #1d4ed8;
-    --dark:         #111111;
-    --dark2:        #1a1a1a;
-    --mid:          #111111;
-    --muted:        #666666;
-    --light:        #f7f7f5;
-    --white:        #ffffff;
-    --border:       #e5e5e5;
+    --accent: #2563eb;
+    --accent-dark: #1d4ed8;
+    --dark: #111111;
+    --dark2: #1a1a1a;
+    --mid: #111111;
+    --muted: #666666;
+    --light: #f7f7f5;
+    --white: #ffffff;
+    --border: #e5e5e5;
     --font-display: 'IBM Plex Sans', Arial, sans-serif;
-    --font-body:    'IBM Plex Sans', Arial, sans-serif;
+    --font-body: 'IBM Plex Sans', Arial, sans-serif;
     --font-reading: 'Manrope', Arial, sans-serif;
-    --radius:       4px;
-    --radius-lg:    10px;
-    --transition:   0.2s ease;
+    --radius: 4px;
+    --radius-lg: 10px;
+    --transition: 0.2s ease;
   }
 
   *, *::before, *::after {
@@ -105,9 +145,6 @@ const {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-  }
-
-  body {
     overflow-x: hidden;
   }
 
@@ -151,7 +188,6 @@ const {
     color: var(--accent-dark);
   }
 
-  /* Layout */
   .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -166,7 +202,6 @@ const {
     padding: 48px 0;
   }
 
-  /* Buttons */
   .btn {
     display: inline-flex;
     align-items: center;
@@ -201,7 +236,6 @@ const {
     border-color: var(--dark);
   }
 
-  /* Typography helpers */
   .section-label {
     display: inline-block;
     font-family: var(--font-body);
@@ -214,12 +248,7 @@ const {
   }
 
   .section-title {
-    font-family: var(--font-display);
     font-size: clamp(28px, 4vw, 48px);
-    font-weight: 800;
-    color: #111111;
-    line-height: 1.05;
-    letter-spacing: -0.02em;
     margin-bottom: 16px;
   }
 

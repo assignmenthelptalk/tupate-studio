@@ -1,94 +1,106 @@
+import { defaultQuoteMessage, offers } from './lib/offers';
+
+const websiteOffer = offers.find((offer) => offer.id === 'website');
+const seoOffer = offers.find((offer) => offer.id === 'seo');
+const maintenanceOffer = offers.find((offer) => offer.id === 'maintenance');
+
 export const SITE = {
-  name: "Tupate Studio",
-  tagline: "Web design & digital marketing for Kenyan businesses",
-  description: "Nairobi web design agency. We build fast, beautiful websites for Kenyan SMEs — no templates, no page builders. From Ksh 25,000.",
-  phone: "+254 721 165 448",
-  whatsapp: "254721165448",
-  email: "hello@tupate.studio",
-  address: "Nairobi, Kenya",
+  name: 'Tupate Studio',
+  tagline: 'Web design and digital marketing for Kenyan businesses',
+  description:
+    'Nairobi web design agency. We build fast, conversion-focused websites for Kenyan SMEs from Ksh 25,000.',
+  phone: '+254 721 165 448',
+  whatsapp: '254721165448',
+  email: 'hello@tupate.studio',
+  address: 'Nairobi, Kenya',
 
   services: [
     {
-      icon: "🖥️",
-      title: "Website Design",
-      description: "Fast, hand-built websites that rank and convert. Delivered in under 2 weeks.",
-      price: "From Ksh 25,000",
+      icon: 'Website',
+      title: 'Website Design',
+      description:
+        'Fast, hand-built websites that rank and convert. Delivered in 10-14 days.',
+      price: websiteOffer?.price ?? 'Ksh 25,000',
     },
     {
-      icon: "📈",
-      title: "SEO + Google Maps Ranking",
-      description: "Local SEO that gets your business found. Includes Google Maps ranking and social media management.",
-      price: "Ksh 8,000 / mo",
+      icon: 'SEO',
+      title: 'SEO + Google Maps Ranking',
+      description:
+        'Local SEO that gets your business found with monthly reporting and Google Maps visibility.',
+      price: `${seoOffer?.price ?? 'Ksh 8,000'} / mo`,
     },
     {
-      icon: "📣",
-      title: "Google Ads",
-      description: "Targeted ad campaigns managed for you. Only pay for results.",
-      price: "15% of ad spend",
+      icon: 'Ads',
+      title: 'Google Ads',
+      description:
+        'Targeted ad campaigns with setup, copy, and management focused on leads.',
+      price: '15% of ad spend',
     },
     {
-      icon: "🔧",
-      title: "Monthly Maintenance",
-      description: "Updates, backups, security checks, and priority support every month.",
-      price: "Ksh 3,000 / mo",
+      icon: 'Care',
+      title: 'Monthly Maintenance',
+      description:
+        'Updates, backups, security checks, and priority support every month.',
+      price: `${maintenanceOffer?.price ?? 'Ksh 5,000'} / mo`,
     },
   ],
 
   stats: [
-    { value: "500", label: "Businesses have trusted us" },
-    { value: "9yrs", label: "Ranking websites" },
-    { value: "1,000+", label: "Kenyan keywords ranking #1 on Google" },
+    { value: '500', label: 'Businesses have trusted us' },
+    { value: '10-14 days', label: 'Typical website launch window' },
+    { value: 'Ksh 25,000', label: 'Starting price for a business website' },
   ],
 
-  brands: [
-    "Industrial", "Medical", "Legal", "Real Estate", "Hospitality", "Education",
-  ],
+  brands: ['Industrial', 'Medical', 'Legal', 'Real Estate', 'Hospitality', 'Education'],
 
   portfolio: [
     {
-      name: "Gosstech Engineering",
-      industry: "Industrial",
-      url: "#",
+      name: 'Gosstech Engineering',
+      industry: 'Industrial',
+      url: '#',
       placeholder: true,
     },
     {
-      name: "Vida Family Clinic",
-      industry: "Medical",
-      url: "#",
+      name: 'Vida Family Clinic',
+      industry: 'Medical',
+      url: '#',
       placeholder: true,
     },
     {
-      name: "Kamau & Associates",
-      industry: "Legal",
-      url: "#",
+      name: 'Kamau & Associates',
+      industry: 'Legal',
+      url: '#',
       placeholder: true,
     },
   ],
 
   testimonials: [
     {
-      quote: "Tupate delivered our website in 10 days. It looks professional, loads fast, and we already rank on Google for our main keywords.",
-      name: "James Mwangi",
-      role: "Director, GossTech Engineering",
+      quote:
+        'Tupate delivered our website in 10 days. It looks professional, loads fast, and we started getting more qualified inquiries.',
+      name: 'James Mwangi',
+      role: 'Director, GossTech Engineering',
     },
     {
-      quote: "The team understood what our clinic needed without a long brief. Clean design, easy contact form — patients love it.",
-      name: "Dr. Aisha Omendi",
-      role: "Founder, Vita Family Clinic",
+      quote:
+        'The team understood what our clinic needed without a long brief. Clean design, easy contact flow, and patients now reach us faster.',
+      name: 'Dr. Aisha Omendi',
+      role: 'Founder, Vita Family Clinic',
     },
     {
-      quote: "Best investment I made for my law firm. The site brought in three new clients in the first month.",
-      name: "Kevin Kamau",
-      role: "Principal, Kamau & Associates",
+      quote:
+        'Best investment I made for my law firm. The site brought in three new clients in the first month.',
+      name: 'Kevin Kamau',
+      role: 'Principal, Kamau & Associates',
     },
   ],
 
   social: {
-    instagram: "https://instagram.com/tupate.studio",
-    linkedin: "https://linkedin.com/company/tupate-studio",
-    twitter: "https://twitter.com/tupatestudio",
+    instagram: 'https://instagram.com/tupate.studio',
+    linkedin: 'https://linkedin.com/company/tupate-studio',
+    twitter: 'https://twitter.com/tupatestudio',
   },
 
-  ctaText: "Get a free quote",
-  ctaWhatsappMessage: "Hi Tupate Studio, I'd like a free quote for my website.",
+  ctaText: 'Get a quote',
+  ctaWhatsappMessage: defaultQuoteMessage,
 };

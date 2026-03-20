@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import Hero from '../components/Hero.astro';
 import Services from '../components/Services.astro';
 import ServiceSpotlight from '../components/ServiceSpotlight.astro';
+import QuoteForm from '../components/QuoteForm.astro';
 import ClientsScroll from '../components/ClientsScroll.astro';
 import ArticlesBanner from '../components/ArticlesBanner.astro';
 import Stats from '../components/Stats.astro';
@@ -12,16 +13,17 @@ import { SITE } from '../config';
 ---
 
 <Base>
-  <meta
-    slot="head"
-    name="google-site-verification"
-    content="-3mHN4ERHLtcDXaGwqkuormYZxm0_7nW0-7E-gF96hg"
-  />
   <Navbar />
   <Hero />
   <Stats />
   <Services />
   <ServiceSpotlight />
+  <QuoteForm
+    id="contact"
+    source="homepage"
+    title="Get a quote without booking a call"
+    subtitle="Fill the short form and we will point you to the right package, timeline, and next step."
+  />
   <ClientsScroll />
   <ArticlesBanner />
   <Footer />

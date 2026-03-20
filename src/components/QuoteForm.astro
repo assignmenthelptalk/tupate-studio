@@ -1,0 +1,283 @@
+---
+import { SITE } from '../config';
+import { buildWhatsAppUrl, offers } from '../lib/offers';
+
+interface Props {
+  id?: string;
+  source?: string;
+  title?: string;
+  subtitle?: string;
+  eyebrow?: string;
+}
+
+const {
+  id = 'contact',
+  source = 'homepage',
+  title = 'Get a quote in under a minute',
+  subtitle = 'Tell us what you need. We will review it and reply with the right next step.',
+  eyebrow = 'Quick Quote',
+} = Astro.props;
+
+const whatsappUrl = buildWhatsAppUrl(
+  SITE.whatsapp,
+  "Hi Tupate Studio, I'd rather get my quote on WhatsApp.",
+);
+---
+
+<section class="quote-section" id={id}>
+  <div class="container quote-shell">
+    <div class="quote-copy">
+      <span class="quote-eyebrow">{eyebrow}</span>
+      <h2 class="quote-title">{title}</h2>
+      <p class="quote-subtitle">{subtitle}</p>
+
+      <div class="quote-points">
+        <div class="quote-point">
+          <strong>Best for:</strong> business owners who want a clear starting quote without a long call.
+        </div>
+        <div class="quote-point">
+          <strong>Primary offers:</strong> Ksh 25,000 websites, Ksh 8,000/month SEO, Ksh 5,000/month maintenance.
+        </div>
+        <div class="quote-point">
+          <strong>Prefer chat?</strong> <a href={whatsappUrl} target="_blank" rel="noopener" data-conversion="whatsapp">Send us a WhatsApp message instead</a>.
+        </div>
+      </div>
+    </div>
+
+    <form
+      class="quote-form"
+      method="POST"
+      action={`https://formsubmit.co/${SITE.email}`}
+      data-quote-source={source}
+    >
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_subject" value="New Tupate Studio quote request" />
+      <input type="hidden" name="_next" value="https://tupate.studio/thank-you" />
+      <input type="hidden" name="source" value={source} />
+
+      <div class="form-row">
+        <label for={`${id}-name`}>Your name</label>
+        <input id={`${id}-name`} name="name" type="text" placeholder="Jane Njeri" required />
+      </div>
+
+      <div class="form-row">
+        <label for={`${id}-business`}>Business name</label>
+        <input id={`${id}-business`} name="business" type="text" placeholder="Acme Ltd" required />
+      </div>
+
+      <div class="form-row">
+        <label for={`${id}-phone`}>Phone / WhatsApp</label>
+        <input id={`${id}-phone`} name="phone" type="tel" placeholder="+254 7XX XXX XXX" required />
+      </div>
+
+      <div class="form-row">
+        <label for={`${id}-service`}>What do you need?</label>
+        <select id={`${id}-service`} name="service" required>
+          <option value="">Select one</option>
+          {offers.map((offer) => (
+            <option value={offer.name}>{offer.name} - {offer.price}{offer.id === 'website' ? '' : '/month'}</option>
+          ))}
+          <option value="Google Ads">Google Ads</option>
+          <option value="Not sure yet">Not sure yet</option>
+        </select>
+      </div>
+
+      <button type="submit" class="quote-submit">Request my quote</button>
+      <p class="quote-note">Short form first. WhatsApp stays available if you want to move faster.</p>
+    </form>
+  </div>
+</section>
+
+<script is:inline>
+  document.querySelectorAll('.quote-form').forEach((form) => {
+    form.addEventListener('submit', () => {
+      const source = form.getAttribute('data-quote-source') || 'website';
+      const serviceInput = form.querySelector('[name="service"]');
+      const subjectInput = form.querySelector('[name="_subject"]');
+      const nextInput = form.querySelector('[name="_next"]');
+      const service = serviceInput instanceof HTMLSelectElement ? serviceInput.value : '';
+      const cleanService = service || 'General quote';
+
+      if (subjectInput instanceof HTMLInputElement) {
+        subjectInput.value = `New quote request: ${cleanService}`;
+      }
+
+      if (nextInput instanceof HTMLInputElement) {
+        const params = new URLSearchParams({
+          source,
+          service: cleanService,
+        });
+        nextInput.value = `${window.location.origin}/thank-you?${params.toString()}`;
+      }
+
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'generate_lead', {
+          event_category: 'Lead',
+          event_label: cleanService,
+          method: 'quote_form',
+          form_location: source,
+        });
+      }
+
+      window.sessionStorage.setItem(
+        'tupate_quote_submission',
+        JSON.stringify({
+          source,
+          service: cleanService,
+          submittedAt: Date.now(),
+        }),
+      );
+    });
+  });
+</script>
+
+<style>
+  .quote-section {
+    background: #f7f8fc;
+    padding: 88px 0;
+    border-top: 1px solid #e8ecf4;
+    border-bottom: 1px solid #e8ecf4;
+  }
+
+  .quote-shell {
+    display: grid;
+    grid-template-columns: 1fr 460px;
+    gap: 40px;
+    align-items: start;
+  }
+
+  .quote-copy {
+    max-width: 580px;
+  }
+
+  .quote-eyebrow {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #e8efff;
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .quote-title {
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.1;
+    margin-bottom: 14px;
+  }
+
+  .quote-subtitle {
+    font-size: 17px;
+    color: #5b6b84;
+    line-height: 1.7;
+    margin-bottom: 26px;
+  }
+
+  .quote-points {
+    display: grid;
+    gap: 14px;
+  }
+
+  .quote-point {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #445065;
+  }
+
+  .quote-point strong {
+    color: #111827;
+  }
+
+  .quote-point a {
+    color: #2563eb;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+  }
+
+  .quote-form {
+    background: #ffffff;
+    border: 1px solid #dfe7f5;
+    border-radius: 20px;
+    box-shadow: 0 18px 44px rgba(148, 163, 184, 0.14);
+    padding: 28px;
+    display: grid;
+    gap: 16px;
+  }
+
+  .form-row {
+    display: grid;
+    gap: 6px;
+  }
+
+  .form-row label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .form-row input,
+  .form-row select {
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 14px;
+    border: 1px solid #cfd8ea;
+    border-radius: 10px;
+    background: #ffffff;
+    font: inherit;
+    color: #111827;
+  }
+
+  .form-row input:focus,
+  .form-row select:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  }
+
+  .quote-submit {
+    min-height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.18s ease, transform 0.18s ease;
+  }
+
+  .quote-submit:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+  }
+
+  .quote-note {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #7a869a;
+  }
+
+  @media (max-width: 900px) {
+    .quote-shell {
+      grid-template-columns: 1fr;
+    }
+
+    .quote-copy {
+      max-width: none;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .quote-section {
+      padding: 64px 0;
+    }
+
+    .quote-form {
+      padding: 22px 18px;
+    }
+  }
+</style>
