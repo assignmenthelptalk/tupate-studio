@@ -62,12 +62,14 @@ const cards = [
     </div>
 
     <div class="spotlight-right">
-      {cards.map((card) => (
-        <div class="scroll-card">
-          <p class="scroll-card-title">{card.title}</p>
-          <p class="scroll-card-desc">{card.desc}</p>
-        </div>
-      ))}
+      <div class="spotlight-track">
+        {[...cards, ...cards].map((card) => (
+          <div class="scroll-card">
+            <p class="scroll-card-title">{card.title}</p>
+            <p class="scroll-card-desc">{card.desc}</p>
+          </div>
+        ))}
+      </div>
     </div>
   </div>
 </section>
@@ -175,12 +177,37 @@ const cards = [
   }
 
   .spotlight-right {
+    position: relative;
+    max-height: 720px;
+    overflow: hidden;
+  }
+
+  .spotlight-right::before,
+  .spotlight-right::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 72px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .spotlight-right::before {
+    top: 0;
+    background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .spotlight-right::after {
+    bottom: 0;
+    background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .spotlight-track {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 14px;
-    max-height: 720px;
-    overflow-y: auto;
-    padding-right: 8px;
+    animation: spotlight-scroll 22s linear infinite;
   }
 
   .scroll-card {
@@ -203,19 +230,20 @@ const cards = [
     line-height: 1.6;
   }
 
-  .spotlight-right::-webkit-scrollbar {
-    width: 10px;
+  @keyframes spotlight-scroll {
+    from {
+      transform: translateY(0);
+    }
+
+    to {
+      transform: translateY(calc(-50% - 7px));
+    }
   }
 
-  .spotlight-right::-webkit-scrollbar-track {
-    background: #eef2f8;
-    border-radius: 999px;
-  }
-
-  .spotlight-right::-webkit-scrollbar-thumb {
-    background: #c8d4ea;
-    border-radius: 999px;
-    border: 2px solid #eef2f8;
+  @media (prefers-reduced-motion: reduce) {
+    .spotlight-track {
+      animation: none;
+    }
   }
 
   @media (max-width: 900px) {
@@ -224,10 +252,18 @@ const cards = [
     }
 
     .spotlight-right {
-      grid-template-columns: 1fr;
       max-height: none;
       overflow: visible;
-      padding-right: 0;
+    }
+
+    .spotlight-right::before,
+    .spotlight-right::after {
+      display: none;
+    }
+
+    .spotlight-track {
+      grid-template-columns: 1fr;
+      animation: none;
     }
   }
 </style>
