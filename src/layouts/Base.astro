@@ -91,6 +91,19 @@ const normalizedOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${og
 
     <script is:inline type="text/javascript">
       var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      function toggleTawkVisibility() {
+        if (!window.Tawk_API || typeof window.Tawk_API.hideWidget !== 'function') return;
+        if (window.innerWidth <= 768) {
+          window.Tawk_API.hideWidget();
+        } else {
+          window.Tawk_API.showWidget();
+        }
+      }
+
+      Tawk_API.onLoad = function () {
+        toggleTawkVisibility();
+        window.addEventListener('resize', toggleTawkVisibility);
+      };
       (function () {
         var s1 = document.createElement('script');
         var s0 = document.getElementsByTagName('script')[0];
