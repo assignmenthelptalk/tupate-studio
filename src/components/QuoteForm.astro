@@ -80,16 +80,6 @@ const quoteFormEmail = 'tupateltd@gmail.com';
         <p class="field-error" data-error-for="serviceNeeded" aria-live="polite"></p>
       </div>
 
-      <div class="form-row">
-        <label for={`${id}-details`}>Project details <span class="field-optional">(optional)</span></label>
-        <textarea
-          id={`${id}-details`}
-          name="projectDetails"
-          rows="4"
-          placeholder="Tell us anything useful about your goals, timeline, or what you want built."
-        ></textarea>
-      </div>
-
       <p class="quote-status" role="status" aria-live="polite"></p>
 
       <button
@@ -184,7 +174,6 @@ const quoteFormEmail = 'tupateltd@gmail.com';
         `Business: ${fields.businessName}`,
         `Phone: ${fields.phone}`,
         `Service Needed: ${fields.serviceNeeded}`,
-        `Project Details: ${fields.projectDetails || ''}`,
         '',
         'Please share the next steps.',
       ].join('\n');
@@ -245,7 +234,6 @@ const quoteFormEmail = 'tupateltd@gmail.com';
           businessName: getValue(form, 'businessName'),
           phone: getValue(form, 'phone'),
           serviceNeeded: getValue(form, 'serviceNeeded'),
-          projectDetails: getValue(form, 'projectDetails'),
         };
 
         if (!formSubmitEmail) {
@@ -270,7 +258,6 @@ const quoteFormEmail = 'tupateltd@gmail.com';
         payload.append('businessName', fields.businessName);
         payload.append('phone', fields.phone);
         payload.append('serviceNeeded', fields.serviceNeeded);
-        payload.append('projectDetails', fields.projectDetails);
 
         try {
           const response = await fetch(`https://formsubmit.co/ajax/${formSubmitEmail}`, {
@@ -438,16 +425,6 @@ const quoteFormEmail = 'tupateltd@gmail.com';
     outline: none;
     border-color: #2563eb;
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
-  }
-
-  .form-row textarea {
-    min-height: 112px;
-    resize: vertical;
-  }
-
-  .field-optional {
-    font-weight: 500;
-    color: #7a869a;
   }
 
   .field-error {

@@ -9,7 +9,8 @@ interface Props {
 }
 
 const siteUrl = 'https://tupate.studio';
-const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
+const gaMeasurementId =
+  import.meta.env.PUBLIC_GA_ID ?? import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION;
 
 const {
@@ -62,58 +63,44 @@ const normalizedOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${og
       <>
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>
         <script is:inline define:vars={{ gaMeasurementId }}>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          window.gtag = window.gtag || gtag;
-          gtag('js', new Date());
-          gtag('config', gaMeasurementId, { page_path: window.location.pathname });
+          if (typeof window !== 'undefined') {
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = window.gtag || function () {
+              window.dataLayer.push(arguments);
+            };
+            window.gtag('js', new Date());
+            window.gtag('config', gaMeasurementId, {
+              page_path: window.location.pathname,
+            });
+          }
         </script>
       </>
     )}
 
     <script is:inline>
-      document.addEventListener('click', (event) => {
-        const target = event.target instanceof Element ? event.target.closest('a, button') : null;
-        if (!target) return;
+      if (typeof window !== 'undefined') {
+        window.tupateTrackLead = function (label, extras) {
+          if (typeof window.gtag !== 'function') return;
+          window.gtag('event', 'generate_lead', {
+            event_category: 'Lead',
+            event_label: label,
+            ...extras,
+          });
+        };
 
-        if (target instanceof HTMLAnchorElement && target.href.includes('wa.me/')) {
-          if (typeof window.gtag === 'function') {
-            window.gtag('event', 'generate_lead', {
-              event_category: 'Lead',
-              event_label: target.getAttribute('data-conversion') || 'whatsapp',
-              method: 'whatsapp',
-              link_url: target.href,
-            });
-          }
-        }
-      });
-    </script>
+        document.addEventListener('click', function (event) {
+          var target = event.target instanceof Element ? event.target.closest('a, button') : null;
+          if (!(target instanceof HTMLAnchorElement)) return;
+          if (!target.href.includes('wa.me/')) return;
 
-    <script is:inline type="text/javascript">
-      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-      function toggleTawkVisibility() {
-        if (!window.Tawk_API || typeof window.Tawk_API.hideWidget !== 'function') return;
-        if (window.innerWidth <= 768) {
-          window.Tawk_API.hideWidget();
-        } else {
-          window.Tawk_API.showWidget();
-        }
+          window.tupateTrackLead(target.getAttribute('data-conversion') || 'whatsapp', {
+            method: 'whatsapp',
+            link_url: target.href,
+          });
+        });
       }
-
-      Tawk_API.onLoad = function () {
-        toggleTawkVisibility();
-        window.addEventListener('resize', toggleTawkVisibility);
-      };
-      (function () {
-        var s1 = document.createElement('script');
-        var s0 = document.getElementsByTagName('script')[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/63f58ff531ebfa0fe7ee9bdb/1gprjkmdp';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-      })();
     </script>
+
   </head>
   <body>
     <slot />
