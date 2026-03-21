@@ -17,6 +17,8 @@ const {
   subtitle = 'Tell us what you need. We will review it and reply with the right next step.',
   eyebrow = 'Quick Quote',
 } = Astro.props;
+
+const quoteFormEmail = 'tupateltd@gmail.com';
 ---
 
 <section class="quote-section" id={id}>
@@ -42,7 +44,7 @@ const {
     <form
       class="quote-form"
       data-quote-source={source}
-      data-formsubmit-email={SITE.email}
+      data-formsubmit-email={quoteFormEmail}
       novalidate
     >
       <input type="hidden" name="source" value={source} />
