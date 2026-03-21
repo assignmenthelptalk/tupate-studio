@@ -43,6 +43,7 @@ const quoteFormEmail = 'tupateltd@gmail.com';
 
     <form
       class="quote-form"
+      data-quote-form-panel
       data-quote-source={source}
       data-formsubmit-email={quoteFormEmail}
       novalidate
@@ -98,6 +99,32 @@ const quoteFormEmail = 'tupateltd@gmail.com';
 <script is:inline define:vars={{ whatsapp: SITE.whatsapp }}>
   if (typeof window !== 'undefined') {
     const requiredFields = ['name', 'businessName', 'phone', 'serviceNeeded'];
+    const clampScrollTop = function (value) {
+      const maxScroll = Math.max(
+        0,
+        document.documentElement.scrollHeight - window.innerHeight,
+      );
+      return Math.min(Math.max(0, value), maxScroll);
+    };
+
+    const scrollFormIntoView = function (sectionId) {
+      const section = document.getElementById(sectionId);
+      const formPanel = section?.querySelector('[data-quote-form-panel]');
+
+      if (!(formPanel instanceof HTMLElement)) {
+        section?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+
+      const formRect = formPanel.getBoundingClientRect();
+      const targetTop =
+        window.scrollY + formRect.top - (window.innerHeight / 2) + (formRect.height / 2);
+
+      window.scrollTo({
+        top: clampScrollTop(targetTop),
+        behavior: 'smooth',
+      });
+    };
 
     const getField = function (form, name) {
       return form.querySelector(`[name="${name}"]`);
@@ -316,6 +343,21 @@ const quoteFormEmail = 'tupateltd@gmail.com';
         }
       });
     });
+
+    document
+      .querySelectorAll('a[href="/#contact"], a[href="#contact"]')
+      .forEach((link) => {
+        link.addEventListener('click', function (event) {
+          const url = new URL(link.href, window.location.origin);
+          if (url.pathname !== window.location.pathname || url.hash !== '#contact') {
+            return;
+          }
+
+          event.preventDefault();
+          window.history.replaceState(null, '', '#contact');
+          scrollFormIntoView('contact');
+        });
+      });
   }
 </script>
 
