@@ -116,9 +116,13 @@ const quoteFormEmail = 'tupateltd@gmail.com';
         return;
       }
 
-      const formRect = formPanel.getBoundingClientRect();
+      const firstField = formPanel.querySelector('.form-row');
+      const targetElement = firstField instanceof HTMLElement ? firstField : formPanel;
+      const targetRect = targetElement.getBoundingClientRect();
+      const headerOffset = window.innerWidth <= 768 ? 96 : 112;
+      const spacingOffset = window.innerWidth <= 768 ? 18 : 24;
       const targetTop =
-        window.scrollY + formRect.top - (window.innerHeight / 2) + (formRect.height / 2);
+        window.scrollY + targetRect.top - headerOffset - spacingOffset;
 
       window.scrollTo({
         top: clampScrollTop(targetTop),
