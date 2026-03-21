@@ -6,7 +6,7 @@ const services = [
     price: 'Ksh 25,000',
     description:
       'Custom-coded website with the pages, forms, and WhatsApp CTA most Kenyan SMEs need to start converting.',
-    cta: 'Read More ==>',
+    cta: 'Read More',
     href: '/business-website-design-kenya',
   },
   {
@@ -15,7 +15,7 @@ const services = [
     price: 'Ksh 8,000/month',
     description:
       'Monthly SEO focused on search visibility, Google Maps presence, and reportable progress.',
-    cta: 'Read More ==>',
+    cta: 'Read More',
     href: '/seo-google-maps-ranking-kenya',
   },
   {
@@ -24,7 +24,7 @@ const services = [
     price: 'Ksh 5,000/month',
     description:
       'Monthly updates, uptime monitoring, backups, and fast support so your site keeps producing leads.',
-    cta: 'Read More ==>',
+    cta: 'Read More',
     href: '/website-maintenance-services-kenya',
   },
 ];
@@ -45,7 +45,8 @@ const services = [
           <h3 class="service-name">{service.title}</h3>
           <p class="service-desc">{service.description}</p>
           <a href={service.href} class="service-cta">
-            {service.cta}
+            <span>{service.cta}</span>
+            <span aria-hidden="true" class="service-cta-arrow">&rarr;</span>
           </a>
         </div>
       ))}
@@ -143,6 +144,7 @@ const services = [
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
     min-height: 46px;
     padding: 0 18px;
     border-radius: 10px;
@@ -152,6 +154,11 @@ const services = [
     font-weight: 700;
     text-decoration: none;
     align-self: flex-start;
+  }
+
+  .service-cta-arrow {
+    font-size: 18px;
+    line-height: 1;
   }
 
   @media (max-width: 900px) {
