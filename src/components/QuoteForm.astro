@@ -116,11 +116,9 @@ const quoteFormEmail = 'tupateltd@gmail.com';
         return;
       }
 
-      const firstField = formPanel.querySelector('.form-row');
-      const targetElement = firstField instanceof HTMLElement ? firstField : formPanel;
-      const targetRect = targetElement.getBoundingClientRect();
-      const headerOffset = window.innerWidth <= 768 ? 96 : 112;
-      const spacingOffset = window.innerWidth <= 768 ? 18 : 24;
+      const targetRect = formPanel.getBoundingClientRect();
+      const headerOffset = window.innerWidth <= 768 ? 88 : 104;
+      const spacingOffset = window.innerWidth <= 768 ? 10 : 20;
       const targetTop =
         window.scrollY + targetRect.top - headerOffset - spacingOffset;
 
