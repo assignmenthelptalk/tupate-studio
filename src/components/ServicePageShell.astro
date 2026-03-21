@@ -9,6 +9,8 @@ import { buildWhatsAppUrl } from '../lib/offers';
 interface Section {
   title: string;
   paragraphs: string[];
+  bullets?: string[];
+  steps?: string[];
 }
 
 interface FaqItem {
@@ -119,6 +121,20 @@ const faqSchema = {
             {section.paragraphs.map((paragraph) => (
               <p set:html={paragraph} />
             ))}
+            {section.bullets && section.bullets.length > 0 && (
+              <ul class="service-list">
+                {section.bullets.map((bullet) => (
+                  <li set:html={bullet} />
+                ))}
+              </ul>
+            )}
+            {section.steps && section.steps.length > 0 && (
+              <ol class="service-list service-list-ordered">
+                {section.steps.map((step) => (
+                  <li set:html={step} />
+                ))}
+              </ol>
+            )}
           </section>
         ))}
       </div>
@@ -323,6 +339,23 @@ const faqSchema = {
 
   .service-section-block p:last-child {
     margin-bottom: 0;
+  }
+
+  .service-list {
+    margin: 18px 0 0;
+    padding-left: 22px;
+    display: grid;
+    gap: 10px;
+  }
+
+  .service-list li {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #4f5f78;
+  }
+
+  .service-list-ordered {
+    padding-left: 24px;
   }
 
   .service-side {
