@@ -261,7 +261,9 @@ const authorSocials = {
         }
       });
 
-      const shareButtons = Array.from(prose.querySelectorAll('.infographic-share-link'));
+      const shareButtons = Array.from(
+        prose.querySelectorAll<HTMLButtonElement>('.infographic-share-link'),
+      );
       shareButtons.forEach((button) => {
         button.addEventListener('click', async () => {
           const shareUrl = button.dataset.shareUrl;

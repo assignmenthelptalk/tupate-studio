@@ -1,168 +1,495 @@
 ---
-const services = [
-  {
-    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>`,
-    title: 'Business Website',
-    price: 'Ksh 25,000',
-    description:
-      'Custom-coded website with the pages, forms, and WhatsApp CTA most Kenyan SMEs need to start converting.',
-    cta: 'Read More',
-    href: '/business-website-design-kenya',
-  },
-  {
-    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>`,
-    title: 'SEO & Google Maps Ranking',
-    price: 'Ksh 8,000/month',
-    description:
-      'Monthly SEO focused on search visibility, Google Maps presence, and reportable progress.',
-    cta: 'Read More',
-    href: '/seo-google-maps-ranking-kenya',
-  },
-  {
-    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>`,
-    title: 'Website Maintenance',
-    price: 'Ksh 5,000/month',
-    description:
-      'Monthly updates, uptime monitoring, backups, and fast support so your site keeps producing leads.',
-    cta: 'Read More',
-    href: '/website-maintenance-services-kenya',
-  },
-];
 ---
 
 <section class="services-section" id="services">
   <div class="container">
-    <div class="section-header">
-      <span class="section-pill">Core offers</span>
-      <h2 class="services-heading">Start simple, then grow from the same foundation.</h2>
-    </div>
 
-    <div class="services-grid">
-      {services.map((service) => (
-        <div class="service-card">
-          <div class="service-icon" set:html={service.icon} />
-          <p class="service-price">{service.price}</p>
-          <h3 class="service-name">{service.title}</h3>
-          <p class="service-desc">{service.description}</p>
-          <a href={service.href} class="service-cta">
-            <span>{service.cta}</span>
-            <span aria-hidden="true" class="service-cta-arrow">&rarr;</span>
-          </a>
+    <p class="section-label">What We Offer</p>
+    <h2 class="section-title">Marketing that gets you <span>found &amp; chosen</span></h2>
+    <p class="section-sub">Pick the pack that fits where your business is right now. You can always upgrade.</p>
+
+    <!-- Marketing Packs -->
+    <div class="packs-grid">
+
+      <!-- Starter -->
+      <div class="pack-card">
+        <div class="pack-icon">📍</div>
+        <div class="pack-name">Starter Pack</div>
+        <div class="pack-tagline">For businesses that need to be found locally</div>
+        <div class="pack-price">Ksh 8,000</div>
+        <div class="pack-freq">per month</div>
+        <div class="divider-line"></div>
+        <ul class="feature-list">
+          <li>Google Business Profile setup &amp; optimisation</li>
+          <li>Monthly GBP posts, photos &amp; offers</li>
+          <li>Basic on-page SEO audit + 3 page fixes</li>
+          <li>WhatsApp Business setup &amp; auto-reply</li>
+          <li>Monthly performance report</li>
+        </ul>
+        <a href="/#contact" class="pack-btn outline">Get Started →</a>
+      </div>
+
+      <!-- Growth (Featured) -->
+      <div class="pack-card featured">
+        <div class="badge">Most Popular</div>
+        <div class="pack-icon">🚀</div>
+        <div class="pack-name">Growth Pack</div>
+        <div class="pack-tagline">For businesses ready to grow online consistently</div>
+        <div class="pack-price">Ksh 18,000</div>
+        <div class="pack-freq">per month</div>
+        <div class="divider-line"></div>
+        <ul class="feature-list">
+          <li>Everything in Starter Pack</li>
+          <li>Full SEO management – keywords, on-page, technical</li>
+          <li>Social media setup on 2 platforms</li>
+          <li>8 posts/month with graphics &amp; captions</li>
+          <li>Google review response management</li>
+          <li>Monthly analytics report with insights</li>
+        </ul>
+        <a href="/#contact" class="pack-btn solid">Get Started →</a>
+      </div>
+
+      <!-- Pro -->
+      <div class="pack-card">
+        <div class="pack-icon">🏆</div>
+        <div class="pack-name">Pro Pack</div>
+        <div class="pack-tagline">For businesses that want to dominate their niche</div>
+        <div class="pack-price">Ksh 35,000</div>
+        <div class="pack-freq">per month</div>
+        <div class="divider-line"></div>
+        <ul class="feature-list">
+          <li>Everything in Growth Pack</li>
+          <li>12 posts/month across 3 platforms</li>
+          <li>2 SEO blog articles per month</li>
+          <li>Google Ads management</li>
+          <li>Quarterly competitor analysis</li>
+          <li>Priority support + monthly strategy call</li>
+        </ul>
+        <a href="/#contact" class="pack-btn outline">Get Started →</a>
+      </div>
+
+    </div><!-- /packs-grid -->
+
+    <!-- Add-on Services -->
+    <div class="addon-section">
+      <div class="addon-label">Website &amp; Add-on Services</div>
+      <div class="addon-grid">
+
+        <div class="addon-card">
+          <div class="addon-icon-wrap">🖥️</div>
+          <div class="addon-info">
+            <div class="addon-name">Website Build</div>
+            <div class="addon-desc">5-page custom site, mobile-ready</div>
+          </div>
+          <div class="addon-price">Ksh 30,000 <small>one-time</small></div>
         </div>
-      ))}
-    </div>
+
+        <div class="addon-card">
+          <div class="addon-icon-wrap">🎨</div>
+          <div class="addon-info">
+            <div class="addon-name">Website Redesign</div>
+            <div class="addon-desc">Modernise your existing site</div>
+          </div>
+          <div class="addon-price">Ksh 20,000 <small>one-time</small></div>
+        </div>
+
+        <div class="addon-card">
+          <div class="addon-icon-wrap">🛡️</div>
+          <div class="addon-info">
+            <div class="addon-name">Website Maintenance</div>
+            <div class="addon-desc">Updates, backups, uptime monitoring</div>
+          </div>
+          <div class="addon-price">Ksh 3,000 <small>/month</small></div>
+        </div>
+
+        <div class="addon-card">
+          <div class="addon-icon-wrap">📄</div>
+          <div class="addon-info">
+            <div class="addon-name">Landing Page</div>
+            <div class="addon-desc">Single high-conversion page</div>
+          </div>
+          <div class="addon-price">Ksh 10,000 <small>one-time</small></div>
+        </div>
+
+        <div class="addon-card">
+          <div class="addon-icon-wrap">🔍</div>
+          <div class="addon-info">
+            <div class="addon-name">Site Audit</div>
+            <div class="addon-desc">Speed, SEO &amp; UX full report</div>
+          </div>
+          <div class="addon-price">Ksh 5,000 <small>one-time</small></div>
+        </div>
+
+        <div class="addon-card">
+          <div class="addon-icon-wrap">📢</div>
+          <div class="addon-info">
+            <div class="addon-name">Google Ads Setup</div>
+            <div class="addon-desc">Campaign setup &amp; configuration</div>
+          </div>
+          <div class="addon-price">Ksh 8,000 <small>one-time</small></div>
+        </div>
+
+      </div>
+    </div><!-- /addon-section -->
+
   </div>
 </section>
 
 <style>
   .services-section {
-    background: #ffffff;
-    padding: 96px 0;
+    background: #F4F7FF;
+    padding: 96px 0 80px;
   }
 
-  .section-header {
-    text-align: center;
-    margin-bottom: 56px;
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px;
   }
 
-  .section-pill {
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.08em;
+  /* Header */
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    color: #444444;
-    background: #f0f2f8;
-    border: 1px solid #e2e6f0;
-    border-radius: 999px;
-    padding: 5px 14px;
-    margin-bottom: 20px;
+    color: #F25C2A;
+    text-align: center;
+    margin-bottom: 14px;
   }
 
-  .services-heading {
-    font-size: clamp(32px, 4vw, 52px);
-    line-height: 1.1;
+  .section-title {
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 800;
+    color: #0E1F3D;
+    text-align: center;
+    line-height: 1.15;
+    margin-bottom: 12px;
     letter-spacing: -0.02em;
   }
 
-  .services-grid {
+  .section-title span {
+    color: #1B4FD8;
+  }
+
+  .section-sub {
+    text-align: center;
+    color: #6B7A99;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 500px;
+    margin: 0 auto 60px;
+    line-height: 1.7;
+  }
+
+  /* Pack cards */
+  .packs-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 20px;
+    align-items: start;
+    margin-bottom: 28px;
   }
 
-  .service-card {
-    background: #f7f8fc;
-    border: 1px solid #e8ecf4;
-    border-radius: 16px;
-    padding: 36px 32px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .service-icon {
-    width: 52px;
-    height: 52px;
+  .pack-card {
     background: #ffffff;
-    border: 1px solid #e2e6f0;
-    border-radius: 50%;
+    border: 1.5px solid #E2E8F6;
+    border-radius: 20px;
+    padding: 36px 30px 32px;
+    position: relative;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .pack-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(27, 79, 216, 0.10);
+  }
+
+  .pack-card.featured {
+    background: #0E1F3D;
+    border-color: #0E1F3D;
+    transform: translateY(-10px);
+    box-shadow: 0 24px 56px rgba(14, 31, 61, 0.25);
+  }
+
+  .pack-card.featured:hover {
+    transform: translateY(-14px);
+  }
+
+  .badge {
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #F25C2A;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .pack-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    color: #2563eb;
-  }
-
-  .service-icon svg {
-    width: 22px;
-    height: 22px;
-  }
-
-  .service-price {
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #2563eb;
-    margin-bottom: 10px;
-  }
-
-  .service-name {
     font-size: 20px;
-    margin-bottom: 12px;
+    background: #EEF3FF;
   }
 
-  .service-desc {
-    font-size: 15px;
-    color: #666666;
-    line-height: 1.65;
-    flex: 1;
+  .pack-card.featured .pack-icon {
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .pack-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #0E1F3D;
+  }
+
+  .pack-card.featured .pack-name {
+    color: #fff;
+  }
+
+  .pack-tagline {
+    font-size: 13px;
+    color: #6B7A99;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  .pack-card.featured .pack-tagline {
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  .pack-price {
+    font-size: 28px;
+    font-weight: 800;
+    color: #1B4FD8;
+    margin-bottom: 2px;
+  }
+
+  .pack-card.featured .pack-price {
+    color: #fff;
+  }
+
+  .pack-freq {
+    font-size: 12px;
+    color: #6B7A99;
     margin-bottom: 24px;
   }
 
-  .service-cta {
-    display: inline-flex;
+  .pack-card.featured .pack-freq {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .divider-line {
+    height: 1px;
+    background: #E2E8F6;
+    margin-bottom: 22px;
+  }
+
+  .pack-card.featured .divider-line {
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .feature-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 28px;
+    padding: 0;
+  }
+
+  .feature-list li {
+    font-size: 13.5px;
+    color: #1A1A2E;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.5;
+  }
+
+  .pack-card.featured .feature-list li {
+    color: rgba(255, 255, 255, 0.82);
+  }
+
+  .feature-list li::before {
+    content: "✓";
+    font-size: 12px;
+    font-weight: 700;
+    color: #1B4FD8;
+    background: #EEF3FF;
+    border-radius: 50%;
+    min-width: 20px;
+    height: 20px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    min-height: 46px;
-    padding: 0 18px;
+    margin-top: 1px;
+    flex-shrink: 0;
+  }
+
+  .pack-card.featured .feature-list li::before {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+  }
+
+  .pack-btn {
+    display: block;
+    width: 100%;
+    padding: 13px;
     border-radius: 10px;
-    background: #2563eb;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
     text-decoration: none;
-    align-self: flex-start;
+    transition: all 0.2s ease;
   }
 
-  .service-cta-arrow {
+  .pack-btn.outline {
+    background: transparent;
+    border: 1.5px solid #E2E8F6;
+    color: #0E1F3D;
+  }
+
+  .pack-btn.outline:hover {
+    border-color: #1B4FD8;
+    color: #1B4FD8;
+  }
+
+  .pack-btn.solid {
+    background: #F25C2A;
+    color: #fff;
+    border: 1.5px solid transparent;
+  }
+
+  .pack-btn.solid:hover {
+    background: #d94d20;
+  }
+
+  /* Add-ons */
+  .addon-section {
+    margin-top: 60px;
+  }
+
+  .addon-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #6B7A99;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .addon-label::before,
+  .addon-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #E2E8F6;
+  }
+
+  .addon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+  .addon-card {
+    background: #ffffff;
+    border: 1.5px solid #E2E8F6;
+    border-radius: 14px;
+    padding: 22px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: all 0.2s ease;
+  }
+
+  .addon-card:hover {
+    border-color: #1B4FD8;
+    box-shadow: 0 6px 20px rgba(27, 79, 216, 0.08);
+  }
+
+  .addon-icon-wrap {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #EEF3FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 18px;
-    line-height: 1;
+    flex-shrink: 0;
   }
 
-  @media (max-width: 900px) {
-    .services-grid {
+  .addon-info {
+    flex: 1;
+  }
+
+  .addon-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0E1F3D;
+    margin-bottom: 2px;
+  }
+
+  .addon-desc {
+    font-size: 12px;
+    color: #6B7A99;
+  }
+
+  .addon-price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1B4FD8;
+    white-space: nowrap;
+    text-align: right;
+  }
+
+  .addon-price small {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    color: #6B7A99;
+  }
+
+  /* Responsive */
+  @media (max-width: 860px) {
+    .packs-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .pack-card.featured {
+      transform: none;
+    }
+
+    .pack-card.featured:hover {
+      transform: translateY(-4px);
+    }
+
+    .addon-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .addon-grid {
       grid-template-columns: 1fr;
     }
   }

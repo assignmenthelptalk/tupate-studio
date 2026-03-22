@@ -51,24 +51,21 @@ const whatsappUrl = buildWhatsAppUrl(
   const service = params.get('service');
   const source = params.get('source') || 'website';
   const message = document.getElementById('thanks-message');
-  const stored = window.sessionStorage.getItem('tupate_quote_submission');
 
   if (message && service) {
     message.textContent = `We have your ${service} request and will reply with the best next step for your project.`;
   }
 
-  if (typeof window.gtag === 'function') {
-    window.gtag('event', 'generate_lead', {
-      event_category: 'Lead',
-      event_label: service || 'Quote form',
+  if (typeof window.tupateTrackLead === 'function') {
+    window.tupateTrackLead(service || 'Quote form', {
       method: 'thank_you_page',
       form_location: source,
     });
   }
 
-  if (stored) {
+  try {
     window.sessionStorage.removeItem('tupate_quote_submission');
-  }
+  } catch {}
 </script>
 
 <style>
