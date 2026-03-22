@@ -5,6 +5,7 @@ import Footer from '../../components/Footer.astro';
 import { articles } from '../../data/articles';
 import { SITE } from '../../config';
 import { getHeadingsForArticle, getInfographicsForArticle } from '../../lib/infographics';
+import ArticleAdBanner from '../../components/ArticleAdBanner.astro';
 
 export function getStaticPaths() {
   return articles.map((article) => ({
@@ -117,6 +118,7 @@ const authorSocials = {
                 </a>
               </div>
             </div>
+            <ArticleAdBanner />
           </aside>
         </div>
       ) : (
