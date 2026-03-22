@@ -8,23 +8,23 @@ import { addOns, buildWhatsAppUrl, offers } from '../lib/offers';
 
 const quoteCta = buildWhatsAppUrl(
   SITE.whatsapp,
-  "Hi Tupate Studio, I'd like help choosing the right package for my business.",
+  "Hi Tupate Studio, I'd like help choosing the right marketing pack for my business.",
 );
 ---
 
 <Base
-  title="Web Design Prices Kenya | Tupate Studio Pricing"
-  description="See exactly what you pay for a website, SEO, maintenance, or Google Ads in Kenya. Flat prices, no surprises."
+  title="Marketing Pricing Kenya | Tupate Studio"
+  description="Transparent monthly marketing pack prices for Kenyan businesses. Starter from Ksh 8,000/month. No lock-in contracts."
 >
   <Navbar />
 
   <section class="pricing-hero">
     <div class="container">
       <span class="section-label">Pricing</span>
-      <h1 class="pricing-h1">Simple pricing built to close faster</h1>
+      <h1 class="pricing-h1">Straightforward pricing. No lock-in.</h1>
       <p class="pricing-sub">
-        The same offer now runs across the homepage, pricing, and quote flow. Start with a website,
-        add growth when you are ready, and keep WhatsApp as the fast lane.
+        Pick the pack that fits where your business is right now. Cancel or upgrade any month.
+        Add a website or one-off service whenever you need it.
       </p>
     </div>
   </section>
@@ -32,9 +32,9 @@ const quoteCta = buildWhatsAppUrl(
   <section class="cards-section">
     <div class="container">
       <div class="cards-grid">
-        {offers.map((offer, index) => (
-          <div class:list={['pricing-card', index === 0 && 'pricing-card--featured']}>
-            {index === 0 && <div class="card-badge">Most popular</div>}
+        {offers.map((offer) => (
+          <div class:list={['pricing-card', offer.featured && 'pricing-card--featured']}>
+            {offer.featured && <div class="card-badge">Most Popular</div>}
             <p class="card-name">{offer.name}</p>
             <div class="card-price-row">
               <span class="card-price">{offer.price}</span>
@@ -54,14 +54,14 @@ const quoteCta = buildWhatsAppUrl(
             <a
               href={buildWhatsAppUrl(
                 SITE.whatsapp,
-                `Hi Tupate Studio, I'm interested in the ${offer.whatsappLabel} package. Can I get a quote?`,
+                `Hi Tupate Studio, I'm interested in the ${offer.whatsappLabel}. Can I get started?`,
               )}
-              class:list={['card-cta', index === 0 && 'card-cta--featured']}
+              class:list={['card-cta', offer.featured && 'card-cta--featured']}
               target="_blank"
               rel="noopener"
               data-conversion="whatsapp"
             >
-              Discuss on WhatsApp
+              Get Started
             </a>
           </div>
         ))}
@@ -72,15 +72,15 @@ const quoteCta = buildWhatsAppUrl(
   <QuoteForm
     id="pricing-quote"
     source="pricing"
-    title="Want us to recommend the right package?"
-    subtitle="Use the short quote form if you want a reply by email first, then jump to WhatsApp when you are ready."
+    title="Not sure which pack fits?"
+    subtitle="Tell us about your business and we will recommend the right starting point."
   />
 
   <section class="addons-section">
     <div class="container">
       <div class="addons-header">
-        <h2 class="addons-heading">Optional add-ons</h2>
-        <p class="addons-sub">Only pay for the extra scope you actually need.</p>
+        <h2 class="addons-heading">Website &amp; add-on services</h2>
+        <p class="addons-sub">One-off and monthly add-ons you can bolt onto any pack.</p>
       </div>
 
       <div class="addons-grid">
@@ -103,25 +103,25 @@ const quoteCta = buildWhatsAppUrl(
   <section class="trust-section">
     <div class="container trust-grid">
       <div class="trust-item">
-        <p class="trust-title">Same offer everywhere</p>
-        <p class="trust-desc">No mismatch between the homepage, pricing page, and quote flow.</p>
+        <p class="trust-title">No lock-in contracts</p>
+        <p class="trust-desc">Cancel or change your pack any month. We earn your business every month.</p>
       </div>
       <div class="trust-item">
-        <p class="trust-title">Fast next step</p>
-        <p class="trust-desc">Use the form if you want structure, or WhatsApp us if you want speed.</p>
+        <p class="trust-title">Monthly reports included</p>
+        <p class="trust-desc">Every pack includes a plain-English performance report so you always know what is working.</p>
       </div>
       <div class="trust-item">
-        <p class="trust-title">Built for conversion</p>
-        <p class="trust-desc">Website first, then SEO, maintenance, or ads when the base is ready.</p>
+        <p class="trust-title">Website is optional</p>
+        <p class="trust-desc">Start marketing immediately. Add a website build or redesign whenever you are ready.</p>
       </div>
     </div>
   </section>
 
   <section class="final-cta-section">
     <div class="container final-cta-inner">
-      <h2 class="final-cta-heading">Need a quick answer instead?</h2>
+      <h2 class="final-cta-heading">Want a quick recommendation?</h2>
       <p class="final-cta-sub">
-        Send one WhatsApp message and we will tell you which package fits your business.
+        Send one WhatsApp message and we will tell you which pack fits your business right now.
       </p>
       <a href={quoteCta} class="final-cta-btn" target="_blank" rel="noopener" data-conversion="whatsapp">
         Chat with us on WhatsApp
@@ -134,9 +134,19 @@ const quoteCta = buildWhatsAppUrl(
 
 <style>
   .pricing-hero {
-    background-color: #0f172a;
-    background-image: linear-gradient(135deg, #0f172a 0%, #1e2d5a 100%);
+    background-color: #0E1F3D;
+    background-image: linear-gradient(135deg, #0E1F3D 0%, #1B4FD8 100%);
     padding: 140px 0 96px;
+  }
+
+  .section-label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #F25C2A;
+    margin-bottom: 16px;
   }
 
   .pricing-h1 {
@@ -155,127 +165,177 @@ const quoteCta = buildWhatsAppUrl(
   }
 
   .cards-section {
-    background: #f7f8fc;
+    background: #F4F7FF;
     padding: 80px 0 96px;
   }
 
   .cards-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 20px;
     align-items: start;
   }
 
   .pricing-card {
     position: relative;
     background: #ffffff;
-    border: 1px solid #e8ecf4;
+    border: 1.5px solid #E2E8F6;
     border-radius: 20px;
-    padding: 36px 32px 32px;
+    padding: 36px 30px 32px;
     display: flex;
     flex-direction: column;
-    height: 100%;
   }
 
   .pricing-card--featured {
-    border-color: #2563eb;
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12), 0 16px 48px rgba(37, 99, 235, 0.14);
+    background: #0E1F3D;
+    border-color: #0E1F3D;
+    transform: translateY(-10px);
+    box-shadow: 0 24px 56px rgba(14, 31, 61, 0.25);
   }
 
   .card-badge {
     position: absolute;
-    top: -14px;
-    left: 32px;
-    background: #2563eb;
-    color: #ffffff;
-    font-size: 11px;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #F25C2A;
+    color: #fff;
+    font-size: 10px;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    padding: 5px 16px;
-    border-radius: 999px;
+    padding: 4px 14px;
+    border-radius: 20px;
+    white-space: nowrap;
   }
 
   .card-name {
     font-size: 18px;
     font-weight: 700;
-    color: #111111;
-    margin-bottom: 20px;
+    color: #0E1F3D;
+    margin-bottom: 16px;
+  }
+
+  .pricing-card--featured .card-name {
+    color: #ffffff;
   }
 
   .card-price-row {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
 
   .card-price {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 800;
-    color: #111111;
+    color: #1B4FD8;
     line-height: 1;
   }
 
   .pricing-card--featured .card-price {
-    color: #2563eb;
+    color: #ffffff;
   }
 
   .card-subtext {
-    font-size: 13px;
-    color: #7a869a;
+    font-size: 12px;
+    color: #6B7A99;
     margin-bottom: 14px;
   }
 
+  .pricing-card--featured .card-subtext {
+    color: rgba(255, 255, 255, 0.45);
+  }
+
   .card-summary {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.6;
-    color: #445065;
-    margin-bottom: 22px;
+    color: #6B7A99;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E2E8F6;
+  }
+
+  .pricing-card--featured .card-summary {
+    color: rgba(255, 255, 255, 0.55);
+    border-bottom-color: rgba(255, 255, 255, 0.12);
   }
 
   .card-features {
     list-style: none;
-    display: grid;
-    gap: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
     flex: 1;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
+    padding: 0;
   }
 
   .card-features li {
     display: flex;
     gap: 10px;
-    font-size: 14px;
-    color: #444444;
+    font-size: 13.5px;
+    color: #1A1A2E;
     line-height: 1.5;
   }
 
+  .pricing-card--featured .card-features li {
+    color: rgba(255, 255, 255, 0.82);
+  }
+
   .check {
-    color: #2563eb;
+    font-size: 12px;
     font-weight: 700;
+    color: #1B4FD8;
+    background: #EEF3FF;
+    border-radius: 50%;
+    min-width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .pricing-card--featured .check {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
   }
 
   .card-cta {
     display: block;
     text-align: center;
-    padding: 14px 24px;
+    padding: 13px;
     border-radius: 10px;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
     text-decoration: none;
-    background: #f0f4ff;
-    color: #2563eb;
-    border: 1.5px solid #c7d5fc;
+    background: transparent;
+    color: #0E1F3D;
+    border: 1.5px solid #E2E8F6;
+    transition: all 0.2s ease;
+  }
+
+  .card-cta:hover {
+    border-color: #1B4FD8;
+    color: #1B4FD8;
   }
 
   .card-cta--featured {
-    background: #2563eb;
+    background: #F25C2A;
     color: #ffffff;
-    border-color: #2563eb;
+    border-color: transparent;
   }
 
+  .card-cta--featured:hover {
+    background: #d94d20;
+    color: #ffffff;
+  }
+
+  /* Add-ons */
   .addons-section {
     background: #ffffff;
     padding: 80px 0 96px;
-    border-top: 1px solid #e8ecf4;
+    border-top: 1px solid #E2E8F6;
   }
 
   .addons-header {
@@ -289,13 +349,13 @@ const quoteCta = buildWhatsAppUrl(
 
   .addons-sub {
     font-size: 15px;
-    color: #7a869a;
+    color: #6B7A99;
   }
 
   .addons-grid {
     display: flex;
     flex-direction: column;
-    border: 1px solid #e8ecf4;
+    border: 1px solid #E2E8F6;
     border-radius: 16px;
     overflow: hidden;
   }
@@ -306,7 +366,7 @@ const quoteCta = buildWhatsAppUrl(
     justify-content: space-between;
     gap: 24px;
     padding: 24px 28px;
-    border-bottom: 1px solid #e8ecf4;
+    border-bottom: 1px solid #E2E8F6;
   }
 
   .addon-row:last-child {
@@ -324,20 +384,20 @@ const quoteCta = buildWhatsAppUrl(
   .addon-name {
     font-size: 15px;
     font-weight: 700;
-    color: #111111;
+    color: #0E1F3D;
     margin-bottom: 4px;
   }
 
   .addon-desc {
     font-size: 13px;
-    color: #7a869a;
+    color: #6B7A99;
     line-height: 1.5;
   }
 
   .addon-price {
     font-size: 17px;
     font-weight: 800;
-    color: #2563eb;
+    color: #1B4FD8;
     white-space: nowrap;
     text-align: right;
   }
@@ -347,14 +407,15 @@ const quoteCta = buildWhatsAppUrl(
     margin-top: 2px;
     font-size: 12px;
     font-weight: 500;
-    color: #7a869a;
+    color: #6B7A99;
   }
 
+  /* Trust */
   .trust-section {
-    background: #f7f8fc;
+    background: #F4F7FF;
     padding: 56px 0;
-    border-top: 1px solid #e8ecf4;
-    border-bottom: 1px solid #e8ecf4;
+    border-top: 1px solid #E2E8F6;
+    border-bottom: 1px solid #E2E8F6;
   }
 
   .trust-grid {
@@ -365,7 +426,7 @@ const quoteCta = buildWhatsAppUrl(
 
   .trust-item {
     background: #ffffff;
-    border: 1px solid #e8ecf4;
+    border: 1px solid #E2E8F6;
     border-radius: 16px;
     padding: 24px;
   }
@@ -373,16 +434,17 @@ const quoteCta = buildWhatsAppUrl(
   .trust-title {
     font-size: 15px;
     font-weight: 700;
-    color: #111111;
+    color: #0E1F3D;
     margin-bottom: 8px;
   }
 
   .trust-desc {
     font-size: 14px;
-    color: #5b6b84;
+    color: #6B7A99;
     line-height: 1.6;
   }
 
+  /* Final CTA */
   .final-cta-section {
     background: #ffffff;
     padding: 96px 0;
@@ -402,7 +464,7 @@ const quoteCta = buildWhatsAppUrl(
 
   .final-cta-sub {
     font-size: 16px;
-    color: #666666;
+    color: #6B7A99;
     line-height: 1.65;
     margin-bottom: 36px;
   }
@@ -413,17 +475,27 @@ const quoteCta = buildWhatsAppUrl(
     min-height: 50px;
     padding: 0 28px;
     border-radius: 10px;
-    background: #2563eb;
+    background: #1B4FD8;
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
+    transition: background 0.2s ease;
   }
 
+  .final-cta-btn:hover {
+    background: #1540b8;
+  }
+
+  /* Responsive */
   @media (max-width: 960px) {
     .cards-grid,
     .trust-grid {
       grid-template-columns: 1fr;
+    }
+
+    .pricing-card--featured {
+      transform: none;
     }
   }
 

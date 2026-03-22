@@ -7,6 +7,7 @@ export interface Offer {
   summary: string;
   features: string[];
   whatsappLabel: string;
+  featured?: boolean;
 }
 
 export interface AddOn {
@@ -18,99 +19,99 @@ export interface AddOn {
 
 export const offers: Offer[] = [
   {
-    id: 'website',
-    name: 'Business Website',
-    shortName: 'Website',
-    price: 'Ksh 25,000',
-    cadence: 'One-time payment',
-    summary: 'Custom-coded business website delivered in 10-14 days.',
-    whatsappLabel: 'Business Website',
-    features: [
-      'Up to 5 pages (Home, About, Services, Contact + 1 custom)',
-      'Hand-coded build with no WordPress or templates',
-      'Mobile-first layout built for speed and lead generation',
-      'Contact form, Google Maps embed, and WhatsApp CTA included',
-      'Basic on-page SEO setup included',
-      '30-day free support after launch',
-    ],
-  },
-  {
-    id: 'seo',
-    name: 'SEO & Google Maps Ranking',
-    shortName: 'SEO',
+    id: 'starter',
+    name: 'Starter Pack',
+    shortName: 'Starter',
     price: 'Ksh 8,000',
-    cadence: 'Per month, no lock-in contract',
-    summary: 'Monthly SEO retainer for Google search visibility and Maps rankings.',
-    whatsappLabel: 'SEO & Google Maps Ranking',
+    cadence: 'per month',
+    summary: 'For businesses that need to be found locally.',
+    whatsappLabel: 'Starter Pack',
     features: [
-      'Keyword research and monthly ranking targets',
-      'On-page SEO updates across priority pages',
-      'Google Business Profile optimisation and management',
-      'Monthly ranking and performance reporting',
-      'Google Maps ranking optimisation',
-      '1 SEO article or content update per month',
+      'Google Business Profile setup & optimisation',
+      'Monthly GBP posts, photos & offers',
+      'Basic on-page SEO audit + 3 page fixes',
+      'WhatsApp Business setup & auto-reply',
+      'Monthly performance report',
     ],
   },
   {
-    id: 'maintenance',
-    name: 'Website Maintenance',
-    shortName: 'Maintenance',
-    price: 'Ksh 5,000',
-    cadence: 'Per month, cancel anytime',
-    summary: 'Ongoing updates, monitoring, and support after launch.',
-    whatsappLabel: 'Website Maintenance',
+    id: 'growth',
+    name: 'Growth Pack',
+    shortName: 'Growth',
+    price: 'Ksh 18,000',
+    cadence: 'per month',
+    summary: 'For businesses ready to grow online consistently.',
+    whatsappLabel: 'Growth Pack',
+    featured: true,
     features: [
-      'Unlimited text and image updates',
-      'Monthly speed and uptime checks',
-      'Security monitoring and issue response',
-      'Off-site backups and recovery support',
-      'Priority WhatsApp support',
-      'Monthly performance report',
+      'Everything in Starter Pack',
+      'Full SEO management — keywords, on-page, technical',
+      'Social media setup on 2 platforms',
+      '8 posts/month with graphics & captions',
+      'Google review response management',
+      'Monthly analytics report with insights',
+    ],
+  },
+  {
+    id: 'pro',
+    name: 'Pro Pack',
+    shortName: 'Pro',
+    price: 'Ksh 35,000',
+    cadence: 'per month',
+    summary: 'For businesses that want to dominate their niche.',
+    whatsappLabel: 'Pro Pack',
+    features: [
+      'Everything in Growth Pack',
+      '12 posts/month across 3 platforms',
+      '2 SEO blog articles per month',
+      'Google Ads management',
+      'Quarterly competitor analysis',
+      'Priority support + monthly strategy call',
     ],
   },
 ];
 
 export const addOns: AddOn[] = [
   {
-    name: 'Google Ads setup + first month management',
-    description: 'Full campaign setup, ad copy, landing page alignment, and launch support.',
-    price: 'Ksh 15,000',
+    name: 'Website Build',
+    description: '5-page custom site, hand-coded and mobile-ready.',
+    price: 'Ksh 30,000',
     cadence: 'one-time',
   },
   {
-    name: 'Extra website pages',
-    description: 'Additional pages beyond the 5 included in the standard website package.',
+    name: 'Website Redesign',
+    description: 'Modernise your existing site with a fresh design.',
+    price: 'Ksh 20,000',
+    cadence: 'one-time',
+  },
+  {
+    name: 'Website Maintenance',
+    description: 'Monthly updates, backups, and uptime monitoring.',
     price: 'Ksh 3,000',
-    cadence: 'per page',
+    cadence: 'per month',
   },
   {
-    name: 'Logo design',
-    description: 'Custom logo delivered in PNG, SVG, and PDF formats.',
+    name: 'Landing Page',
+    description: 'Single high-conversion page for campaigns or ads.',
+    price: 'Ksh 10,000',
+    cadence: 'one-time',
+  },
+  {
+    name: 'Site Audit',
+    description: 'Full speed, SEO & UX report with action points.',
+    price: 'Ksh 5,000',
+    cadence: 'one-time',
+  },
+  {
+    name: 'Google Ads Setup',
+    description: 'Campaign setup, ad copy, and configuration.',
     price: 'Ksh 8,000',
-    cadence: 'one-time',
-  },
-  {
-    name: 'Ongoing Google Ads management',
-    description: 'Monthly bid management, ad testing, and reporting.',
-    price: '15% of ad spend',
-    cadence: 'minimum Ksh 3,000/month',
-  },
-  {
-    name: 'M-Pesa payment integration',
-    description: 'Daraja API integration so customers can pay directly on your site.',
-    price: 'Ksh 12,000',
-    cadence: 'one-time',
-  },
-  {
-    name: 'E-commerce / online store',
-    description: 'Product catalogue, cart, checkout, and payment gateway setup.',
-    price: 'From Ksh 45,000',
     cadence: 'one-time',
   },
 ];
 
 export const defaultQuoteMessage =
-  "Hi Tupate Studio, I'd like a quote for my website or marketing project.";
+  "Hi Tupate Studio, I'd like a quote for my marketing or website project.";
 
 export function buildWhatsAppUrl(phone: string, message: string) {
   return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
