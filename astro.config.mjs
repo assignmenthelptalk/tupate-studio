@@ -6,5 +6,7 @@ export default defineConfig({
   integrations: [sitemap()],
   redirects: {
     '/seo-google-maps-ranking-kenya': '/articles/seo-google-maps-ranking-kenya',
+    '/business-website-design-kenya': '/articles/website-design-kenya',
+    '/website-maintenance-services-kenya': '/articles/website-maintenance-kenya',
   },
 });
