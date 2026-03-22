@@ -46,9 +46,9 @@ export const SITE = {
   ],
 
   stats: [
-    { value: '500', label: 'Businesses have trusted us' },
-    { value: '10-14 days', label: 'Typical website launch window' },
-    { value: 'Ksh 25,000', label: 'Starting price for a business website' },
+    { value: '500+', label: 'Businesses have trusted us' },
+    { value: 'Ksh 8,000', label: 'Marketing starts from / month' },
+    { value: '10-14 days', label: 'Website delivery window' },
   ],
 
   brands: ['Industrial', 'Medical', 'Legal', 'Real Estate', 'Hospitality', 'Education'],
