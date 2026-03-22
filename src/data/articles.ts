@@ -99,6 +99,12 @@ export const articles: Article[] = [
     description: "How we find the exact search terms Kenyan customers use and target them for your business.",
   },
   {
+    title: "SEO and Google Maps Ranking Kenya",
+    slug: "seo-google-maps-ranking-kenya",
+    category: "SEO",
+    description: "How Kenyan businesses rank on Google Search and Google Maps — website SEO, GBP optimisation, and local pack strategies.",
+  },
+  {
     title: "Content Strategy for Kenyan Websites",
     slug: "content-strategy-kenya",
     category: "SEO",
